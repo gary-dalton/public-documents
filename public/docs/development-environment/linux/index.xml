@@ -1,0 +1,458 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gary Dalton Documentations – Linux</title>
+    <link>/docs/development-environment/linux/</link>
+    <description>Recent content in Linux on Gary Dalton Documentations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 08 Apr 2020 09:59:15 -0500</lastBuildDate>
+    
+	  <atom:link href="/docs/development-environment/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Headless operation</title>
+      <link>/docs/development-environment/linux/headless/</link>
+      <pubDate>Mon, 13 Apr 2020 11:07:59 -0500</pubDate>
+      
+      <guid>/docs/development-environment/linux/headless/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;ssh-server&#34;&gt;SSH server&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+The install of OpenSSH mostly follows the &lt;a href=&#34;https://help.ubuntu.com/lts/serverguide/openssh-server.html&#34;&gt;Ubuntu guide&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install, &lt;code&gt;sudo apt install openssh-server&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Copy original configuration,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.original&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Protect original configuration&lt;code&gt;sudo chmod a-w /etc/ssh/sshd_config.original&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Edit the configuration file, &lt;code&gt;sudo nano /etc/ssh/sshd_config&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add the following to the configuration file while insuring that no other matching parameter is uncommented.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;PermitRootLogin no
+PubkeyAuthentication yes
+UsePAM yes
+X11Forwarding yes
+AllowUsers your-user-name
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Restart the service, &lt;code&gt; sudo service sshd restart&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Make certain you are able to connect to the server remotely before adding public key authentication.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Get the ip address, &lt;code&gt;ip address show&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Connect using your favorite client to the ip address. (on Windows, I use PuTTy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;using-public-key-authentication&#34;&gt;Using public key authentication&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+More than you ever need to know about &lt;a href=&#34;https://wiki.archlinux.org/index.php/SSH_keys&#34;&gt;SSH keys from archlinux&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;p&gt;Since I am connecting from a Windows machine, see &lt;a href=&#34;/docs/development-environment/windows/#putty&#34;&gt;Windows PuTTY&lt;/a&gt;. This covers generating the key pair and connecting to Linux from Windows.&lt;/p&gt;
+&lt;p&gt;Once you have verified that you are able to connect using public key authentication, you may disable password login on Linux. This is not required but greatly enhances security.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open the configuration file, &lt;code&gt;sudo nano /etc/ssh/sshd_config&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Add or edit the following lines to the file and save:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;PasswordAuthentication no
+UsePAM no
+PubkeyAuthentication yes
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Reload the sshd configuration, &lt;code&gt;sudo service sshd reload&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Test the settings by logging in remotely. Try logging in both with and without the key file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vnc-server&#34;&gt;VNC server&lt;/h2&gt;
+&lt;p&gt;A VNC server allows remote login to either a virtual desktop or the actual desktop of the Linux machine. If you just want remote access to the GUI, connect to a virtual desktop. If you wish to see the actions performed remotely on the desktop, i.e., a connected monitor, connect to the actual desktop.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+
+For complete details view the &lt;a href=&#34;https://wiki.archlinux.org/index.php?title=TigerVNC&#34;&gt;archlinux TigerVNC guide&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;p&gt;This install uses TigerVNC, which is an actively maintained fork of the venerable TightVNC.&lt;/p&gt;
+&lt;h3 id=&#34;connect-to-a-virtual-desktop&#34;&gt;Connect to a virtual desktop&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Install TigerVNC, &lt;code&gt;sudo apt install tigervnc-standalone-server tigervnc-viewer&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;As a standard user, start a virtual desktop, &lt;code&gt;vncserver -localhost no :1&lt;/code&gt;. Without &lt;em&gt;-localhost no&lt;/em&gt;, TigerVNC wil listen on localhost (127.0.0.0) only.&lt;/li&gt;
+&lt;li&gt;The first time you run this command, you will be asked to set a password. For basic security, please do set a password.&lt;/li&gt;
+&lt;li&gt;Upon success, you should see something like:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;Cleaning stale pidfile &#39;/home/user/.vnc/hostname:1.pid&#39;!
+
+New &#39;hostname:1 (user)&#39; desktop at :1 on machine hostname
+
+Starting applications specified in /home/user/.vnc/Xvnc-session
+Log file is /home/user/.vnc/hostname:1.log
+
+Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/user/.vnc/passwd hostname:1 to connect to the VNC server.
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Verify it is listening for connections, &lt;code&gt;sudo netstat -tpln&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The result of this command should be similar to the below. Specifically, note that Xtigervnc is listening on &lt;em&gt;0.0.0.0:5901&lt;/em&gt; and &lt;em&gt;:::5901&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      604/systemd-resolve
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      831/sshd
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      694/cupsd
+tcp        0      0 0.0.0.0:5901            0.0.0.0:*               LISTEN      1345/Xtigervnc
+tcp6       0      0 :::22                   :::*                    LISTEN      831/sshd
+tcp6       0      0 ::1:631                 :::*                    LISTEN      694/cupsd
+tcp6       0      0 :::5901                 :::*                    LISTEN      1345/Xtigervnc
+
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Go to your client machine and verify the ability to connect.&lt;/li&gt;
+&lt;li&gt;If you are having firewall problems see the &lt;a href=&#34;https://help.ubuntu.com/lts/serverguide/firewall.html&#34;&gt;Ubuntu firewall guide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Kill the server, &lt;code&gt;vncserver -kill :1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Edit the configuration, &lt;code&gt;sudo nano  /etc/vnc.conf&lt;/code&gt;, by changing the parameters to:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;$localhost = &amp;quot;no&amp;quot;;
+$SecurityTypes = &amp;quot;VncAuth,TLSVnc&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now, anytime you wish to connect to a virtual desktop,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use SSH to login.&lt;/li&gt;
+&lt;li&gt;As a standard user, start a virtual desktop, &lt;code&gt;vncserver :1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Connect with your client.&lt;/li&gt;
+&lt;li&gt;When done, kill the server with &lt;code&gt;vncserver -kill :1&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;connect-to-the-actual-desktop&#34;&gt;Connect to the actual desktop&lt;/h3&gt;
+&lt;p&gt;I recommend performing this installation after successfully connecting to a virtual desktop.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+You must first physically login to the actual desktop and remain logged in.
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install TigerVNC&amp;rsquo;s scraping server, &lt;code&gt;sudo apt-get install tigervnc-scraping-server&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;From a SSH session, start the scraping server,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;x0vncserver -PasswordFile ~/.vnc/passwd -display :0&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go to your client system and connect to &lt;em&gt;:0&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Connect with your client.&lt;/li&gt;
+&lt;li&gt;When done, kill the server with &lt;strong&gt;CTRL + C&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;from &lt;a href=&#34;https://www.howtoforge.com/tutorial/how-to-start-a-vnc-server-for-the-actual-display-scraping-with-tigervnc/&#34;&gt;HowToForge&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Data science platform</title>
+      <link>/docs/development-environment/linux/data_science_platform/</link>
+      <pubDate>Mon, 13 Apr 2020 11:08:30 -0500</pubDate>
+      
+      <guid>/docs/development-environment/linux/data_science_platform/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;anaconda&#34;&gt;Anaconda&lt;/h2&gt;
+&lt;p&gt;Anaconda is a data science platform that supports Python and R. It comes with many packages that are needed to perform good data science.&lt;/p&gt;
+&lt;h3 id=&#34;multi-user-installation&#34;&gt;Multi-user installation&lt;/h3&gt;
+&lt;p&gt;Note the differences below, but this mostly follows [Anaconda&amp;rsquo;s Installing on Linux for multiple users] (&lt;a href=&#34;https://docs.anaconda.com/anaconda/install/multi-user/#multi-user-anaconda-installation-on-linux)&#34;&gt;https://docs.anaconda.com/anaconda/install/multi-user/#multi-user-anaconda-installation-on-linux)&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Login as root, &lt;code&gt;sudo -i&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Follow instructions but change the install directory to &lt;em&gt;/opt/anaconda3&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Create a new groups, &lt;code&gt;addgroup conda-grp&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Set the &lt;em&gt;conda-grp&lt;/em&gt; as owner of the anaconda directory, &lt;code&gt;chgrp -R conda-grp /opt/anaconda3&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Change read/write permsissions on the directory, &lt;code&gt;chmod 770 -R /opt/anaconda3&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Add users to the group, &lt;code&gt;usermod -a -G conda-grp youruser&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Logout root, &lt;code&gt;exit&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Exit your shell session &lt;code&gt;exit&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Start a new session.&lt;/li&gt;
+&lt;li&gt;Connect your user to the base environment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;source /opt/anaconda3/bin/activate
+conda init
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Restart your session again.&lt;/li&gt;
+&lt;li&gt;Upon login, you should note &lt;em&gt;(base)&lt;/em&gt; appears by your prompt.&lt;/li&gt;
+&lt;li&gt;Verify the installation, &lt;code&gt;conda list&lt;/code&gt; which lists all of the installed packages.&lt;/li&gt;
+&lt;li&gt;Test python is from Anaconda, &lt;code&gt;python&lt;/code&gt;. This starts the python shell with a heading that indicates the version and the source as Anaconda.&lt;/li&gt;
+&lt;li&gt;Quit the python shell, &lt;code&gt;exit()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Update the conda package manager, &lt;code&gt;conda update conda&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Update all packages, &lt;code&gt;conda update --all&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Your Anaconda installation is complete and has fully functioning python environment. Now view the &lt;a href=&#34;https://docs.anaconda.com/anaconda/user-guide/&#34;&gt;User guide&lt;/a&gt;. If you are working in the gui, start &lt;a href=&#34;https://docs.anaconda.com/anaconda/navigator/&#34;&gt;Anaconda Navigator&lt;/a&gt;, &lt;code&gt;anaconda-navigator&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;jupyter&#34;&gt;Jupyter&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://jupyter.org/&#34;&gt;Jupyter&lt;/a&gt; is a web-based interactive development environment for notebooks, code, and data. JupyterLab is the next-gen version of Jupyter Notebook. JupyterLab is great to run on a standalone computer but I wish my Linux system to serve multi-user sessions of JupyterLab. This is most efficiently done using JupyterHub.&lt;/p&gt;
+&lt;h3 id=&#34;install-jupyterhub&#34;&gt;Install JupyterHub&lt;/h3&gt;
+&lt;p&gt;This mostly follows the &lt;a href=&#34;https://github.com/jupyterhub/jupyterhub#installation&#34;&gt;JupyterHub guide&lt;/a&gt;, instructions for using conda.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install JupyterHub, &lt;code&gt;conda install -c conda-forge jupyterhub&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Install Jupyter Notebook to run locally, &lt;code&gt;conda install notebook&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Install JupyterLab to run locally and on the hub, &lt;code&gt;conda install jupyterlab&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Test the installation by launching JupyterHub and then connect to it via a browser in the server&amp;rsquo;s GUI.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Launch JupyterLab, &lt;code&gt;jupyterhub&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Open your browser and connect to &lt;em&gt;localhost:8000&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Enter your server login credentials.&lt;/li&gt;
+&lt;li&gt;You are logged into a standard Jupyter Notebook.&lt;/li&gt;
+&lt;li&gt;Check JupyterLab by navigating to &lt;em&gt;/lab&lt;/em&gt; instead of &lt;em&gt;/tree&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;When done, close the browser. Then stop JupyterHub with &lt;strong&gt;CTRL + C&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;configuring-jupyterhub&#34;&gt;Configuring JupyterHub&lt;/h3&gt;
+&lt;p&gt;This configuration is based upon the &lt;a href=&#34;https://jupyterhub.readthedocs.io/en/latest/getting-started/config-basics.html&#34;&gt;JupyterHub documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a default configuration, &lt;code&gt;jupyterhub --generate-config&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Edit the configuration file. &lt;code&gt;nano jupyterhub_config.py&lt;/code&gt; by adding,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;c.JupyterHub.bind_url = &#39;http://0.0.0.0:8000&#39;
+c.JupyterHub.concurrent_spawn_limit = 20
+c.JupyterHub.port = 8000
+c.JupyterHub.authenticator_class = &#39;jupyterhub.auth.PAMAuthenticator&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Move the configuration, &lt;code&gt;mv jupyterhub_config.py /etc/jupyterhub/jupyterhub_config.py&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;jupyterhub-as-a-service&#34;&gt;JupyterHub as a service&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;from &lt;a href=&#34;https://github.com/jupyterhub/jupyterhub/wiki/Run-jupyterhub-as-a-system-service&#34;&gt;Run jupyterhub as a system service&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create and edit the configuration file,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo nano /etc/systemd/system/jupyterhub.service&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Assuming Anaconda 3 was installed multi-user into &lt;em&gt;/opt/anaconda3&lt;/em&gt;. If you&amp;rsquo;re not sure, you may check location with, &lt;code&gt;which jupyterhub&lt;/code&gt;.  And assuming that the jupyterhub configuration file is &lt;em&gt;/etc/jupyterhub/jupyterhub_config.py&lt;/em&gt;. Add the following to the configuration:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;[Unit]
+Description=Jupyterhub
+After=syslog.target network.target
+
+[Service]
+User=root
+Environment=&amp;quot;PATH=/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/opt/anaconda3/bin&amp;quot;
+ExecStart=/opt/anaconda3/bin/jupyterhub -f /etc/jupyterhub/jupyterhub_config.py
+
+[Install]
+WantedBy=multi-user.target
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Reload daemon, &lt;code&gt;sudo systemctl daemon-reload&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The availbale commands for the service are &lt;em&gt;start | stop | status&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Start the jupyterhub service, &lt;code&gt; sudo systemctl start jupyterhub&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Check the status, &lt;code&gt;sudo systemctl status jupyterhub&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Verify by connecting with a browser.&lt;/li&gt;
+&lt;li&gt;Stop the service, &lt;code&gt;sudo systemclt stop jupyterhub&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Enable the service to start upon boot, &lt;code&gt;sudo systemctl enable jupyterhub&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;r-language&#34;&gt;R language&lt;/h2&gt;
+&lt;p&gt;First, we are going to install RStudio. This will be used for running beta and production code. Next, we will install and R environment in Anaconda for use with Jupyter.&lt;/p&gt;
+&lt;h3 id=&#34;rstudio-installation&#34;&gt;RStudio Installation&lt;/h3&gt;
+&lt;p&gt;Install the desktop application RStudio along with the proper R binaries.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install prerequisites, &lt;code&gt;sudo apt install gdebi-core r-base&lt;/code&gt;.
+&lt;ul&gt;
+&lt;li&gt;If you get a message about a broken install, try &lt;code&gt;sudo apt --fix-broken install&lt;/code&gt; and try again.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Download RStudio] (&lt;a href=&#34;https://rstudio.com/products/rstudio/download/)&#34;&gt;https://rstudio.com/products/rstudio/download/)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Run the install package,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dpkg -i ~/Downloads/rstudio-1.2.5033-amd64.deb&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Test the installation by running RStudio from the GUI desktop.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Locate the R binary and make a note of it for future use.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;which R&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Mine is located at &lt;em&gt;/usr/bin/R&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Determine the version of R.
+&lt;ul&gt;
+&lt;li&gt;From the command line, &lt;code&gt; R --version| grep -Eo &#39;R version [0-9.]+ \([0-9]{4}-[0-9]{2}-[0-9]{2}\)&#39;;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;From RStudio, &lt;code&gt;R.version.string&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;r-environment-in-anaconda&#34;&gt;R environment in Anaconda&lt;/h3&gt;
+&lt;p&gt;Here we install an R environment for easy use in JupyterHub. This will be managed separately from the RStudio we previously installed.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In the base environment, run &lt;code&gt; conda install nb_conda_kernels&lt;/code&gt;. This allows Jupyter launched from base to access kernels from other environments. See &lt;a href=&#34;https://github.com/Anaconda-Platform/nb_conda_kernels#nb_conda_kernels&#34;&gt;nb_conda_kernels&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Create the R environment, &lt;code&gt;conda create -n r-env -c r r-essentials r-base r-irkernel&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Activate r-env, &lt;code&gt;conda activate r-env&lt;/code&gt;. Then deactivate, &lt;code&gt;conda deactivate&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Test availability of r-env in JupyterHub. You might have to restart JupyterHub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;verify-which-r-is-being-used&#34;&gt;Verify which R is being used&lt;/h3&gt;
+&lt;p&gt;Previously, we determined that R resided at &lt;em&gt;/usr/bin/R&lt;/em&gt;. Now verify that the R being used from your base environment and by RStudio is the same as installed by RStudio.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Verify that the location used by base matches previous, &lt;code&gt;which R&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Verify that location used by RStudio matches previous,
+&lt;ul&gt;
+&lt;li&gt;Open RStudio, click ther &lt;em&gt;Terminal&lt;/em&gt; tab to get console.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;echo $RSTUDIO_WHICH_R&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If needed, set it, &lt;code&gt;export RSTUDIO_WHICH_R=/usr/bin/R&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Reopen RStudio to verify functioning.&lt;/li&gt;
+&lt;li&gt;Save the environment variable system-wide by creating or editing the file &lt;em&gt;/etc/profile.d/myenvvars.sh&lt;/em&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo nano /etc/profile.d/myenvvars.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add the line &lt;em&gt;export RSTUDIO_WHICH_R=/usr/bin/R&lt;/em&gt;.
+Reboot the computer to verify that changes are permanent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;from &lt;a href=&#34;https://support.rstudio.com/hc/en-us/articles/200486138-Changing-R-versions-for-RStudio-desktop&#34;&gt;RStudio support&lt;/a&gt;, &lt;a href=&#34;https://stackoverflow.com/questions/28008765/how-to-get-my-r-version&#34;&gt;StackOverflow&lt;/a&gt;, and &lt;a href=&#34;https://help.ubuntu.com/community/EnvironmentVariables&#34;&gt;Ubuntu Environment Variables&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;julia-language&#34;&gt;Julia language&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://julialang.org/&#34;&gt;Julia&lt;/a&gt; is a high level scientific programming language. I have found it very good at handling various maths and machine learning.&lt;/p&gt;
+&lt;h3 id=&#34;install-julia&#34;&gt;Install Julia&lt;/h3&gt;
+&lt;p&gt;This is a straightforward download, extract and point to binaries operation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download the current release from &lt;a href=&#34;https://julialang.org/downloads/&#34;&gt;Julia&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cd Downloads&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;wget &amp;quot;https://julialang-s3.julialang.org/bin/linux/x64/1.4/julia-1.4.0-linux-x86_64.tar.gz&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Extract, &lt;code&gt;tar -xzvf julia-1.4.0-linux-x86_64.tar.gz&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Move the folder, &lt;code&gt;sudo mv julia-1.4.0 /opt/&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Create a symbolic link to the Julia binary,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo ln -s /opt/julia-1.4.0/bin/julia /usr/local/bin/julia&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Test by entering, &lt;code&gt;julia&lt;/code&gt;. The Julia REPL terminal should start.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;exit()&lt;/code&gt; when done.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;upgrading-julia&#34;&gt;Upgrading Julia&lt;/h3&gt;
+&lt;p&gt;Just follow the same process as for installing, just update the symbolic links.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Move the old link,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo mv /usr/local/bin/julia /usr/local/bin/julia-old-ver-number&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a new link,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo ln -s /opt/julia-new-ver-num/bin/julia /usr/local/bin/julia&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you remove the old installation directory, remember to also remove the old link. You will also still need to reinstall your packages on the new version.&lt;/p&gt;
+&lt;h3 id=&#34;install-juno&#34;&gt;Install Juno&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://junolab.org/&#34;&gt;Juno&lt;/a&gt; is an IDE for the Julia environment. It is built upon &lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To install Atom using the Ubuntu package manager, follow their &lt;a href=&#34;https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-linux&#34;&gt;Flight Manual&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Next, we log into the desktop, open the Atom editor and add &lt;a href=&#34;http://docs.junolab.org/latest/man/installation/&#34;&gt;Juno&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Atom is a GUI IDE, so open it from the navigation menu.&lt;/li&gt;
+&lt;li&gt;Open settings with ** CTRL + ,**&lt;/li&gt;
+&lt;li&gt;Open the &lt;em&gt;Install&lt;/em&gt; pane.&lt;/li&gt;
+&lt;li&gt;Search for the package &lt;em&gt;uber-juno&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Install &lt;em&gt;uber-juno&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When this is complete, the Julia REPL shuold try to start. It might spend some time pre-compiling. Try a command, such as &lt;code&gt;cos(1)&lt;/code&gt; to verify functioning. You will also notice a new menu bar entry for Juno.&lt;/p&gt;
+&lt;h3 id=&#34;add-julia-to-jupyterhub&#34;&gt;Add Julia to JupyterHub&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s get Julia working with JupyterHub.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start Julia REPL, &lt;code&gt;julia&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Enter package mode. &lt;code&gt;]&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;add IJulia&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;build IJulia&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Exit package mode, &lt;code&gt;Backspace&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Exit Julia, &lt;code&gt;exit()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Test in Jupyter.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Restart Jupyter, &lt;code&gt;sudo systemctl start jupyterhub&lt;/code&gt; and &lt;code&gt;sud systemctl stop jupyterhub&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Log in to JupyterHub.&lt;/li&gt;
+&lt;li&gt;View available environments in the &lt;em&gt;New&lt;/em&gt; pulldown or view the Lab interface by changing &lt;em&gt;tree&lt;/em&gt; to &lt;em&gt;lab&lt;/em&gt; in the URL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;add-packages&#34;&gt;Add packages&lt;/h3&gt;
+&lt;p&gt;I like functionality and Julia packages add great functionality. For the ability to just use it, I add all of the packages that are included in &lt;a href=&#34;https://juliacomputing.com/products/juliapro.html#curated-pkgs&#34;&gt;Julia Pro&amp;rsquo;s curated packages list&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add the general programming packages,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add DataStructures LightGraphs JuliaWebAPI IJulia Nettle DSP NearestNeighbors Parameters ParserCombinator Libz BenchmarkTools Rebugger Debugger&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Since I work with graphs regularly, add &lt;a href=&#34;https://github.com/JuliaGraphs/LightGraphs.jl#lightgraphs&#34;&gt;additional LightGraphs functionality&lt;/a&gt;,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add LightGraphsExtras MetaGraphs SimpleWeightedGraphs GraphIO&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add math packages,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add Calculus DataFrames StatsBase Distributions HypothesisTests GLM OnlineStats DifferentialEquations SymPy KernelDensity Zygote&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Optimization and databases,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add Optim Roots JDBC&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;User interfaces and visualizations,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add PyPlot Interact LaTeXStrings Formatting Images Plots GR UnicodePlots ImageMagick StatPlots PGFPlots&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Machine learning,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add Knet Clustering DecisionTree MLBase Flux  Metalhead ScikitLearn&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Interoperability,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add RCall PyCall Conda&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;File and data formats,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add JSON JLD2 CSV LightXML StaticArrays ProtoBuf CuArrays&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Economics and finance,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add QuantEcon BusinessDays Miletus&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Others,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add JuMP Turing JuliaDB&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TensorFlow is not yet working.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Anaconda</title>
+      <link>/docs/development-environment/linux/anaconda/</link>
+      <pubDate>Wed, 08 Apr 2020 10:00:24 -0500</pubDate>
+      
+      <guid>/docs/development-environment/linux/anaconda/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;This is a placeholder page.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gary Dalton Documentations – Document system</title>
+    <link>/docs/document-system/</link>
+    <description>Recent content in Document system on Gary Dalton Documentations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 08 Apr 2020 09:46:25 -0500</lastBuildDate>
+    
+	  <atom:link href="/docs/document-system/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gary Dalton Documentations – Windows</title>
+    <link>/docs/development-environment/windows/</link>
+    <description>Recent content in Windows on Gary Dalton Documentations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 08 Apr 2020 09:59:29 -0500</lastBuildDate>
+    
+	  <atom:link href="/docs/development-environment/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
