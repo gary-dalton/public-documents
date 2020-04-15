@@ -8,16 +8,6 @@
   </url>
   
   <url>
-    <loc>/docs/development-environment/git/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/overview/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/overview/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url>
@@ -28,82 +18,12 @@
   </url>
   
   <url>
-    <loc>/docs/original/tasks/beds/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/tasks/ponycopters/configuring-ponycopters/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/getting-started/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/development-environment/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/original/tutorials/tutorial2/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/examples/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/tasks/ponycopters/launching-ponycopters/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/tutorials/multi-bear/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/tasks/porridge/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/concepts/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/tasks/task/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/tasks/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/tutorials/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/reference/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docs/development-environment/linux/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/contribution-guidelines/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url>
   
@@ -138,16 +58,6 @@
   </url>
   
   <url>
-    <loc>/docs/development-environment/linux/anaconda/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/blog/2018/10/06/easy-documentation-with-docsy/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url>
@@ -163,21 +73,6 @@
   </url>
   
   <url>
-    <loc>/docs/original/getting-started/example-page/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/reference/parameter-reference/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/original/tasks/ponycopters/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/index.json</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url>
@@ -189,11 +84,6 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/community/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url>
   

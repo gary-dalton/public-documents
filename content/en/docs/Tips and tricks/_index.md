@@ -66,5 +66,15 @@ This can only be fixed by removing the offending key. Make note of the number sh
 
 ## Git
 
-Holding space.
+### Update a submodule
+
+To update a submodule to the latest commit available from the remote,
+
+* Change to the submodule directory. `cd submod_dr`.
+* Checkout master branch, `git checkout master`
+* Pull, `git pull`.
+* Done, so return to project root.
+* Commit the update, `git commit -am "Pulled a submodule update`.
+
+*There might be [other options](https://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin) but this usually works for me*
 
