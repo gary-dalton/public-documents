@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Gary Dalton Documentations"
+title = "Gary's Docs"
 
 enableRobotsTXT = true
 
@@ -53,8 +53,8 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Gary Dalton Documentations"
-description = "The place for Gary Dalton's documentations."
+title = "Garys Docs"
+description = "The gathering place for all of Gary's Documentations."
 languageName ="English"
 # Weight used for sorting.
 weight = 1

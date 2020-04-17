@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gary Dalton Documentations – Linux</title>
+    <title>Garys Docs – Linux</title>
     <link>/docs/development-environment/linux/</link>
-    <description>Recent content in Linux on Gary Dalton Documentations</description>
+    <description>Recent content in Linux on Garys Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 08 Apr 2020 09:59:15 -0500</lastBuildDate>
     
