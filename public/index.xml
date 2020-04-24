@@ -13,6 +13,136 @@
     
     
     <item>
+      <title>Blog: Privacy and Data</title>
+      <link>/blog/2020/04/22/privacy-and-data/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020/04/22/privacy-and-data/</guid>
+      <description>
+        
+        
+        &lt;p&gt;In January of 2020, I made a post to Facebook. It did not get the level of feedback I had hoped for.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/04/22/privacy-and-data/idea01_hu2ac9fcdd3bca74dc43ac6b714441c14a_76285_400x0_resize_catmullrom_2.png&#34; width=&#34;400&#34; height=&#34;511&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;I had hoped to get feedback on the idea to inform and clarify my thoughts. Without that, I have tried to expand the idea and try to cover not only the positives from the idea but also consider many of the negatives.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s first clarify some terms.&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;Data&lt;/dt&gt;
+&lt;dd&gt;Data usually refers to simple point information extracted from nature. It may be time series data such as a heart rate at a given time paired with current activity. It could also be the arrangement of pixels in an image which includes a relationship to other pixels.&lt;/dd&gt;
+&lt;dt&gt;Information&lt;/dt&gt;
+&lt;dd&gt;Information is not directly derived from nature. Some examples are a person&amp;rsquo;s name, reviews given to a movie, and submarine plans stolen by a spy. In this article, I will often use the terms information and data interchangeably.&lt;/dd&gt;
+&lt;dt&gt;Record&lt;/dt&gt;
+&lt;dd&gt;Data and information are often in record sets. For example: a medical record might contain a person&amp;rsquo;s name, their date of birth, smoking history, family history of heart disease, and their death from lung cancer.&lt;/dd&gt;
+&lt;dt&gt;Knowledge&lt;/dt&gt;
+&lt;dd&gt;Knowledge is a conclusion inferred or deduced from records. We often use knowledge as a shorthand for connecting data to decision-making. An example of knowledge is the statement that cigarette smoking causes cancer.&lt;/dd&gt;
+&lt;dt&gt;Quality&lt;/dt&gt;
+&lt;dd&gt;When discussing quality data, I mean data that is accurate, timely, and complete. Low quality data may be caused by low resolution in measurement, intentional skewing of data, poor communication of data, random errors in recording data, and delays in data reporting.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h2 id=&#34;why-data&#34;&gt;Why data?&lt;/h2&gt;
+&lt;p&gt;Data informs much of our decision making. If I know store A sells a gallon of milk for less than store B, I can save money. Knowing that smoking is often a cause of lung cancer, a person can choose to improve their health. If we know that a college degree leads to lower crime rates, as a society, we may choose to invest in better educational opportunities.&lt;/p&gt;
+&lt;p&gt;In the stock market, the price of a share of stock is determined by what a buyer is willing to pay and what a seller is willing to accept. Buyers and sellers are acting upon how they expect the company to perform in the future. So the pricing is determined based upon expectations of earnings, valuation, rates of return, market conditions, and emotions. Having accurate information about those items is necessary to properly price a share of stock..&lt;/p&gt;
+&lt;p&gt;With the introduction of Deep Learning methods in machine learning, the need for data has increased exponentially. These algorithms require big data to get good results. In many cases, more high quality data is the difference between an algorithm that barely performs as well as the average person and one that out-performs even the experts.&lt;/p&gt;
+&lt;p&gt;All of these are examples of ways in which having data may lead to better decisions for individuals and societies. Having data is not sufficient for making quality decisions but it is necessary. Those having more high quality data have the opportunity to improve their decision-making. Data is power especially if there exists a disparity with the information commonly known.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Data is power&lt;/h4&gt;
+With data we gain the power to effect change  and advantage in our world.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;we-have-unequal-access-to-data&#34;&gt;We have unequal access to data&lt;/h2&gt;
+&lt;p&gt;Using the stock market example, a person directly involved with the company will often know of dramatic changes in future earnings or big problems before the average investor. An insider acting on their information can make large profits. Insider trading on private information reduces the trust investors have in the company. If this reduction in trust becomes widespread, the markets no longer operate efficiently and profits accrue only to those with access to private information. Inefficient markets and lack of trust in the information provided by companies harms all. This has clearly been recognized by regulators and is why insider trading is a crime.&lt;/p&gt;
+&lt;p&gt;There are many other situations where data disparity is normal. Sometimes that disparity is related to having the skills to use the data, such as in the professions of medicine, law, and engineering. We then rely on the skills but also on the ethical obligations of such professionals. Each of the mentioned professionals are expected to abide by standards and codes of ethics. Each of these professions also requires a license to practice and those licenses may be revoked for not following the ethics of providing fair and honest service. Again, we recognize that having an advantage in information is powerful and may be abused.&lt;/p&gt;
+&lt;p&gt;Holding information others do not have, gives the holder easy-to-abuse power over others. Blackmail is an obvious example. Militaries seek advantage by having more complete information about their opponent than the opponent has on them. Many seek advantage by holding secret information. The problem is that secret information, especially when abused, leads to mistrust, questioning of motives for actions, and guessing explanatory information.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Data disparity is harmful&lt;/h4&gt;
+Those without access to quality information can expect to make poorer decisions and lead less fulfilling, shorter, unhealthier, and poorer lives. This disparity also breaks down society, especially in trust relationships.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;lets-talk-about-quality&#34;&gt;Let&amp;rsquo;s talk about quality&lt;/h2&gt;
+&lt;p&gt;Quality data is accurate, timely, and complete. We rely on data to inform our decisions. Having quality data allows us to make better decisions faster and with a better understanding of all the things that might go wrong. Quality information is the new currency for opportunity.&lt;/p&gt;
+&lt;p&gt;Anything that degrades the quality of the data might be considered harmful. Sometimes data corruption s unavoidable. A heart rate monitor may be worn incorrectly or have a power failure. The clocks used to record separate but related data might not be synchronized.&lt;/p&gt;
+&lt;p&gt;It may be difficult to even know a problem exists if we do not record certain types of information. In 2016, I read &lt;a href=&#34;https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/&#34;&gt;The Vanishing of Canada’s First Nations Women by Foreign Policy&lt;/a&gt;. This article highlighted the problem of lack of data, &lt;em&gt;&amp;ldquo;Pearce enrolled in a doctoral program in law to research missing and murdered women but soon found that “there was nothing available to the public in terms of data” because police had never published national statistics.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Then, from the &lt;a href=&#34;http://www.uihi.org/wp-content/uploads/2018/11/Missing-and-Murdered-Indigenous-Women-and-Girls-Report.pdf&#34;&gt;UIHI report from 2018&lt;/a&gt;, &lt;em&gt;&amp;ldquo;As demonstrated by the findings of this study, reasons for the lack of quality data include under reporting, racial misclassification, poor relationships between law enforcement and American Indian and Alaska Native communities, poor record-keeping protocols, institutional racism in the media, and a lack of substantive relationships between journalists and American Indian and Alaska Native communities&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 510px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/04/22/privacy-and-data/mmiwg_hu83f9db29f3d474eb69a415f18a4ad97c_312798_500x0_resize_catmullrom_2.png&#34; width=&#34;500&#34; height=&#34;648&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;p&gt;No agency has comprehensive data on the true number of missing and murdered indigenous women and girls, and that further research is needed. A challenge in researching this violence is the drastically different information each source has. On this map, we compare UIHI data to data obtained from FOIA requests to municipal police departments, and to data on which cases from those sources were covered by media. This comparison highlights the gaps and disconnects between community, law enforcement, and media
+awareness of urban MMIW cases.&lt;/p&gt;
+
+&lt;p&gt;Note: data ranges from 1943 to 2018, but due to challenges in collecting data on historical cases, approximately 80% of the cases shown here have occurred since 2000.&lt;/p&gt;
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Urban Indian Health Institute&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;These articles highlight the need for quality data to determine if problems even exist. They also highlight the intersection of data power and data disparity.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Quality matters&lt;/h4&gt;
+Data is not enough, it must be accurate, timely, and complete to be truly useful.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;intentionally-corrupt-data&#34;&gt;Intentionally corrupt data&lt;/h2&gt;
+&lt;p&gt;Certainly any type of intentional corruption of data should be unacceptable. Modifying data seriously harms the usefulness of the information derive. Futhermore, any decisions made based upon that data are likely to be wrong.&lt;/p&gt;
+&lt;p&gt;This might seem an unlikely problem but really it is everywhere. People regularly lie when filing out survey forms. In fat many surveys have validation questions to correct and/or eliminate dishonest responses.&lt;/p&gt;
+&lt;p&gt;The Global Positioning System (GPS) was originally a Department of Defense project. When permitted for civilian use, the signal was intentionally degraded to prevent high accuracy. More recently, competition has forced the GPS signal to provide more accurate position.&lt;/p&gt;
+&lt;p&gt;Why would data be intentionally corrupted? There are many reason but these include, to maintain an information advantage, to cause bad decision-making, and to maintain privacy.&lt;/p&gt;
+&lt;p&gt;Privacy often limits the amount of data collected, the timeliness of the data, and the accuracy of the data. Certainly, any types of anonymization techniques reduce the completeness of the data. Clearly, we can state that privacy definitely reduces the quality of data and intentionally low quality data can cause harm.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Privacy corrupts data and causes harm&lt;/h4&gt;
+We intentionally corrupt data to protect privacy.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;privacys-offsetting-benefits&#34;&gt;Privacy&amp;rsquo;s offsetting benefits&lt;/h2&gt;
+&lt;p&gt;An argument has often been made that privacy protects individuals from those that wish them harm. Let&amp;rsquo;s examine this further.&lt;/p&gt;
+&lt;p&gt;Privacy prevents others from using information about a person against the person. Isn&amp;rsquo;t this more a question of disparity of data?&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Privacy is false anyway&lt;/h4&gt;
+With data we gain the power to effect change  and advantage in our world.
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;AI is the game changer&lt;/h4&gt;
+With data we gain the power to effect change  and advantage in our world.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Starting my documentation site</title>
       <link>/blog/2020/04/16/starting-my-documentation-site/</link>
       <pubDate>Thu, 16 Apr 2020 16:02:22 -0500</pubDate>

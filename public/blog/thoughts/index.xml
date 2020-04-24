@@ -1,11 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Garys Docs – Gary&#39;s Blog</title>
-    <link>/blog/</link>
-    <description>Recent content in Gary&#39;s Blog on Garys Docs</description>
+    <title>Garys Docs – Thoughts</title>
+    <link>/blog/thoughts/</link>
+    <description>Recent content in Thoughts on Garys Docs</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 22 Apr 2020 15:38:40 -0500</lastBuildDate>
     
-	  <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/blog/thoughts/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -139,22 +140,6 @@ With data we gain the power to effect change  and advantage in our world.
 With data we gain the power to effect change  and advantage in our world.
 &lt;/div&gt;
 
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: Starting my documentation site</title>
-      <link>/blog/2020/04/16/starting-my-documentation-site/</link>
-      <pubDate>Thu, 16 Apr 2020 16:02:22 -0500</pubDate>
-      
-      <guid>/blog/2020/04/16/starting-my-documentation-site/</guid>
-      <description>
-        
-        
-        &lt;p&gt;During this crazy time of corona virus quarantine, I figured it is time to get some things done. One of those is updating my documentation efforts. I was last using a system based upon asciidoc, pandoc, and git, with some work done in markdown and hugo. It worked fairly well but was cumbersome in many regards. I last reviewed methods in 2018, which was prior to my restarting school in Mathematics.&lt;/p&gt;
-&lt;p&gt;So this new site uses markdown instead of asciidoc. There are many similarities but markdown is more ubiquitous. Hugo, when joined with github and a static site service provider like render, makes updating a breeze. Just push!&lt;/p&gt;
-&lt;p&gt;So, I am not really a conversationalist. Here is the site, enjoy!&lt;/p&gt;
 
       </description>
     </item>
