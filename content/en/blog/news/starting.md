@@ -1,6 +1,6 @@
 ---
 title: "Starting my documentation site"
-linkTitle: "Announcing Gary Dalton's Documentations"
+linkTitle: "Announcing Gary's Docs"
 description: "Announcing the start of my documentation site."
 author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
 resources:
@@ -8,7 +8,6 @@ resources:
   title: ""
   params:
     byline: "Photo: Gary Dalton / CC-BY-CA"
-draft: true
 slug: ""
 image: ""
 keywords: ""
