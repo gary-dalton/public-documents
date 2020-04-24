@@ -17,7 +17,7 @@ draft: false
 ---
 
 
-In January of 2020, I made a post to Facebook. It did get the level of feedback I had hoped for.
+In January of 2020, I made a post to Facebook. It did not get the level of feedback I had hoped for.
 
 {{< imgproc idea01 Resize "400x" >}}
 {{< /imgproc >}}

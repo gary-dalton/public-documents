@@ -4,7 +4,7 @@ date: 2020-04-08T09:32:26-05:00
 weight: 100
 description: >
   The original layout provided by the Docsy example.
-draft: false
+draft: true
 ---
 
 {{% pageinfo %}}
