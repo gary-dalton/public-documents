@@ -133,7 +133,9 @@ Quality data collection should not affect these three reasons. If we are speakin
 > 4. Privacy allows freedom from self-censorship and anticipatory conformity and
 allows people to explore their “rough draft” ideas.
 
-Some people may engage in self-censorship and anticipatory conformity if they believe they would be judged by the data they produce. Consider this a loss due to quality data.
+Some people may engage in self-censorship and anticipatory conformity. Consider this a loss due to quality data. This may be somewhat offset by clear and strong laws to protect against official or societal curtailing of thoughts and ideas. We might also engage in positive reinforcement of diversity.
+
+A question to consider is: are we able to measure how much is lost to self-censorship and conformity? If the loss is great and we are not able to mitigate that loss through legislation, that is a point upon which to roll back some data intrusions.
 
 > 5. Privacy helps prevent sorting of people into categories that can lead to lost opportunities and deeper inequalities.
 
@@ -146,9 +148,11 @@ Initially, a person's data will be judged out of context. Having context to the 
 > 7. Privacy provides a physical space in which an individual can control the artifacts
 that support the narrative of her/his life.
 
-An individual will not be able to control the data artifacts in their life. False narratives will be very difficult to support. At the same time, true narratives will be easier to support and recall as the data is readily available to the person.
+An individual will not be able to control the data artifacts in their life. False narratives will be very difficult to support. At the same time, true narratives will be easier to support and recall as the data is readily available to the person. If we talk only about physical spaces, then; improved data should have little impact.
 
 > 8. Privacy preserves the chance to make a fresh start.
+
+Higher quality data will likely make it more difficult to make a fresh start. We have already seen that just based on the longevity of static data. What was once forgotten is now stored. There may be some solutions for this which include legislation that rolls certain types of data in archival (not live) storage. Recently, some AI algorithms have taken steps to forget certain aged information in order to improve predictions.
 
 > 9. Privacy allows individuals to be authentic and to play appropriate roles in various
 contexts.
@@ -166,7 +170,9 @@ organizations.
 Quality data collection should improve these social ends.
 
 
-
+{{% pageinfo color="primary" %}}
+Work in progress.
+{{% /pageinfo %}}
 
 An argument has often been made that privacy protects individuals from those that wish them harm. Let's examine this further.
 
