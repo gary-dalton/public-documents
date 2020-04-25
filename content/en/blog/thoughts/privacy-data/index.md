@@ -24,6 +24,7 @@ In January of 2020, I made a post to Facebook. It did not get the level of feedb
 
 I had hoped to get feedback on the idea to inform and clarify my thoughts. Without that, I have tried to expand the idea and try to cover not only the positives from the idea but also consider many of the negatives.
 
+
 Let's first clarify some terms.
 
 Data
@@ -40,6 +41,9 @@ Knowledge
 
 Quality
 : When discussing quality data, I mean data that is accurate, timely, and complete. Low quality data may be caused by low resolution in measurement, intentional skewing of data, poor communication of data, random errors in recording data, and delays in data reporting.
+{
+
+
 
 ## Why data?
 
@@ -73,14 +77,11 @@ Anything that degrades the quality of the data might be considered harmful. Some
 
 It may be difficult to even know a problem exists if we do not record certain types of information. In 2016, I read [The Vanishing of Canada’s First Nations Women by Foreign Policy](https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/). This article highlighted the problem of lack of data, *"Pearce enrolled in a doctoral program in law to research missing and murdered women but soon found that “there was nothing available to the public in terms of data” because police had never published national statistics."*
 
-Then, from the [UIHI report from 2018](http://www.uihi.org/wp-content/uploads/2018/11/Missing-and-Murdered-Indigenous-Women-and-Girls-Report.pdf), *"As demonstrated by the findings of this study, reasons for the lack of quality data include under reporting, racial misclassification, poor relationships between law enforcement and American Indian and Alaska Native communities, poor record-keeping protocols, institutional racism in the media, and a lack of substantive relationships between journalists and American Indian and Alaska Native communities"*.
+Then, from the [Urban Indian Health Initiative report from 2018](http://www.uihi.org/wp-content/uploads/2018/11/Missing-and-Murdered-Indigenous-Women-and-Girls-Report.pdf), *"As demonstrated by the findings of this study, reasons for the lack of quality data include under reporting, racial misclassification, poor relationships between law enforcement and American Indian and Alaska Native communities, poor record-keeping protocols, institutional racism in the media, and a lack of substantive relationships between journalists and American Indian and Alaska Native communities"*.
 
 
 {{< imgproc mmiwg Resize "500x" >}}
-<p>No agency has comprehensive data on the true number of missing and murdered indigenous women and girls, and that further research is needed. A challenge in researching this violence is the drastically different information each source has. On this map, we compare UIHI data to data obtained from FOIA requests to municipal police departments, and to data on which cases from those sources were covered by media. This comparison highlights the gaps and disconnects between community, law enforcement, and media
-awareness of urban MMIW cases.</p>
 
-<p>Note: data ranges from 1943 to 2018, but due to challenges in collecting data on historical cases, approximately 80% of the cases shown here have occurred since 2000.</p>
 {{< /imgproc >}}
 
 These articles highlight the need for quality data to determine if problems even exist. They also highlight the intersection of data power and data disparity.
@@ -91,20 +92,81 @@ These articles highlight the need for quality data to determine if problems even
 
 ## Intentionally corrupt data
 
-Certainly any type of intentional corruption of data should be unacceptable. Modifying data seriously harms the usefulness of the information derive. Futhermore, any decisions made based upon that data are likely to be wrong.
+Certainly any type of intentional corruption of data should be unacceptable. Modifying data seriously harms the usefulness of the information derived. Futhermore, any decisions made based upon that data are likely to be wrong.
 
-This might seem an unlikely problem but really it is everywhere. People regularly lie when filing out survey forms. In fat many surveys have validation questions to correct and/or eliminate dishonest responses.
+This might seem an unlikely problem but really it is everywhere. People regularly lie when filing out survey forms. In fact many surveys have validation questions to correct and/or eliminate dishonest responses.
 
 The Global Positioning System (GPS) was originally a Department of Defense project. When permitted for civilian use, the signal was intentionally degraded to prevent high accuracy. More recently, competition has forced the GPS signal to provide more accurate position.
 
-Why would data be intentionally corrupted? There are many reason but these include, to maintain an information advantage, to cause bad decision-making, and to maintain privacy.
+Why would data be intentionally corrupted? There are many reasons but these include, to maintain an information advantage, to cause bad decision-making, and to maintain privacy.
 
-Privacy often limits the amount of data collected, the timeliness of the data, and the accuracy of the data. Certainly, any types of anonymization techniques reduce the completeness of the data. Clearly, we can state that privacy definitely reduces the quality of data and intentionally low quality data can cause harm. 
+Privacy often limits the amount of data collected, the timeliness of the data, and the accuracy of the data. Certainly, any types of anonymization techniques reduce the completeness of the data. Definitively, we can state that privacy reduces the quality of data and intentionally low quality data can cause harm. 
 
 
 {{< alert color="success" title="Privacy corrupts data and causes harm" >}}We intentionally corrupt data to protect privacy.{{< /alert >}}
 
 ## Privacy's offsetting benefits
+
+A lot has been written in support of privacy and the right to privacy. In fact, until recently driven by my interests in machine learning and my understanding of the harm caused by low quality data, I was a strong supporter of the right to privacy. I put both time and money into supporting privacy rights. So, let's examine the reasons for privacy.
+
+I'll base this on Solove's *Conceptualizing Privacy* and on Magi's *Fourteen Reasons Privacy Matters: A Multidisciplinary Review of Scholarly Literature*, shown in the References section.
+
+Solove identifies six general types of definitions of privacy: 
+1. the right to be let alone,
+2. the ability to limit access to the self by others,
+3. secrecy or concealment of certain matters,
+4. the ability to control information about oneself,
+5. the protection of one’s personhood, individuality and dignity, and
+6. control over one’s intimate relationships or aspects of life.
+
+The problem of corrupted data is mainly about information generated by a person or information about a person and not imposing upon or controlling the person. I think removing privacy on points 3 and 4 and perhaps some modification on points 1 and 2 might strike an appropriate balance. That balance is between the right to privacy and the need to have quality data.
+
+Let's look at this a bit deeper. Magi lists fourteen reasons. So let's address each in turn.
+
+> 1. Privacy protects from overreach of social interactions and provides opportunity
+for relaxation and concentration.
+> 2. Privacy affirms self-ownership and the ability to be a moral agent.
+> 3. Privacy prevents intrinsic loss of freedom of choice.
+
+Quality data collection should not affect these three reasons. If we are speaking of the intrusion of unwanted people into social interactions, this may be a problem. Generally though, this is a problem that can be addressed by other legal means that might be supported by data. Stalking is an example of this. A stalker might try to inject themselves based on available information but their location might be legally used to prohibit and prosecute their actions.
+
+> 4. Privacy allows freedom from self-censorship and anticipatory conformity and
+allows people to explore their “rough draft” ideas.
+
+Some people may engage in self-censorship and anticipatory conformity if they believe they would be judged by the data they produce. Consider this a loss due to quality data.
+
+> 5. Privacy helps prevent sorting of people into categories that can lead to lost opportunities and deeper inequalities.
+
+There may be some sorting of people into categories but at the same time opportunities will likely remain the same and inequalities should be lessened. In fact, the reduction of disparity and inequalities is one of the benefits of good data.
+
+> 6. Privacy prevents being misjudged out of context.
+
+Initially, a person's data will be judged out of context. Having context to the data is generally an improvement such that the data will seek context. People with access to the data may not exercise the same discretion about including context with data. Perhaps this is an aspect that will take a little bit of time to find equilibrium.
+
+> 7. Privacy provides a physical space in which an individual can control the artifacts
+that support the narrative of her/his life.
+
+An individual will not be able to control the data artifacts in their life. False narratives will be very difficult to support. At the same time, true narratives will be easier to support and recall as the data is readily available to the person.
+
+> 8. Privacy preserves the chance to make a fresh start.
+
+> 9. Privacy allows individuals to be authentic and to play appropriate roles in various
+contexts.
+
+> 10. Privacy supports intimacy and the building of relationships.
+
+There may be a mixed effect upon this reason. It will be easier to find information about a person but the information is not imposed into the relationship.
+
+> 11. Privacy supports the common good.
+> 12. Privacy protects from power imbalance between individuals and government/
+organizations.
+> 13. Privacy supports democracy, political activity, and service.
+> 14. Privacy provides space in society for disagreement.
+
+Quality data collection should improve these social ends.
+
+
+
 
 An argument has often been made that privacy protects individuals from those that wish them harm. Let's examine this further.
 
@@ -115,6 +177,12 @@ Privacy prevents others from using information about a person against the person
 
 {{< alert color="success" title="AI is the game changer" >}}With data we gain the power to effect change  and advantage in our world.{{< /alert >}}
 
+
+## References
+
+>  Solove, Daniel J. “Conceptualizing Privacy.” California Law Review, vol. 90, no. 4, 2002, pp. 1087–1155. JSTOR, <https://www.jstor.org/stable/3481326>. Accessed 25 Apr. 2020.
+
+> Magi, Trina J. “Fourteen Reasons Privacy Matters: A Multidisciplinary Review of Scholarly Literature.” The Library Quarterly: Information, Community, Policy, vol. 81, no. 2, 2011, pp. 187–209. JSTOR, <https://www.jstor.org/stable/10.1086/658870>. Accessed 24 Apr. 2020.
 
 
 
