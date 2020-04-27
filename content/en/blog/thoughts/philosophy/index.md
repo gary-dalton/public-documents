@@ -26,7 +26,7 @@ Work in progress.
 
 Many people would rephrase that statement to say I am an atheist. Sure, if you must.
 
-I attended religious elementary and secondary schools. A defining memory I have is from seventh grade. I recall we were in science class being lectured about the scientific method. My thoughts wandered to the religious class we had the previous hour and how the statements of the two classes seemed to be in such conflict. Through faith alone versus all hypotheses must be proven by experiment. While both of those are a bit simplistic, they do expose the great divide between the two. I have basically not been religious since that time, though of course there were many development steps.
+I attended religious elementary and secondary schools. A defining memory I have is from seventh grade. I recall we were in science class being lectured about the scientific method. My thoughts wandered to the religious class we had the previous hour and how the statements of the two classes seemed to be in such conflict. Through faith alone versus all hypotheses must be proven by experiment. While both of those are a bit simplistic, they do expose the great divide between the two. I have basically not been religious since that time, though of course there were many developmental steps.
 
 I state there is not supernatural because there is literally no way in nature to test hypotheses about the supernatural. Something which has no effects is truly nothing at all.
 
@@ -42,9 +42,9 @@ So yes, there are times when it is not only acceptable but required to use a min
 
 ## What's good for business ...
 
-I don't have a name for this viewpoint but use it regularly in developing thoughts what works best. As a first approximation, I think does this benefit or harm small businesses. From this, I have come up with what some might consider counter-intuitive ideas. The clearest example I have of this regards health care.
+I don't have a name for this viewpoint but use it regularly in developing thoughts about what works best. As a first approximation, I think does this benefit or harm small businesses. From this, I have come up with what some might consider counter-intuitive ideas. The clearest example I have of this regards health care.
 
-I think that universal health care is the way to go. Why? Because it gives small businesses a level playing field upon which to compete with large corporations and also with other countries. Providing health insurance is a cost to the business but for the labor force it is an expected benefit of employment. A small business is therefore not able to compete for employees.
+I think that universal health care is the way to go. Why? Because it gives small businesses a level playing field upon which to compete with large corporations and also with other countries. Providing health insurance is a cost to the business but for the labor force it is an expected benefit of employment. A small business is therefore not able to compete for employees. Universal health care levels this playing field.
 
 Small businesses provide employment, innovation, skills, leadership, and opportunity. the nation that does best in nurturing these qualities has a favorable outlook versus nations that do not.
 
