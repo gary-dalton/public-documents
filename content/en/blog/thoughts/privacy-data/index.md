@@ -105,7 +105,7 @@ These articles also highlight the intersection of data power and data disparity.
 
 Certainly any type of intentional corruption of data should be unacceptable. Modifying data seriously harms the usefulness of the information derived. Futhermore, any decisions made based upon that data are likely to be wrong.
 
-This might seem an unlikely problem but really it is everywhere. People regularly lie when filing out survey forms. In fact many surveys have validation questions to correct and/or eliminate dishonest responses.
+This might seem an unlikely problem but really it is everywhere. People regularly lie when filing out survey forms. In fact, many surveys have validation questions to correct and/or eliminate dishonest responses.
 
 The Global Positioning System (GPS) was originally a Department of Defense project. When permitted for civilian use, the signal was intentionally degraded to prevent high accuracy. More recently, competition has forced the GPS signal to provide more accurate position.
 
@@ -171,7 +171,7 @@ contexts.
 
 This basically states that how I behave and who I am depends on the context in which I am acting. There will be changes in this mutability since the context, often other people's image of you, will be better informed of your overall role. Now when we enter a new context, we often assume other people have little to no knowledge of us and this allows us develop our relationships unimpeded. This may or may not be true.
 
-I think that we currently enter new contexts with uncertainty of what other know about us. With more readily available information, we could enter a new context with less anxiety, presuming that they already know some things about us  but are willing to judge us based on our new context. In other words, I do not think expanding data access degrades this privacy.
+I think that we currently enter new contexts with uncertainty of what others know about us. With more readily available information, we could enter a new context with less anxiety, presuming that they already know some things about us  but are willing to judge us based on our new context. In other words, I do not think expanding data access degrades this privacy.
 
 > 10. Privacy supports intimacy and the building of relationships.
 
@@ -194,7 +194,9 @@ This is closely related to point number 4 and I think may be treated similarly.
 
 ## How much privacy do we have?
 
-
+{{% pageinfo color="warning" %}}
+Work in progress.
+{{% /pageinfo %}}
 
 {{< alert color="success" title="Privacy is false anyway" >}}With data we gain the power to effect change  and advantage in our world.{{< /alert >}}
 
@@ -247,7 +249,7 @@ Charitable activities should be curtailed entirely as these are typically either
 
 Let's now discuss the handling of individuals data. For some businesses, this is just a byproduct of interacting with customers but for others, this data is their lifeblood source of revenue. A company earning revenue based upon their database of individual users is not really paying for their access to raw material. They are also building barriers to entry to other companies based not upon their prowess or technical advantage but upon their access to the raw material.
 
-The raw material is individual person's data, often data a person would consider private. I propose the creation of a public data lake to hold this information. There could be different sub-module lakes that include financial of health data. Read access to the lake would be credentialed with some sort of credit/debit scheme. Changes and updates to the data would be though a pull request method. Initiation and oversight of this data lake would be done by some sort of government, citizen, and business consortium.
+The raw material is individual person's data, often data a person would consider private. I propose the creation of a public data lake to hold this information. There could be different sub-module lakes that include financial or health data. Read access to the lake would be credentialed with some sort of credit/debit scheme. Changes and updates to the data would be though a pull request method. Initiation and oversight of this data lake would be done by some sort of government, citizen, and business consortium.
 
 How is this possibly a good idea? 
 
@@ -270,21 +272,23 @@ Work in progress.
 
 ## References
 
-* Maltz, Michael D. “Bridging Gaps in Police Crime Data.” U.S. Department of Justice Bureau of Justice Statistics, Sept. 1999, <https://www.bjs.gov/content/pub/pdf/bgpcd.pdf>.
-
-* “'Wrong' Crime Data Highlights Inconsistent Statistics.” Cumberland News-Times, Elliott Davis Capital News Service, 30 Dec. 2019, <https://www.times-news.com/news/local_news/wrong-crime-data-highlights-inconsistent-statistics/article_afa732bb-afbb-56bb-b447-a3dfefbe5632.html>.
-
-* Solove, Daniel J. “Conceptualizing Privacy.” California Law Review, vol. 90, no. 4, 2002, pp. 1087–1155. JSTOR, <https://www.jstor.org/stable/3481326>. Accessed 25 Apr. 2020.
-
-* Magi, Trina J. “Fourteen Reasons Privacy Matters: A Multidisciplinary Review of Scholarly Literature.” The Library Quarterly: Information, Community, Policy, vol. 81, no. 2, 2011, pp. 187–209. JSTOR, <https://www.jstor.org/stable/10.1086/658870>. Accessed 24 Apr. 2020.
-
-* Schoenfeld, Gabriel. “Secrecy in Our Open Society (Written Testimony).” Received by Hearing of the House Committee on the Judiciary On the Espionage Act and the Legal and Constitutional Issues Raised by WikiLeaks , 16 Dec. 2010. <https://fas.org/irp/congress/2010_hr/121610schoenfeld.pdf>
-
 * Aftergood, Steven. “Pentagon Asks to Keep Future Spending Secret.” Federation Of American Scientists, Federation Of American Scientists, 30 Mar. 2020, ,https://fas.org/blogs/secrecy/2020/03/ndaa-fydp/.>
 
+* Cogan, Marin. “The Vanishing of Canada's First Nations Women.” Foreign Policy, 6 July 2016, <https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/>.
 
 * Gilman, Hollie, and Elena Souris. “Global Answers for Local Problems, Lessons from Civically Engaged Cities.” New America, 12 Feb. 2020, <http://www.newamerica.org/political-reform/reports/global-answers-local-problems-lessons-civically-engaged-cities/>.
 
+* Magi, Trina J. “Fourteen Reasons Privacy Matters: A Multidisciplinary Review of Scholarly Literature.” The Library Quarterly: Information, Community, Policy, vol. 81, no. 2, 2011, pp. 187–209. JSTOR, <https://www.jstor.org/stable/10.1086/658870>. Accessed 24 Apr. 2020.
+
+* Maltz, Michael D. “Bridging Gaps in Police Crime Data.” U.S. Department of Justice Bureau of Justice Statistics, Sept. 1999, <https://www.bjs.gov/content/pub/pdf/bgpcd.pdf>.
+
+* Schoenfeld, Gabriel. “Secrecy in Our Open Society (Written Testimony).” Received by Hearing of the House Committee on the Judiciary On the Espionage Act and the Legal and Constitutional Issues Raised by WikiLeaks , 16 Dec. 2010. <https://fas.org/irp/congress/2010_hr/121610schoenfeld.pdf>
+
+* Solove, Daniel J. “Conceptualizing Privacy.” California Law Review, vol. 90, no. 4, 2002, pp. 1087–1155. JSTOR, <https://www.jstor.org/stable/3481326>. Accessed 25 Apr. 2020.
+
+* Urban Indian Health Institute. “Missing and Murdered Indigenous Women and Girls.” Urban Indian Health Institute, 14 Nov. 2018, <http://www.uihi.org/wp-content/uploads/2018/11/Missing-and-Murdered-Indigenous-Women-and-Girls-Report.pdf>.
+
+* “'Wrong' Crime Data Highlights Inconsistent Statistics.” Cumberland News-Times, Elliott Davis Capital News Service, 30 Dec. 2019, <https://www.times-news.com/news/local_news/wrong-crime-data-highlights-inconsistent-statistics/article_afa732bb-afbb-56bb-b447-a3dfefbe5632.html>.
 
 
 
