@@ -31,11 +31,15 @@ This is a draft document. I have placed it on the internet for reviewing purpose
 
 Let's first clarify some terms.
 
-Data
-: Data usually refers to simple point information extracted from nature. It may be time series data such as a heart rate at a given time paired with current activity. It could also be the arrangement of pixels in an image which includes a relationship to other pixels.
+Data and information
+: I will use these two terms interchangeably even though there are some subtle differences. Data and information refer to things such as:
+* point measurements such as a time series of heart beats which may be averaged to a heart rate,
+* the arrangement of pixels in an image which includes color information,
+* a person's name or date of birth,
+* reviews given to a movie, and
+* submarine plans stolen by a spy.
 
-Information
-: Information is not directly derived from nature. Some examples are a person's name, reviews given to a movie, and submarine plans stolen by a spy. In this article, I will often use the terms information and data interchangeably.
+These are just a few examples of data and information.
 
 Record
 : Data and information are often in record sets. For example: a medical record might contain a person's name, their date of birth, smoking history, family history of heart disease, and their death from lung cancer.
@@ -82,7 +86,7 @@ Holding information others do not have, gives the holder easy-to-abuse power ove
 
 Quality data is accurate, timely, and complete. We rely on data to inform our decisions. Having quality data allows us to make better decisions faster and with a better understanding of all the things that might go wrong. Quality information is the new currency for opportunity.
 
-Anything that degrades the quality of the data might be considered harmful. Sometimes data corruption s unavoidable. A heart rate monitor may be worn incorrectly or have a power failure. The clocks used to record separate but related data might not be synchronized.
+Anything that degrades the quality of the data might be considered harmful. Sometimes data corruption is unavoidable. A heart rate monitor may be worn incorrectly or have a power failure. The clocks used to record separate but related data might not be synchronized.
 
 It may be difficult to even know a problem exists if we do not record certain types of information. In 2016, I read [The Vanishing of Canada’s First Nations Women by Foreign Policy](https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/). This article highlighted the problem of lack of data, *"Pearce enrolled in a doctoral program in law to research missing and murdered women but soon found that “there was nothing available to the public in terms of data” because police had never published national statistics."*
 
@@ -93,7 +97,7 @@ Then, from the [Urban Indian Health Initiative report from 2018](http://www.uihi
 
 {{< /imgproc >}}
 
-These articles highlight the need for quality data to determine if problems even exist. For data to have high quality, it must also be collected uniformly. Uneven data collection is a real problem especially when there are strong incentives to suppress correct reporting. Crime data is the obvious example of reporting discrepancies. Different jurisdictions report data differently and there are often incentives to under-report or reclassify certain types of crime. See page iv of *Bridging Gaps in Police Crime Data* and the article, ['Wrong' crime data highlights inconsistent statistics](https://www.times-news.com/news/local_news/wrong-crime-data-highlights-inconsistent-statistics/article_afa732bb-afbb-56bb-b447-a3dfefbe5632.html).
+These articles highlight the need for quality data to determine if problems even exist. For data to have high quality, it must also be collected uniformly. Uneven data collection is a real problem especially when there are strong incentives to suppress correct reporting. Crime data is the obvious example of reporting discrepancies. Different jurisdictions report data differently and there are often incentives to under-report or reclassify certain types of crime. See *Measurement Problems in Criminal Justice Research* and [A Journal Sentinel investigation found the Milwaukee Police Department has underreported thousands of violent assaults, rapes, robberies and burglaries and failed to correct the problem while presenting flawed statistics to the public.](http://archive.jsonline.com/watchdog/152102845.html).
 
 These articles also highlight the intersection of data power and data disparity.
 
@@ -281,6 +285,8 @@ Work in progress.
 * Magi, Trina J. “Fourteen Reasons Privacy Matters: A Multidisciplinary Review of Scholarly Literature.” The Library Quarterly: Information, Community, Policy, vol. 81, no. 2, 2011, pp. 187–209. JSTOR, <https://www.jstor.org/stable/10.1086/658870>. Accessed 24 Apr. 2020.
 
 * Maltz, Michael D. “Bridging Gaps in Police Crime Data.” U.S. Department of Justice Bureau of Justice Statistics, Sept. 1999, <https://www.bjs.gov/content/pub/pdf/bgpcd.pdf>.
+
+* National Research Council 2003. Measurement Problems in Criminal Justice Research: Workshop Summary. Washington, DC: The National Academies Press. <https://doi.org/10.17226/10581>.
 
 * Schoenfeld, Gabriel. “Secrecy in Our Open Society (Written Testimony).” Received by Hearing of the House Committee on the Judiciary On the Espionage Act and the Legal and Constitutional Issues Raised by WikiLeaks , 16 Dec. 2010. <https://fas.org/irp/congress/2010_hr/121610schoenfeld.pdf>
 
