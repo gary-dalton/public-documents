@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Garys Docs – Joomla / WordPress</title>
+    <link>/docs/archive/joomla-wordpress/</link>
+    <description>Recent content in Joomla / WordPress on Garys Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 May 2020 12:58:21 -0500</lastBuildDate>
+    
+	  <atom:link href="/docs/archive/joomla-wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
