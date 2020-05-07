@@ -1,5 +1,5 @@
 ---
-date: 2020-04-22
+date: 2020-05-01
 title: "Privacy, Secrecy, and Data"
 linkTitle: "Privacy, Secrecy, and Data"
 description: "With the growing importance of AI, we need to change our current restraints of privacy and secrecy to improve data quality and access."
@@ -88,7 +88,7 @@ Quality data is accurate, timely, and complete. We rely on data to inform our de
 
 Anything that degrades the quality of the data might be considered harmful. Sometimes data corruption is unavoidable. A heart rate monitor may be worn incorrectly or have a power failure. The clocks used to record separate but related data might not be synchronized.
 
-It may be difficult to even know a problem exists if we do not record certain types of information. In 2016, I read [The Vanishing of Canada’s First Nations Women by Foreign Policy](https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/). This article highlighted the problem of lack of data, *"Pearce enrolled in a doctoral program in law to research missing and murdered women but soon found that “there was nothing available to the public in terms of data” because police had never published national statistics."*
+It may be difficult to even know a problem exists if we do not record certain types of information. In 2016, I read [The Vanishing of Canada’s First Nations Women](https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/). This article highlighted the problem of lack of data, *"Pearce enrolled in a doctoral program in law to research missing and murdered women but soon found that “there was nothing available to the public in terms of data” because police had never published national statistics."*
 
 Then, from the [Urban Indian Health Initiative report from 2018](http://www.uihi.org/wp-content/uploads/2018/11/Missing-and-Murdered-Indigenous-Women-and-Girls-Report.pdf), *"As demonstrated by the findings of this study, reasons for the lack of quality data include under reporting, racial misclassification, poor relationships between law enforcement and American Indian and Alaska Native communities, poor record-keeping protocols, institutional racism in the media, and a lack of substantive relationships between journalists and American Indian and Alaska Native communities"*.
 
@@ -120,6 +120,58 @@ Privacy often limits the amount of data collected, the timeliness of the data, a
 
 {{< alert color="success" title="Secrecy and privacy corrupt data and cause harm" >}}We intentionally corrupt data to protect privacy and allow for secrets. We should try to minimize these corruptions.{{< /alert >}}
 
+## The dark side of secrecy
+
+### In government
+
+The following from Schoenfeld very eloquently states my general thoughts on secrecy in government.
+
+> "A basic principle of our political order, enshrined in the First Amendment
+guarantee of freedom of speech and of the press, is that openness is an essential
+prerequisite of self-governance. Indeed, at the very core of our democratic
+experiment lies the question of transparency. Secrecy was one of the
+cornerstones of monarchy, a building block of an unaccountable political
+system constructed in no small part on what King James the First had called the
+“mysteries of state.” Secrecy was not merely functional, a requirement of an
+effective monarchy, but intrinsic to the mental scaffolding of autocratic rule.
+>
+> Standing in diametrical opposition to that mental scaffolding was an
+elementary proposition of democratic theory: Legitimate power could rest only
+on the informed consent of the governed. Along with individuals at liberty to
+give or to withhold approval to their government, informed consent requires,
+above all else, information, freely available and freely exchanged. Official
+secrecy is anathema to this conception. No one has put this proposition more
+forcefully than James Madison, who tells us that “A popular government,
+without popular information, or the means of acquiring it, is but a Prologue to a
+Farce or a Tragedy, or, perhaps both. Knowledge will forever govern ignorance:
+And a people who mean to be their own Governors must arm themselves with
+the power which knowledge gives.” "
+
+There are situations when secrecy is needed, most notably in cases of national security. Secrecy should be the exception and not the rule. It should require a clear statement of why something should be secret and then it should be made public as soon as the requirement for secrecy has passed.
+
+Secrecy hides the decision-making process and consolidates power to those holding the secrets. It keeps the people uninformed, limits participation, and allows for corruption to take root and grow unchecked. We must, in order to remain in a free and functioning democracy, vigilantly limit secrecy in government at all times.
+
+Governments have a preference for secrecy and the ability to act without the people's oversight. Thus secrecy is a slowly encroaching action of government and must be constantly guarded against. Yes, it is increasing now as Aftergood's article from March 2020 states, *"The Department of Defense is quietly asking Congress to rescind the requirement to produce an unclassified version of the Future Years Defense Program (FYDP) database."*
+
+Limiting secrecy applies not only to the government but also the great influencers of government and to the tools used by governments. For influencers of government, I include things like: lobbyists, donations, political action committees, and those groups or individuals that gain influence using money or shared secrets. Finally, increasing citizen participation in local governance is an excellent way to both keep aware of encroaching secrecy and to also reduce it. See more at [Global Answers for Local Problems, Lessons from Civically Engaged Cities](https://www.newamerica.org/political-reform/reports/global-answers-local-problems-lessons-civically-engaged-cities/).
+
+
+### In the business world
+
+Honestly, this section needs more thought and development but here goes. Some ideas may be rather controversial because they feed into other not-fully developed thoughts I have on taxation policies. Another article in the future might address that issue but that is not as much in my core competencies as data is.
+
+There are different types of businesses ranging from sole proprietorships to publicly traded corporations and the rules applying to them often differ greatly. I will limit discussion here to publicly traded corporations. Generally, there is already a lot of transparency in these business due to the required reportings to shareholders and government but businesses can be complex which gives opportunity for secrecy. Even with that transparency, there still exist many areas for improvement. The areas for improvement mainly cover influencing actions toward government and collection and handling of individual's data. 
+
+Lobbying should be fully disclosed. Sometimes, a business participates in lobbying to push forward legislation in an area where the business is an acknowledged expert. This is reasonable but their participation should be checked by participation for citizens or groups which might oppose the legislation. Lobbying that is of a political nature only should be prohibited. There are gray areas between purely expert and purely political and this is why their lobbying activities should be fully disclosed and scrutinized.
+
+Charitable activities should be curtailed entirely as these are typically either marketing or lobbying activities in disguise. If executives of a business wish to be charitable, they should use their own funds to purchase the services of the business for donation and not impose their charitable preferences on their diverse shareholders.
+
+Let's now discuss the handling of individuals data. For some businesses, this is just a byproduct of interacting with customers but for others, this data is their lifeblood source of revenue. A company earning revenue based upon their database of individual users is not really paying for their access to raw material. They are also building barriers to entry to other companies based not upon their prowess or technical advantage but upon their access to the raw material. 
+
+The raw material is individual person's data, often data a person would consider private. The business considers this data as their property with the rights to sell, use, or keep it secret within lawful limits.
+
+{{< alert color="success" title="Unchecked secrecy corrupts" >}}Clearly, the founders of the United States knew secrecy in government was dangerous. We now also see that secrecy in business allows for hidden influence and the co-opting of the people's privacy and power.{{< /alert >}}
+
 
 ## Privacy's offsetting benefits
 
@@ -135,7 +187,68 @@ Solove identifies six general types of definitions of privacy:
 5. the protection of one’s personhood, individuality and dignity, and
 6. control over one’s intimate relationships or aspects of life.
 
-The problem of corrupted data is mainly about information generated by a person or information about a person and not imposing upon or controlling the person. I think removing privacy on points 3 and 4 and perhaps some modification on points 1 and 2 might strike an appropriate balance. That balance is between the right to privacy and the need to have quality data.
+The problem of corrupted data is mainly about information generated by a person or information about a person and not imposing upon or controlling the person.
+
+Let's look at this a bit deeper. Magi lists fourteen reasons. I'll list them here and discuss a few of them in more depth for better understanding. These fourteen reasons will be addressed further in a later section.
+
+> 1. Privacy protects from overreach of social interactions and provides opportunity
+for relaxation and concentration.
+> 2. Privacy affirms self-ownership and the ability to be a moral agent.
+> 3. Privacy prevents intrinsic loss of freedom of choice.
+
+These three reasons point to impositions on our private space to affect or direct our thoughts and ability to act.
+
+> 4. Privacy allows freedom from self-censorship and anticipatory conformity and
+allows people to explore their “rough draft” ideas.
+> 5. Privacy helps prevent sorting of people into categories that can lead to lost opportunities and deeper inequalities.
+> 6. Privacy prevents being misjudged out of context.
+> 7. Privacy provides a physical space in which an individual can control the artifacts
+that support the narrative of her/his life.
+> 8. Privacy preserves the chance to make a fresh start.
+> 9. Privacy allows individuals to be authentic and to play appropriate roles in various
+contexts.
+> 10. Privacy supports intimacy and the building of relationships.
+> 11. Privacy supports the common good.
+> 12. Privacy protects from power imbalance between individuals and government/
+organizations.
+> 13. Privacy supports democracy, political activity, and service.
+> 14. Privacy provides space in society for disagreement.
+
+
+{{< alert color="success" title="Privacy enhances people and society" >}}The overall impression from this list is that privacy is both for the individual and for society. The benefits of privacy for the individual protects their physical, emotional, spiritual, and intellectual space. The benefits for society enhance innovation, equality, justice, involvement, and decrease conflict.{{< /alert >}}
+
+
+## How much privacy do we have?
+
+Over the past few years, many articles have lamented the erosion of personal privacy. Our every click may be monitored by our favorite website or social media company. With technological innovations, governments are able to track and monitor individuals at an unprecedented level. To prevent money flows to terrorist organizations, we have instituted rules and regulations to make financial transactions more traceable. The Health Insurance Portability and Accountability Act of 1996 (HIPAA) was enacted to protect the privacy of our health records. Cameras records our actions at intersections, walking down the street, and in both public and private spaces. Our current location is readily surrendered by the smartphone device we all carry. Every email, photo, and online interaction we engage in is recoded and saved for posterity.
+
+So yes, your data, much of which you may consider private, is held by some faceless government, business, or organization. Do the faceless have your best interests in mind? I think not and that is why I fought against this intrusion for many years. 
+
+Its not really a matter of what information is out there but how consolidated and cohesive it is. The government has or can gain access to all of your data, and it may legally require that you never be informed. As this [issues section from the Electronic Frontier Foundation](https://www.eff.org/issues/patriot-act) points out, "The USA PATRIOT Act broadly expands law enforcement's surveillance and investigative powers and represents one of the most significant threats to civil liberties, privacy, and democratic traditions in US history."
+
+{{< alert color="success" title="Privacy is false anyway" >}}Our data is out there. The question has become: who is using it?{{< /alert >}}
+
+
+
+
+## The proposal
+
+But the algorithm has overcome all.
+
+Some years ago when cameras were initially being installed in many public spaces and were being monitored by public officials, or more likely by algorithms, I saw a piece that suggested the only way to achieve detente was that viewing of the cameras should be equal access to all.
+
+I propose the creation of a public data lake to hold this information. There could be different sub-module lakes that include financial or health data. Read access to the lake would be credentialed with some sort of credit/debit scheme. Changes and updates to the data would be though a pull request method. Initiation and oversight of this data lake would be done by some sort of government, citizen, and business consortium.
+
+How is this possibly a good idea? 
+
+There is the problem of theft or use of information for nefarious purposes.
+
+Share the database such that everyone has access to the data.
+
+
+What to do here?
+
+## Impacts on privacy
 
 Let's look at this a bit deeper. Magi lists fourteen reasons. So let's address each in turn.
 
@@ -192,77 +305,8 @@ Quality data collection should improve these social ends. In fact the expansion 
 
 This is closely related to point number 4 and I think may be treated similarly.
 
-
 {{< alert color="success" title="Privacy is mutable" >}}Making some changes in our perceived privacy will have benefits that outweigh the costs.{{< /alert >}}
 
-
-## How much privacy do we have?
-
-{{% pageinfo color="warning" %}}
-Work in progress.
-{{% /pageinfo %}}
-
-{{< alert color="success" title="Privacy is false anyway" >}}With data we gain the power to effect change  and advantage in our world.{{< /alert >}}
-
-
-## The dark side of secrecy
-
-### In government
-
-The following from Schoenfeld very eloquently states my general thoughts on secrecy in government.
-
-> "A basic principle of our political order, enshrined in the First Amendment
-guarantee of freedom of speech and of the press, is that openness is an essential
-prerequisite of self-governance. Indeed, at the very core of our democratic
-experiment lies the question of transparency. Secrecy was one of the
-cornerstones of monarchy, a building block of an unaccountable political
-system constructed in no small part on what King James the First had called the
-“mysteries of state.” Secrecy was not merely functional, a requirement of an
-effective monarchy, but intrinsic to the mental scaffolding of autocratic rule.
->
-> Standing in diametrical opposition to that mental scaffolding was an
-elementary proposition of democratic theory: Legitimate power could rest only
-on the informed consent of the governed. Along with individuals at liberty to
-give or to withhold approval to their government, informed consent requires,
-above all else, information, freely available and freely exchanged. Official
-secrecy is anathema to this conception. No one has put this proposition more
-forcefully than James Madison, who tells us that “A popular government,
-without popular information, or the means of acquiring it, is but a Prologue to a
-Farce or a Tragedy, or, perhaps both. Knowledge will forever govern ignorance:
-And a people who mean to be their own Governors must arm themselves with
-the power which knowledge gives.” "
-
-There are situations when secrecy is needed, most notably in cases of national security. Secrecy should be the exception and not the rule. It should require a clear statement of why something should be secret and then it should be made public as soon as the requirement for secrecy has passed.
-
-Secrecy hides the decision-making process and consolidates power to those holding the secrets. It keeps the people uninformed, limits participation, and allows for corruption to take root and grow unchecked. We must, in order to remain in a free and functioning democracy, vigilantly limit secrecy in government at all times.
-
-Governments have a preference for secrecy and the ability to act without the people's oversight. Thus secrecy is a slowly encroaching action of government and must be constantly guarded against. Yes, it is increasing now as Aftergood's article from March 2020 states, *"The Department of Defense is quietly asking Congress to rescind the requirement to produce an unclassified version of the Future Years Defense Program (FYDP) database."*
-
-Limiting secrecy applies not only to the government but also the great influencers of government and to the tools used by governments. For influencers of government, I include things like: lobbyists, donations, political action committees, and those groups or individuals that gain influence using money or shared secrets. Finally, increasing citizen participation in local governance is an excellent way to both keep aware of encroaching secrecy and to also reduce it. See more at [Global Answers for Local Problems, Lessons from Civically Engaged Cities](https://www.newamerica.org/political-reform/reports/global-answers-local-problems-lessons-civically-engaged-cities/).
-
-
-### In the business world
-
-Honestly, this section needs more thought and development but here goes. Some ideas may be rather controversial because they feed into other not-fully developed thoughts I have on taxation policies. Another article in the future might address that issue but that is not as much in my core competencies as data is.
-
-There are different types of businesses ranging from sole proprietorships to publicly traded corporations and the rules applying to them often differ greatly. I will limit discussion here to publicly traded corporations. Generally, there is already a lot of transparency in these business due to the required reportings to shareholders and government but businesses can be complex which gives opportunity for secrecy. Even with that transparency, there still exist many areas for improvement. The areas for improvement mainly cover influencing actions toward government and collection and handling of individual's data. 
-
-Lobbying should be fully disclosed. Sometimes, a business participates in lobbying to push forward legislation in an area where the business is an acknowledged expert. This is reasonable but their participation should be checked by participation for citizens or groups which might oppose the legislation. Lobbying that is of a political nature only should be prohibited. There are gray areas between purely expert and purely political and this is why their lobbying activities should be fully disclosed and scrutinized.
-
-Charitable activities should be curtailed entirely as these are typically either marketing or lobbying activities in disguise. If executives of a business wish to be charitable, they should use their own funds to purchase the services of the business for donation and not impose their charitable preferences on their diverse shareholders.
-
-Let's now discuss the handling of individuals data. For some businesses, this is just a byproduct of interacting with customers but for others, this data is their lifeblood source of revenue. A company earning revenue based upon their database of individual users is not really paying for their access to raw material. They are also building barriers to entry to other companies based not upon their prowess or technical advantage but upon their access to the raw material.
-
-The raw material is individual person's data, often data a person would consider private. I propose the creation of a public data lake to hold this information. There could be different sub-module lakes that include financial or health data. Read access to the lake would be credentialed with some sort of credit/debit scheme. Changes and updates to the data would be though a pull request method. Initiation and oversight of this data lake would be done by some sort of government, citizen, and business consortium.
-
-How is this possibly a good idea? 
-
-There is the problem of theft or use of information for nefarious purposes.
-
-Share the database such that everyone has access to the data.
-
-
-What to do here?
 
 {{% pageinfo color="warning" %}}
 Work in progress.
@@ -281,6 +325,8 @@ Work in progress.
 * Cogan, Marin. “The Vanishing of Canada's First Nations Women.” Foreign Policy, 6 July 2016, <https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/>.
 
 * Gilman, Hollie, and Elena Souris. “Global Answers for Local Problems, Lessons from Civically Engaged Cities.” New America, 12 Feb. 2020, <http://www.newamerica.org/political-reform/reports/global-answers-local-problems-lessons-civically-engaged-cities/>.
+
+* Guariglia, Matthew, et al. “PATRIOT Act.” Electronic Frontier Foundation, www.eff.org/issues/patriot-act.
 
 * Magi, Trina J. “Fourteen Reasons Privacy Matters: A Multidisciplinary Review of Scholarly Literature.” The Library Quarterly: Information, Community, Policy, vol. 81, no. 2, 2011, pp. 187–209. JSTOR, <https://www.jstor.org/stable/10.1086/658870>. Accessed 24 Apr. 2020.
 
