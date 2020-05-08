@@ -18,7 +18,7 @@ draft: true
 ##
 
 1. This slideshow is written in Markdown, a plain text format.
-    - [view the slideshow in markdown](https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/pandoc_reveal.md)
+    - [view the slideshow in markdown](https://raw.githubusercontent.com/gary-dalton/public-documents/master/content/en/docs/archive/Markdown-slideshow/pandoc_reveal.md)
 2. Converted into an HTML5, revealjs document using Pandoc.
 
 Yes, it really is that easy.

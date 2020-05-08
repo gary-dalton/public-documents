@@ -1,6 +1,6 @@
 ---
-title: "_Index"
-description: ""
+title: "Markdown slideshows"
+description: "Using Pandoc and Reveal.js to create slideshows from a markdown text file."
 slug: ""
 image: ""
 keywords: ""
@@ -10,10 +10,8 @@ expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
-draft: true
-weight: 100
+draft: false
+weight: 5
 ---
 
-{{% pageinfo %}}
-This is a placeholder page.
-{{% /pageinfo %}}
+This is both a demonstration and a tutorial. The steps of how to are demonstrated in the [slideshow from Intellamech](http://www.intellamech.com/pandoc/pandoc_reveal/).
