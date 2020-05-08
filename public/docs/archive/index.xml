@@ -15,6 +15,34 @@
     
     
     <item>
+      <title>Docs: Code7</title>
+      <link>/docs/archive/code7/</link>
+      <pubDate>Fri, 08 May 2020 08:36:20 -0500</pubDate>
+      
+      <guid>/docs/archive/code7/</guid>
+      <description>
+        
+        
+        &lt;p&gt;These were created with middle school students in mind. They were then used in an after school STEM program I ran for two years. &lt;a href=&#34;http://www.intellamech.com/code7/&#34;&gt;View on Intellamech&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Markdown slideshows</title>
+      <link>/docs/archive/markdown-slideshow/</link>
+      <pubDate>Fri, 08 May 2020 08:34:47 -0500</pubDate>
+      
+      <guid>/docs/archive/markdown-slideshow/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This is both a demonstration and a tutorial. The steps of how to are demonstrated in the &lt;a href=&#34;http://www.intellamech.com/pandoc/pandoc_reveal/&#34;&gt;slideshow from Intellamech&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Goat VMS</title>
       <link>/docs/archive/goat-vms/</link>
       <pubDate>Fri, 01 May 2020 12:02:56 -0500</pubDate>
@@ -1383,7 +1411,7 @@ Gruff Goat Information Services (GGIS) ceased operations as of December 2017. At
         
         
         &lt;h2 id=&#34;deprecated-assume-vulnerable&#34;&gt;Deprecated, assume vulnerable&lt;/h2&gt;
-&lt;p&gt;There is no support or documentation offered for any of my Joomla and WordPress components and plugins. If you are still using any of these, please assume that they have security vulnerabilities as there have been no updates to these for many years. Additionally, I no longer track or use these ecosystems.&lt;/p&gt;
+&lt;p&gt;There is no support or documentation offered for any of my Joomla and WordPress components and plugins. If you are still using any of these, please assume that they have security vulnerabilities as there have been no updates to these for many years. Additionally, I no longer track nor use these ecosystems.&lt;/p&gt;
 
       </description>
     </item>
