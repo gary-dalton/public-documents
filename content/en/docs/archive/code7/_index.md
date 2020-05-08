@@ -1,6 +1,6 @@
 ---
-title: "_Index"
-description: ""
+title: "Code7"
+description: "A series of slideshows that were created to complement and extend the code.org 20 hour courses."
 slug: ""
 image: ""
 keywords: ""
@@ -10,10 +10,8 @@ expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
-draft: true
-weight: 100
+draft: false
+weight: 10
 ---
 
-{{% pageinfo %}}
-This is a placeholder page.
-{{% /pageinfo %}}
+These were created with middle school students in mind. They were then used in an after school STEM program I ran for two years. [View on Intellamech](http://www.intellamech.com/code7/).

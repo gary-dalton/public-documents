@@ -16,4 +16,4 @@ weight: 100
 
 ## Deprecated, assume vulnerable
 
-There is no support or documentation offered for any of my Joomla and WordPress components and plugins. If you are still using any of these, please assume that they have security vulnerabilities as there have been no updates to these for many years. Additionally, I no longer track or use these ecosystems.
+There is no support or documentation offered for any of my Joomla and WordPress components and plugins. If you are still using any of these, please assume that they have security vulnerabilities as there have been no updates to these for many years. Additionally, I no longer track nor use these ecosystems.

@@ -11,7 +11,7 @@ layout: ""
 include_toc: true
 show_comments: false
 draft: false
-weight: 5
+weight: 20
 ---
 
 This is both a demonstration and a tutorial. The steps of how to are demonstrated in the [slideshow from Intellamech](http://www.intellamech.com/pandoc/pandoc_reveal/).
