@@ -245,6 +245,7 @@ There is the problem of theft or use of information for nefarious purposes.
 
 Share the database such that everyone has access to the data.
 
+Problems with localism and fragility?
 
 What to do here?
 
