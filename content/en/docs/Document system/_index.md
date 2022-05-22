@@ -54,9 +54,8 @@ There is a small learning curve to using Hugo, although much of that is conceptu
 The theme we choose to use, *Docsy*, requires the extended version of Hugo.
 
 * For Ubuntu, `sudo apt-get install hugo-extended`
-* For Windows, I use the [Chocolatey](https://chocolatey.org/) package manager.
-  * Install Chocolatey following the instructions at [Installing Chocolatey](https://chocolatey.org/install)
-  * Install Hugo with `choco install hugo-extended -confirm`.
+* For Windows, I use the most recent [binary](https://github.com/gohugoio/hugo/releases). Make certain it is the extended version
+  * Install by unzipping the file and placing it into a directory on your path.
 * Verify your installation with `hugo version`.
 
 Now read up on how to use Hugo. Don't read in too much detail but I especially recommend reading about the Directory Structure, Content Organization, Configuring Hugo and a little bit on Templating and Blocks.
@@ -69,7 +68,7 @@ One of the reasons to use Hugo is it is very easy to change the complete look an
 
 ### Install Docsy
 
-This follows the [Docsy readme](https://github.com/google/docsy#docsy)
+This follows the [Using Docsy as a Hugo Module](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/). I originally installed using submodules but updated the site to use as a module using [Migrate to Hugo Modules](https://www.docsy.dev/docs/updating/convert-site-to-module/).
 
 * We have already installed hugo-extended.
 * Nodejs is required. Check if it is installed using, `node -v`. If it is installed, no need to install it again.
@@ -78,16 +77,17 @@ This follows the [Docsy readme](https://github.com/google/docsy#docsy)
   * `sudo apt install nodejs`
   * `sudo apt install npm`
 * Install PostCss,
-  * `sudo npm install -D --save autoprefixer`
-  * `sudo npm install -D --save postcss-cli`
+  * `sudo npm install -D autoprefixer`
+  * `sudo npm install -D postcss-cli`
+  * `sudo npm install -D postcss`
 
 I chose to start my documentation system based on the [Docsy Example Project](https://www.docsy.dev/docs/getting-started/#option-1-clone-the-docsy-example-site). If you don't already have Git installed, [install it](/docs/development-environment/git/) now.
 
 * From the command line, navigate to the path into which you wish to clone the Docsy example.
 * `git clone https://github.com/google/docsy-example.git`
 * `cd docsy-example`
-* `git submodule update --init --recursive`
-* `npm install`
+
+Now preview the site using `hugo server`.
 
 ## Start using your system
 
