@@ -1,135 +1,104 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/docs/development-environment/linux/headless/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/overview/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/document-system/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/development-environment/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/archive/code7/</loc>
     <lastmod>2020-05-08T09:43:41-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/development-environment/linux/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/archive/markdown-slideshow/</loc>
     <lastmod>2020-05-08T09:43:41-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/development-environment/linux/data_science_platform/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/development-environment/windows/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blog/news/</loc>
     <lastmod>2020-04-23T19:21:48-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/archive/goat-vms/</loc>
     <lastmod>2020-05-08T09:43:41-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blog/thoughts/</loc>
     <lastmod>2020-04-23T19:21:48-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/blog/thoughts/fragments/</loc>
+    <lastmod>2020-06-19T23:05:40-05:00</lastmod>
+  </url><url>
     <loc>/docs/raspberry/</loc>
     <lastmod>2020-05-08T08:52:09-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/archive/wiki/</loc>
     <lastmod>2020-05-08T09:43:41-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/tips-and-tricks/</loc>
     <lastmod>2020-04-15T18:29:22-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/archive/joomla-wordpress/</loc>
     <lastmod>2020-05-08T09:43:41-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/docs/archive/</loc>
     <lastmod>2020-05-01T14:34:02-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/blog/2020/06/28/habits-01/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/26/grandmother-porth/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/23/truth-01/</loc>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/23/truth-02/</loc>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/21/gary-dalton-jr/</loc>
+    <lastmod>2020-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/19/grandfather-dalton/</loc>
+    <lastmod>2020-06-19T23:05:40-05:00</lastmod>
+  </url><url>
     <loc>/blog/2020/05/01/privacy-secrecy-and-data/</loc>
     <lastmod>2020-05-08T08:52:09-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blog/2020/04/27/my-philosophy/</loc>
     <lastmod>2020-04-27T18:44:17-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blog/2020/04/16/starting-my-documentation-site/</loc>
     <lastmod>2020-04-23T19:21:48-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/index.json</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/about/</loc>
     <lastmod>2020-04-17T10:30:58-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blog/</loc>
     <lastmod>2020-04-16T16:57:46-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/</loc>
     <lastmod>2020-04-17T10:30:58-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/search/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url>
-  
 </urlset>

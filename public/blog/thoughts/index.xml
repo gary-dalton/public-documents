@@ -15,6 +15,19 @@
     
     
     <item>
+      <title>Blog: Fragments</title>
+      <link>/blog/thoughts/fragments/</link>
+      <pubDate>Fri, 19 Jun 2020 23:05:40 -0500</pubDate>
+      
+      <guid>/blog/thoughts/fragments/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Privacy, Secrecy, and Data</title>
       <link>/blog/2020/05/01/privacy-secrecy-and-data/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
@@ -32,7 +45,7 @@
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/05/01/privacy-secrecy-and-data/idea01_hu2ac9fcdd3bca74dc43ac6b714441c14a_76285_400x0_resize_catmullrom_2.png&#34; width=&#34;400&#34; height=&#34;511&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/05/01/privacy-secrecy-and-data/idea01_hu2ac9fcdd3bca74dc43ac6b714441c14a_76285_400x0_resize_catmullrom_3.png&#34; width=&#34;400&#34; height=&#34;511&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -82,7 +95,9 @@
 
 &lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Data is power&lt;/h4&gt;
-With data we gain the power to effect change  and advantage in our world.
+
+    With data we gain the power to effect change  and advantage in our world.
+
 &lt;/div&gt;
 
 &lt;h2 id=&#34;we-have-unequal-access-to-data&#34;&gt;We have unequal access to data&lt;/h2&gt;
@@ -93,13 +108,15 @@ With data we gain the power to effect change  and advantage in our world.
 
 &lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Data disparity is harmful&lt;/h4&gt;
-Those without access to quality information can expect to make poorer decisions and lead less fulfilling, shorter, unhealthier, and poorer lives. This disparity also breaks down society, especially in trust relationships.
+
+    Those without access to quality information can expect to make poorer decisions and lead less fulfilling, shorter, unhealthier, and poorer lives. This disparity also breaks down society, especially in trust relationships.
+
 &lt;/div&gt;
 
 &lt;h2 id=&#34;lets-talk-about-quality&#34;&gt;Let&amp;rsquo;s talk about quality&lt;/h2&gt;
 &lt;p&gt;Quality data is accurate, timely, and complete. We rely on data to inform our decisions. Having quality data allows us to make better decisions faster and with a better understanding of all the things that might go wrong. Quality information is the new currency for opportunity.&lt;/p&gt;
 &lt;p&gt;Anything that degrades the quality of the data might be considered harmful. Sometimes data corruption is unavoidable. A heart rate monitor may be worn incorrectly or have a power failure. The clocks used to record separate but related data might not be synchronized.&lt;/p&gt;
-&lt;p&gt;It may be difficult to even know a problem exists if we do not record certain types of information. In 2016, I read &lt;a href=&#34;https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/&#34;&gt;The Vanishing of Canada’s First Nations Women&lt;/a&gt;. This article highlighted the problem of lack of data, &lt;em&gt;&amp;ldquo;Pearce enrolled in a doctoral program in law to research missing and murdered women but soon found that “there was nothing available to the public in terms of data” because police had never published national statistics.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It may be difficult to even know a problem exists if we do not record certain types of information. In 2016, I read &lt;a href=&#34;https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/&#34;&gt;The Vanishing of Canada’s First Nations Women&lt;/a&gt;. This article highlighted the problem of lack of data, &lt;em&gt;&amp;ldquo;Pearce enrolled in a doctoral program in law to research missing and murdered women but soon found that “there was nothing available to the public in terms of data” because police had never published national statistics.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Then, from the &lt;a href=&#34;http://www.uihi.org/wp-content/uploads/2018/11/Missing-and-Murdered-Indigenous-Women-and-Girls-Report.pdf&#34;&gt;Urban Indian Health Initiative report from 2018&lt;/a&gt;, &lt;em&gt;&amp;ldquo;As demonstrated by the findings of this study, reasons for the lack of quality data include under reporting, racial misclassification, poor relationships between law enforcement and American Indian and Alaska Native communities, poor record-keeping protocols, institutional racism in the media, and a lack of substantive relationships between journalists and American Indian and Alaska Native communities&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
 
 
@@ -109,7 +126,7 @@ Those without access to quality information can expect to make poorer decisions 
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 510px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/05/01/privacy-secrecy-and-data/mmiwg_hu83f9db29f3d474eb69a415f18a4ad97c_312798_500x0_resize_catmullrom_2.png&#34; width=&#34;500&#34; height=&#34;648&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/05/01/privacy-secrecy-and-data/mmiwg_hu83f9db29f3d474eb69a415f18a4ad97c_312798_500x0_resize_catmullrom_3.png&#34; width=&#34;500&#34; height=&#34;648&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -124,7 +141,9 @@ Those without access to quality information can expect to make poorer decisions 
 
 &lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Quality matters&lt;/h4&gt;
-Data is not enough, it must be accurate, timely, and complete to be truly useful. Poor quality data may be used as a lever of power.
+
+    Data is not enough, it must be accurate, timely, and complete to be truly useful. Poor quality data may be used as a lever of power.
+
 &lt;/div&gt;
 
 &lt;h2 id=&#34;intentionally-corrupt-data&#34;&gt;Intentionally corrupt data&lt;/h2&gt;
@@ -137,7 +156,9 @@ Data is not enough, it must be accurate, timely, and complete to be truly useful
 
 &lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Secrecy and privacy corrupt data and cause harm&lt;/h4&gt;
-We intentionally corrupt data to protect privacy and allow for secrets. We should try to minimize these corruptions.
+
+    We intentionally corrupt data to protect privacy and allow for secrets. We should try to minimize these corruptions.
+
 &lt;/div&gt;
 
 &lt;h2 id=&#34;the-dark-side-of-secrecy&#34;&gt;The dark side of secrecy&lt;/h2&gt;
@@ -166,7 +187,7 @@ the power which knowledge gives.” &amp;quot;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;There are situations when secrecy is needed, most notably in cases of national security. Secrecy should be the exception and not the rule. It should require a clear statement of why something should be secret and then it should be made public as soon as the requirement for secrecy has passed.&lt;/p&gt;
 &lt;p&gt;Secrecy hides the decision-making process and consolidates power to those holding the secrets. It keeps the people uninformed, limits participation, and allows for corruption to take root and grow unchecked. We must, in order to remain in a free and functioning democracy, vigilantly limit secrecy in government at all times.&lt;/p&gt;
-&lt;p&gt;Governments have a preference for secrecy and the ability to act without the people&amp;rsquo;s oversight. Thus secrecy is a slowly encroaching action of government and must be constantly guarded against. Yes, it is increasing now as Aftergood&amp;rsquo;s article from March 2020 states, &lt;em&gt;&amp;ldquo;The Department of Defense is quietly asking Congress to rescind the requirement to produce an unclassified version of the Future Years Defense Program (FYDP) database.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Governments have a preference for secrecy and the ability to act without the people&amp;rsquo;s oversight. Thus secrecy is a slowly encroaching action of government and must be constantly guarded against. Yes, it is increasing now as Aftergood&amp;rsquo;s article from March 2020 states, &lt;em&gt;&amp;ldquo;The Department of Defense is quietly asking Congress to rescind the requirement to produce an unclassified version of the Future Years Defense Program (FYDP) database.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Limiting secrecy applies not only to the government but also the great influencers of government and to the tools used by governments. For influencers of government, I include things like: lobbyists, donations, political action committees, and those groups or individuals that gain influence using money or shared secrets. Finally, increasing citizen participation in local governance is an excellent way to both keep aware of encroaching secrecy and to also reduce it. See more at &lt;a href=&#34;https://www.newamerica.org/political-reform/reports/global-answers-local-problems-lessons-civically-engaged-cities/&#34;&gt;Global Answers for Local Problems, Lessons from Civically Engaged Cities&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;in-the-business-world&#34;&gt;In the business world&lt;/h3&gt;
 &lt;p&gt;Honestly, this section needs more thought and development but here goes. Some ideas may be rather controversial because they feed into other not-fully developed thoughts I have on taxation policies. Another article in the future might address that issue but that is not as much in my core competencies as data is.&lt;/p&gt;
@@ -179,7 +200,9 @@ the power which knowledge gives.” &amp;quot;&lt;/p&gt;
 
 &lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Unchecked secrecy corrupts&lt;/h4&gt;
-Clearly, the founders of the United States knew secrecy in government was dangerous. We now also see that secrecy in business allows for hidden influence and the co-opting of the people&amp;rsquo;s privacy and power.
+
+    Clearly, the founders of the United States knew secrecy in government was dangerous. We now also see that secrecy in business allows for hidden influence and the co-opting of the people&amp;rsquo;s privacy and power.
+
 &lt;/div&gt;
 
 &lt;h2 id=&#34;privacys-offsetting-benefits&#34;&gt;Privacy&amp;rsquo;s offsetting benefits&lt;/h2&gt;
@@ -228,7 +251,9 @@ organizations.&lt;/li&gt;
 
 &lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Privacy enhances people and society&lt;/h4&gt;
-The overall impression from this list is that privacy is both for the individual and for society. The benefits of privacy for the individual protects their physical, emotional, spiritual, and intellectual space. The benefits for society enhance innovation, equality, justice, involvement, and decrease conflict.
+
+    The overall impression from this list is that privacy is both for the individual and for society. The benefits of privacy for the individual protects their physical, emotional, spiritual, and intellectual space. The benefits for society enhance innovation, equality, justice, involvement, and decrease conflict.
+
 &lt;/div&gt;
 
 &lt;h2 id=&#34;how-much-privacy-do-we-have&#34;&gt;How much privacy do we have?&lt;/h2&gt;
@@ -239,7 +264,9 @@ The overall impression from this list is that privacy is both for the individual
 
 &lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Privacy is false anyway&lt;/h4&gt;
-Our data is out there. The question has become: who is using it?
+
+    Our data is out there. The question has become: who is using it?
+
 &lt;/div&gt;
 
 &lt;h2 id=&#34;the-proposal&#34;&gt;The proposal&lt;/h2&gt;
@@ -328,7 +355,9 @@ organizations.&lt;/li&gt;
 
 &lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Privacy is mutable&lt;/h4&gt;
-Making some changes in our perceived privacy will have benefits that outweigh the costs.
+
+    Making some changes in our perceived privacy will have benefits that outweigh the costs.
+
 &lt;/div&gt;
 
 
@@ -342,7 +371,9 @@ Making some changes in our perceived privacy will have benefits that outweigh th
 
 &lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;AI is the game changer&lt;/h4&gt;
-With data we gain the power to effect change  and advantage in our world.
+
+    With data we gain the power to effect change  and advantage in our world.
+
 &lt;/div&gt;
 
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
@@ -357,7 +388,7 @@ With data we gain the power to effect change  and advantage in our world.
 &lt;p&gt;Gilman, Hollie, and Elena Souris. “Global Answers for Local Problems, Lessons from Civically Engaged Cities.” New America, 12 Feb. 2020, &lt;a href=&#34;http://www.newamerica.org/political-reform/reports/global-answers-local-problems-lessons-civically-engaged-cities/&#34;&gt;http://www.newamerica.org/political-reform/reports/global-answers-local-problems-lessons-civically-engaged-cities/&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Guariglia, Matthew, et al. “PATRIOT Act.” Electronic Frontier Foundation, &lt;a href=&#34;http://www.eff.org/issues/patriot-act&#34;&gt;www.eff.org/issues/patriot-act&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Guariglia, Matthew, et al. “PATRIOT Act.” Electronic Frontier Foundation, &lt;a href=&#34;https://www.eff.org/issues/patriot-act&#34;&gt;www.eff.org/issues/patriot-act&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Magi, Trina J. “Fourteen Reasons Privacy Matters: A Multidisciplinary Review of Scholarly Literature.” The Library Quarterly: Information, Community, Policy, vol. 81, no. 2, 2011, pp. 187–209. JSTOR, &lt;a href=&#34;https://www.jstor.org/stable/10.1086/658870&#34;&gt;https://www.jstor.org/stable/10.1086/658870&lt;/a&gt;. Accessed 24 Apr. 2020.&lt;/p&gt;

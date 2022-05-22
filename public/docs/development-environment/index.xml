@@ -31,7 +31,9 @@
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
-During installation of Ubuntu, make certain you are able to connect using wifi. Wifi often uses proprietary drivers that must be installed while connected to the internet.
+
+    During installation of Ubuntu, make certain you are able to connect using wifi. Wifi often uses proprietary drivers that must be installed while connected to the internet.
+
 &lt;/div&gt;
 
 &lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
@@ -41,8 +43,8 @@ During installation of Ubuntu, make certain you are able to connect using wifi. 
 &lt;li&gt;Check the version, &lt;code&gt;git --version&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Configure git,&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;git config --global user.name &amp;quot;Your Name&amp;quot;
-git config --global user.email &amp;quot;youremail@domain.com&amp;quot;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;#34;Your Name&amp;#34;
+git config --global user.email &amp;#34;youremail@domain.com&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For help on &lt;a href=&#34;https://git-scm.com/doc&#34;&gt;using git&lt;/a&gt;, see my &lt;a href=&#34;/docs/tips-and-tricks/#git&#34;&gt;Tips and tricks&lt;/a&gt;&lt;/p&gt;
 
       </description>
@@ -91,15 +93,18 @@ git config --global user.email &amp;quot;youremail@domain.com&amp;quot;
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
-&lt;strong&gt;Do not lose your private keys. Once the next configuration steps are complete, your private key and password are required to login remotely.&lt;/strong&gt; You will still be able to login from the console or with a keyboard and monitor.
+
+    &lt;strong&gt;Do not lose your private keys. Once the next configuration steps are complete, your private key and password are required to login remotely.&lt;/strong&gt; You will still be able to login from the console or with a keyboard and monitor.
+
 &lt;/div&gt;
 
 &lt;h3 id=&#34;tigervnc-for-remote-desktop&#34;&gt;TigerVNC for remote desktop&lt;/h3&gt;
 &lt;p&gt;TigerVNC is used to connect to a desktop on a remote Linux server.&lt;/p&gt;
 &lt;h4 id=&#34;install-tigervnc-and-connect&#34;&gt;Install TigerVNC and connect&lt;/h4&gt;
 &lt;p&gt;Download a &lt;a href=&#34;https://github.com/TigerVNC/tigervnc/releases&#34;&gt;vncviewer binary for Windows&lt;/a&gt;. The name of the file is likely &lt;em&gt;vncviewer-ver.exe&lt;/em&gt;. Download the file to a location of your choice (I use C:\bin). Create a shortcut on the desktop and click to start the viewer.&lt;/p&gt;
+
 &lt;figure&gt;
-    &lt;img src=&#34;tigervnc.png&#34;
+    &lt;img src=&#34;/docs/development-environment/windows/tigervnc.png&#34;
          alt=&#34;TigerVNC viewer on Windows&#34;/&gt; &lt;figcaption&gt;
             &lt;p&gt;TigerVNC viewer on Windows&lt;/p&gt;
         &lt;/figcaption&gt;

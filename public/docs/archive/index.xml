@@ -56,12 +56,12 @@
 &lt;p&gt;Local file is file:///d:/Downloads/XML/Specifications/HR-XML-2004-08/HR-XML-2_3/index.html. Review Consortium Approved Shared Components (CPOs) section first.&lt;/p&gt;
 &lt;h3 id=&#34;table-design&#34;&gt;Table Design&lt;/h3&gt;
 &lt;p&gt;Each descriptor has a main table defined for it unless otherwise noted. Some of the fields within the descriptors tables may have mutliple values and these are stored in a sub-table.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;CREATE TABLE `sub_TableName` (
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CREATE TABLE `sub_TableName` (
   `subID` mediumint(8) unsigned NOT NULL auto_increment,
-  `mainID` mediumint(8) unsigned NOT NULL default &#39;0&#39;,
-  `fieldName` varchar(100) NOT NULL default &#39;&#39;,
+  `mainID` mediumint(8) unsigned NOT NULL default &amp;#39;0&amp;#39;,
+  `fieldName` varchar(100) NOT NULL default &amp;#39;&amp;#39;,
   `fieldValue` text NOT NULL,
-  `isDefault` smallint(2) NOT NULL default &#39;0&#39;,
+  `isDefault` smallint(2) NOT NULL default &amp;#39;0&amp;#39;,
   PRIMARY KEY  (`subID`),
   KEY `PersonNameID` (`mainID`,`fieldName`)
 )
@@ -959,12 +959,12 @@
 &lt;h2 id=&#34;track-changes-within-the-database&#34;&gt;Track Changes Within the Database&lt;/h2&gt;
 &lt;p&gt;Two tables are used to track changes (audit) made to data fields within goatVMS. These are borrowed from the excellent work done by &lt;a href=&#34;http://www.tonymarston.net/php-mysql/auditlog.html&#34;&gt;Tony Marston&lt;/a&gt;. The two tables are AUDIT_HDR and AUDIT_DTL. They are defined thusly.&lt;/p&gt;
 &lt;h3 id=&#34;audit_hdr&#34;&gt;AUDIT_HDR&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;CREATE TABLE `audit_hdr` (
-  `session_id` varchar(32) NOT NULL default &#39;&#39;,
-  `tran_seq_no` smallint(6) NOT NULL default &#39;0&#39;,
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CREATE TABLE `audit_hdr` (
+  `session_id` varchar(32) NOT NULL default &amp;#39;&amp;#39;,
+  `tran_seq_no` smallint(6) NOT NULL default &amp;#39;0&amp;#39;,
   `user_id` varchar(16) default NULL,
-  `date` date NOT NULL default &#39;0000-00-00&#39;,
-  `time` time NOT NULL default &#39;00:00:00&#39;,
+  `date` date NOT NULL default &amp;#39;0000-00-00&amp;#39;,
+  `time` time NOT NULL default &amp;#39;00:00:00&amp;#39;,
   `task_id` varchar(32) default NULL,
   PRIMARY KEY  (`session_id`,`tran_seq_no`),
   KEY `user_id` (`user_id`)
@@ -1008,10 +1008,10 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;audit_dtl&#34;&gt;AUDIT_DTL&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;CREATE TABLE `audit_dtl` (
-  `session_id` varchar(32) NOT NULL default &#39;&#39;,
-  `tran_seq_no` smallint(6) NOT NULL default &#39;0&#39;,
-  `table_seq_no` smallint(6) NOT NULL default &#39;0&#39;,
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CREATE TABLE `audit_dtl` (
+  `session_id` varchar(32) NOT NULL default &amp;#39;&amp;#39;,
+  `tran_seq_no` smallint(6) NOT NULL default &amp;#39;0&amp;#39;,
+  `table_seq_no` smallint(6) NOT NULL default &amp;#39;0&amp;#39;,
   `base_name` varchar(32) default NULL,
   `table_name` varchar(32) default NULL,
   `pkey` varchar(255) default NULL,
@@ -1053,7 +1053,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;PKEY&lt;/td&gt;
-&lt;td&gt;Primary Key. The primary key of the database record, shown in the format of the WHERE clause of an sql SELECT statement, as in field=&#39;value&amp;rsquo; AND field=&#39;value&amp;rsquo;.&lt;/td&gt;
+&lt;td&gt;Primary Key. The primary key of the database record, shown in the format of the WHERE clause of an sql SELECT statement, as in field=&amp;lsquo;value&amp;rsquo; AND field=&amp;lsquo;value&amp;rsquo;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;BEFORE_DATA&lt;/td&gt;
@@ -1082,7 +1082,9 @@
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;GGIS is no more&lt;/h4&gt;
-Gruff Goat Information Services (GGIS) ceased operations as of December 2017. At this time, only a few former clients are still receiving pro-bono support and these are slowly migrating to other services.
+
+    Gruff Goat Information Services (GGIS) ceased operations as of December 2017. At this time, only a few former clients are still receiving pro-bono support and these are slowly migrating to other services.
+
 &lt;/div&gt;
 
 &lt;h2 id=&#34;how-to-email-configuration-for-outlook-2002&#34;&gt;How-to: Email Configuration for Outlook 2002&lt;/h2&gt;

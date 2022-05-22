@@ -28,7 +28,9 @@
 
 &lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
 
-The install of OpenSSH mostly follows the &lt;a href=&#34;https://help.ubuntu.com/lts/serverguide/openssh-server.html&#34;&gt;Ubuntu guide&lt;/a&gt;.
+
+    The install of OpenSSH mostly follows the &lt;a href=&#34;https://help.ubuntu.com/lts/serverguide/openssh-server.html&#34;&gt;Ubuntu guide&lt;/a&gt;.
+
 &lt;/div&gt;
 
 &lt;ul&gt;
@@ -42,12 +44,12 @@ The install of OpenSSH mostly follows the &lt;a href=&#34;https://help.ubuntu.co
 &lt;li&gt;Edit the configuration file, &lt;code&gt;sudo nano /etc/ssh/sshd_config&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Add the following to the configuration file while insuring that no other matching parameter is uncommented.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;PermitRootLogin no
-PubkeyAuthentication yes
-UsePAM yes
-X11Forwarding yes
-AllowUsers your-user-name
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PermitRootLogin no
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PubkeyAuthentication yes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;UsePAM yes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;X11Forwarding yes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AllowUsers your-user-name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Restart the service, &lt;code&gt; sudo service sshd restart&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Make certain you are able to connect to the server remotely before adding public key authentication.&lt;/p&gt;
@@ -60,7 +62,9 @@ AllowUsers your-user-name
 
 &lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
 
-More than you ever need to know about &lt;a href=&#34;https://wiki.archlinux.org/index.php/SSH_keys&#34;&gt;SSH keys from archlinux&lt;/a&gt;.
+
+    More than you ever need to know about &lt;a href=&#34;https://wiki.archlinux.org/index.php/SSH_keys&#34;&gt;SSH keys from archlinux&lt;/a&gt;.
+
 &lt;/div&gt;
 
 &lt;p&gt;Since I am connecting from a Windows machine, see &lt;a href=&#34;/docs/development-environment/windows/#putty&#34;&gt;Windows PuTTY&lt;/a&gt;. This covers generating the key pair and connecting to Linux from Windows.&lt;/p&gt;
@@ -69,7 +73,7 @@ More than you ever need to know about &lt;a href=&#34;https://wiki.archlinux.org
 &lt;li&gt;Open the configuration file, &lt;code&gt;sudo nano /etc/ssh/sshd_config&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Add or edit the following lines to the file and save:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;PasswordAuthentication no
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PasswordAuthentication no
 UsePAM no
 PubkeyAuthentication yes
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
@@ -82,7 +86,9 @@ PubkeyAuthentication yes
 
 &lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
 
-For complete details view the &lt;a href=&#34;https://wiki.archlinux.org/index.php?title=TigerVNC&#34;&gt;archlinux TigerVNC guide&lt;/a&gt;.
+
+    For complete details view the &lt;a href=&#34;https://wiki.archlinux.org/index.php?title=TigerVNC&#34;&gt;archlinux TigerVNC guide&lt;/a&gt;.
+
 &lt;/div&gt;
 
 &lt;p&gt;This install uses TigerVNC, which is an actively maintained fork of the venerable TightVNC.&lt;/p&gt;
@@ -93,9 +99,9 @@ For complete details view the &lt;a href=&#34;https://wiki.archlinux.org/index.p
 &lt;li&gt;The first time you run this command, you will be asked to set a password. For basic security, please do set a password.&lt;/li&gt;
 &lt;li&gt;Upon success, you should see something like:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;Cleaning stale pidfile &#39;/home/user/.vnc/hostname:1.pid&#39;!
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Cleaning stale pidfile &amp;#39;/home/user/.vnc/hostname:1.pid&amp;#39;!
 
-New &#39;hostname:1 (user)&#39; desktop at :1 on machine hostname
+New &amp;#39;hostname:1 (user)&amp;#39; desktop at :1 on machine hostname
 
 Starting applications specified in /home/user/.vnc/Xvnc-session
 Log file is /home/user/.vnc/hostname:1.log
@@ -105,7 +111,7 @@ Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/user/.vnc/passwd
 &lt;li&gt;Verify it is listening for connections, &lt;code&gt;sudo netstat -tpln&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;The result of this command should be similar to the below. Specifically, note that Xtigervnc is listening on &lt;em&gt;0.0.0.0:5901&lt;/em&gt; and &lt;em&gt;:::5901&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;Active Internet connections (only servers)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
 tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      604/systemd-resolve
 tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      831/sshd
@@ -114,15 +120,14 @@ tcp        0      0 0.0.0.0:5901            0.0.0.0:*               LISTEN      
 tcp6       0      0 :::22                   :::*                    LISTEN      831/sshd
 tcp6       0      0 ::1:631                 :::*                    LISTEN      694/cupsd
 tcp6       0      0 :::5901                 :::*                    LISTEN      1345/Xtigervnc
-
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;Go to your client machine and verify the ability to connect.&lt;/li&gt;
 &lt;li&gt;If you are having firewall problems see the &lt;a href=&#34;https://help.ubuntu.com/lts/serverguide/firewall.html&#34;&gt;Ubuntu firewall guide&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Kill the server, &lt;code&gt;vncserver -kill :1&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Edit the configuration, &lt;code&gt;sudo nano  /etc/vnc.conf&lt;/code&gt;, by changing the parameters to:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;$localhost = &amp;quot;no&amp;quot;;
-$SecurityTypes = &amp;quot;VncAuth,TLSVnc&amp;quot;;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$localhost = &amp;#34;no&amp;#34;;
+$SecurityTypes = &amp;#34;VncAuth,TLSVnc&amp;#34;;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now, anytime you wish to connect to a virtual desktop,&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Use SSH to login.&lt;/li&gt;
@@ -136,7 +141,9 @@ $SecurityTypes = &amp;quot;VncAuth,TLSVnc&amp;quot;;
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
 
-You must first physically login to the actual desktop and remain logged in.
+
+    You must first physically login to the actual desktop and remain logged in.
+
 &lt;/div&gt;
 
 &lt;ul&gt;
@@ -180,7 +187,7 @@ You must first physically login to the actual desktop and remain logged in.
 &lt;li&gt;Start a new session.&lt;/li&gt;
 &lt;li&gt;Connect your user to the base environment&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;source /opt/anaconda3/bin/activate
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;source /opt/anaconda3/bin/activate
 conda init
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;Restart your session again.&lt;/li&gt;
@@ -216,10 +223,10 @@ conda init
 &lt;li&gt;Create a default configuration, &lt;code&gt;jupyterhub --generate-config&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Edit the configuration file. &lt;code&gt;nano jupyterhub_config.py&lt;/code&gt; by adding,&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;c.JupyterHub.bind_url = &#39;http://0.0.0.0:8000&#39;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;c.JupyterHub.bind_url = &amp;#39;http://0.0.0.0:8000&amp;#39;
 c.JupyterHub.concurrent_spawn_limit = 20
 c.JupyterHub.port = 8000
-c.JupyterHub.authenticator_class = &#39;jupyterhub.auth.PAMAuthenticator&#39;
+c.JupyterHub.authenticator_class = &amp;#39;jupyterhub.auth.PAMAuthenticator&amp;#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;Move the configuration, &lt;code&gt;mv jupyterhub_config.py /etc/jupyterhub/jupyterhub_config.py&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -233,13 +240,13 @@ c.JupyterHub.authenticator_class = &#39;jupyterhub.auth.PAMAuthenticator&#39;
 &lt;/li&gt;
 &lt;li&gt;Assuming Anaconda 3 was installed multi-user into &lt;em&gt;/opt/anaconda3&lt;/em&gt;. If you&amp;rsquo;re not sure, you may check location with, &lt;code&gt;which jupyterhub&lt;/code&gt;.  And assuming that the jupyterhub configuration file is &lt;em&gt;/etc/jupyterhub/jupyterhub_config.py&lt;/em&gt;. Add the following to the configuration:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;[Unit]
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Unit]
 Description=Jupyterhub
 After=syslog.target network.target
 
 [Service]
 User=root
-Environment=&amp;quot;PATH=/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/opt/anaconda3/bin&amp;quot;
+Environment=&amp;#34;PATH=/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/opt/anaconda3/bin&amp;#34;
 ExecStart=/opt/anaconda3/bin/jupyterhub -f /etc/jupyterhub/jupyterhub_config.py
 
 [Install]
@@ -428,6 +435,11 @@ Reboot the computer to verify that changes are permanent.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;add JuMP Turing JuliaDB&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;interact&#34;&gt;Interact&lt;/h3&gt;
+&lt;p&gt;To use interactive plots, a bit more work needs to be done.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;conda install nodejs&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;TensorFlow is not yet working.&lt;/p&gt;
 
