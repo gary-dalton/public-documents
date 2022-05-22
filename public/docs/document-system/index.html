@@ -40,8 +40,8 @@
 
 
 
-<link rel="preload" href="/scss/main.min.937c13c28665d99b02207771e5feb84de69365957c53b56e95bea4079566e84a.css" as="style">
-<link href="/scss/main.min.937c13c28665d99b02207771e5feb84de69365957c53b56e95bea4079566e84a.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.646b2df8ee5206ecb672d0d492616e60190ac194b6b38ffbd03d88207322d1e1.css" as="style">
+<link href="/scss/main.min.646b2df8ee5206ecb672d0d492616e60190ac194b6b38ffbd03d88207322d1e1.css" rel="stylesheet" integrity="">
 
 <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -323,10 +323,9 @@ if (!doNotTrack) {
 <p>The theme we choose to use, <em>Docsy</em>, requires the extended version of Hugo.</p>
 <ul>
 <li>For Ubuntu, <code>sudo apt-get install hugo-extended</code></li>
-<li>For Windows, I use the <a href="https://chocolatey.org/">Chocolatey</a> package manager.
+<li>For Windows, I use the most recent <a href="https://github.com/gohugoio/hugo/releases">binary</a>. Make certain it is the extended version
 <ul>
-<li>Install Chocolatey following the instructions at <a href="https://chocolatey.org/install">Installing Chocolatey</a></li>
-<li>Install Hugo with <code>choco install hugo-extended -confirm</code>.</li>
+<li>Install by unzipping the file and placing it into a directory on your path.</li>
 </ul>
 </li>
 <li>Verify your installation with <code>hugo version</code>.</li>
@@ -336,7 +335,7 @@ if (!doNotTrack) {
 <p>Learn more about <a href="https://www.docsy.dev/">Docsy</a>.</p>
 <p>One of the reasons to use Hugo is it is very easy to change the complete look and feel of a website using templates. The Docsy template is designed for websites that are mostly devoted to documentation.</p>
 <h3 id="install-docsy">Install Docsy</h3>
-<p>This follows the <a href="https://github.com/google/docsy#docsy">Docsy readme</a></p>
+<p>This follows the <a href="https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/">Using Docsy as a Hugo Module</a>. I originally installed using submodules but updated the site to use as a module using <a href="https://www.docsy.dev/docs/updating/convert-site-to-module/">Migrate to Hugo Modules</a>.</p>
 <ul>
 <li>We have already installed hugo-extended.</li>
 <li>Nodejs is required. Check if it is installed using, <code>node -v</code>. If it is installed, no need to install it again.</li>
@@ -349,8 +348,9 @@ if (!doNotTrack) {
 </li>
 <li>Install PostCss,
 <ul>
-<li><code>sudo npm install -D --save autoprefixer</code></li>
-<li><code>sudo npm install -D --save postcss-cli</code></li>
+<li><code>sudo npm install -D autoprefixer</code></li>
+<li><code>sudo npm install -D postcss-cli</code></li>
+<li><code>sudo npm install -D postcss</code></li>
 </ul>
 </li>
 </ul>
@@ -359,9 +359,8 @@ if (!doNotTrack) {
 <li>From the command line, navigate to the path into which you wish to clone the Docsy example.</li>
 <li><code>git clone https://github.com/google/docsy-example.git</code></li>
 <li><code>cd docsy-example</code></li>
-<li><code>git submodule update --init --recursive</code></li>
-<li><code>npm install</code></li>
 </ul>
+<p>Now preview the site using <code>hugo server</code>.</p>
 <h2 id="start-using-your-system">Start using your system</h2>
 <p>Read the documentation from both <a href="https://gohugo.io/documentation/">Hugo</a> and <a href="https://www.docsy.dev/docs/">Docsy</a> to get an understanding of how to organize and create new pages. Sometimes, it is useful to review the <a href="https://example.docsy.dev/">Docsy example</a>.</p>
 <p>Archetype files are those which control the content of newly added pages. Create a new folder named archetypes, then create a new page named default.md within that folder. Add the following and save the file.</p>
