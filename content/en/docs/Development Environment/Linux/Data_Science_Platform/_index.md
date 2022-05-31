@@ -254,6 +254,13 @@ I like functionality and Julia packages add great functionality. For the ability
 * Others,
     * `add JuMP Turing JuliaDB`.
 
+### Interact
+
+To use interactive plots, a bit more work needs to be done.
+
+* `conda install nodejs`
+
+
 
 
 TensorFlow is not yet working.
