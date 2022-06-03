@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Gary's Docs"
+title = "Werk Space"
 
 enableRobotsTXT = true
 
@@ -53,7 +53,7 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Garys Docs"
+title = "Werk Space"
 description = "The gathering place for all of Gary's Documentations."
 languageName ="English"
 # Weight used for sorting.

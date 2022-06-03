@@ -126,6 +126,21 @@ All new pages you add using Hugo are added into the content folder. Think about 
 hugo new "docs/Document system/_index.md"
 ```
 
+## Tips and Tricks
+
+### Correct directory
+
+All actions with Hugo or git must be performed from the correct directory.
+
+* `cd /path/to/my-existing-site`
+
+### Module refresh
+
+If the template suddenly does not seem to be working, the module may need to be refreshed. This can be done with the following commands
+
+* `hugo mod clean`
+* `hugo mod get -u github.com/google/docsy`
+
 ## Git and hosting
 
 Not yet performed.

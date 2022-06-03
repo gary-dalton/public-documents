@@ -1,6 +1,13 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
+linkTitle: "{{ replace .TranslationBaseName "-" " " | title }}"
+author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
 description: ""
+resources:
+- src: ""
+  title: ""
+  params:
+    byline: "Photo: Gary Dalton / CC-BY-CA"
 slug: ""
 image: ""
 keywords: ""
