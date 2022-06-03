@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Garys Docs – Development environment</title>
+    <title>Werk Space – Development environment</title>
     <link>/docs/development-environment/</link>
-    <description>Recent content in Development environment on Garys Docs</description>
+    <description>Recent content in Development environment on Werk Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 08 Apr 2020 09:58:56 -0500</lastBuildDate>
     
@@ -13,6 +13,20 @@
         
       
     
+    
+    <item>
+      <title>Docs: The Julia Programming Language</title>
+      <link>/docs/development-environment/julia/</link>
+      <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/development-environment/julia/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Use Julia for the great majority of programming work. I am conversant in other languages, especially Python but Julia takes the prize for speed and ease of use. Get it from &lt;a href=&#34;https://julialang.org/&#34;&gt;Julia&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>Docs: Linux</title>

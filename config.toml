@@ -63,7 +63,7 @@ weight = 1
 # description = "Docsy er operativsystem for skyen"
 # languageName ="Norsk"
 # contentDir = "content/no"
-# time_format_default = "02.01.2006"
+# time_format_default = "02-01-2006"
 # time_format_blog = "02.01.2006"
 
 [markup]
@@ -99,7 +99,7 @@ version = "0.0"
 url_latest_version = "https://werkspc.com/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-#github_repo = "https://github.com/google/docsy-example"
+github_repo = "https://https://github.com/gary-dalton/public-documents"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/google/docsy"
 
@@ -133,7 +133,7 @@ footer_about_disable = false
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
 [params.ui.feedback]
-enable = true
+enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it! Please <a href="https://github.com/gary-dalton/public-documents/issues/new">tell us how we can improve</a>.'
 no = 'Sorry to hear that. Please <a href="https://github.com/gary-dalton/public-documents/issues/new">tell us how we can improve</a>.'
