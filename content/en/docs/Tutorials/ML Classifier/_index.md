@@ -28,3 +28,5 @@ The objective of this tutorial is to build a simple image classifier that pulls 
 Handsigns for 1, 2, and 3.
 {{< /imgproc >}}
 
+All of the code used for this project will be maintained in the file, handsign-class.jl. This is a Julia language file.
+

@@ -20,7 +20,7 @@ draft: false
 weight: 20
 ---
 
-Making the image dataset is tedious but important. High quality datasets are essential for building a highly performant models. For this tutorial we will use 300 hand sign image files. One hundred for each of rank 1, 2, and 3.
+Making the image dataset is tedious but important. High quality datasets are essential for building a highly performant models. For this tutorial we will use 500 hand sign image files. One hundred for each of rank 1, 2, 3, 4, and 5. Additionally, you will need 100 or more images that are not ranked.
 
 {{< imgproc handsigns Resize "400x" >}}
 Example handsigns for 1, 2, and 3.
@@ -28,7 +28,7 @@ Example handsigns for 1, 2, and 3.
 
 ## Image information
 
-Each image will be a jpg file with a color resolution of 256 x 256. Each image will be labeled with the appropriate rank. In our case we allow only 1 rank per image. Labels are used to help identify components in your data which you want to train your model to identify in datasets that are not labeled.
+Each image will be a jpg file with a color resolution of 256x256. Each image will be labeled with the appropriate rank. In our case we allow only 1 rank per image. Labels are used to help identify components in your data which you want to train your model to identify in datasets that are not labeled.
 
 ## Obtaining images
 
@@ -38,24 +38,68 @@ I take my photos on my smartphone and have them auto-upload into Google Photos. 
 
 Create a folder, _../datasets/rank_, and unzip the images to this folder. Now use the _Images_ library in julia to resize or otherwise transform the images.
 
-## Sizing images
+### Background image set
+We also need a set of images that contain no ranking information. Use a variety of images that you already have to create this set. I place these into _../datasets/rank/not_.
 
-With all of the images in the denoted folder, use the following Julia snippet to resize them.
+## Julia code
+Here is the image manipulation code used to extend the image library and to resize images.
 
     using Images
     using FileIO
     using Glob
 
-    img_path = "D:/datasets/rank"
-    filelist = glob("*.jpg", img_path)
-
-    for item in filelist
-        img = load(item)
-        img = imresize(img, (256,256))
-        save(item, img)
+    function resize_files(filelist, x=256, y=256)
+        for item in filelist
+            img = load(item)
+            img = imresize(img, (x, y))
+            save(splitext(item)[1] * "256x256" * splitext(item)[2], img)
+        end
     end
 
-The original files are still available in the zip file but now all of the files have been resized.
+    function hflip_files(filelist)
+        for item in filelist
+            img = load(item)
+            img = reverse(img, dims= 2)
+            save(splitext(item)[1] * "h" * splitext(item)[2], img)
+        end
+    end
+
+    function vflip_files(filelist)
+        for item in filelist
+            img = load(item)
+            img = reverse(img, dims= 1)
+            save(splitext(item)[1] * "v" * splitext(item)[2], img)
+        end
+    end
+
+## Extending image count
+
+For this dataset, it should be easy to get the number of images you need for the classifier. For some datasets it is a challenge to have a sufficient set of data. In this case, it is possible to extend the images via reflection and rotation.
+
+### Flip horizontal
+I put files to be flipped horizontally into _../datasets/rank/hflip_. Now flip with this snippet,
+
+    img_path = "D:/datasets/rank/hflip"
+    filelist = glob("*.jpg", img_path)
+    hflip_files(filelist)
+
+### Flip vertically
+I put files to be flipped vertically into _../datasets/rank/vflip_. Now flip with this snippet,
+
+    img_path = "D:/datasets/rank/vflip"
+    filelist = glob("*.jpg", img_path)
+    vflip_files(filelist)
+
+## Sizing images
+Now copy all images that you will use into _../datasets/rank/resize_, to be resized. You should have at least 600 files at this point.
+
+With all of the images in the denoted folder, use the following Julia snippet to resize them.
+
+    img_path = "D:/datasets/rank/resize"
+    filelist = glob("*.jpg", img_path)
+    resize_files(filelist)
+
+Delete all files from this folder that are not 256x256.
 
 ## Labeling images
 
