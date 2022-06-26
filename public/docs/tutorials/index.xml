@@ -42,6 +42,7 @@ Handsigns for 1, 2, and 3.
 	&lt;/div&gt;
 	
 &lt;/div&gt;
+&lt;p&gt;All of the code used for this project will be maintained in the file, handsign-class.jl. This is a Julia language file.&lt;/p&gt;
 
       </description>
     </item>

@@ -215,7 +215,18 @@ if (!doNotTrack) {
 <nav id="TableOfContents">
   <ul>
     <li><a href="#image-information">Image information</a></li>
-    <li><a href="#obtaining-images">Obtaining images</a></li>
+    <li><a href="#obtaining-images">Obtaining images</a>
+      <ul>
+        <li><a href="#background-image-set">Background image set</a></li>
+      </ul>
+    </li>
+    <li><a href="#julia-code">Julia code</a></li>
+    <li><a href="#extending-image-count">Extending image count</a>
+      <ul>
+        <li><a href="#flip-horizontal">Flip horizontal</a></li>
+        <li><a href="#flip-vertically">Flip vertically</a></li>
+      </ul>
+    </li>
     <li><a href="#sizing-images">Sizing images</a></li>
     <li><a href="#labeling-images">Labeling images</a>
       <ul>
@@ -289,7 +300,7 @@ if (!doNotTrack) {
 
 		
 	</header>
-	<p>Making the image dataset is tedious but important. High quality datasets are essential for building a highly performant models. For this tutorial we will use 300 hand sign image files. One hundred for each of rank 1, 2, and 3.</p>
+	<p>Making the image dataset is tedious but important. High quality datasets are essential for building a highly performant models. For this tutorial we will use 500 hand sign image files. One hundred for each of rank 1, 2, 3, 4, and 5. Additionally, you will need 100 or more images that are not ranked.</p>
 
 
 
@@ -308,27 +319,65 @@ Example handsigns for 1, 2, and 3.
 	
 </div>
 <h2 id="image-information">Image information</h2>
-<p>Each image will be a jpg file with a color resolution of 256 x 256. Each image will be labeled with the appropriate rank. In our case we allow only 1 rank per image. Labels are used to help identify components in your data which you want to train your model to identify in datasets that are not labeled.</p>
+<p>Each image will be a jpg file with a color resolution of 256x256. Each image will be labeled with the appropriate rank. In our case we allow only 1 rank per image. Labels are used to help identify components in your data which you want to train your model to identify in datasets that are not labeled.</p>
 <h2 id="obtaining-images">Obtaining images</h2>
 <p>Set your camera to a low resolution (it will still be higher than 256x256) and a 1 to 1 aspect ratio. The aspect ratio gives a square image file. Take photos of the ranking handsigns. These photos should cover a wide range of image angles, hand positions, lighting conditions, different hands, various backgrounds, and varied additional context.</p>
 <p>I take my photos on my smartphone and have them auto-upload into Google Photos. From there, I select the set of images and download to my computer as a zip file. Then I delete the images from my phone and Google Photos, to conserve memory.</p>
 <p>Create a folder, <em>../datasets/rank</em>, and unzip the images to this folder. Now use the <em>Images</em> library in julia to resize or otherwise transform the images.</p>
-<h2 id="sizing-images">Sizing images</h2>
-<p>With all of the images in the denoted folder, use the following Julia snippet to resize them.</p>
+<h3 id="background-image-set">Background image set</h3>
+<p>We also need a set of images that contain no ranking information. Use a variety of images that you already have to create this set. I place these into <em>../datasets/rank/not</em>.</p>
+<h2 id="julia-code">Julia code</h2>
+<p>Here is the image manipulation code used to extend the image library and to resize images.</p>
 <pre><code>using Images
 using FileIO
 using Glob
 
-img_path = &quot;D:/datasets/rank&quot;
-filelist = glob(&quot;*.jpg&quot;, img_path)
+function resize_files(filelist, x=256, y=256)
+    for item in filelist
+        img = load(item)
+        img = imresize(img, (x, y))
+        save(splitext(item)[1] * &quot;256x256&quot; * splitext(item)[2], img)
+    end
+end
 
-for item in filelist
-    img = load(item)
-    img = imresize(img, (256,256))
-    save(item, img)
+function hflip_files(filelist)
+    for item in filelist
+        img = load(item)
+        img = reverse(img, dims= 2)
+        save(splitext(item)[1] * &quot;h&quot; * splitext(item)[2], img)
+    end
+end
+
+function vflip_files(filelist)
+    for item in filelist
+        img = load(item)
+        img = reverse(img, dims= 1)
+        save(splitext(item)[1] * &quot;v&quot; * splitext(item)[2], img)
+    end
 end
 </code></pre>
-<p>The original files are still available in the zip file but now all of the files have been resized.</p>
+<h2 id="extending-image-count">Extending image count</h2>
+<p>For this dataset, it should be easy to get the number of images you need for the classifier. For some datasets it is a challenge to have a sufficient set of data. In this case, it is possible to extend the images via reflection and rotation.</p>
+<h3 id="flip-horizontal">Flip horizontal</h3>
+<p>I put files to be flipped horizontally into <em>../datasets/rank/hflip</em>. Now flip with this snippet,</p>
+<pre><code>img_path = &quot;D:/datasets/rank/hflip&quot;
+filelist = glob(&quot;*.jpg&quot;, img_path)
+hflip_files(filelist)
+</code></pre>
+<h3 id="flip-vertically">Flip vertically</h3>
+<p>I put files to be flipped vertically into <em>../datasets/rank/vflip</em>. Now flip with this snippet,</p>
+<pre><code>img_path = &quot;D:/datasets/rank/vflip&quot;
+filelist = glob(&quot;*.jpg&quot;, img_path)
+vflip_files(filelist)
+</code></pre>
+<h2 id="sizing-images">Sizing images</h2>
+<p>Now copy all images that you will use into <em>../datasets/rank/resize</em>, to be resized. You should have at least 600 files at this point.</p>
+<p>With all of the images in the denoted folder, use the following Julia snippet to resize them.</p>
+<pre><code>img_path = &quot;D:/datasets/rank/resize&quot;
+filelist = glob(&quot;*.jpg&quot;, img_path)
+resize_files(filelist)
+</code></pre>
+<p>Delete all files from this folder that are not 256x256.</p>
 <h2 id="labeling-images">Labeling images</h2>
 <p>I use <a href="https://labelstud.io/">Label Studio</a> or alternatively, <a href="https://cvat.org/">CVAT</a>. These are both open source project and there are others you can choose from.</p>
 <h3 id="install-and-run-label-studio-under-anaconda">Install and run Label Studio under Anaconda</h3>
@@ -366,7 +415,7 @@ end
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">
-  Last modified June 2, 2022: <a href="https://https://github.com/gary-dalton/public-documents/commit/3131fc3642a953d690c91629ad7dde577a2b4bc2">Add Truth 03. Start Classification tutorial. (3131fc3)</a>
+  Last modified June 26, 2022: <a href="https://https://github.com/gary-dalton/public-documents/commit/e1e301b0973f79170d97c9f755bea57cd9d0d5d0">Update ML Classifier - make dataset (e1e301b)</a>
 </div>
 
 </div>

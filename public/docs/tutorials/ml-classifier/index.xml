@@ -23,7 +23,7 @@
       <description>
         
         
-        &lt;p&gt;Making the image dataset is tedious but important. High quality datasets are essential for building a highly performant models. For this tutorial we will use 300 hand sign image files. One hundred for each of rank 1, 2, and 3.&lt;/p&gt;
+        &lt;p&gt;Making the image dataset is tedious but important. High quality datasets are essential for building a highly performant models. For this tutorial we will use 500 hand sign image files. One hundred for each of rank 1, 2, 3, 4, and 5. Additionally, you will need 100 or more images that are not ranked.&lt;/p&gt;
 
 
 
@@ -42,27 +42,65 @@ Example handsigns for 1, 2, and 3.
 	
 &lt;/div&gt;
 &lt;h2 id=&#34;image-information&#34;&gt;Image information&lt;/h2&gt;
-&lt;p&gt;Each image will be a jpg file with a color resolution of 256 x 256. Each image will be labeled with the appropriate rank. In our case we allow only 1 rank per image. Labels are used to help identify components in your data which you want to train your model to identify in datasets that are not labeled.&lt;/p&gt;
+&lt;p&gt;Each image will be a jpg file with a color resolution of 256x256. Each image will be labeled with the appropriate rank. In our case we allow only 1 rank per image. Labels are used to help identify components in your data which you want to train your model to identify in datasets that are not labeled.&lt;/p&gt;
 &lt;h2 id=&#34;obtaining-images&#34;&gt;Obtaining images&lt;/h2&gt;
 &lt;p&gt;Set your camera to a low resolution (it will still be higher than 256x256) and a 1 to 1 aspect ratio. The aspect ratio gives a square image file. Take photos of the ranking handsigns. These photos should cover a wide range of image angles, hand positions, lighting conditions, different hands, various backgrounds, and varied additional context.&lt;/p&gt;
 &lt;p&gt;I take my photos on my smartphone and have them auto-upload into Google Photos. From there, I select the set of images and download to my computer as a zip file. Then I delete the images from my phone and Google Photos, to conserve memory.&lt;/p&gt;
 &lt;p&gt;Create a folder, &lt;em&gt;../datasets/rank&lt;/em&gt;, and unzip the images to this folder. Now use the &lt;em&gt;Images&lt;/em&gt; library in julia to resize or otherwise transform the images.&lt;/p&gt;
-&lt;h2 id=&#34;sizing-images&#34;&gt;Sizing images&lt;/h2&gt;
-&lt;p&gt;With all of the images in the denoted folder, use the following Julia snippet to resize them.&lt;/p&gt;
+&lt;h3 id=&#34;background-image-set&#34;&gt;Background image set&lt;/h3&gt;
+&lt;p&gt;We also need a set of images that contain no ranking information. Use a variety of images that you already have to create this set. I place these into &lt;em&gt;../datasets/rank/not&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;julia-code&#34;&gt;Julia code&lt;/h2&gt;
+&lt;p&gt;Here is the image manipulation code used to extend the image library and to resize images.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;using Images
 using FileIO
 using Glob
 
-img_path = &amp;quot;D:/datasets/rank&amp;quot;
-filelist = glob(&amp;quot;*.jpg&amp;quot;, img_path)
+function resize_files(filelist, x=256, y=256)
+    for item in filelist
+        img = load(item)
+        img = imresize(img, (x, y))
+        save(splitext(item)[1] * &amp;quot;256x256&amp;quot; * splitext(item)[2], img)
+    end
+end
 
-for item in filelist
-    img = load(item)
-    img = imresize(img, (256,256))
-    save(item, img)
+function hflip_files(filelist)
+    for item in filelist
+        img = load(item)
+        img = reverse(img, dims= 2)
+        save(splitext(item)[1] * &amp;quot;h&amp;quot; * splitext(item)[2], img)
+    end
+end
+
+function vflip_files(filelist)
+    for item in filelist
+        img = load(item)
+        img = reverse(img, dims= 1)
+        save(splitext(item)[1] * &amp;quot;v&amp;quot; * splitext(item)[2], img)
+    end
 end
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The original files are still available in the zip file but now all of the files have been resized.&lt;/p&gt;
+&lt;h2 id=&#34;extending-image-count&#34;&gt;Extending image count&lt;/h2&gt;
+&lt;p&gt;For this dataset, it should be easy to get the number of images you need for the classifier. For some datasets it is a challenge to have a sufficient set of data. In this case, it is possible to extend the images via reflection and rotation.&lt;/p&gt;
+&lt;h3 id=&#34;flip-horizontal&#34;&gt;Flip horizontal&lt;/h3&gt;
+&lt;p&gt;I put files to be flipped horizontally into &lt;em&gt;../datasets/rank/hflip&lt;/em&gt;. Now flip with this snippet,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;img_path = &amp;quot;D:/datasets/rank/hflip&amp;quot;
+filelist = glob(&amp;quot;*.jpg&amp;quot;, img_path)
+hflip_files(filelist)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;flip-vertically&#34;&gt;Flip vertically&lt;/h3&gt;
+&lt;p&gt;I put files to be flipped vertically into &lt;em&gt;../datasets/rank/vflip&lt;/em&gt;. Now flip with this snippet,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;img_path = &amp;quot;D:/datasets/rank/vflip&amp;quot;
+filelist = glob(&amp;quot;*.jpg&amp;quot;, img_path)
+vflip_files(filelist)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;sizing-images&#34;&gt;Sizing images&lt;/h2&gt;
+&lt;p&gt;Now copy all images that you will use into &lt;em&gt;../datasets/rank/resize&lt;/em&gt;, to be resized. You should have at least 600 files at this point.&lt;/p&gt;
+&lt;p&gt;With all of the images in the denoted folder, use the following Julia snippet to resize them.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;img_path = &amp;quot;D:/datasets/rank/resize&amp;quot;
+filelist = glob(&amp;quot;*.jpg&amp;quot;, img_path)
+resize_files(filelist)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Delete all files from this folder that are not 256x256.&lt;/p&gt;
 &lt;h2 id=&#34;labeling-images&#34;&gt;Labeling images&lt;/h2&gt;
 &lt;p&gt;I use &lt;a href=&#34;https://labelstud.io/&#34;&gt;Label Studio&lt;/a&gt; or alternatively, &lt;a href=&#34;https://cvat.org/&#34;&gt;CVAT&lt;/a&gt;. These are both open source project and there are others you can choose from.&lt;/p&gt;
 &lt;h3 id=&#34;install-and-run-label-studio-under-anaconda&#34;&gt;Install and run Label Studio under Anaconda&lt;/h3&gt;
