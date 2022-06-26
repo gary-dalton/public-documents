@@ -230,11 +230,12 @@ if (!doNotTrack) {
     <li><a href="#sizing-images">Sizing images</a></li>
     <li><a href="#labeling-images">Labeling images</a>
       <ul>
-        <li><a href="#install-and-run-label-studio-under-anaconda">Install and run Label Studio under Anaconda</a></li>
-        <li><a href="#label-studio">Label Studio</a></li>
+        <li><a href="#install-label-studio-under-anaconda">Install Label Studio under Anaconda</a></li>
+        <li><a href="#using-label-studio">Using Label Studio</a></li>
         <li><a href="#complete-the-labeling-step">Complete the labeling step</a></li>
       </ul>
     </li>
+    <li><a href="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
 
@@ -378,20 +379,42 @@ filelist = glob(&quot;*.jpg&quot;, img_path)
 resize_files(filelist)
 </code></pre>
 <p>Delete all files from this folder that are not 256x256.</p>
+
+
+
+
+
+
+
+<div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 410px">
+	<img class="card-img-top" src="/docs/tutorials/ml-classifier/make-dataset/fourhands_hu7b7f97aac55b5e8a5e680e536af0f525_178289_400x0_resize_q75_catmullrom.jpg" width="400" height="400">
+	
+	<div class="card-body px-0 pt-2 pb-0">
+		<p class="card-text">
+Example of flipped horizontally and vertically extending one image to four.
+</p>
+	</div>
+	
+</div>
 <h2 id="labeling-images">Labeling images</h2>
 <p>I use <a href="https://labelstud.io/">Label Studio</a> or alternatively, <a href="https://cvat.org/">CVAT</a>. These are both open source project and there are others you can choose from.</p>
-<h3 id="install-and-run-label-studio-under-anaconda">Install and run Label Studio under Anaconda</h3>
+<h3 id="install-label-studio-under-anaconda">Install Label Studio under Anaconda</h3>
 <ul>
 <li><code>conda create --name labelimg pip</code></li>
 <li><code>conda activate labelimg</code></li>
 <li><code>conda install -c anaconda urllib3</code></li>
 <li><code>pip install label-studio</code></li>
+<li><code>conda deactivate</code></li>
+</ul>
+<h3 id="using-label-studio">Using Label Studio</h3>
+<p>Start Label Studio under Anaconda with the following</p>
+<ul>
+<li><code>conda activate labelimg</code></li>
 <li><code>label-studio start</code></li>
 </ul>
-<h3 id="label-studio">Label Studio</h3>
 <p>The previous command should have stated a new browser window into the Label Studio interface. Now create an account and create a new project named Ranks. Once you have created the project, you import the image files into the project. Now open the project and select settings.</p>
-<p>We need to set the Labeling interface, so select that tab and browse templates. The template we require is Computer Vision &gt; Object Detection with Bounding Boxes. As you can see, many different templates are available. Now remove the original label choices and add <em>One, Two, Three, Four, and Five</em>.</p>
-<p>Back up to <em>Projects / Ranks</em> and click <em>Label All Tasks</em>. It should now step through the available unlabeled images. Choose the correct label and create a bounding box around the appropriate area in the image, click save. do this until all images are labeled.</p>
+<p>We need to set the Labeling interface, so select that tab and browse templates. The template we require is Computer Vision &gt; Image Classification. As you can see, many different templates are available. Now remove the original label choices and add <em>One, Two, Three, Four, Five, and None</em>.</p>
+<p>Back up to <em>Projects / Ranks</em> and click <em>Label All Tasks</em>. It should now step through the available unlabeled images. Choose the correct label and click save. Continue until all images are labeled.</p>
 <h3 id="complete-the-labeling-step">Complete the labeling step</h3>
 <p>Finally, export a JSON file to our data directory. We will use this file later. Your image data set is now ready for usage.</p>
 <p>Log out of and close Label Studio,</p>
@@ -399,6 +422,8 @@ resize_files(filelist)
 <li><code>CTRL-c</code></li>
 <li><code>conda deactivate</code></li>
 </ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>At this point, you have created, expanded and appropriately resized an image dataset. Additionally, you have properly labeled the images and save a .json file that holds the labeled image data. Insure that the images and the .json file are in the folder named  <em>../datasets/rank/resize</em>.</p>
 
         <div class="section-index">
     

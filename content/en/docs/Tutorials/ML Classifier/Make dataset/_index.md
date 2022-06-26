@@ -101,31 +101,40 @@ With all of the images in the denoted folder, use the following Julia snippet to
 
 Delete all files from this folder that are not 256x256.
 
+{{< imgproc fourhands Resize "400x" >}}
+Example of flipped horizontally and vertically extending one image to four.
+{{< /imgproc >}}
+
 ## Labeling images
 
 I use [Label Studio](https://labelstud.io/) or alternatively, [CVAT](https://cvat.org/). These are both open source project and there are others you can choose from.
 
-### Install and run Label Studio under Anaconda
+### Install Label Studio under Anaconda
 
 * `conda create --name labelimg pip`
 * `conda activate labelimg`
 * `conda install -c anaconda urllib3`
 * `pip install label-studio`
-* `label-studio start`
+* `conda deactivate`
 
-### Label Studio
+### Using Label Studio
+Start Label Studio under Anaconda with the following
+* `conda activate labelimg`
+* `label-studio start`
 
 The previous command should have stated a new browser window into the Label Studio interface. Now create an account and create a new project named Ranks. Once you have created the project, you import the image files into the project. Now open the project and select settings.
 
-We need to set the Labeling interface, so select that tab and browse templates. The template we require is Computer Vision > Object Detection with Bounding Boxes. As you can see, many different templates are available. Now remove the original label choices and add _One, Two, Three, Four, and Five_.
+We need to set the Labeling interface, so select that tab and browse templates. The template we require is Computer Vision > Image Classification. As you can see, many different templates are available. Now remove the original label choices and add _One, Two, Three, Four, Five, and None_.
 
-Back up to _Projects / Ranks_ and click _Label All Tasks_. It should now step through the available unlabeled images. Choose the correct label and create a bounding box around the appropriate area in the image, click save. do this until all images are labeled.
+Back up to _Projects / Ranks_ and click _Label All Tasks_. It should now step through the available unlabeled images. Choose the correct label and click save. Continue until all images are labeled.
 
 ### Complete the labeling step
-
 Finally, export a JSON file to our data directory. We will use this file later. Your image data set is now ready for usage.
 
 Log out of and close Label Studio,
 
 * `CTRL-c`
 * `conda deactivate`
+
+## Conclusion
+At this point, you have created, expanded and appropriately resized an image dataset. Additionally, you have properly labeled the images and save a .json file that holds the labeled image data. Insure that the images and the .json file are in the folder named  _../datasets/rank/resize_.
