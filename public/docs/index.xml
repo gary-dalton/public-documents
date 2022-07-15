@@ -63,5 +63,25 @@
       </description>
     </item>
     
+    <item>
+      <title>Local: Help out</title>
+      <link>/local/help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/local/help/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;This is placeholder content.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
