@@ -99,12 +99,14 @@ version = "0.0"
 url_latest_version = "https://werkspc.com/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://https://github.com/gary-dalton/public-documents"
+github_repo = "https://github.com/gary-dalton/public-documents"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/google/docsy"
 
 # Specify a value here if your content directory is not in your repo's root directory
-# github_subdir = ""
+# github_subdir = "content"
+
+github_branch = "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id = "015536944097765241217:sciqu7tvprn"

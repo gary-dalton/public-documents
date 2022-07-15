@@ -1,7 +1,7 @@
 ---
 title: "Core Workout"
 linkTitle: "Core Workout"
-description: "Ten basic core moves put togther for a 15 minute effective and efficient workout."
+description: "Basic core moves put togther for a 14 minute effective and efficient workout."
 author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
 resources:
 - src: ""
@@ -23,7 +23,7 @@ draft: false
 
 ## Introduction
 
-Choose one gof the groups to workout, _Group 1_, _Group 2_, or _Advanced_. Perform each exercise for the time indicated, taking breaks as needed. It is expected that you will fully cycle through a single group to get a complete workout. Completing a group will give you a 14 minute workout.
+Choose one of the groups to workout, _Group 1_, _Group 2_, or _Advanced_. Perform each exercise for the time indicated, taking breaks as needed. It is expected that you will fully cycle through a single group to get a complete workout. Completing a group will give you a 14 minute workout.
 
 <!-- ### Group 1
 
@@ -76,14 +76,16 @@ Choose one gof the groups to workout, _Group 1_, _Group 2_, or _Advanced_. Perfo
 | 3  | Side plank (1 min)  | Side plank (1 min)  | Side plank, stacked with toe tap (1 min)  |
 | 4  | Reverse crunch (1 min)  | Reverse crunch (1 min)  | Reverse crunch with V-sit (1 min)  |
 | 5  | Mountain climbers (1 min)  | Bird dog (1 min)  | Box jumps (2 min)  |
-| 6  | Bear crawl (2 min)  | V-sit (1 min)  | L-sit (1 min)  |
+| 6  | Hip Escape (1 min)  | V-sit (1 min)  | L-sit (1 min)  |
 | 7  | Get up (2 min)  | Get up (2 min)  | Get up (2 min)  |
 | 8  | Plank (1 min)  | Plank (1 min)  | Plank, lift leg (1 min)  |
 | 9  | Dead bug (1 min)  | Mason twist (1 min)  | Bicycle crunch (1 min)  |
 | 10  | Side plank (1 min)  | Side plank (1 min)  | Side plank, full extend (1 min)   |
 | 11  | Reverse crunch (1 min)  | Reverse crunch (1 min)  | Reverse crunch with V-sit (1 min)  |
 | 12  | Mountain climbers (1 min)  | Bird dog (1 min)  | Captain's chair (1 min)  |
-| 13  |   | V-sit (1 min)  |   |
+| 13  | Hip Escape (1 min)  | V-sit (1 min)  |   |
+
+If you feel you need a little extra punch after completing this workout, add a 2 minute bear crawl or crocodile crawl at the end of the routine.
 
 
 ## Plank
@@ -156,10 +158,19 @@ Start on on hands and knees with hands directly below shoulders and knees below 
 Easier
 * Eliminate the crunch portion
 
-## Bear crawl
-The basic movement is simple: you have to crawl forward, backward, and even side-to-side without letting your knees touch the ground.
+## Hip Escape
 
-Crawling forward is the easiest. Move hands and feet on the same side at the same time, so right hand and right leg. Then left hand and left leg. Keep your back straight and your core engaged throughout. Try to utilize the full space of the room when bear crawling. Start by just going forward and then backward. Once you are strong on those, add moving laterally.
+Lie flat on the ground with arms in a guard position (arms raised over body with the elbows close to the body and the hands guarding your face). Bend your right leg bringing your right foot onto the ground near your butt. 
+
+Start the move by bridging using your right foot. Rotate to the left while bring your elbows to your left knee and swinging your butt under the bridge to the right. Complete the move by again bridging with the right foot to return your butt and arms to the guard position.
+
+Switch legs and complete the movement on the other side.
+
+### Variations
+
+Easier
+* Extend arms over your head instead of having them in guard position. Then swing them toward you feet when doing the escape.
+
 
 ## V-sit
 
@@ -218,7 +229,10 @@ Easier
 Alternative
 * Tuck jump
 
-## Hip Hike
+## Bear crawl
+The basic movement is simple: you have to crawl forward, backward, and even side-to-side without letting your knees touch the ground.
+
+Crawling forward is the easiest. Move hands and feet on the same side at the same time, so right hand and right leg. Then left hand and left leg. Keep your back straight and your core engaged throughout. Try to utilize the full space of the room when bear crawling. Start by just going forward and then backward. Once you are strong on those, add moving laterally.
 
 ## Swiss Ball Crunch with Twist
 
