@@ -3,14 +3,13 @@ title: "Useful Links"
 linkTitle: "Links"
 type: docs
 description: "Links that are useful for local community planning and involvement."
-weight: 40
-menu:
-  main:
-    weight: 40
+weight: 30
 cascade:
 - type: "docs"
 draft: false
 ---
+
+Right now this is just a semi-organized bag of links. I will work through these for better organization and hopefully add some ratings to the links.
 
 ## Transportation
 
