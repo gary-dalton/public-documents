@@ -6,14 +6,14 @@ description: "Links that are useful for local community planning and involvement
 weight: 30
 cascade:
 - type: "docs"
-draft: false
+draft: true
 ---
 
 Right now this is just a semi-organized bag of links. I will work through these for better organization and hopefully add some ratings to the links.
 
 ## Transportation
 
-* US DOT: https://www.transportation.gov/leadershipacademy/resource-library {{< figure src="../28z4jeDAlQCIoZofHV5rDBwWyUc_92svjRxXR08q5VI9t1VOU-zkSG185pO2WNUfyElz9Fadnrull_LbMKJ-tw.png" height="400" width="500" >}}
+* US DOT: https://www.transportation.gov/leadershipacademy/resource-library {{< figure src="../28z4jeDAlQCIoZofHV5rDBwWyUc_92svjRxXR08q5VI9t1VOU-zkSG185pO2WNUfyElz9Fadnrull_LbMKJ-tw.png" height="300" width="500" >}}
 
 ## Housing and Zoning
 * National Multifamily Housing Counsel: https://housingtoolkit.nmhc.org/ {{< figure src="../nMdxBpJ0WH69u122i-STouPt-pbrWnjnwiXMphr9NZE5G_6BQkJOf_-81NFpR2AbWsOMm2hSm5HcqERV4p_A5g.png" height="400" width="500" >}}
