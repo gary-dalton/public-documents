@@ -10,6 +10,7 @@ resources:
   params:
     byline: "Photo: Riona MacNamara / CC-BY-CA"
 draft: true
+expirydate: 2018-10-06
 ---
 
 **This is a typical blog post that includes images.**

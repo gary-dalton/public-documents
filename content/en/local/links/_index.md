@@ -13,9 +13,6 @@ Right now this is just a semi-organized bag of links. I will work through these 
 
 ## Transportation
 
-{{< imgproc "kPW949GGpkcoT5I6Giq1i8Te8wNgWi0U3BBkSiKPa_iwvHstQHTth3ETNW3LKtNeLRIhWGNcFkvR9N9PQ2PJhQ.png" Fit "400x450" >}}
-{{< /imgproc >}}
-
 * US DOT: https://www.transportation.gov/leadershipacademy/resource-library
 {{< imgproc 28z4jeDAlQCIoZofHV5rDBwWyUc_92svjRxXR08q5VI9t1VOU-zkSG185pO2WNUfyElz9Fadnrull_LbMKJ-tw Fit "400x450" >}}
 {{< /imgproc >}}
@@ -24,18 +21,23 @@ Right now this is just a semi-organized bag of links. I will work through these 
 * National Multifamily Housing Counsel: https://housingtoolkit.nmhc.org/
 {{< imgproc nMdxBpJ0WH69u122i-STouPt-pbrWnjnwiXMphr9NZE5G_6BQkJOf_-81NFpR2AbWsOMm2hSm5HcqERV4p_A5g.png Fit "400x450" >}}
 {{< /imgproc >}}
+
 * Obama White House: https://obamawhitehouse.archives.gov/sites/whitehouse.gov/files/images/Housing_Development_Toolkit%20f.2.pdf 
 {{< imgproc "Screenshot 2022-07-17 213512.png" Fit "300x450" >}}
 {{< /imgproc >}}
+
 * League of WI Municiplities: https://lwm-info.org/DocumentCenter/View/5566/WI-Zoning-Guide-Final-2-2022 
 {{< imgproc "Screenshot 2022-07-17 213841.png" Fit "300x450" >}}
 {{< /imgproc >}}
+
 * Organisation for Economic Cooperation and Development (OECD): https://www.oecd-ilibrary.org/sites/b453b043-en/index.html?itemId=/content/publication/b453b043-en&_csp_=6c2144a214b333aaac200b082e70ed53&itemIGO=oecd&itemContentType=book 
 {{< imgproc "coJ53kpr2T0MOxtLWIEnclGOeJih9xoqW3LMcK9hjK_jRZajh9HSuWRPTbnnoiRZpKFkXYzurJG5mDr2n8ronA.png" Fit "400x450" >}}
 {{< /imgproc >}}
+
 * PolicyLink: https://www.policylink.org/resources-tools/affordable-housing 
 {{< imgproc "Screenshot 2022-07-17 214920.png" Fit "300x450" >}}
 {{< /imgproc >}}
+
 * Homestead: https://www.myhomestead.com/sb9-city-guide 
 {{< imgproc "L1yd1PTmG7TQw9sLl6ojn8h6LR7hY8wkURXAWLGHxFsMToThq_cIKgATBiQlRCubSVhal0Ldf4bAydMSiUTyPw.png" Fit "400x450" >}}
 {{< /imgproc >}}
@@ -43,6 +45,8 @@ Right now this is just a semi-organized bag of links. I will work through these 
 * US Steven's Point: https://www3.uwsp.edu/cnr-ap/clue/Pages/publications-resources/Zoning.aspx
 {{< imgproc "kPW949GGpkcoT5I6Giq1i8Te8wNgWi0U3BBkSiKPa_iwvHstQHTth3ETNW3LKtNeLRIhWGNcFkvR9N9PQ2PJhQ.png" Fit "400x450" >}}
 {{< /imgproc >}}
+
+* Milwaukee Zoning Code: https://city.milwaukee.gov/DCD/Planning/PlanningAdministration/ZoningCode
 
 
 ## Smart City
@@ -81,9 +85,18 @@ Right now this is just a semi-organized bag of links. I will work through these 
 {{< imgproc "k7Es7s2Uv-aElkN0GPPGb0MayQsVaH8T7mTbA32UN8YRboYxatg2T2pbX88CAtx-xs6K_SCT0c5t0aIEzCKPnw.png" Fit "400x450" >}}
 {{< /imgproc >}}
 
+## Maps and GIS
+* https://city.milwaukee.gov/mapmilwaukee/applications
+
+* https://ai.googleblog.com/2022/06/mapping-urban-trees-across-north.html
+
 ## Other
 * League of WI Municiplities: https://www.lwm-info.org/31/Resources 
 {{< imgproc "eXYae8PkPUSKEudIjew6050LAFFr16pPoYEvU5faHeanwjkBttxelHe_s8a0POvnOvzWYhhrMtUcEjCXAgV18g.png" Fit "400x450" >}}
+{{< /imgproc >}}
+
+* WI Constitution, annotated: https://docs.legis.wisconsin.gov/constitution/wi
+{{< imgproc "https-docs.legis.wisconsin.gov-constitution-wi.png" Fit "400x450" >}}
 {{< /imgproc >}}
 
 

@@ -47,14 +47,14 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+# id = "UA-00000000-0"
 
 # Language configuration
 
 [languages]
 [languages.en]
 title = "Werk Space"
-description = "The gathering place for all of Gary's Documentations."
+description = "The gathering place for all of daltons.ai, Intellamech and Gary's Documentations."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -78,7 +78,7 @@ copyright = "Gary Dalton"
 privacy_policy = ""
 
 # First one is picked as the Twitter card image if not set on page.
-images = ["https://twitter.com/gfdalton/photo"]
+images = ["logo_white_words.png"]
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.

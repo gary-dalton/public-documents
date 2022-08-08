@@ -1,4 +1,14 @@
 ---
+title: "Pandoc and Reveal"
+linkTitle: "Pandoc"
+description: "Slideshows from Markdown"
+author: Gary Dalton
+date: 10 July 2015
+weight: 10
+draft: true
+---
+
+<!-- ---
 title: Pandoc and Reveal
 subtitle: Slideshows from Markdown
 author: Gary Dalton
@@ -11,11 +21,7 @@ github:
 pandoc: pandoc -t html5 --standalone --section-divs --template=template_revealjs.html pandoc_reveal.md -o pandoc_reveal.html
 tags: pandoc, revealjs, markdown, howto
 draft: true
----
-
-#
-
-##
+--- -->
 
 1. This slideshow is written in Markdown, a plain text format.
     - [view the slideshow in markdown](https://raw.githubusercontent.com/gary-dalton/public-documents/master/content/en/docs/archive/Markdown-slideshow/pandoc_reveal.md)
