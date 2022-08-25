@@ -23,16 +23,16 @@
 <meta property="og:title" content="" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/index.json" /><meta property="og:image" content="https://twitter.com/gfdalton/photo"/><meta property="article:section" content="" />
+<meta property="og:url" content="/index.json" /><meta property="og:image" content="/logo_white_words.png"/><meta property="article:section" content="" />
 
 <meta property="article:modified_time" content="2020-04-15T16:10:06-05:00" /><meta property="og:site_name" content="Werk Space" />
 
 <meta itemprop="name" content="">
 <meta itemprop="description" content="">
 <meta itemprop="dateModified" content="2020-04-15T16:10:06-05:00" />
-<meta itemprop="wordCount" content="0"><meta itemprop="image" content="https://twitter.com/gfdalton/photo"/>
+<meta itemprop="wordCount" content="0"><meta itemprop="image" content="/logo_white_words.png"/>
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://twitter.com/gfdalton/photo"/>
+<meta name="twitter:image" content="/logo_white_words.png"/>
 
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content=""/>
@@ -47,17 +47,6 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
   crossorigin="anonymous"></script>
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-00000000-0', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 
   </head>
   <body class="td-page">
