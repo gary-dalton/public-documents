@@ -30,3 +30,17 @@ Handsigns for 1, 2, and 3.
 
 All of the code used for this project will be maintained in the file, handsign-class.jl. This is a Julia language file.
 
+https://web.stanford.edu/class/cs224u/2021/
+
+https://colab.research.google.com/github/deepmind/educational/blob/master/colabs/summer_schools/intro_to_regression.ipynb
+
+https://juliaimages.org/stable/install/
+
+https://datasciencejuliahackers.com/image-classification.html
+
+https://towardsdatascience.com/a-primer-on-computer-vision-with-julia-2c7068a35b32
+
+https://www.kaggle.com/competitions/street-view-getting-started-with-julia/overview/julia-tutorial
+
+https://openai.com/dall-e-2/
+

@@ -11,6 +11,13 @@ draft: false
 
 Right now this is just a semi-organized bag of links. I will work through these for better organization and hopefully add some ratings to the links.
 
+https://github.com/sensepost/gowitness/wiki/Usage
+
+https://www.youtube.com/watch?v=2xkNJL4gJ9E&t=2s
+
+https://github.com/probml/pml2-book/releases/tag/2022-07-29
+
+
 ## Transportation
 
 * US DOT: https://www.transportation.gov/leadershipacademy/resource-library
@@ -99,4 +106,13 @@ Right now this is just a semi-organized bag of links. I will work through these 
 {{< imgproc "https-docs.legis.wisconsin.gov-constitution-wi.png" Fit "400x450" >}}
 {{< /imgproc >}}
 
+* https://county.milwaukee.gov/EN/Vision/Strategy-Dashboard/Workforce-Data
+
+* https://www.mercatus.org/publications/urban-economics/housing-reform-states-menu-options-2023
+
+* https://county.milwaukee.gov/EN/Strategy-Budget-and-Performance/Budget-Office/Budget-2023
+
+* https://www.dropbox.com/s/d09y78weq88uoqf/2023%20Budget%20Town%20Hall%20Deck%20UPDATED%20FINAL%20081622.pptx?dl=0
+
+* https://data.footprintnetwork.org/#/countryTrends?type=earth&cn=9
 
