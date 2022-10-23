@@ -1,6 +1,7 @@
 ---
-title: "Chipotle Chili"
+title: "Chipotle, el Rey"
 linkTitle: "Chipotle Chili"
+description: "A tasty chipolte based version of chili. My very own interpretation of chili. Designed for a contest as both different than the typical American version of chili and also delicious. This chili, or a version of it, will be entered in next year's Chili Bowl contest."
 author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
 resources:
 - src: ""
@@ -22,6 +23,7 @@ draft: false
 <img src="/images/chili.png" alt="hot pepper" width="30" height="30"><img src="/images/chili.png" alt="hot pepper" width="30" height="30">
 <img src="/images/chili.png" alt="hot pepper" width="30" height="30"><img src="/images/chili.png" alt="hot pepper" width="30" height="30">
 <img src="/images/chili.png" alt="hot pepper" width="30" height="30"><img src="/images/chili.png" alt="hot pepper" width="30" height="30"><img src="/images/chili-pepper.png" alt="hot pepper" width="30" height="30"><img src="/images/chili-pepper.png" alt="hot pepper" width="30" height="30"><img src="/images/chili-pepper.png" alt="hot pepper" width="30" height="30"><img src="/images/chili-pepper.png" alt="hot pepper" width="30" height="30">
+
 
 ## Ingredients
 
