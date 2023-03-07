@@ -240,9 +240,31 @@ Open a Putty connection into your server and run the following commands:
 * Copy the backups to a remote computer. To copy them to my local windows computer, I use *WinSCP*. This connects using the same private key as Putty.
 * If needed, delete the backup files from your server.
 
-## Location of WordPress files
+## Location of interesting files
 
-On the Bitnami server, the WordPress files that are served are located in */opt/bitnami/wordpress*.
+On the Bitnami server, the files may be located differently than you expect. Some file locations may depend on the type of Bitnami server you are running. Use the following command to determine this
+```
+echo "Approach A: Using system packages." || echo "Approach B: Self-contained installation."
+```
+I am using Approach A and will only indicate those file locations in this document. If you are using Approach B, look up the source documents.
+
+* **WordPress** The WordPress files that are served are located in */opt/bitnami/wordpress*.
+* **PHP Configuration** The PHP configuration file is located at */opt/bitnami/php/etc/php.ini*
+* **MariaDB Configuration** located at */opt/bitnami/mariadb/conf/my.cnf*
+* **MariaDB Log** located at */opt/bitnami/mariadb/logs/mysqld.log*
+* **Apache Configuration** located at */opt/bitnami/apache2/conf/httpd.conf*
+* **Apache main virtual host**, */opt/bitnami/apache2/conf/bitnami/bitnami.conf*
+* **Apache virtual host for SSL**, */opt/bitnami/apache2/conf/bitnami/bitnami-ssl.conf*
+* **Apache additional virtual hosts**, *opt/bitnami/apache2/conf/vhosts/*
+
+### Restart services
+
+```
+sudo /opt/bitnami/ctlscript.sh restart
+```
+
+
+
 
 ## Conclusion
 
@@ -256,4 +278,6 @@ Your site is now fully ready to get started. What remains is to work on the Word
 * https://aws.amazon.com/getting-started/hands-on/launch-a-wordpress-website/
 * https://docs.bitnami.com/aws/apps/wordpress/administration/backup-restore-mysql-mariadb/
 * https://docs.bitnami.com/aws/how-to/understand-bncert/
-
+* https://docs.bitnami.com/aws/apps/wordpress/administration/increase-upload-limit-php/
+* https://docs.bitnami.com/aws/apps/wordpress/get-started/understand-default-config-mysql/
+* https://docs.bitnami.com/aws/apps/wordpress/get-started/understand-default-config-mariadb/
