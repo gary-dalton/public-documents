@@ -227,7 +227,11 @@
       </ul>
     </li>
     <li><a href="#create-backups">Create backups</a></li>
-    <li><a href="#location-of-wordpress-files">Location of WordPress files</a></li>
+    <li><a href="#location-of-interesting-files">Location of interesting files</a>
+      <ul>
+        <li><a href="#restart-services">Restart services</a></li>
+      </ul>
+    </li>
     <li><a href="#conclusion">Conclusion</a></li>
     <li><a href="#some-documentation-links">Some documentation links</a></li>
   </ul>
@@ -535,9 +539,23 @@ Press [Enter] to continue:
 <li>Copy the backups to a remote computer. To copy them to my local windows computer, I use <em>WinSCP</em>. This connects using the same private key as Putty.</li>
 <li>If needed, delete the backup files from your server.</li>
 </ul>
-<h2 id="location-of-wordpress-files">Location of WordPress files</h2>
-<p>On the Bitnami server, the WordPress files that are served are located in <em>/opt/bitnami/wordpress</em>.</p>
-<h2 id="conclusion">Conclusion</h2>
+<h2 id="location-of-interesting-files">Location of interesting files</h2>
+<p>On the Bitnami server, the files may be located differently than you expect. Some file locations may depend on the type of Bitnami server you are running. Use the following command to determine this</p>
+<pre tabindex="0"><code>echo &#34;Approach A: Using system packages.&#34; || echo &#34;Approach B: Self-contained installation.&#34;
+</code></pre><p>I am using Approach A and will only indicate those file locations in this document. If you are using Approach B, look up the source documents.</p>
+<ul>
+<li><strong>WordPress</strong> The WordPress files that are served are located in <em>/opt/bitnami/wordpress</em>.</li>
+<li><strong>PHP Configuration</strong> The PHP configuration file is located at <em>/opt/bitnami/php/etc/php.ini</em></li>
+<li><strong>MariaDB Configuration</strong> located at <em>/opt/bitnami/mariadb/conf/my.cnf</em></li>
+<li><strong>MariaDB Log</strong> located at <em>/opt/bitnami/mariadb/logs/mysqld.log</em></li>
+<li><strong>Apache Configuration</strong> located at <em>/opt/bitnami/apache2/conf/httpd.conf</em></li>
+<li><strong>Apache main virtual host</strong>, <em>/opt/bitnami/apache2/conf/bitnami/bitnami.conf</em></li>
+<li><strong>Apache virtual host for SSL</strong>, <em>/opt/bitnami/apache2/conf/bitnami/bitnami-ssl.conf</em></li>
+<li><strong>Apache additional virtual hosts</strong>, <em>opt/bitnami/apache2/conf/vhosts/</em></li>
+</ul>
+<h3 id="restart-services">Restart services</h3>
+<pre tabindex="0"><code>sudo /opt/bitnami/ctlscript.sh restart
+</code></pre><h2 id="conclusion">Conclusion</h2>
 <p>Your site is now fully ready to get started. What remains is to work on the WordPress, themes, plugins, extra configurations, and finally content posts. These are not covered in this tutorial.</p>
 <h2 id="some-documentation-links">Some documentation links</h2>
 <ul>
@@ -546,6 +564,9 @@ Press [Enter] to continue:
 <li><a href="https://aws.amazon.com/getting-started/hands-on/launch-a-wordpress-website/">https://aws.amazon.com/getting-started/hands-on/launch-a-wordpress-website/</a></li>
 <li><a href="https://docs.bitnami.com/aws/apps/wordpress/administration/backup-restore-mysql-mariadb/">https://docs.bitnami.com/aws/apps/wordpress/administration/backup-restore-mysql-mariadb/</a></li>
 <li><a href="https://docs.bitnami.com/aws/how-to/understand-bncert/">https://docs.bitnami.com/aws/how-to/understand-bncert/</a></li>
+<li><a href="https://docs.bitnami.com/aws/apps/wordpress/administration/increase-upload-limit-php/">https://docs.bitnami.com/aws/apps/wordpress/administration/increase-upload-limit-php/</a></li>
+<li><a href="https://docs.bitnami.com/aws/apps/wordpress/get-started/understand-default-config-mysql/">https://docs.bitnami.com/aws/apps/wordpress/get-started/understand-default-config-mysql/</a></li>
+<li><a href="https://docs.bitnami.com/aws/apps/wordpress/get-started/understand-default-config-mariadb/">https://docs.bitnami.com/aws/apps/wordpress/get-started/understand-default-config-mariadb/</a></li>
 </ul>
 
         <div class="section-index">
@@ -563,7 +584,7 @@ Press [Enter] to continue:
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">
-  Last modified October 12, 2022: <a href="https://github.com/gary-dalton/public-documents/commit/3e3f5a956010071ccee43afadcce0cc75c89ccc0">Add WordPress on AWS Lightsail tutorial. (3e3f5a9)</a>
+  Last modified March 6, 2023: <a href="https://github.com/gary-dalton/public-documents/commit/2d18f175b380dc9d55fcf51bff883464a0cc55c1">Resolve merge on system updates. (2d18f17)</a>
 </div>
 
 </div>
@@ -610,7 +631,7 @@ Press [Enter] to continue:
         
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
-        <small class="text-white">&copy; 2022 Gary Dalton All Rights Reserved</small>
+        <small class="text-white">&copy; 2023 Gary Dalton All Rights Reserved</small>
         
 	
 		<p class="mt-2"><a href="/about/">About Documentation</a></p>

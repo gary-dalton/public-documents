@@ -306,9 +306,23 @@ Press [Enter] to continue:
 &lt;li&gt;Copy the backups to a remote computer. To copy them to my local windows computer, I use &lt;em&gt;WinSCP&lt;/em&gt;. This connects using the same private key as Putty.&lt;/li&gt;
 &lt;li&gt;If needed, delete the backup files from your server.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;location-of-wordpress-files&#34;&gt;Location of WordPress files&lt;/h2&gt;
-&lt;p&gt;On the Bitnami server, the WordPress files that are served are located in &lt;em&gt;/opt/bitnami/wordpress&lt;/em&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;location-of-interesting-files&#34;&gt;Location of interesting files&lt;/h2&gt;
+&lt;p&gt;On the Bitnami server, the files may be located differently than you expect. Some file locations may depend on the type of Bitnami server you are running. Use the following command to determine this&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;echo &amp;#34;Approach A: Using system packages.&amp;#34; || echo &amp;#34;Approach B: Self-contained installation.&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I am using Approach A and will only indicate those file locations in this document. If you are using Approach B, look up the source documents.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WordPress&lt;/strong&gt; The WordPress files that are served are located in &lt;em&gt;/opt/bitnami/wordpress&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PHP Configuration&lt;/strong&gt; The PHP configuration file is located at &lt;em&gt;/opt/bitnami/php/etc/php.ini&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MariaDB Configuration&lt;/strong&gt; located at &lt;em&gt;/opt/bitnami/mariadb/conf/my.cnf&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MariaDB Log&lt;/strong&gt; located at &lt;em&gt;/opt/bitnami/mariadb/logs/mysqld.log&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apache Configuration&lt;/strong&gt; located at &lt;em&gt;/opt/bitnami/apache2/conf/httpd.conf&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apache main virtual host&lt;/strong&gt;, &lt;em&gt;/opt/bitnami/apache2/conf/bitnami/bitnami.conf&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apache virtual host for SSL&lt;/strong&gt;, &lt;em&gt;/opt/bitnami/apache2/conf/bitnami/bitnami-ssl.conf&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apache additional virtual hosts&lt;/strong&gt;, &lt;em&gt;opt/bitnami/apache2/conf/vhosts/&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;restart-services&#34;&gt;Restart services&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo /opt/bitnami/ctlscript.sh restart
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Your site is now fully ready to get started. What remains is to work on the WordPress, themes, plugins, extra configurations, and finally content posts. These are not covered in this tutorial.&lt;/p&gt;
 &lt;h2 id=&#34;some-documentation-links&#34;&gt;Some documentation links&lt;/h2&gt;
 &lt;ul&gt;
@@ -317,6 +331,9 @@ Press [Enter] to continue:
 &lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/getting-started/hands-on/launch-a-wordpress-website/&#34;&gt;https://aws.amazon.com/getting-started/hands-on/launch-a-wordpress-website/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.bitnami.com/aws/apps/wordpress/administration/backup-restore-mysql-mariadb/&#34;&gt;https://docs.bitnami.com/aws/apps/wordpress/administration/backup-restore-mysql-mariadb/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.bitnami.com/aws/how-to/understand-bncert/&#34;&gt;https://docs.bitnami.com/aws/how-to/understand-bncert/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.bitnami.com/aws/apps/wordpress/administration/increase-upload-limit-php/&#34;&gt;https://docs.bitnami.com/aws/apps/wordpress/administration/increase-upload-limit-php/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.bitnami.com/aws/apps/wordpress/get-started/understand-default-config-mysql/&#34;&gt;https://docs.bitnami.com/aws/apps/wordpress/get-started/understand-default-config-mysql/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.bitnami.com/aws/apps/wordpress/get-started/understand-default-config-mariadb/&#34;&gt;https://docs.bitnami.com/aws/apps/wordpress/get-started/understand-default-config-mariadb/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
