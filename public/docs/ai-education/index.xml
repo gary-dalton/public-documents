@@ -1,0 +1,103 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Werk Space – AI Education</title>
+    <link>/docs/ai-education/</link>
+    <description>Recent content in AI Education on Werk Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 -0500</lastBuildDate>
+    
+	  <atom:link href="/docs/ai-education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Basic Digital Literacy</title>
+      <link>/docs/ai-education/basic-digital-literacy/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 -0500</pubDate>
+      
+      <guid>/docs/ai-education/basic-digital-literacy/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;module-1-introduction-to-digital-literacy&#34;&gt;Module 1: Introduction to Digital Literacy&lt;/h2&gt;
+&lt;h3 id=&#34;lesson-11-what-is-digital-literacy&#34;&gt;Lesson 1.1: What is Digital Literacy?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Definition of digital literacy&lt;/li&gt;
+&lt;li&gt;Why digital literacy is important in the modern world&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-12-basics-of-digital-devices&#34;&gt;Lesson 1.2: Basics of Digital Devices&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding hardware vs. software&lt;/li&gt;
+&lt;li&gt;Common digital devices (computers, smartphones, tablets)&lt;/li&gt;
+&lt;li&gt;Input and output devices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;module-2-understanding-the-internet&#34;&gt;Module 2: Understanding the Internet&lt;/h2&gt;
+&lt;h3 id=&#34;lesson-21-introduction-to-the-internet&#34;&gt;Lesson 2.1: Introduction to the Internet&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the internet?&lt;/li&gt;
+&lt;li&gt;The history and evolution of the internet&lt;/li&gt;
+&lt;li&gt;How the internet connects the world&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-22-browsing-the-web&#34;&gt;Lesson 2.2: Browsing the Web&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Web browsers and their functions&lt;/li&gt;
+&lt;li&gt;Navigating websites&lt;/li&gt;
+&lt;li&gt;Understanding URLs and domain names&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;module-3-basic-computing-concepts&#34;&gt;Module 3: Basic Computing Concepts&lt;/h2&gt;
+&lt;h3 id=&#34;lesson-31-operating-systems&#34;&gt;Lesson 3.1: Operating Systems&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What is an operating system?&lt;/li&gt;
+&lt;li&gt;Common operating systems (Windows, macOS, Linux)&lt;/li&gt;
+&lt;li&gt;Navigating the user interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-32-software-applications&#34;&gt;Lesson 3.2: Software Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Different types of software (word processors, spreadsheets, web browsers, etc.)&lt;/li&gt;
+&lt;li&gt;Installing and updating software&lt;/li&gt;
+&lt;li&gt;Understanding software licenses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;module-4-computer-networks-and-internet-safety&#34;&gt;Module 4: Computer Networks and Internet Safety&lt;/h2&gt;
+&lt;h3 id=&#34;lesson-41-introduction-to-computer-networks&#34;&gt;Lesson 4.1: Introduction to Computer Networks&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What are computer networks?&lt;/li&gt;
+&lt;li&gt;LANs vs. WANs&lt;/li&gt;
+&lt;li&gt;How data travels across networks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-42-digital-security&#34;&gt;Lesson 4.2: Digital Security&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Common online threats (viruses, malware, phishing)&lt;/li&gt;
+&lt;li&gt;Password security and best practices&lt;/li&gt;
+&lt;li&gt;Safe browsing habits and avoiding online scams&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;module-5-digital-literacy-assessment-and-resources&#34;&gt;Module 5: Digital Literacy Assessment and Resources&lt;/h2&gt;
+&lt;h3 id=&#34;lesson-51-self-assessment&#34;&gt;Lesson 5.1: Self-Assessment&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Quiz to test digital literacy knowledge&lt;/li&gt;
+&lt;li&gt;Identifying areas for improvement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-52-additional-resources&#34;&gt;Lesson 5.2: Additional Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Recommended books, websites, and courses for further learning&lt;/li&gt;
+&lt;li&gt;How to stay updated in the digital world&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;module-6-wrap-up-and-next-steps&#34;&gt;Module 6: Wrap-up and Next Steps&lt;/h2&gt;
+&lt;h3 id=&#34;lesson-61-review-and-recap&#34;&gt;Lesson 6.1: Review and Recap&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Summarizing key concepts from the course&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-62-moving-forward&#34;&gt;Lesson 6.2: Moving Forward&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The importance of ongoing digital literacy&lt;/li&gt;
+&lt;li&gt;Preparing for more advanced topics like AI and AGI&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
