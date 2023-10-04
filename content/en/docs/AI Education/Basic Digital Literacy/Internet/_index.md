@@ -3,6 +3,7 @@ title: "2.1: The Internet"
 date: 2023-10-03T00:00:00-05:00
 weight: 21
 description: "Covers the basics of the Internet, including: what it is, some history, and how it connects the world."
+linkTitle: "2.2 Internet"
 slug: ""
 image: ""
 keywords: ""
