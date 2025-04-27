@@ -119,6 +119,41 @@ $this->dispatch('toast', [
 </script>
 ```
 
+# Non Toastr Alerts
+
+## Using session for Laravel alerts
+
+These methods do work but not always smoothly. You may sometimes get leftover alerts on a subsequent page.
+
+### How to call from component
+
+```php
+session()->flash('alertType', 'success');
+session()->flash('alertMessage', 'Exclusion toggled');
+```
+
+### How to listen on a page
+
+I have sometimes run into problems when I have multiple components loaded onto a view and each one must do its own alert calls. There is likelt a way to centralize it and make it happen smoothly but this is the main reason I move to toastr ans it seemed very uneven.
+
+Place this code into you blade where you want the alert to display.
+
+```html
+<div class="mt-4">
+    @if (session('alertMessage'))
+        <x-alert :type="session('alertType', 'info')" dismissable="true">
+            {{ session('alertMessage') }}
+        </x-alert>
+    @endif
+</div>
+```
+
+I have also used a partial for entering this code and an Alert component for additional capabilities.
+
+```html
+   @include('partials.alert-overlay')
+```
+
 ---
 
 
