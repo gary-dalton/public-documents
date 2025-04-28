@@ -25,12 +25,12 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/laravel-livewire-etc/toastr/" /><meta property="og:image" content="/logo_white_words.png"/><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2025-04-26T00:00:00-05:00" />
-<meta property="article:modified_time" content="2025-04-26T11:37:32-05:00" /><meta property="og:site_name" content="Werk Space" />
+<meta property="article:modified_time" content="2025-04-27T17:37:35-05:00" /><meta property="og:site_name" content="Werk Space" />
 
 <meta itemprop="name" content="Toastr">
 <meta itemprop="description" content="Toastr is a javascript method of popping up an alert notification to the user. It uses jquery and has good styling and functionality."><meta itemprop="datePublished" content="2025-04-26T00:00:00-05:00" />
-<meta itemprop="dateModified" content="2025-04-26T11:37:32-05:00" />
-<meta itemprop="wordCount" content="219"><meta itemprop="image" content="/logo_white_words.png"/>
+<meta itemprop="dateModified" content="2025-04-27T17:37:35-05:00" />
+<meta itemprop="wordCount" content="358"><meta itemprop="image" content="/logo_white_words.png"/>
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/logo_white_words.png"/>
 
@@ -264,6 +264,15 @@
     <li><a href="#helper-function">Helper Function</a></li>
     <li><a href="#usage-on-page-load">Usage on Page Load</a></li>
   </ul>
+
+  <ul>
+    <li><a href="#using-session-for-laravel-alerts">Using session for Laravel alerts</a>
+      <ul>
+        <li><a href="#how-to-call-from-component">How to call from component</a></li>
+        <li><a href="#how-to-listen-on-a-page">How to listen on a page</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 
 
@@ -403,12 +412,30 @@
 </span></span><span style="display:flex;"><span>        <span style="color:#000">autoRedirectWithToast</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;{{ route(&#39;</span><span style="color:#000">dashboard</span><span style="color:#4e9a06">&#39;) }}&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;Redirecting you to the dashboard...&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;info&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">3000</span><span style="color:#000;font-weight:bold">);</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">});</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">script</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span></code></pre></div><h1 id="non-toastr-alerts">Non Toastr Alerts</h1>
+<h2 id="using-session-for-laravel-alerts">Using session for Laravel alerts</h2>
+<p>These methods do work but not always smoothly. You may sometimes get leftover alerts on a subsequent page.</p>
+<h3 id="how-to-call-from-component">How to call from component</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#000">session</span><span style="color:#000;font-weight:bold">()</span><span style="color:#ce5c00;font-weight:bold">-&gt;</span><span style="color:#c4a000">flash</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;alertType&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;success&#39;</span><span style="color:#000;font-weight:bold">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">session</span><span style="color:#000;font-weight:bold">()</span><span style="color:#ce5c00;font-weight:bold">-&gt;</span><span style="color:#c4a000">flash</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;alertMessage&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;Exclusion toggled&#39;</span><span style="color:#000;font-weight:bold">);</span>
+</span></span></code></pre></div><h3 id="how-to-listen-on-a-page">How to listen on a page</h3>
+<p>I have sometimes run into problems when I have multiple components loaded onto a view and each one must do its own alert calls. There is likelt a way to centralize it and make it happen smoothly but this is the main reason I move to toastr ans it seemed very uneven.</p>
+<p>Place this code into you blade where you want the alert to display.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">div</span> <span style="color:#c4a000">class</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;mt-4&#34;</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    @if (session(&#39;alertMessage&#39;))
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">x-alert</span> <span style="color:#c4a000">:type</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;session(&#39;alertType&#39;, &#39;info&#39;)&#34;</span> <span style="color:#c4a000">dismissable</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;true&#34;</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>            {{ session(&#39;alertMessage&#39;) }}
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">x-alert</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    @endif
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">div</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span></code></pre></div><p>I have also used a partial for entering this code and an Alert component for additional capabilities.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>   @include(&#39;partials.alert-overlay&#39;)
 </span></span></code></pre></div><hr>
 
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">
-  Last modified April 26, 2025: <a href="https://github.com/gary-dalton/public-documents/commit/1193c08b4eef65ea98390ab6e94ee89bf5ba7bc0">Added a section for livewire, etc (1193c08)</a>
+  Last modified April 27, 2025: <a href="https://github.com/gary-dalton/public-documents/commit/669ead788ab92147b713222be867c5727b999584">Add a few more cases to scroll and alert methods (669ead7)</a>
 </div>
 
 </div>
