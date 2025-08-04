@@ -1,18 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Werk Space – Raspberry Pi</title>
+    <title>Raspberry Pi on Werk Space</title>
     <link>/docs/raspberry/</link>
     <description>Recent content in Raspberry Pi on Werk Space</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 08 May 2020 08:27:47 -0500</lastBuildDate>
-    
-	  <atom:link href="/docs/raspberry/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="/docs/raspberry/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

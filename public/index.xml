@@ -1,1469 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Werk Space – Werk Space</title>
+    <title>Werk Space</title>
     <link>/</link>
     <description>Recent content on Werk Space</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	  <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-      
-    
-    
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog: Basic Philosophy</title>
+      <title>Livewire Orchestration Pattern (LOP)</title>
+      <link>/docs/laravel-livewire-etc/lop/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 -0500</pubDate>
+      <guid>/docs/laravel-livewire-etc/lop/</guid>
+      <description>&lt;h1 id=&#34;livewire-orchestration-pattern-lop&#34;&gt;Livewire Orchestration Pattern (LOP)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;audience&#34;&gt;Audience&lt;/h2&gt;&#xA;&lt;p&gt;Developers working on the Lawn Bowls Club application (or other Laravel/Livewire projects).&lt;/p&gt;&#xA;&lt;h2 id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;&#xA;&lt;p&gt;This document outlines the &amp;ldquo;Livewire Orchestration Pattern&amp;rdquo; (LOP), a file and component structure designed to effectively build and manage sophisticated features using Livewire. It explains each component of the pattern and how they interact.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;core-concepts&#34;&gt;Core Concepts&lt;/h1&gt;&#xA;&lt;p&gt;The LOP extends the traditional Model-View-Controller (MVC)  paradigm by explicitly recognizing the controller role of Livewire components and introducing the Orchestrator and Wrapper layers for structuring complex, interactive UIs in Laravel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Universal Modeling</title>
+      <link>/blog/2025/07/17/universal-modeling/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/blog/2025/07/17/universal-modeling/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;At the heart of any robust analysis lies a model that can accurately represent the complexities of a given reality. The intent of a model is to make accurate prediction. The model I propose and its components are not merely abstract concepts but are the essential building blocks for understanding and predicting the behavior of systems, whether they be physical, social, or conceptual.&lt;/p&gt;&#xA;&lt;p&gt;This is not meant to accurately portray an underlying reality, the model assumes no such thing exists; instead it provides methods for thinking. I reject the concepts of a static reality or an objective Truth that is attainable. The model describes a universe that is computational, stochastic, relational, layered, and forever reformulating itself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Basic Philosophy</title>
       <link>/blog/2020/04/27/basic-philosophy/</link>
       <pubDate>Mon, 27 Apr 2020 16:22:35 -0500</pubDate>
-      
       <guid>/blog/2020/04/27/basic-philosophy/</guid>
-      <description>
-        
-        
-        &lt;p&gt;For a post like this, the question is where to start and how much to explain. I will try to write as little as possible and point to other thinkers whenever possible.&lt;/p&gt;
-&lt;h2 id=&#34;stoicism&#34;&gt;Stoicism&lt;/h2&gt;
-&lt;p&gt;I am a Stoic, especially in the tradition of Epicetetus. I was a Stoic before I was introduced to these works and reviewing the thoughts of many of the Stoics has made this very clear to me. I use the words of the Stoics and naturally engage in many of the practices.&lt;/p&gt;
-&lt;p&gt;The Daily Stoic has an excellent introductory article titled, &lt;a href=&#34;https://dailystoic.com/what-is-stoicism-a-definition-3-stoic-exercises-to-get-you-started/&#34;&gt;What Is Stoicism? A Definition &amp;amp; 9 Stoic Exercises To Get You Started&lt;/a&gt;. Of those nine exercises the only one I struggle to do even when knowing it would be helpful is journaling. Though perhaps this blog is yet another attempt to do that.&lt;/p&gt;
-&lt;p&gt;Understand Stoicism and understand a great deal of my approach to living.&lt;/p&gt;
-
-
-&lt;div class=&#34;pageinfo pageinfo-warning&#34;&gt;
-&lt;p&gt;Work in progress.&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;there-is-no-supernatural&#34;&gt;There is no supernatural&lt;/h2&gt;
-&lt;p&gt;Many people would rephrase that statement to say I am an atheist. Sure, if you must.&lt;/p&gt;
-&lt;p&gt;I attended religious elementary and secondary schools. A defining memory I have is from seventh grade. I recall we were in science class being lectured about the scientific method. My thoughts wandered to the religious class we had the previous hour and how the statements of the two classes seemed to be in such conflict. Through faith alone versus all hypotheses must be proven by experiment. While both of those are a bit simplistic, they do expose the great divide between the two. I have basically not been religious since that time, though of course there were many developmental steps.&lt;/p&gt;
-&lt;p&gt;I state there is not supernatural because there is literally no way in nature to test hypotheses about the supernatural. Something which has no effects is truly nothing at all.&lt;/p&gt;
-&lt;h2 id=&#34;urban-libertarianism&#34;&gt;Urban Libertarianism&lt;/h2&gt;
-&lt;p&gt;Politically, I define myself as an Urban Libertarian. Basically I am throwing a modifier onto the Libertarian outlook.&lt;/p&gt;
-&lt;p&gt;Generally, Libertarians seek to maximize political freedom and autonomy, emphasizing freedom of choice, voluntary association and individual judgement. Libertarians share a skepticism of authority and state power. Another important aspect is avoidance of coercion to achieve societal objectives.&lt;/p&gt;
-&lt;p&gt;This is a very individualist outlook on life with high levels of personal responsibility and sometimes harsh consequences for those unable to compete. Over time, I have concluded that an important cause of problems in American society is on overvaluation placed upon individualism versus collectivism. There are times when the primacy of individuals must be subjugated for the well-being of the society. Since I think this change is mostly due to the transition to a more urban society, one in which the well-being of your neighbors greatly affects your own well-being, I use the Urban modifier.&lt;/p&gt;
-&lt;p&gt;So yes, there are times when it is not only acceptable but required to use a minimum of coercion to improve the well-being of society.&lt;/p&gt;
-&lt;h2 id=&#34;whats-good-for-business-&#34;&gt;What&amp;rsquo;s good for business &amp;hellip;&lt;/h2&gt;
-&lt;p&gt;I don&amp;rsquo;t have a name for this viewpoint but use it regularly in developing thoughts about what works best. As a first approximation, I think does this benefit or harm small businesses. From this, I have come up with what some might consider counter-intuitive ideas. The clearest example I have of this regards health care.&lt;/p&gt;
-&lt;p&gt;I think that universal health care is the way to go. Why? Because it gives small businesses a level playing field upon which to compete with large corporations and also with other countries. Providing health insurance is a cost to the business but for the labor force it is an expected benefit of employment. A small business is therefore not able to compete for employees. Universal health care levels this playing field.&lt;/p&gt;
-&lt;p&gt;Small businesses provide employment, innovation, skills, leadership, and opportunity. the nation that does best in nurturing these qualities has a favorable outlook versus nations that do not.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;For a post like this, the question is where to start and how much to explain. I will try to write as little as possible and point to other thinkers whenever possible.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stoicism&#34;&gt;Stoicism&lt;/h2&gt;&#xA;&lt;p&gt;I am a Stoic, especially in the tradition of Epicetetus. I was a Stoic before I was introduced to these works and reviewing the thoughts of many of the Stoics has made this very clear to me. I use the words of the Stoics and naturally engage in many of the practices.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Not a Slave to Superstition</title>
+      <title>Toastr</title>
+      <link>/docs/laravel-livewire-etc/toastr/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 -0500</pubDate>
+      <guid>/docs/laravel-livewire-etc/toastr/</guid>
+      <description>&lt;h1 id=&#34;toastr-notifications-and-redirects&#34;&gt;Toastr Notifications and Redirects&lt;/h1&gt;&#xA;&lt;h2 id=&#34;audience&#34;&gt;Audience&lt;/h2&gt;&#xA;&lt;p&gt;Developers working on the Lawn Bowls Club application (or other Laravel/Livewire projects).&lt;/p&gt;&#xA;&lt;h2 id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;&#xA;&lt;p&gt;Provide consistent methods for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Triggering toast notifications&lt;/li&gt;&#xA;&lt;li&gt;Redirecting users after a delay while locking the page&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;global-toastr-notifications-via-custom-events&#34;&gt;Global Toastr Notifications via Custom Events&lt;/h1&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dispatch a &lt;code&gt;toast&lt;/code&gt; CustomEvent.&lt;/li&gt;&#xA;&lt;li&gt;A global script listens and fires Toastr.&lt;/li&gt;&#xA;&lt;li&gt;No direct &lt;code&gt;toastr.success()&lt;/code&gt; calls from Blade or Livewire.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;global-toastr-listener-setup-already-exists&#34;&gt;Global Toastr Listener Setup (already exists)&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#000&#34;&gt;toastr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;closeButton&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;progressBar&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;positionClass&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;toast-top-right&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;timeOut&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4500&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;};&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#204a87&#34;&gt;window&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;addEventListener&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;toast&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;event&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;detail&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;Array&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;isArray&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;event&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;detail&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;?&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;event&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;detail&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;event&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;detail&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;toastr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;detail&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;alertType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;function&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#000&#34;&gt;toastr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;detail&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;alertType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;](&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;detail&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;alertMessage&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;});&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;dispatching-a-toast&#34;&gt;Dispatching a Toast&lt;/h2&gt;&#xA;&lt;p&gt;From Blade:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scroll</title>
+      <link>/docs/laravel-livewire-etc/scroll/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 -0500</pubDate>
+      <guid>/docs/laravel-livewire-etc/scroll/</guid>
+      <description>&lt;h1 id=&#34;scroll-to-element&#34;&gt;Scroll to Element&lt;/h1&gt;&#xA;&lt;h2 id=&#34;audience&#34;&gt;Audience&lt;/h2&gt;&#xA;&lt;p&gt;Developers working on the Lawn Bowls Club application (or other Laravel/Livewire projects).&lt;/p&gt;&#xA;&lt;h2 id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;&#xA;&lt;p&gt;Provide consistent methods for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Scrolling to a page element after an action&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;scroll-to-an-element-after-a-livewire-or-blade-event&#34;&gt;Scroll to an Element after a Livewire or Blade Event&lt;/h1&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use a global &lt;code&gt;scroll-to-element&lt;/code&gt; event listener.&lt;/li&gt;&#xA;&lt;li&gt;Dispatch &lt;code&gt;scroll-to-element&lt;/code&gt; with the desired &lt;code&gt;elementId&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;The page will smooth scroll to that element with a customizable offset.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;setup-one-time&#34;&gt;Setup (One Time)&lt;/h2&gt;&#xA;&lt;p&gt;Push this into &lt;code&gt;@push(&#39;scripts&#39;)&lt;/code&gt; in your Blade view or layout:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ladder Challenge</title>
+      <link>/groups/lawn-bowls/ladder-challenge/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/groups/lawn-bowls/ladder-challenge/</guid>
+      <description>&lt;h2 id=&#34;what-is-the-ladder-challenge&#34;&gt;What is the Ladder Challenge?&lt;/h2&gt;&#xA;&lt;p&gt;The goal is simple: challenge your way to the top and defend your rank or rung on the singles ladder. Challenge an opponent already on the ladder and play a Singles match to 15 points and report your score to climb the ladder.&lt;/p&gt;&#xA;&lt;h2 id=&#34;viewing-the-ladder&#34;&gt;Viewing the Ladder&lt;/h2&gt;&#xA;&lt;p&gt;There are multiple paths to view the ladder:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;From the Dashboard:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the global info shows, just click the Ladder Challenge link&lt;/li&gt;&#xA;&lt;li&gt;Otherwise scroll to and click Tournaments.&#xA;&lt;br /&gt;&#xA;&lt;br /&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA; &lt;img src=&#34;../imgs/dash2tournament.png&#34; width=&#34;250&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Then click View Challenges from the tournament information.&#xA;&lt;br /&gt;&#xA;&lt;br /&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA; &lt;img src=&#34;../imgs/ladder_tourn.png&#34; width=&#34;250&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;From here you should see all of your activities. This is your Ladder Dashboard.&lt;/li&gt;&#xA;&lt;li&gt;You have options to Challenge, Cancel, Accept, Enter scores, or Dispute a score. These only show if they are available to you.&#xA;&lt;br /&gt;&#xA;&lt;br /&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA; &lt;img src=&#34;../imgs/MyLadder.png&#34; width=&#34;250&#34;&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Via Notifications&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Not a Slave to Superstition</title>
       <link>/blog/2022/08/08/not-a-slave-to-superstition/</link>
       <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2022/08/08/not-a-slave-to-superstition/</guid>
-      <description>
-        
-        
-        &lt;p&gt;The word atheist is defined in relation to gods. I prefer the phrase &amp;ldquo;not slave to superstitions&amp;rdquo; of which belief in gods is but one of many that must be suppressed. There are natural tendencies in humans to be superstition and so suppression must be an active process.&lt;/p&gt;
-&lt;p&gt;Christians are slaves to superstition. Both conspiracy theories and gods fall under the umbrella of superstition.&lt;/p&gt;
-
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;This is placeholder content.&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;discernment-of-cause&#34;&gt;Discernment of cause&lt;/h2&gt;
-&lt;p&gt;Are we good at discerning the truth of our reality? I would like to say, &amp;lsquo;yes, yes we are&amp;rsquo; but I fear that we really are not very good at discerning our reality. If you are asked, &amp;lsquo;What causes the wind?, the tides?, the sunrise?, or fire?&amp;rsquo; you might be able to give a reasonably accurate answer. None of those answers is directly obvious in itself. Your ability to correctly answer any of those questions depends upon a chain of knowledge that certainly was not available to our long-ago ancestors.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;The word atheist is defined in relation to gods. I prefer the phrase &amp;ldquo;not slave to superstitions&amp;rdquo; of which belief in gods is but one of many that must be suppressed. There are natural tendencies in humans to be superstition and so suppression must be an active process.&lt;/p&gt;&#xA;&lt;p&gt;Christians are slaves to superstition. Both conspiracy theories and gods fall under the umbrella of superstition.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;This is placeholder content.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;discernment-of-cause&#34;&gt;Discernment of cause&lt;/h2&gt;&#xA;&lt;p&gt;Are we good at discerning the truth of our reality? I would like to say, &amp;lsquo;yes, yes we are&amp;rsquo; but I fear that we really are not very good at discerning our reality. If you are asked, &amp;lsquo;What causes the wind?, the tides?, the sunrise?, or fire?&amp;rsquo; you might be able to give a reasonably accurate answer. None of those answers is directly obvious in itself. Your ability to correctly answer any of those questions depends upon a chain of knowledge that certainly was not available to our long-ago ancestors.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Exploitation: To Depletion or Steady State</title>
+      <title>Help out</title>
+      <link>/local/help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/local/help/</guid>
+      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;This is placeholder content.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Exploitation: To Depletion or Steady State</title>
       <link>/blog/2024/02/27/exploitation-to-depletion-or-steady-state/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2024/02/27/exploitation-to-depletion-or-steady-state/</guid>
-      <description>
-        
-        
-        &lt;p&gt;DEFINITION  Exploitation means to use some resource for advantage, benefit, or profit.&lt;/p&gt;
-
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;THIS IS A DRAFT!&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Lately, I started using a model of &amp;ldquo;humans as an exploitation machine&amp;rdquo; to analyze or gain a different perspective on our world. The definition alone does not imply good or bad but we have many contexts of this word which have very negative associations.&lt;/p&gt;
-&lt;p&gt;Some contexts:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Social: exploitation often refers to the unfair treatment or abuse of power towards individuals or groups with less power, resources, or agency.&lt;/li&gt;
-&lt;li&gt;Market economy: exploitation can take various forms, including labor, natural resources, intellectual property, and market.&lt;/li&gt;
-&lt;li&gt;Computer science: an exploit is a code that takes advantage of a software vulnerability or security flaw.&lt;/li&gt;
-&lt;li&gt;Military: exploit the initiative to gain a tactical or strategic advantage.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Considering &amp;ldquo;humans as an exploitation machine&amp;rdquo;, refers mainly to market exploitation which is neutral toward the ethics of exploitation. In the social context, which sometimes gets mixed into the market context, exploitation is clearly negative.&lt;/p&gt;
-&lt;p&gt;The mixing of context chiefly occurs when we talk of exploiting the labor resource. This also brings us into the realm of Marx, where workers are exploited by the capital class through political power resulting in low wages, long working hours, unsafe working conditions, and the denial of basic rights. This is often seen in industries that rely on low-skilled labor, such as agriculture, manufacturing, and hospitality. Labor exploitation can also involve the use of child labor, forced labor, and human trafficking.&lt;/p&gt;
-&lt;h2 id=&#34;market-context&#34;&gt;Market context&lt;/h2&gt;
-&lt;p&gt;In a market economy, exploitation is driven by the pursuit of profit and economic growth. Exploitation happens on both the supply and demand sides. This natural human seeking of advantage is one of the main arguments in favor of the market economy versus other types of economies. It has the overall effect of balancing the needs and demands of its many participants.  At least in theory.&lt;/p&gt;
-&lt;p&gt;Exploiting of labor, as mentioned previously, does mix context with the social. But exploiting of labor markets also includes using to competitive advantage special skills, trainings, productivity, or traits. Exploiting a labor force’s high productivity is not necessarily a negative and in fact,  a highly productive labor force may enjoy political power and a high rate of compensation.&lt;/p&gt;
-&lt;p&gt;Resource exploitation refers to the exploitation of natural resources such as land, water, and minerals for commercial gain. Humans have been exploiting natural resources for survival since the dawn of time.  Natural resource exploitation often leads to unequal distribution of wealth and power, with those who control the resources benefiting.&lt;/p&gt;
-&lt;p&gt;Our modern society has created another form of property that may also be exploited, intellectual property. We have intentionally granted exclusive rights to exploiting intellectual property to those that hold ownership. This right to exploit is presumed to foster innovation and creativity, promote new technologies, and create economic value. Of course there are downsides as well, including: monopolies, higher prices, unreasonable restrictions on fair use, and potential barriers to innovation.&lt;/p&gt;
-&lt;p&gt;By market exploitation, we generally refer to exploiting temporary imbalances in the market. Market makers are financial institutions or individuals that facilitate  securities trading and provide liquidity, smooth markets, and reduced volatility. We also have companies that attempt to use leverage to unfairly or illegally exploit markets to the detriment of all. A great example of this later case is Enron, who engaged in market manipulation to boost profits and manipulate energy prices. Enron created artificial shortages of electricity in California by manipulating the state&amp;rsquo;s energy market. They also engaged in &amp;ldquo;round-trip&amp;rdquo; trades, where they bought and sold electricity back and forth between different companies without any real exchange of power, inflating their revenues and creating the illusion of high demand.&lt;/p&gt;
-&lt;h2 id=&#34;humans-as-an-exploitation-machine&#34;&gt;Humans as an exploitation machine&lt;/h2&gt;
-&lt;p&gt;Humans exploit natural resources for survival and economic development. We have been doing this throughout our recoded history and likely our ability to successfully exploit our environment has led to our relative success as a species. While this has led to significant benefits, it has also had negative impacts on the environment.&lt;/p&gt;
-&lt;p&gt;From the beginning, we have hunted and fished. Ancient cultures such as the Inuit and Native Americans relied heavily on hunting and fishing for their survival. With the advent of modern technologies, overfishing has become a looming environmental issue.&lt;/p&gt;
-&lt;p&gt;Early on, we exploited our forests, which started when humans began using wood for fuel, building materials, and tools. The ancient civilizations of Mesopotamia, Egypt, and China all relied heavily on timber for building their homes, ships, and other infrastructure. In the Middle Ages, Europe experienced severe deforestation due to the demand for wood for fuel and construction.&lt;/p&gt;
-&lt;p&gt;The Romans mined extensively. They extracted metals such as gold, silver, and iron. Later, in the 19th century, the Industrial Revolution led to a significant increase in mining activities, with coal becoming a preeminent energy source for factories, manufacturing, and transportation. The environmental damage caused by some of these operations is clear. One only need to look at the areas around the tailings ponds or the strip mines.&lt;/p&gt;
-&lt;p&gt;Early stage&lt;/p&gt;
-&lt;p&gt;Mid-stage&lt;/p&gt;
-&lt;p&gt;Depletion and damage&lt;/p&gt;
-&lt;h2 id=&#34;we-dont-know-when-to-stop&#34;&gt;We don’t know when to stop&lt;/h2&gt;
-&lt;p&gt;How do we account for costs?&lt;/p&gt;
-&lt;h2 id=&#34;exploitation-to-depletion&#34;&gt;Exploitation to depletion&lt;/h2&gt;
-&lt;p&gt;Most of the problems with exploitation occur because we continue until depletion and ignore the collateral damages. There is also a huge rarity bonus built in.&lt;/p&gt;
-&lt;p&gt;This can result in environmental degradation, depletion of resources, and displacement of local communities who depend on these resources.&lt;/p&gt;
-&lt;p&gt;Market exploitation refers to the use of monopolistic practices, price gouging, and other forms of market power to extract rents or profits from consumers, often at the expense of their well-being. Market exploitation can also involve the exploitation of intellectual property rights, such as patents and copyrights, to limit competition and maintain market dominance.&lt;/p&gt;
-&lt;p&gt;While some argue that exploitation is a necessary part of economic development, others argue that it is a moral and ethical issue that must be addressed through regulation, oversight, and the protection of the rights of workers, consumers, and communities.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;DEFINITION  Exploitation means to use some resource for advantage, benefit, or profit.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;THIS IS A DRAFT!&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Lately, I started using a model of &amp;ldquo;humans as an exploitation machine&amp;rdquo; to analyze or gain a different perspective on our world. The definition alone does not imply good or bad but we have many contexts of this word which have very negative associations.&lt;/p&gt;&#xA;&lt;p&gt;Some contexts:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Social: exploitation often refers to the unfair treatment or abuse of power towards individuals or groups with less power, resources, or agency.&lt;/li&gt;&#xA;&lt;li&gt;Market economy: exploitation can take various forms, including labor, natural resources, intellectual property, and market.&lt;/li&gt;&#xA;&lt;li&gt;Computer science: an exploit is a code that takes advantage of a software vulnerability or security flaw.&lt;/li&gt;&#xA;&lt;li&gt;Military: exploit the initiative to gain a tactical or strategic advantage.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Considering &amp;ldquo;humans as an exploitation machine&amp;rdquo;, refers mainly to market exploitation which is neutral toward the ethics of exploitation. In the social context, which sometimes gets mixed into the market context, exploitation is clearly negative.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Books I&#39;d Like to Read</title>
+      <title>Books I&#39;d Like to Read</title>
       <link>/blog/2024/01/30/books-id-like-to-read/</link>
       <pubDate>Tue, 30 Jan 2024 12:03:18 -0500</pubDate>
-      
       <guid>/blog/2024/01/30/books-id-like-to-read/</guid>
-      <description>
-        
-        
-        &lt;h1 id=&#34;books-id-like-to-read-in-the-near-future&#34;&gt;Books I&amp;rsquo;d like to read in the near future&lt;/h1&gt;
-&lt;h2 id=&#34;highly-likely&#34;&gt;Highly likely&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;SomePeople Need Killing&lt;/em&gt;: &lt;a href=&#34;https://www.nytimes.com/2023/10/18/books/review/some-people-need-killing-patricia-evangelista.html&#34;&gt;https://www.nytimes.com/2023/10/18/books/review/some-people-need-killing-patricia-evangelista.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Poverty by America&lt;/em&gt;: &lt;a href=&#34;https://www.nytimes.com/2023/03/13/books/review/poverty-by-america-matthew-desmond.html&#34;&gt;https://www.nytimes.com/2023/03/13/books/review/poverty-by-america-matthew-desmond.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Monsters&lt;/em&gt;: &lt;a href=&#34;https://www.nytimes.com/2023/04/23/books/monsters-review-claire-dederer.html&#34;&gt;https://www.nytimes.com/2023/04/23/books/monsters-review-claire-dederer.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Y/N&lt;/em&gt;: &lt;a href=&#34;https://www.nytimes.com/2023/03/14/books/esther-yi-y-n.html&#34;&gt;https://www.nytimes.com/2023/03/14/books/esther-yi-y-n.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;This Other Eden&lt;/em&gt;: &lt;a href=&#34;https://www.nytimes.com/2023/01/24/books/review/this-other-eden-paul-harding.html&#34;&gt;https://www.nytimes.com/2023/01/24/books/review/this-other-eden-paul-harding.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;A History of Burning&lt;/em&gt; &lt;a href=&#34;https://www.nytimes.com/2023/04/28/books/review/a-history-of-burning-janika-oza.html&#34;&gt;https://www.nytimes.com/2023/04/28/books/review/a-history-of-burning-janika-oza.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;maybe&#34;&gt;Maybe&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Prison Notebooks&lt;/em&gt; by Antonio Gramsci: &lt;a href=&#34;https://www.amazon.com/Prison-Notebooks-Volumes-Antonio-Gramsci/dp/023115755X&#34;&gt;https://www.amazon.com/Prison-Notebooks-Volumes-Antonio-Gramsci/dp/023115755X&lt;/a&gt; or &lt;a href=&#34;https://www.amazon.com/Selections-Prison-Notebooks-Antonio-Gramsci/dp/071780397X&#34;&gt;https://www.amazon.com/Selections-Prison-Notebooks-Antonio-Gramsci/dp/071780397X&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;only-if-i-must&#34;&gt;Only if I must&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;No Trade is Free&lt;/em&gt;: &lt;a href=&#34;https://www.foreignaffairs.com/reviews/washingtons-new-trade-consensus-hanson-lighthizer&#34;&gt;https://www.foreignaffairs.com/reviews/washingtons-new-trade-consensus-hanson-lighthizer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
+      <description>&lt;h1 id=&#34;books-id-like-to-read-in-the-near-future&#34;&gt;Books I&amp;rsquo;d like to read in the near future&lt;/h1&gt;&#xA;&lt;h2 id=&#34;highly-likely&#34;&gt;Highly likely&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;SomePeople Need Killing&lt;/em&gt;: &lt;a href=&#34;https://www.nytimes.com/2023/10/18/books/review/some-people-need-killing-patricia-evangelista.html&#34;&gt;https://www.nytimes.com/2023/10/18/books/review/some-people-need-killing-patricia-evangelista.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Poverty by America&lt;/em&gt;: &lt;a href=&#34;https://www.nytimes.com/2023/03/13/books/review/poverty-by-america-matthew-desmond.html&#34;&gt;https://www.nytimes.com/2023/03/13/books/review/poverty-by-america-matthew-desmond.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Monsters&lt;/em&gt;: &lt;a href=&#34;https://www.nytimes.com/2023/04/23/books/monsters-review-claire-dederer.html&#34;&gt;https://www.nytimes.com/2023/04/23/books/monsters-review-claire-dederer.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Y/N&lt;/em&gt;: &lt;a href=&#34;https://www.nytimes.com/2023/03/14/books/esther-yi-y-n.html&#34;&gt;https://www.nytimes.com/2023/03/14/books/esther-yi-y-n.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;This Other Eden&lt;/em&gt;: &lt;a href=&#34;https://www.nytimes.com/2023/01/24/books/review/this-other-eden-paul-harding.html&#34;&gt;https://www.nytimes.com/2023/01/24/books/review/this-other-eden-paul-harding.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;A History of Burning&lt;/em&gt; &lt;a href=&#34;https://www.nytimes.com/2023/04/28/books/review/a-history-of-burning-janika-oza.html&#34;&gt;https://www.nytimes.com/2023/04/28/books/review/a-history-of-burning-janika-oza.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;maybe&#34;&gt;Maybe&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Prison Notebooks&lt;/em&gt; by Antonio Gramsci: &lt;a href=&#34;https://www.amazon.com/Prison-Notebooks-Volumes-Antonio-Gramsci/dp/023115755X&#34;&gt;https://www.amazon.com/Prison-Notebooks-Volumes-Antonio-Gramsci/dp/023115755X&lt;/a&gt; or &lt;a href=&#34;https://www.amazon.com/Selections-Prison-Notebooks-Antonio-Gramsci/dp/071780397X&#34;&gt;https://www.amazon.com/Selections-Prison-Notebooks-Antonio-Gramsci/dp/071780397X&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;only-if-i-must&#34;&gt;Only if I must&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;No Trade is Free&lt;/em&gt;: &lt;a href=&#34;https://www.foreignaffairs.com/reviews/washingtons-new-trade-consensus-hanson-lighthizer&#34;&gt;https://www.foreignaffairs.com/reviews/washingtons-new-trade-consensus-hanson-lighthizer&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Mission and Values</title>
+      <title>Mission and Values</title>
       <link>/blog/2024/01/17/mission-and-values/</link>
       <pubDate>Wed, 17 Jan 2024 11:42:24 -0500</pubDate>
-      
       <guid>/blog/2024/01/17/mission-and-values/</guid>
-      <description>
-        
-        
-        &lt;p&gt;I was going through old files the other day and came across some notes I had made. These covered my business mission and core values as I created and stated them when I started doing business in the mid 1990s.&lt;/p&gt;
-&lt;h2 id=&#34;mission-statement&#34;&gt;Mission Statement&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Be happy and cause happiness&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;That is a very simple and direct statement and I hope that over the ensuing years, I was able to cause happiness for my customers and everyone I worked with. I also hope that I continue with this mission statement in my personal life as well.&lt;/p&gt;
-&lt;h2 id=&#34;core-values&#34;&gt;Core Values&lt;/h2&gt;
-&lt;h3 id=&#34;competence&#34;&gt;Competence&lt;/h3&gt;
-&lt;p&gt;Do things well and efficiently&lt;/p&gt;
-&lt;h3 id=&#34;understanding&#34;&gt;Understanding&lt;/h3&gt;
-&lt;p&gt;Strive to understand people, systems, situations, and life.&lt;/p&gt;
-&lt;h3 id=&#34;objectivity&#34;&gt;Objectivity&lt;/h3&gt;
-&lt;p&gt;Remove or at least reduce egocentricity. This is important of understanding and competence.&lt;/p&gt;
-&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration&lt;/h3&gt;
-&lt;p&gt;Others exist and must be included as stakeholders in all projects. Success in an endeavor is not the completion alone but the resulting creation of happiness. Without collaboration, this becomes impossible.&lt;/p&gt;
-&lt;h3 id=&#34;adaptability&#34;&gt;Adaptability&lt;/h3&gt;
-&lt;p&gt;Easily and quickly abandon failure and consistently follow the path of what works.&lt;/p&gt;
-&lt;h3 id=&#34;integrity&#34;&gt;Integrity&lt;/h3&gt;
-&lt;p&gt;To thine own self, remain true. Do not sacrifice this mission or values in order to make ephemeral gains.&lt;/p&gt;
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;Honestly, I really like these even today. I do hope that I was able to follow this mission and stick to those values. I will try to keep them in mind as I move forward with my life. I think that they are just as worthwhile for me as an individual as for the businesses I created.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;I was going through old files the other day and came across some notes I had made. These covered my business mission and core values as I created and stated them when I started doing business in the mid 1990s.&lt;/p&gt;&#xA;&lt;h2 id=&#34;mission-statement&#34;&gt;Mission Statement&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Be happy and cause happiness&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;That is a very simple and direct statement and I hope that over the ensuing years, I was able to cause happiness for my customers and everyone I worked with. I also hope that I continue with this mission statement in my personal life as well.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Ceviche</title>
+      <title>Ceviche</title>
       <link>/blog/2023/07/22/ceviche/</link>
       <pubDate>Sat, 22 Jul 2023 12:03:18 -0500</pubDate>
-      
       <guid>/blog/2023/07/22/ceviche/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;what-is-ceviche&#34;&gt;What is Ceviche?&lt;/h2&gt;
-&lt;p&gt;Ceviche is made of fish or shellfish marinated in citrus and seasonings. Different versions of ceviche are part of the culinary culture of various Spanish-American countries along the Pacific Ocean. In Peru it is considered a flagship dish and cultural heritage.&lt;/p&gt;
-&lt;p&gt;Traditionally, a raw white fish, such as sea bass, is used but many times this is replaced with a cooked shrimp. The versions I make include cooked shrimp or, contrary to tradition, leftover grilled salmon. A cooked whitefish such as tilapia would work well also. The spiciness of the dish is determined by the type and quantity of chile used.&lt;/p&gt;
-&lt;h2 id=&#34;servings&#34;&gt;Servings&lt;/h2&gt;
-&lt;p&gt;About 6&lt;/p&gt;
-&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;1/2 red onion, chopped&lt;/li&gt;
-&lt;li&gt;1 tsp salt&lt;/li&gt;
-&lt;li&gt;3/4 cup  lime juice (4-6 limes)&lt;/li&gt;
-&lt;li&gt;2 cloves garlic, minced&lt;/li&gt;
-&lt;li&gt;1 lb cooked shrimp, chopped (I&amp;rsquo;ll sometimes use leftover grilled salmon)&lt;/li&gt;
-&lt;li&gt;1 cup diced tomatoes&lt;/li&gt;
-&lt;li&gt;1/2 cup cilantro, chopped&lt;/li&gt;
-&lt;li&gt;1 avocado, diced&lt;/li&gt;
-&lt;li&gt;1 finely chopped jalapeno&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Chop the onion&lt;/li&gt;
-&lt;li&gt;Juice the limes and add into bowl with onion and salt&lt;/li&gt;
-&lt;li&gt;Add garlic, shrimp, tomatoes, and jalepeno&lt;/li&gt;
-&lt;li&gt;Chill in refrigerator for about 30 minutes (more is fine as often I&amp;rsquo;ll prepare in the morning)&lt;/li&gt;
-&lt;li&gt;About 1/2 hour before serving, add the cilantro and avocado.&lt;/li&gt;
-&lt;li&gt;Chill until serving&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;serve&#34;&gt;Serve&lt;/h2&gt;
-&lt;p&gt;Serve with tostadoes (Mexican style), cooked sweet potatotes or plantains (peruvian style), or with quinoa and greens.&lt;/p&gt;
-
-      </description>
+      <description>&lt;h2 id=&#34;what-is-ceviche&#34;&gt;What is Ceviche?&lt;/h2&gt;&#xA;&lt;p&gt;Ceviche is made of fish or shellfish marinated in citrus and seasonings. Different versions of ceviche are part of the culinary culture of various Spanish-American countries along the Pacific Ocean. In Peru it is considered a flagship dish and cultural heritage.&lt;/p&gt;&#xA;&lt;p&gt;Traditionally, a raw white fish, such as sea bass, is used but many times this is replaced with a cooked shrimp. The versions I make include cooked shrimp or, contrary to tradition, leftover grilled salmon. A cooked whitefish such as tilapia would work well also. The spiciness of the dish is determined by the type and quantity of chile used.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Paloma: a summer drink</title>
+      <title>Paloma: a summer drink</title>
       <link>/blog/2023/07/22/paloma-a-summer-drink/</link>
       <pubDate>Sat, 22 Jul 2023 12:03:18 -0500</pubDate>
-      
       <guid>/blog/2023/07/22/paloma-a-summer-drink/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;servings&#34;&gt;Servings&lt;/h2&gt;
-&lt;p&gt;About 6&lt;/p&gt;
-&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Juice of 6-8 limes (about 4 ozs)&lt;/li&gt;
-&lt;li&gt;Juice of 1 lemon&lt;/li&gt;
-&lt;li&gt;Juice of 1/2 grapefruit&lt;/li&gt;
-&lt;li&gt;9 oz of tequila (100% agave but not top shelf)&lt;/li&gt;
-&lt;li&gt;24 oz of Fresca (or other grapefruit soda)&lt;/li&gt;
-&lt;li&gt;Ice to chill&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Juice the limes, lemon and grapefruit.&lt;/li&gt;
-&lt;li&gt;Pour into a pitcher&lt;/li&gt;
-&lt;li&gt;Add the tequila&lt;/li&gt;
-&lt;li&gt;Chill&lt;/li&gt;
-&lt;li&gt;When ready to serve, add the Fresca and ice.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;serve&#34;&gt;Serve&lt;/h2&gt;
-&lt;p&gt;Serve with a slice of lime. Enjoy!.&lt;/p&gt;
-
-      </description>
+      <description>&lt;h2 id=&#34;servings&#34;&gt;Servings&lt;/h2&gt;&#xA;&lt;p&gt;About 6&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Juice of 6-8 limes (about 4 ozs)&lt;/li&gt;&#xA;&lt;li&gt;Juice of 1 lemon&lt;/li&gt;&#xA;&lt;li&gt;Juice of 1/2 grapefruit&lt;/li&gt;&#xA;&lt;li&gt;9 oz of tequila (100% agave but not top shelf)&lt;/li&gt;&#xA;&lt;li&gt;24 oz of Fresca (or other grapefruit soda)&lt;/li&gt;&#xA;&lt;li&gt;Ice to chill&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Juice the limes, lemon and grapefruit.&lt;/li&gt;&#xA;&lt;li&gt;Pour into a pitcher&lt;/li&gt;&#xA;&lt;li&gt;Add the tequila&lt;/li&gt;&#xA;&lt;li&gt;Chill&lt;/li&gt;&#xA;&lt;li&gt;When ready to serve, add the Fresca and ice.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;serve&#34;&gt;Serve&lt;/h2&gt;&#xA;&lt;p&gt;Serve with a slice of lime. Enjoy!.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Chipotle, el Rey</title>
+      <title>Chipotle, el Rey</title>
       <link>/blog/2022/10/22/chipotle-el-rey/</link>
       <pubDate>Sat, 22 Oct 2022 12:03:18 -0500</pubDate>
-      
       <guid>/blog/2022/10/22/chipotle-el-rey/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;
-&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;
-&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;1-2 cups &lt;a href=&#34;/blog/2022/10/22/chipotle-sauce/&#34;&gt;Chipolte sauce&lt;/a&gt; (use less for a milder spice)
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1.5 pounds Ground beef&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1 Tablespoon Olive oil&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1 Onion (chopped)
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;4 cloves Garlic&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2 inches Ginger&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1.5 teaspoons Cumin seed&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1/2 teaspoon Tumeric&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1.5 teaspoons Spanish paprika&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1 teaspoon Cinnamon
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2 cans Diced tomatoes&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;3 cans Beans (black, pinto, northern, etc)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2 teaspoons Molasses&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1/2 bag Frozen corn (about 6 ounces)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1 cup Water (add more as needed for consistency)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1/2 cup Cilantro chopped&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1/2 bottle Beer&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
-&lt;p&gt;Using a large pot:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt; Brown the beef in olive oil then add the onion to brown.&lt;/p&gt;
-&lt;p&gt;Ground the garlic, ginger, and dry spices in a spice grinder. You&amp;rsquo;ll end up with a spice-paste mixture.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt; Add the Chipolte sauce, spice-paste, tomatoes, beans, molasses, corn, and water. Heat to a mild boil.&lt;/p&gt;
-&lt;p&gt;Add the cilantro and 1/2 of whatever beer you are enjoying. Lower heat to a simmer. Let simmer for about 2 hours and enjoy.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&#xA;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&#xA;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1-2 cups &lt;a href=&#34;/blog/2022/10/22/chipotle-sauce/&#34;&gt;Chipolte sauce&lt;/a&gt; (use less for a milder spice)&#xA;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1.5 pounds Ground beef&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1 Tablespoon Olive oil&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1 Onion (chopped)&#xA;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;4 cloves Garlic&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2 inches Ginger&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1.5 teaspoons Cumin seed&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1/2 teaspoon Tumeric&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1.5 teaspoons Spanish paprika&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1 teaspoon Cinnamon&#xA;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2 cans Diced tomatoes&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;3 cans Beans (black, pinto, northern, etc)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2 teaspoons Molasses&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Chipotle Sauce</title>
+      <title>Chipotle Sauce</title>
       <link>/blog/2022/10/22/chipotle-sauce/</link>
       <pubDate>Sat, 22 Oct 2022 12:03:18 -0500</pubDate>
-      
       <guid>/blog/2022/10/22/chipotle-sauce/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;
-&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;
-&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;7 oz Chipoltes in adobe sauce (found in most groveries)&lt;/li&gt;
-&lt;li&gt;1 teaspoon Garlic powder&lt;/li&gt;
-&lt;li&gt;1/2 teaspoon Cumin powder&lt;/li&gt;
-&lt;li&gt;1/2 teaspoon Lime juice&lt;/li&gt;
-&lt;li&gt;1/4 cup Cilantro (chopped)&lt;/li&gt;
-&lt;li&gt;3/4 cup Greek yogurt&lt;/li&gt;
-&lt;li&gt;Water (add to get desired thickness)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
-&lt;p&gt;Add all ingredients to a blender and blend until smooth. Add water and blend to desired thickness.&lt;/p&gt;
-&lt;p&gt;Makes about 2 cups. Store in an airtight jar in refrigerator for up to a week.&lt;/p&gt;
-&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.spiceupthecurry.com/chipotle-sauce/&#34;&gt;https://www.spiceupthecurry.com/chipotle-sauce/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.chilipeppermadness.com/chili-pepper-recipes/sauces/chipotle-sauce/&#34;&gt;https://www.chilipeppermadness.com/chili-pepper-recipes/sauces/chipotle-sauce/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
+      <description>&lt;p&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&#xA;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&#xA;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;img src=&#34;/images/chili-pepper.png&#34; alt=&#34;hot pepper&#34; width=&#34;30&#34; height=&#34;30&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;7 oz Chipoltes in adobe sauce (found in most groveries)&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoon Garlic powder&lt;/li&gt;&#xA;&lt;li&gt;1/2 teaspoon Cumin powder&lt;/li&gt;&#xA;&lt;li&gt;1/2 teaspoon Lime juice&lt;/li&gt;&#xA;&lt;li&gt;1/4 cup Cilantro (chopped)&lt;/li&gt;&#xA;&lt;li&gt;3/4 cup Greek yogurt&lt;/li&gt;&#xA;&lt;li&gt;Water (add to get desired thickness)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;&#xA;&lt;p&gt;Add all ingredients to a blender and blend until smooth. Add water and blend to desired thickness.&lt;/p&gt;&#xA;&lt;p&gt;Makes about 2 cups. Store in an airtight jar in refrigerator for up to a week.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Core Workout</title>
+      <title>Core Workout</title>
       <link>/blog/2022/06/21/core-workout/</link>
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2022/06/21/core-workout/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Choose one of the groups to workout, &lt;em&gt;Group 1&lt;/em&gt;, &lt;em&gt;Group 2&lt;/em&gt;, or &lt;em&gt;Advanced&lt;/em&gt;. Perform each exercise for the time indicated, taking breaks as needed. It is expected that you will fully cycle through a single group to get a complete workout. Completing a group will give you a 14 minute workout.&lt;/p&gt;
-&lt;!-- ### Group 1
-
-1. Plank (1 min)
-1. Dead bug (1 min)
-1. Side plank (1 min)
-1. Reverse crunch (1 min)
-1. Mountain climbers (1 min)
-1. Bear crawl (2 min)
-1. Get up (2 min)
-1. Plank (1 min)
-1. Dead bug (1 min)
-1. Side plank (1 min)
-1. Reverse crunch (1 min)
-1. Mountain climbers (1 min)
-
-### Group 2
-1. Plank (1 min)
-1. Mason twist (1 min)
-1. Side plank (1 min)
-1. Bird dog (1 min)
-1. Reverse crunch (1 min)
-1. V-sit (1 min)
-1. Get up (2 min)
-1. Plank (1 min)
-1. Mason twist (1 min)
-1. Side plank (1 min)
-1. Bird dog (1 min)
-1. Reverse crunch (1 min)
-1. Mountain climbers (1 min)
-
-### Advanced
-1. Plank, mogul (1 min)
-1. Bicycle crunch (1 min)
-1. Side plank, stacked with toe tap (1 min)
-1. Reverse crunch with V-sit (1 min)
-1. Box jumps (2 min)
-1. L-sit (1 min)
-1. Get up (2 min)
-1. Plank, lift leg (1 min)
-1. Bicycle crunch (1 min)
-1. Side plank, full extend (1 min)
-1. Reverse crunch with V-sit (1 min)
-1. Captain&#39;s chair (1 min) --&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;em&gt;Group 1&lt;/em&gt;&lt;/th&gt;
-&lt;th&gt;&lt;em&gt;Group 2&lt;/em&gt;&lt;/th&gt;
-&lt;th&gt;&lt;em&gt;Advanced&lt;/em&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Plank (1 min)&lt;/td&gt;
-&lt;td&gt;Plank (1 min)&lt;/td&gt;
-&lt;td&gt;Plank, mogul (1 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Dead bug (1 min)&lt;/td&gt;
-&lt;td&gt;Mason twist (1 min)&lt;/td&gt;
-&lt;td&gt;Bicycle crunch (1 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;Side plank (1 min)&lt;/td&gt;
-&lt;td&gt;Side plank (1 min)&lt;/td&gt;
-&lt;td&gt;Side plank, stacked with toe tap (1 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;Reverse crunch (1 min)&lt;/td&gt;
-&lt;td&gt;Reverse crunch (1 min)&lt;/td&gt;
-&lt;td&gt;Reverse crunch with V-sit (1 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;Mountain climbers (1 min)&lt;/td&gt;
-&lt;td&gt;Bird dog (1 min)&lt;/td&gt;
-&lt;td&gt;Box jumps (2 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;Hip Escape (1 min)&lt;/td&gt;
-&lt;td&gt;V-sit (1 min)&lt;/td&gt;
-&lt;td&gt;L-sit (1 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;Get up (2 min)&lt;/td&gt;
-&lt;td&gt;Get up (2 min)&lt;/td&gt;
-&lt;td&gt;Get up (2 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;Plank (1 min)&lt;/td&gt;
-&lt;td&gt;Plank (1 min)&lt;/td&gt;
-&lt;td&gt;Plank, lift leg (1 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;Dead bug (1 min)&lt;/td&gt;
-&lt;td&gt;Mason twist (1 min)&lt;/td&gt;
-&lt;td&gt;Bicycle crunch (1 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;Side plank (1 min)&lt;/td&gt;
-&lt;td&gt;Side plank (1 min)&lt;/td&gt;
-&lt;td&gt;Side plank, full extend (1 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;td&gt;Reverse crunch (1 min)&lt;/td&gt;
-&lt;td&gt;Reverse crunch (1 min)&lt;/td&gt;
-&lt;td&gt;Reverse crunch with V-sit (1 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;Mountain climbers (1 min)&lt;/td&gt;
-&lt;td&gt;Bird dog (1 min)&lt;/td&gt;
-&lt;td&gt;Captain&amp;rsquo;s chair (1 min)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;td&gt;Hip Escape (1 min)&lt;/td&gt;
-&lt;td&gt;V-sit (1 min)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;If you feel you need a little extra punch after completing this workout, add a 2 minute bear crawl or crocodile crawl at the end of the routine.&lt;/p&gt;
-&lt;h2 id=&#34;plank&#34;&gt;Plank&lt;/h2&gt;
-&lt;p&gt;With extended arms, place your hands below and hold. Use you core to maintain a neutral spine from your feet to your shoulders. Hold for 15, 30, or 60 seconds. Relax and repeat.&lt;/p&gt;
-&lt;h3 id=&#34;variations&#34;&gt;Variations&lt;/h3&gt;
-&lt;p&gt;Easier&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Rest on you elbows instead of hands.&lt;/li&gt;
-&lt;li&gt;Rest on your knees instead of feet&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Harder&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mogul hops: Hop both feet to one side turning your hips in and your knees out. Maintain a flat back. Hold for a second then jump to neutral, hold and then hop to the other side. Plank from knees or hands.&lt;/li&gt;
-&lt;li&gt;Raise a leg, switch every 10 seconds&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;dead-bug&#34;&gt;Dead Bug&lt;/h2&gt;
-&lt;p&gt;Lie flat on your back with your arms extended towards the ceiling. Then lift your legs and bend your knees at 90° so your lower legs are parallel with the floor. Engage your core and draw your bellybutton in to get your back as flat against the floor as possible – you shouldn’t be able to get a hand in between your back and the floor, and you need to maintain this throughout.&lt;/p&gt;
-&lt;p&gt;Slowly lower your right arm behind your head and extend your left leg forwards at the same time, exhaling as you go. Keep going until your arm and leg are just above the floor, being careful not to raise your back off the floor. Then, as you inhale, slowly return to the starting position and repeat with the opposite limbs.&lt;/p&gt;
-&lt;h3 id=&#34;variations-1&#34;&gt;Variations&lt;/h3&gt;
-&lt;p&gt;Harder&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Change the pattern of opposite arm and leg, switch to opposite, same, switch. For example starting with your right leg: Extend the right leg and left arm, return. Then extend the right leg and right arm, return. Now switch to the left leg and continue the pattern.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;mason-twist&#34;&gt;Mason Twist&lt;/h2&gt;
-&lt;p&gt;Start by sitting on the floor, with your knees bent and feet flat on the ground. Then lean back so your upper body is at a 45-degree angle to the floor. Keep your back straight at this angle throughout the exercise. Link your hands together in front of your chest or hold a all or weighted ball. Brace your core and raise your legs up off the ground. Rotate your arms all the way over to one side, then do the same in the other direction. If using a ball, have it touch the ground on each side of your body.&lt;/p&gt;
-&lt;h2 id=&#34;side-plank&#34;&gt;Side Plank&lt;/h2&gt;
-&lt;p&gt;Start in a standard plank position and roll you body to one side and balance on one arm directly below your shoulder. Your feet may be separated to hold balance. Contract your core and raise your hips until your body is in a straight line from head to feet. Hold the position without letting your hips drop for the alloted time, then repeat on the other side.&lt;/p&gt;
-&lt;p&gt;Hold for 15 seconds if you are a novice. Hold for a minute or more if you are a master.&lt;/p&gt;
-&lt;h3 id=&#34;replacement&#34;&gt;Replacement&lt;/h3&gt;
-&lt;p&gt;If for some reason you are not able to complete a side plank try Swiss Ball Crunch with Twist or a Single Arm Carry. These are described at the end of this article.&lt;/p&gt;
-&lt;h3 id=&#34;variations-2&#34;&gt;Variations&lt;/h3&gt;
-&lt;p&gt;Easier&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Rest on your elbow instead of hand&lt;/li&gt;
-&lt;li&gt;Drop the lower knee to the floor and maintain a straight line from knee to head&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Each of these variations will make the side plank more challenging.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Raise arm&lt;/li&gt;
-&lt;li&gt;Stacked feet&lt;/li&gt;
-&lt;li&gt;Toe tap&lt;/li&gt;
-&lt;li&gt;Crunch: Free arm and leg are raised slightly and brought together and released in a crunch-like action.&lt;/li&gt;
-&lt;li&gt;Lift leg and arm to form a star&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;reverse-crunch&#34;&gt;Reverse Crunch&lt;/h2&gt;
-&lt;p&gt;Start lying down with your arms by your sides. Raise legs so your thighs are perpendicular to the floor and your knees are bent at a 90° angle. Breathe out and contract your abs to bring your knees up towards your chest and raise your hips off the floor. Hold for a beat in this position, then slowly lower your legs back to the starting position.&lt;/p&gt;
-&lt;p&gt;Moving slowly with complete control is key to the reverse crunch. Do not arch the back.&lt;/p&gt;
-&lt;h3 id=&#34;variations-3&#34;&gt;Variations&lt;/h3&gt;
-&lt;p&gt;Harder&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;V-sit addition. As you complete the reverse crunch you are near the start position for a V-sit. So straighten your legs and preform a v-sit. Alternate between the two moves.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;mountain-climbers&#34;&gt;Mountain Climbers&lt;/h2&gt;
-&lt;p&gt;Start in a plank position. Keep your core strong and your shoulders, hips and feet in a straight line throughout. Bring one knee towards your chest, then return it to the starting position. Repeat the movement with your other leg, then continue alternating legs throughout. Go as fast or slow as you need to maintain form and elevate heart rate.&lt;/p&gt;
-&lt;h2 id=&#34;bird-dog&#34;&gt;Bird-dog&lt;/h2&gt;
-&lt;p&gt;Start on on hands and knees with hands directly below shoulders and knees below hips. Keeping your neck in line with your spine, your hips level and the extended limbs straight. Stretch your right arm out in front of you, simultaneously extend your left leg behind you. Hold for 5 seconds. Bring the extended knee and elbow together in a crunch before placing the hand and knee onto the floor. Continue with the other side.&lt;/p&gt;
-&lt;h3 id=&#34;variations-4&#34;&gt;Variations&lt;/h3&gt;
-&lt;p&gt;Easier&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Eliminate the crunch portion&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;hip-escape&#34;&gt;Hip Escape&lt;/h2&gt;
-&lt;p&gt;Lie flat on the ground with arms in a guard position (arms raised over body with the elbows close to the body and the hands guarding your face). Bend your right leg bringing your right foot onto the ground near your butt.&lt;/p&gt;
-&lt;p&gt;Start the move by bridging using your right foot. Rotate to the left while bring your elbows to your left knee and swinging your butt under the bridge to the right. Complete the move by again bridging with the right foot to return your butt and arms to the guard position.&lt;/p&gt;
-&lt;p&gt;Switch legs and complete the movement on the other side.&lt;/p&gt;
-&lt;h3 id=&#34;variations-5&#34;&gt;Variations&lt;/h3&gt;
-&lt;p&gt;Easier&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Extend arms over your head instead of having them in guard position. Then swing them toward you feet when doing the escape.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;v-sit&#34;&gt;V-sit&lt;/h2&gt;
-&lt;p&gt;Lie flat on the ground with your arms by your sides. Raise your legs as high as you can, keeping them straight and together, and lift your torso up towards your thighs so you form a V-shape. Keep your back straight and try to keep your movements smooth and controlled – avoid jerking. Reach your fingertips to try and touch your toes. Then slowly lower back to the ground.&lt;/p&gt;
-&lt;h3 id=&#34;variations-6&#34;&gt;Variations&lt;/h3&gt;
-&lt;p&gt;Easier&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Lie flat on the ground with your arms by your sides, your legs straight and your feet slightly raised off the floor. Keeping your back straight throughout, sit up in a controlled motion, bringing your lower back off the mat and your knees in to your chest. Keep your glutes engaged at all times so you can balance on them at the top of the movement.&lt;/li&gt;
-&lt;li&gt;Keep your hands on the floor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;get-up&#34;&gt;Get up&lt;/h2&gt;
-&lt;p&gt;Lie flat on the ground with your arms by your sides. Using a light weight (or pretend to hold a weight) in your right hand, raise your right arm and maintain your eyes on the weight throughout the movement. Now bend your right knee and place the right foot on the ground. Using your abs, roll onto your left forearm. Straighten your left arm such that you are sitting tall.&lt;/p&gt;
-&lt;p&gt;Now, squeeze your glutes to lift your hips off the floor such that you have a straight line from your left heel to your head. Don’t arch your back to get there.&lt;/p&gt;
-&lt;p&gt;Next, pull your left leg under your body such that your left knee is on the floor in a direct line under the weight. Finally, rotate you left leg so that you are in a lunge position and stand from that lunge position.&lt;/p&gt;
-&lt;p&gt;The final step is to reverse all of the previous moves to again lie flat on the ground.&lt;/p&gt;
-&lt;p&gt;Switch the weight to the left hand and repeat for the other side.&lt;/p&gt;
-&lt;h2 id=&#34;bicycle-crunch&#34;&gt;Bicycle Crunch&lt;/h2&gt;
-&lt;p&gt;Place your fingers lightly on your temples. Taking care to not pull your head during the routine. Bend your leg to 90 degrees. Begin by extending one leg just above the floor and raising your shoulders off the floor. Now, in a cycling like motion, bring the extended knee toward the chest while attempting to touch it with the opposite elbow. Try to maintain a fluid cycling like motion while keeping your shoulders and feet off the ground.&lt;/p&gt;
-&lt;p&gt;Many studies have shown this to be the most effective single exercise to work your abs.&lt;/p&gt;
-&lt;h3 id=&#34;variations-7&#34;&gt;Variations&lt;/h3&gt;
-&lt;p&gt;Easier&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;From a standing position, mimic the movement of the bicycle crunch. Bend at the waist and bring your turning arm down to meet the knee of the opposite leg, which you raise so they meet around your midriff.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;l-sit&#34;&gt;L-sit&lt;/h2&gt;
-&lt;p&gt;This is a challenging exercise. Start sitting on the floor with your legs together and extended. Place your palms on the ground with your fingers pointing forwards. Brace your abs, glutes and legs and press through your palms to lift your body off the ground.  Getting off the floor is an achievement. Work towards holding the position for ten seconds.&lt;/p&gt;
-&lt;h3 id=&#34;variations-8&#34;&gt;Variations&lt;/h3&gt;
-&lt;p&gt;Easier&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Push off from fists instead of palms&lt;/li&gt;
-&lt;li&gt;Cross your legs instead of fully extended&lt;/li&gt;
-&lt;li&gt;Use paralletes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Harder&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Use rings&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;box-jump&#34;&gt;Box jump&lt;/h2&gt;
-&lt;h3 id=&#34;variations-9&#34;&gt;Variations&lt;/h3&gt;
-&lt;p&gt;Easier&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Box drop&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Alternative&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tuck jump&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;bear-crawl&#34;&gt;Bear crawl&lt;/h2&gt;
-&lt;p&gt;The basic movement is simple: you have to crawl forward, backward, and even side-to-side without letting your knees touch the ground.&lt;/p&gt;
-&lt;p&gt;Crawling forward is the easiest. Move hands and feet on the same side at the same time, so right hand and right leg. Then left hand and left leg. Keep your back straight and your core engaged throughout. Try to utilize the full space of the room when bear crawling. Start by just going forward and then backward. Once you are strong on those, add moving laterally.&lt;/p&gt;
-&lt;h2 id=&#34;swiss-ball-crunch-with-twist&#34;&gt;Swiss Ball Crunch with Twist&lt;/h2&gt;
-&lt;p&gt;This Swiss ball crunch with a twist is an excellent exercise to build up a weak core. You’ll need an exercise ball to do this workout.&lt;/p&gt;
-&lt;p&gt;Sit on exercise ball, ensuring that your hips are elevated slightly above your knees. Slowly walk your feet forward until you are lying with your back against the ball. Your knees should be at a 90-degree angle. Now, place your hands behind your ears, engage your abs and slowly perform a crunch, twisting at the top, drive your left shoulder toward your right leg.&lt;/p&gt;
-&lt;p&gt;Slowly lower your shoulders and repeat the motion, this time driving your right shoulder toward your left leg. Continue this movement, alternating between your left and right side each time.&lt;/p&gt;
-&lt;h2 id=&#34;single-arm-carry&#34;&gt;Single Arm Carry&lt;/h2&gt;
-&lt;p&gt;Select a weight that not to light, it will be carried in one hand. The point is to require you to engage your oblique abdominal muscles to maintain posture while carrying the weight. Lift the weight in one hand by bending your legs and properly addressing the weight. Keep your arms straight and close to your body, engage your core, and stand tall. Walk forward, maintaining your posture for around 25 steps, or 30 seconds.&lt;/p&gt;
-&lt;p&gt;Set the weight down, switch arms, and repeat. Aim for 4 sets of 50 steps, 25 steps per leg.&lt;/p&gt;
-&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coachmag.co.uk/abs-exercises/6731/how-to-master-the-v-sit&#34;&gt;https://www.coachmag.co.uk/abs-exercises/6731/how-to-master-the-v-sit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coachmag.co.uk/abs-workouts-and-exercises/6340/side-plank-the-best-abs-move-you-re-probably-not-doing&#34;&gt;https://www.coachmag.co.uk/abs-workouts-and-exercises/6340/side-plank-the-best-abs-move-you-re-probably-not-doing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coachmag.co.uk/abs-exercises/7790/how-to-do-the-reverse-crunch&#34;&gt;https://www.coachmag.co.uk/abs-exercises/7790/how-to-do-the-reverse-crunch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gq.com/story/best-abs-workouts-gq-ultimate-guide&#34;&gt;https://www.gq.com/story/best-abs-workouts-gq-ultimate-guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coachmag.co.uk/full-body-workouts/5501/conquer-the-mountain-climber-exercise&#34;&gt;https://www.coachmag.co.uk/full-body-workouts/5501/conquer-the-mountain-climber-exercise&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coachmag.co.uk/exercises/abs-exercises&#34;&gt;https://www.coachmag.co.uk/exercises/abs-exercises&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://homegym-exercises.com/exercises_for_abs.html&#34;&gt;https://homegym-exercises.com/exercises_for_abs.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://garagegympro.com/side-plank-alternative/&#34;&gt;https://garagegympro.com/side-plank-alternative/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.self.com/story/how-to-do-a-turkish-get-up&#34;&gt;https://www.self.com/story/how-to-do-a-turkish-get-up&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mensjournal.com/health-fitness/50-best-abs-exercises-of-all-time&#34;&gt;https://www.mensjournal.com/health-fitness/50-best-abs-exercises-of-all-time&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Choose one of the groups to workout, &lt;em&gt;Group 1&lt;/em&gt;, &lt;em&gt;Group 2&lt;/em&gt;, or &lt;em&gt;Advanced&lt;/em&gt;. Perform each exercise for the time indicated, taking breaks as needed. It is expected that you will fully cycle through a single group to get a complete workout. Completing a group will give you a 14 minute workout.&lt;/p&gt;&#xA;&lt;!-- ### Group 1&#xD;&#xA;&#xD;&#xA;1. Plank (1 min)&#xD;&#xA;1. Dead bug (1 min)&#xD;&#xA;1. Side plank (1 min)&#xD;&#xA;1. Reverse crunch (1 min)&#xD;&#xA;1. Mountain climbers (1 min)&#xD;&#xA;1. Bear crawl (2 min)&#xD;&#xA;1. Get up (2 min)&#xD;&#xA;1. Plank (1 min)&#xD;&#xA;1. Dead bug (1 min)&#xD;&#xA;1. Side plank (1 min)&#xD;&#xA;1. Reverse crunch (1 min)&#xD;&#xA;1. Mountain climbers (1 min)&#xD;&#xA;&#xD;&#xA;### Group 2&#xD;&#xA;1. Plank (1 min)&#xD;&#xA;1. Mason twist (1 min)&#xD;&#xA;1. Side plank (1 min)&#xD;&#xA;1. Bird dog (1 min)&#xD;&#xA;1. Reverse crunch (1 min)&#xD;&#xA;1. V-sit (1 min)&#xD;&#xA;1. Get up (2 min)&#xD;&#xA;1. Plank (1 min)&#xD;&#xA;1. Mason twist (1 min)&#xD;&#xA;1. Side plank (1 min)&#xD;&#xA;1. Bird dog (1 min)&#xD;&#xA;1. Reverse crunch (1 min)&#xD;&#xA;1. Mountain climbers (1 min)&#xD;&#xA;&#xD;&#xA;### Advanced&#xD;&#xA;1. Plank, mogul (1 min)&#xD;&#xA;1. Bicycle crunch (1 min)&#xD;&#xA;1. Side plank, stacked with toe tap (1 min)&#xD;&#xA;1. Reverse crunch with V-sit (1 min)&#xD;&#xA;1. Box jumps (2 min)&#xD;&#xA;1. L-sit (1 min)&#xD;&#xA;1. Get up (2 min)&#xD;&#xA;1. Plank, lift leg (1 min)&#xD;&#xA;1. Bicycle crunch (1 min)&#xD;&#xA;1. Side plank, full extend (1 min)&#xD;&#xA;1. Reverse crunch with V-sit (1 min)&#xD;&#xA;1. Captain&#39;s chair (1 min) --&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;em&gt;Group 1&lt;/em&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;em&gt;Group 2&lt;/em&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;em&gt;Advanced&lt;/em&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;Plank (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Plank (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Plank, mogul (1 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2&lt;/td&gt;&#xA;          &lt;td&gt;Dead bug (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Mason twist (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Bicycle crunch (1 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;3&lt;/td&gt;&#xA;          &lt;td&gt;Side plank (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Side plank (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Side plank, stacked with toe tap (1 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;4&lt;/td&gt;&#xA;          &lt;td&gt;Reverse crunch (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Reverse crunch (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Reverse crunch with V-sit (1 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;5&lt;/td&gt;&#xA;          &lt;td&gt;Mountain climbers (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Bird dog (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Box jumps (2 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;6&lt;/td&gt;&#xA;          &lt;td&gt;Hip Escape (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;V-sit (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;L-sit (1 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;7&lt;/td&gt;&#xA;          &lt;td&gt;Get up (2 min)&lt;/td&gt;&#xA;          &lt;td&gt;Get up (2 min)&lt;/td&gt;&#xA;          &lt;td&gt;Get up (2 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;8&lt;/td&gt;&#xA;          &lt;td&gt;Plank (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Plank (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Plank, lift leg (1 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;9&lt;/td&gt;&#xA;          &lt;td&gt;Dead bug (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Mason twist (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Bicycle crunch (1 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;10&lt;/td&gt;&#xA;          &lt;td&gt;Side plank (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Side plank (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Side plank, full extend (1 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;11&lt;/td&gt;&#xA;          &lt;td&gt;Reverse crunch (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Reverse crunch (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Reverse crunch with V-sit (1 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;12&lt;/td&gt;&#xA;          &lt;td&gt;Mountain climbers (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Bird dog (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;Captain&amp;rsquo;s chair (1 min)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;13&lt;/td&gt;&#xA;          &lt;td&gt;Hip Escape (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;V-sit (1 min)&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;If you feel you need a little extra punch after completing this workout, add a 2 minute bear crawl or crocodile crawl at the end of the routine.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Maqluba</title>
+      <title>Maqluba</title>
       <link>/blog/2022/06/14/maqluba/</link>
       <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2022/06/14/maqluba/</guid>
-      <description>
-        
-        
-        &lt;p&gt;This version uses chicken and cauliflower but it can be easily adjusted to use lamb and eggplant.&lt;/p&gt;
-&lt;p&gt;Serves 6.&lt;/p&gt;
-&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;6-8 pieces of chicken (thighs)&lt;/li&gt;
-&lt;li&gt;1 cauliflower&lt;/li&gt;
-&lt;li&gt;2 cups uncooked rice&lt;/li&gt;
-&lt;li&gt;olive oil&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;2 cloves garlic (minced)&lt;/li&gt;
-&lt;li&gt;ginger, about 1 inch piece (chopped)&lt;/li&gt;
-&lt;li&gt;1 1/2 teaspoons tumeric&lt;/li&gt;
-&lt;li&gt;1 teaspoon cinnamon&lt;/li&gt;
-&lt;li&gt;1 teaspoon allspice&lt;/li&gt;
-&lt;li&gt;1 teaspoon cumin&lt;/li&gt;
-&lt;li&gt;1 teaspoon coriander&lt;/li&gt;
-&lt;li&gt;1/2 teaspoon pepper&lt;/li&gt;
-&lt;li&gt;1 teaspoons salt&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;2 carrots (julienne)&lt;/li&gt;
-&lt;li&gt;1 bunch fresh parsley (chopped)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;1 1/2 cups chicken broth&lt;/li&gt;
-&lt;li&gt;2 cups water&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;Optional: a handful of pine nuts&lt;/li&gt;
-&lt;li&gt;Serve with: yogurt, cucumbers and tomatoes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
-&lt;h3 id=&#34;step-1&#34;&gt;Step 1&lt;/h3&gt;
-&lt;p&gt;Remove skin from chicken if desired. Grill chicken for about 15 minutes.&lt;/p&gt;
-&lt;h3 id=&#34;step-2&#34;&gt;Step 2&lt;/h3&gt;
-&lt;p&gt;Brush cauliflower with olive oil and then grill for about 10 minutes&lt;/p&gt;
-&lt;h3 id=&#34;step-3&#34;&gt;Step 3&lt;/h3&gt;
-&lt;p&gt;Ground all the spices and combine with rice in a large bowl.&lt;/p&gt;
-&lt;h3 id=&#34;step-4&#34;&gt;Step 4&lt;/h3&gt;
-&lt;p&gt;Heat the water and chicken broth&lt;/p&gt;
-&lt;h3 id=&#34;step-5&#34;&gt;Step 5&lt;/h3&gt;
-&lt;p&gt;Oil the bottom of your dutch oven and then cut a place parchment paper on the bottom.&lt;/p&gt;
-&lt;h3 id=&#34;step-6&#34;&gt;Step 6&lt;/h3&gt;
-&lt;p&gt;Assemble the maqluba. First place the chicken in a layer. The second layer is the vegetables. the third layer is the rice and spices mixture. Finally add the water and broth to reach the top of the rice.&lt;/p&gt;
-&lt;h3 id=&#34;step-7&#34;&gt;Step 7&lt;/h3&gt;
-&lt;p&gt;Bring to a boil. Cover and let simmer for 20 minutes or until no liquid remains.&lt;/p&gt;
-&lt;h3 id=&#34;serving&#34;&gt;Serving&lt;/h3&gt;
-&lt;p&gt;Remove lid and place a large plate over the pot. Holding onto the plate and pot handles, quickly lift and flip upside down. 
-Lift the pot up to reveal your maqluba and remove the parchment paper.&lt;/p&gt;
-&lt;p&gt;Sprinkle with parsley and pine nuts.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;This version uses chicken and cauliflower but it can be easily adjusted to use lamb and eggplant.&lt;/p&gt;&#xA;&lt;p&gt;Serves 6.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;6-8 pieces of chicken (thighs)&lt;/li&gt;&#xA;&lt;li&gt;1 cauliflower&lt;/li&gt;&#xA;&lt;li&gt;2 cups uncooked rice&lt;/li&gt;&#xA;&lt;li&gt;olive oil&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2 cloves garlic (minced)&lt;/li&gt;&#xA;&lt;li&gt;ginger, about 1 inch piece (chopped)&lt;/li&gt;&#xA;&lt;li&gt;1 1/2 teaspoons tumeric&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoon cinnamon&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoon allspice&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoon cumin&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoon coriander&lt;/li&gt;&#xA;&lt;li&gt;1/2 teaspoon pepper&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoons salt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2 carrots (julienne)&lt;/li&gt;&#xA;&lt;li&gt;1 bunch fresh parsley (chopped)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 1/2 cups chicken broth&lt;/li&gt;&#xA;&lt;li&gt;2 cups water&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Optional: a handful of pine nuts&lt;/li&gt;&#xA;&lt;li&gt;Serve with: yogurt, cucumbers and tomatoes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;step-1&#34;&gt;Step 1&lt;/h3&gt;&#xA;&lt;p&gt;Remove skin from chicken if desired. Grill chicken for about 15 minutes.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Truth 03</title>
+      <title>Truth 03</title>
       <link>/blog/2022/05/31/truth-03/</link>
       <pubDate>Tue, 31 May 2022 10:56:04 -0500</pubDate>
-      
       <guid>/blog/2022/05/31/truth-03/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Most would argue that what&amp;rsquo;s true is true. That there does indeed exist an ultimate or quintessential underlying reality. But is this a valid understanding?&lt;/p&gt;
-&lt;p&gt;In my studies of mathematics, especially probability and statistics, we assume that there is a true parameter value. This is a fiction and is just a device for doing theory and developing methods. It allows us to theoretically show that some method to estimate it has some property which works better or worse. But overall the effect is to assume that something true exists that we then choose to model imperfectly.&lt;/p&gt;
-&lt;p&gt;I disagree with this assumption! Instead, I think that the universe is in constant flux and unevenly distributed. This implies that there is no ultimate truth and the truth that we observe today may in fact be materially different tomorrow. This is perhaps a difficult concept for many people accustomed to working with concrete objects and models in the real world. But not to worry, working with this concept of truth is not needed for 99% of the thinking we need to do.&lt;/p&gt;
-&lt;p&gt;So when might we want to assume a different model of truth? Advanced physics for one. Our understanding of the universe has been based upon the cosmological principle. Newton first asserted this notion that the spatial distribution of matter in the universe is homogeneous and isotropic when viewed on a large enough scale. The determination of a homogeneous and isotropic universe versus a inhomogeneous and anisotropic universe is an unsolved determination in physics.&lt;/p&gt;
-&lt;p&gt;This has more recently become topical in advanced physics and cosmology, especially with some results from dark matter, backreactions, and quanta. I will not discuss that here (I&amp;rsquo;m not a good physicist) but you may search the issue if interested.&lt;/p&gt;
-&lt;p&gt;We also need to concern ourselves with this model when we consider artificial intelligence models. If a model takes truth as giving an objective then it may discard highly relevant but discordant data. As the complexities of our ai systems increase, we will not understand the conclusions of our ai but instead must know that the methods upon which the ai rests are sound and comprehensive.&lt;/p&gt;
-&lt;p&gt;This is a field that does matter to me. In practice, for supervised methods, the expanse of data is more of an issue. For unsupervised methods, we are generally trying to get a sense of the data or highlight patterns which likely does not need our expanded notions. Last, we consider reinforcement learning which I suggest might be highly sensitive to unevenness in our underlying universe. You might consider this the effect of the long tail. I would say that the inhomogeneous-anisotropic worldview is more needed for reinforcement learning and in particular the probabilistic graphical models I am most interested in.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;Most would argue that what&amp;rsquo;s true is true. That there does indeed exist an ultimate or quintessential underlying reality. But is this a valid understanding?&lt;/p&gt;&#xA;&lt;p&gt;In my studies of mathematics, especially probability and statistics, we assume that there is a true parameter value. This is a fiction and is just a device for doing theory and developing methods. It allows us to theoretically show that some method to estimate it has some property which works better or worse. But overall the effect is to assume that something true exists that we then choose to model imperfectly.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Gulf</title>
+      <title>Gulf</title>
       <link>/blog/2022/05/22/gulf/</link>
       <pubDate>Sun, 22 May 2022 16:40:01 -0500</pubDate>
-      
       <guid>/blog/2022/05/22/gulf/</guid>
-      <description>
-        
-        
-        &lt;h1 id=&#34;the-gulf-the-making-of-an-american-sea&#34;&gt;The Gulf: The Making of an American Sea&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;by Jack E. Davis&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;5 Stars&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A non-fiction work about the Gulf of Mexico and the US states bordering it.&lt;/p&gt;
-&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;
-&lt;p&gt;An excellent book that covers the physical, social, and economic history of this area. I learned many things about which I had no knowledge of. The book does have an environmental slant and you will learn much about the exploitive nature of humanity. The author is a Professor of Environmental History.&lt;/p&gt;
-&lt;p&gt;The book is in four parts. Part 1 cover&amp;rsquo;s the prehistory and the introduction of Europeans into the area. the Gulf is clearly an area of abundance that is not initially appreciated by the Europeans. Part 2 takes place mostly in the 19th Century when extensive exploitation of its natural resources begins.&lt;/p&gt;
-&lt;p&gt;Part 3 takes us into the birth of the oil industry in the Gulf states and then its movement into the Gulf itself. The economic benefits of the oil industry are covered but the environmental effects are documented and highlighted. Part 4 covers the post-1943 period with extensive discussion of the development in Florida.&lt;/p&gt;
-&lt;p&gt;The approach of the book is to try to humanize the topic by focusing in on specific areas, stories, or persons and then to generalize. Sometimes this approach works very well but others it seems poorly constructed. A positive example is the coverage of the impact of the oil industry by discussion of the artist Walter Anderson.&lt;/p&gt;
-&lt;p&gt;This book has influenced my understanding on the exploitive nature of humanity. As a remembrance I purchased a water-colored print by Anderson. &lt;a href=&#34;https://walterandersonart.com/&#34;&gt;Realizations&lt;/a&gt; is a small shop run by the family of Walter Anderson, dedicated to making his artwork accessible to more people.&lt;/p&gt;
-&lt;p&gt;Highly recommended. It will take some time to read and topics are sometimes very in-depth.&lt;/p&gt;
-
-
-
-
-
-
-
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2022/05/22/gulf/terns_hu85530e071e30b3b46c85caff45af6fa9_682350_400x0_resize_q75_catmullrom.jpg&#34; width=&#34;400&#34; height=&#34;1022&#34;&gt;
-	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
-		&lt;p class=&#34;card-text&#34;&gt;
-Terns
-&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Blockprint: Walter Anderson and Watercolor: Elizabeth Huffmaster&lt;/small&gt;&lt;/p&gt;
-	&lt;/div&gt;
-	
-&lt;/div&gt;
-
-      </description>
+      <description>&lt;h1 id=&#34;the-gulf-the-making-of-an-american-sea&#34;&gt;The Gulf: The Making of an American Sea&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;by Jack E. Davis&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;5 Stars&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A non-fiction work about the Gulf of Mexico and the US states bordering it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;&#xA;&lt;p&gt;An excellent book that covers the physical, social, and economic history of this area. I learned many things about which I had no knowledge of. The book does have an environmental slant and you will learn much about the exploitive nature of humanity. The author is a Professor of Environmental History.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Three Body Problem</title>
+      <title>Three Body Problem</title>
       <link>/blog/2022/05/22/three-body-problem/</link>
       <pubDate>Sun, 22 May 2022 12:03:37 -0500</pubDate>
-      
       <guid>/blog/2022/05/22/three-body-problem/</guid>
-      <description>
-        
-        
-        &lt;h1 id=&#34;the-three-body-problem&#34;&gt;The Three Body Problem&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;by Liu Cixin&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;4 Stars&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This is a science fiction novel by a Chinese author that has won a number of awards. It is a very good science fiction story.&lt;/p&gt;
-&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;
-&lt;p&gt;I definitely enjoy the changed perspective of the Chinese author. It gave the story a very different feel, yet still connected to humanity. There is background story which starts during the Cultural Revolution. The main characters are scientific intellectuals, usually in the field of physics, and often professors. so the language used is somewhat technical but usually not too much to distract from the flow of the story.&lt;/p&gt;
-&lt;p&gt;I thought the story in the first half to three fourths of the book was excellent. The setup of the main characters was well done. The use of the virtual reality video game was appropriate and engaging. It was shortly after Wang is brought into the ETO that the story seems to not know where to go and becomes much more generic. This is when the story directly confronts the ongoing role of the alien civilization invasion plans.&lt;/p&gt;
-&lt;p&gt;Additionally, I found the concept of unfolding dimensions to be interesting but that the implementation in the sophons to be a bit ludicrous. I also thought the book did a poor job of explaining the motivations of those involved in the ETO, though a valiant attempt was made.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The Three Body Problem&lt;/em&gt; is definitely a book to read, especially for those who like science fiction. I used to be a big fan of this genre but have found it a struggle to read for the past 30 years. This book was not a struggle, in fact it is well written and puts forth some interesting ideas.&lt;/p&gt;
-
-      </description>
+      <description>&lt;h1 id=&#34;the-three-body-problem&#34;&gt;The Three Body Problem&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;by Liu Cixin&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;4 Stars&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a science fiction novel by a Chinese author that has won a number of awards. It is a very good science fiction story.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;&#xA;&lt;p&gt;I definitely enjoy the changed perspective of the Chinese author. It gave the story a very different feel, yet still connected to humanity. There is background story which starts during the Cultural Revolution. The main characters are scientific intellectuals, usually in the field of physics, and often professors. so the language used is somewhat technical but usually not too much to distract from the flow of the story.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Handmaids Tale</title>
+      <title>Handmaids Tale</title>
       <link>/blog/2022/05/22/handmaids-tale/</link>
       <pubDate>Sun, 22 May 2022 12:03:18 -0500</pubDate>
-      
       <guid>/blog/2022/05/22/handmaids-tale/</guid>
-      <description>
-        
-        
-        &lt;h1 id=&#34;the-handmaids-tale&#34;&gt;The Handmaid&amp;rsquo;s Tale&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;by Margaret Atwood&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;4 Stars&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This is a dystopian fiction novel that has a Netflix series derived from it.&lt;/p&gt;
-&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;
-&lt;p&gt;This is not the sort of book I would normally seek out but this and The Three Body Problem were recommended to me &amp;hellip; so.&lt;/p&gt;
-&lt;p&gt;The world of the The Handmaid&amp;rsquo;s Tale is not a fun world in which to live. The author does an excellent job in conveying the tone of monotony and oppression. A well written novel.&lt;/p&gt;
-&lt;p&gt;We are welcomed to the US after a hostile coup by an extreme fundamentalist Christian group that institutes a rule of, by, and for, elite males. Women are subjugated and all must be watchful for the secret police.&lt;/p&gt;
-&lt;p&gt;The novel is written as a series of extracts as if from a diary. This is a style that I like very much. It provides personal insight but limited worldview which is very appropriate.&lt;/p&gt;
-&lt;p&gt;The colors assignments and daily structure are thoughtfully written. I do hope that humanity would not so easily succumb to this sort of a takeover and fear that I would not live in this world.&lt;/p&gt;
-&lt;p&gt;Yes, read the &lt;em&gt;The Handmaid&amp;rsquo;s Tale&lt;/em&gt; and let&amp;rsquo;s make certain that we remain an enlightened populace.&lt;/p&gt;
-
-      </description>
+      <description>&lt;h1 id=&#34;the-handmaids-tale&#34;&gt;The Handmaid&amp;rsquo;s Tale&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;by Margaret Atwood&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;4 Stars&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a dystopian fiction novel that has a Netflix series derived from it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-review&#34;&gt;My Review&lt;/h2&gt;&#xA;&lt;p&gt;This is not the sort of book I would normally seek out but this and The Three Body Problem were recommended to me &amp;hellip; so.&lt;/p&gt;&#xA;&lt;p&gt;The world of the The Handmaid&amp;rsquo;s Tale is not a fun world in which to live. The author does an excellent job in conveying the tone of monotony and oppression. A well written novel.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Lamb Cabbage Rolls</title>
+      <title>Lamb Cabbage Rolls</title>
       <link>/blog/2022/05/22/lamb-cabbage-rolls/</link>
       <pubDate>Sun, 22 May 2022 12:03:18 -0500</pubDate>
-      
       <guid>/blog/2022/05/22/lamb-cabbage-rolls/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;strong&gt;A Dalton Original Mash-up&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A meal that mixes near and far eastern ideas to a give a delicious easily served meal. It also reheats very well.&lt;/p&gt;
-&lt;p&gt;Serves 6.&lt;/p&gt;
-&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;1 head cabbage (savoy or other)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1 pound ground lamb&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1/2 cup uncooked white rice&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1 large egg&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;5 cloves garlic (minced)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2 tablespoons chopped ginger (about 2 inch piece)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1 1/2 teaspoons tumeric&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2 teaspoons salt&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1 teaspoon pepper&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2 tablespoons soy sauce&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;5 ounces shredded carrots&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;8 ounces mushrooms&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1 bunch green onions&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;1 bunch fresh parsley&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2 cups chicken broth&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
-&lt;h3 id=&#34;step-1&#34;&gt;Step 1&lt;/h3&gt;
-&lt;p&gt;Boil a large pot of water with some salt.&lt;/p&gt;
-&lt;p&gt;Remove (for use) the outer 12 leaves of cabbage, save the rest for another meal). once boiling, lower the heat to medium, maintaining a gentle boil. Add a few cabbage leaves and cook until tender and flexible, about 2 minutes. Remove and allow to cool on paper towel. Repeat until all 12 leaves are cooked. Retain the liquid.&lt;/p&gt;
-&lt;p&gt;Preheat oven to 350 degrees.&lt;/p&gt;
-&lt;h3 id=&#34;step-2&#34;&gt;Step 2&lt;/h3&gt;
-&lt;p&gt;Prepare the meat filling by combining and mixing by hand the following ingredients in a large boil. Combine the lamb, rice, egg, garlic, tumeric, salt, pepper, and soy sauce.&lt;/p&gt;
-&lt;h3 id=&#34;step-3&#34;&gt;Step 3&lt;/h3&gt;
-&lt;p&gt;In a large dutch oven style pot place the assembled the cabbage rolls. Assemble each cabbage roll by placing about 1/12 of the filling mixture into each leaf and rolling the leaf. Roll the leaf by folding the stem over the filling, rolling it tightly to the top, and then fold the ends over the seam. Place the roll into the pot with the seam side facing down.&lt;/p&gt;
-&lt;h3 id=&#34;step-4&#34;&gt;Step 4&lt;/h3&gt;
-&lt;p&gt;Pour the chicken broth over the cabbage rolls. Add shredded carrots, mushrooms, green onions, and parsley. Bring to a boil over medium heat. Use the retained cabbage liquid to insure that the rolls are well covered by liquid.&lt;/p&gt;
-&lt;h3 id=&#34;step-5&#34;&gt;Step 5&lt;/h3&gt;
-&lt;p&gt;Once boiling cover the pan and place it in the oven for about 45 minutes.&lt;/p&gt;
-&lt;h3 id=&#34;serving&#34;&gt;Serving&lt;/h3&gt;
-&lt;p&gt;Serve the cabbage rolls in a bowl with broth mixture. Drizzle with sesame oil.&lt;/p&gt;
-&lt;h3 id=&#34;extra-spice&#34;&gt;Extra Spice&lt;/h3&gt;
-&lt;p&gt;Slice your favorite chile into the broth at step 4. Alternatively, serve with kimchi.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;&lt;strong&gt;A Dalton Original Mash-up&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A meal that mixes near and far eastern ideas to a give a delicious easily served meal. It also reheats very well.&lt;/p&gt;&#xA;&lt;p&gt;Serves 6.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1 head cabbage (savoy or other)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1 pound ground lamb&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1/2 cup uncooked white rice&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1 large egg&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;5 cloves garlic (minced)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2 tablespoons chopped ginger (about 2 inch piece)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1 1/2 teaspoons tumeric&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2 teaspoons salt&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;1 teaspoon pepper&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2 tablespoons soy sauce&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: After Math</title>
+      <title>After Math</title>
       <link>/blog/2022/05/22/after-math/</link>
       <pubDate>Sun, 22 May 2022 11:42:24 -0500</pubDate>
-      
       <guid>/blog/2022/05/22/after-math/</guid>
-      <description>
-        
-        
-        &lt;p&gt;I started my MS in Mathematics at UWM in Fall of 2020. The intent was to improve my skills to become better at machine learning and AI. My mother passed away in Jan 2021 from COVID and I needed to take some time off from studies to fulfill all of my duties to family, etc. This meant I took an incomplete in the second semesters of Algebra and in Analysis.&lt;/p&gt;
-&lt;p&gt;The plan was to cover these in the following Fall and Spring semesters. In the Fall, the plan proceeded except for one problem. Topology was taking much more study time than expected and I was not able to cover an incomplete. Rather than continue this process I decided that I would not complete my MS.&lt;/p&gt;
-&lt;p&gt;There were options to extend my time studying for the MS but this does not fit with my plans for working on machine learning and ai. I am now comfortable with working with theory and proofs in Mathematics and will extend and continue non-formal studies as needed.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Anyways!&lt;/strong&gt; Back to documenting my work and actively updating this site.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;I started my MS in Mathematics at UWM in Fall of 2020. The intent was to improve my skills to become better at machine learning and AI. My mother passed away in Jan 2021 from COVID and I needed to take some time off from studies to fulfill all of my duties to family, etc. This meant I took an incomplete in the second semesters of Algebra and in Analysis.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Habits 01</title>
+      <title>Habits 01</title>
       <link>/blog/2020/06/28/habits-01/</link>
       <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/06/28/habits-01/</guid>
-      <description>
-        
-        
-        &lt;p&gt;It is important to practice good habits of the mind at all times. Why? When we are not actively practicing good habits, we may lazily fall into bad habits. Bad habits are formed of the aggregate of our lives mixed with the cement of our passions, heavily reinforced by repetition, and cured over long periods of time. Our bad habits are very hard to break, requiring the sturdy spike of iron will and regular strikes with the heavy hammer of our effort. They take time to form and time to break.&lt;/p&gt;
-&lt;p&gt;Knowing the ease in which bad habits take hold, we should be generous to ourselves and to others struggling with the load of their accumulated habits.&lt;/p&gt;
-&lt;p&gt;Good habits are also strong and will support us in the most difficult of endeavors.&lt;/p&gt;
-&lt;p&gt;(Composed while lawn mowing. Shouts out to CBU: Amr, Viral, and Brian)&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;It is important to practice good habits of the mind at all times. Why? When we are not actively practicing good habits, we may lazily fall into bad habits. Bad habits are formed of the aggregate of our lives mixed with the cement of our passions, heavily reinforced by repetition, and cured over long periods of time. Our bad habits are very hard to break, requiring the sturdy spike of iron will and regular strikes with the heavy hammer of our effort. They take time to form and time to break.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Grandmother Porth</title>
+      <title>Grandmother Porth</title>
       <link>/blog/2020/06/26/grandmother-porth/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/06/26/grandmother-porth/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Grandma Porth taught me cards and other games. While I don&amp;rsquo;t really play many games now, the lessons of probability I learned from her teaching have remained. She was a world traveler who loved new experiences and cultures. Her dedication to community service and the well-being of all those around her set an excellent example.&lt;/p&gt;
-&lt;p&gt;Sometimes, she seemed the iron lady but I spent many, many hours with her and the ironess was only displayed when needed. I am glad that she mostly missed my lost years but wish she could she who I have become because I think she played a significant role in my life.&lt;/p&gt;
-&lt;p&gt;(this is likely the hardest of these for me to write)&lt;/p&gt;
-
-
-
-
-
-
-
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/06/26/grandmother-porth/lucile-porth_hu765997cc9d57fffd0e7f73e8f09e9a6b_478126_400x0_resize_q75_catmullrom.jpg&#34; width=&#34;400&#34; height=&#34;671&#34;&gt;
-	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
-		&lt;p class=&#34;card-text&#34;&gt;
-Lucile Porth on a travel.
-&lt;/p&gt;
-	&lt;/div&gt;
-	
-&lt;/div&gt;
-
-      </description>
+      <description>&lt;p&gt;Grandma Porth taught me cards and other games. While I don&amp;rsquo;t really play many games now, the lessons of probability I learned from her teaching have remained. She was a world traveler who loved new experiences and cultures. Her dedication to community service and the well-being of all those around her set an excellent example.&lt;/p&gt;&#xA;&lt;p&gt;Sometimes, she seemed the iron lady but I spent many, many hours with her and the ironess was only displayed when needed. I am glad that she mostly missed my lost years but wish she could she who I have become because I think she played a significant role in my life.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Truth 01</title>
+      <title>Truth 01</title>
       <link>/blog/2020/06/23/truth-01/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/06/23/truth-01/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Truth is hard and I will likely give it many fragments. I consider the discernment of truth, one of the most difficult and important things to put the efforts of my mind toward. It is a goal of religions, sciences, and philosophies.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;Truth is hard and I will likely give it many fragments. I consider the discernment of truth, one of the most difficult and important things to put the efforts of my mind toward. It is a goal of religions, sciences, and philosophies.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Truth 02</title>
+      <title>Truth 02</title>
       <link>/blog/2020/06/23/truth-02/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/06/23/truth-02/</guid>
-      <description>
-        
-        
-        &lt;p&gt;The Absolute Truth can never be known, even if such a thing were to exist.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;The Absolute Truth can never be known, even if such a thing were to exist.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Gary Dalton Jr</title>
+      <title>Gary Dalton Jr</title>
       <link>/blog/2020/06/21/gary-dalton-jr/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/06/21/gary-dalton-jr/</guid>
-      <description>
-        
-        
-        &lt;p&gt;My Dad, Gary Dalton Jr. He struggled to find his identity and eventually paid the price for that struggle. From him, I learned the value of being open to the thoughts, ideas, opinions, and identities of others. He acknowledged to me that I do not have to think or believe others choices are correct but that I also do not have the right to use force to bring them to my idea of the correct. He demonstrated that good things may be accomplished by being oneself. He gave meticulous attention to detail and always was doing the best he could.&lt;/p&gt;
-&lt;p&gt;People enjoyed his company because he was interested in them, playful, and engaging without out being ponderously opinionated. He cared greatly about his health and athleticism and I consider him one of the original health food nuts. One particular habit I have gained from him, is doing stretches and exercises while in the living room with family and watching TV.&lt;/p&gt;
-
-
-
-
-
-
-
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/06/21/gary-dalton-jr/garydaltonjr_hu1acdb48bd4dc9afa1f9c5e6ebe76219e_30628_400x0_resize_q75_catmullrom.jpg&#34; width=&#34;400&#34; height=&#34;516&#34;&gt;
-	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
-		&lt;p class=&#34;card-text&#34;&gt;
-Gary Dalton Jr
-&lt;/p&gt;
-	&lt;/div&gt;
-	
-&lt;/div&gt;
-
-      </description>
+      <description>&lt;p&gt;My Dad, Gary Dalton Jr. He struggled to find his identity and eventually paid the price for that struggle. From him, I learned the value of being open to the thoughts, ideas, opinions, and identities of others. He acknowledged to me that I do not have to think or believe others choices are correct but that I also do not have the right to use force to bring them to my idea of the correct. He demonstrated that good things may be accomplished by being oneself. He gave meticulous attention to detail and always was doing the best he could.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Grandfather Dalton</title>
+      <title>Grandfather Dalton</title>
       <link>/blog/2020/06/19/grandfather-dalton/</link>
       <pubDate>Fri, 19 Jun 2020 23:05:40 -0500</pubDate>
-      
       <guid>/blog/2020/06/19/grandfather-dalton/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Thank you to my Grandfather Dalton, the original Garold. I gained much from your enjoyment, thought, and discussion (not argument) given to politics and your great ability to care little for labels. I recall a discussion we had regarding some political subject and, in frustration, I stated that you sounded like a communist. You calmly replied that I could call it whatever I wished but your ideas would stand on their own. You also demonstrated how to live a fulfilling life of labor and that this was a noble path.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;Thank you to my Grandfather Dalton, the original Garold. I gained much from your enjoyment, thought, and discussion (not argument) given to politics and your great ability to care little for labels. I recall a discussion we had regarding some political subject and, in frustration, I stated that you sounded like a communist. You calmly replied that I could call it whatever I wished but your ideas would stand on their own. You also demonstrated how to live a fulfilling life of labor and that this was a noble path.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Privacy, Secrecy, and Data</title>
+      <title>Privacy, Secrecy, and Data</title>
       <link>/blog/2020/05/01/privacy-secrecy-and-data/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/05/01/privacy-secrecy-and-data/</guid>
-      <description>
-        
-        
-        &lt;p&gt;In January of 2020, I made a post to Facebook. It did not get the level of feedback I had hoped for.&lt;/p&gt;
-
-
-
-
-
-
-
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/05/01/privacy-secrecy-and-data/idea01_hu2ac9fcdd3bca74dc43ac6b714441c14a_76285_400x0_resize_catmullrom_3.png&#34; width=&#34;400&#34; height=&#34;511&#34;&gt;
-	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
-		&lt;p class=&#34;card-text&#34;&gt;
-&lt;/p&gt;
-	&lt;/div&gt;
-	
-&lt;/div&gt;
-&lt;p&gt;I had hoped to get feedback on the idea to inform and clarify my thoughts. Without that, I have tried to expand the idea and try to cover not only the positives from the idea but also consider many of the negatives.&lt;/p&gt;
-
-
-&lt;div class=&#34;pageinfo pageinfo-warning&#34;&gt;
-&lt;p&gt;This is a draft document. I have placed it on the internet for reviewing purposes. Mainly it is incomplete.&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;Let&amp;rsquo;s first clarify some terms.&lt;/p&gt;
-&lt;dl&gt;
-&lt;dt&gt;Data and information&lt;/dt&gt;
-&lt;dd&gt;I will use these two terms interchangeably even though there are some subtle differences. Data and information refer to things such as:&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;ul&gt;
-&lt;li&gt;point measurements such as a time series of heart beats which may be averaged to a heart rate,&lt;/li&gt;
-&lt;li&gt;the arrangement of pixels in an image which includes color information,&lt;/li&gt;
-&lt;li&gt;a person&amp;rsquo;s name or date of birth,&lt;/li&gt;
-&lt;li&gt;reviews given to a movie, and&lt;/li&gt;
-&lt;li&gt;submarine plans stolen by a spy.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These are just a few examples of data and information.&lt;/p&gt;
-&lt;dl&gt;
-&lt;dt&gt;Record&lt;/dt&gt;
-&lt;dd&gt;Data and information are often in record sets. For example: a medical record might contain a person&amp;rsquo;s name, their date of birth, smoking history, family history of heart disease, and their death from lung cancer.&lt;/dd&gt;
-&lt;dt&gt;Knowledge&lt;/dt&gt;
-&lt;dd&gt;Knowledge is a conclusion inferred or deduced from records. We often use knowledge as a shorthand for connecting data to decision-making. An example of knowledge is the statement that cigarette smoking causes cancer.&lt;/dd&gt;
-&lt;dt&gt;Quality&lt;/dt&gt;
-&lt;dd&gt;When discussing quality data, I mean data that is accurate, timely, and complete. Low quality data may be caused by low resolution in measurement, intentional skewing of data, poor communication of data, random errors in recording data, and delays in data reporting.&lt;/dd&gt;
-&lt;dt&gt;Privacy&lt;/dt&gt;
-&lt;dd&gt;This is a complicated term and one that will be discussed at length later. Generally, privacy is something that individuals but not organizations have. Privacy typically concerns  the information of that individual. Often, privacy is considered a good thing and stated in terms of the &lt;em&gt;right to be left alone&lt;/em&gt;.&lt;/dd&gt;
-&lt;dt&gt;Secrecy&lt;/dt&gt;
-&lt;dd&gt;A secret may be held by individuals and organizations. Often secrecy is considered a bad thing but there are often times when it is necessary and good. Coca Cola&amp;rsquo;s formula is a trade secret which is not only allowable under the law but recognized as a proper way to conduct business. The invasion plans for D-Day were a secret and it should be clear that this is a legitimate use of secrecy.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;h2 id=&#34;why-data&#34;&gt;Why data?&lt;/h2&gt;
-&lt;p&gt;Data informs much of our decision making. If I know store A sells a gallon of milk for less than store B, I can save money. We also regularly use knowledge drawn from data. Knowing that smoking is often a cause of lung cancer, a person can choose to improve their health. If we know that a college degree leads to lower crime rates, as a society, we may choose to invest in better educational opportunities.&lt;/p&gt;
-&lt;p&gt;In the stock market, the price of a share of stock is determined by what a buyer is willing to pay and what a seller is willing to accept. Buyers and sellers are acting upon how they expect the company to perform in the future. So the pricing is determined based upon expectations of earnings, valuation, rates of return, market conditions, and emotions. Having accurate information about those items is necessary to properly price a share of stock..&lt;/p&gt;
-&lt;p&gt;With the introduction of Deep Learning methods in machine learning, the need for data has increased exponentially. These algorithms require big data to get good results. In many cases, more high quality data is the difference between an algorithm that barely performs as well as the average person and one that out-performs even the experts.&lt;/p&gt;
-&lt;p&gt;All of these are examples of ways in which having data may lead to better decisions for individuals and societies. Having data is not sufficient for making quality decisions but it is necessary. Those having more high quality data have the opportunity to improve their decision-making. Data is power especially if there exists a disparity with the information commonly known.&lt;/p&gt;
-
-
-&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;Data is power&lt;/h4&gt;
-
-    With data we gain the power to effect change  and advantage in our world.
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;we-have-unequal-access-to-data&#34;&gt;We have unequal access to data&lt;/h2&gt;
-&lt;p&gt;Using the stock market example, a person directly involved with the company will often know of dramatic changes in future earnings or big problems before the average investor. An insider acting on their information can make large profits. Insider trading on private information reduces the trust investors have in the company. If this reduction in trust becomes widespread, the markets no longer operate efficiently and profits accrue only to those with access to private information. Inefficient markets and lack of trust in the information provided by companies harms all. This has clearly been recognized by regulators and is why insider trading is a crime.&lt;/p&gt;
-&lt;p&gt;There are many other situations where data disparity is normal. Sometimes that disparity is related to having the skills to use the information, such as in the professions of medicine, law, and engineering. We rely on the skills but also on the ethical obligations of such professionals. Each of the mentioned professionals are expected to abide by standards and codes of ethics. Each of these professions also requires a license to practice and those licenses may be revoked for not following the ethics of providing fair and honest service. Again, we recognize that having an advantage in information is powerful and may be abused.&lt;/p&gt;
-&lt;p&gt;Holding information others do not have, gives the holder easy-to-abuse power over others. Blackmail is an obvious example. Militaries seek advantage by having more complete information about their opponent than the opponent has on them. Many seek advantage by holding secret information. The problem is that secret information, especially when abused, leads to mistrust, questioning of motives for actions, and guessing explanatory information.&lt;/p&gt;
-
-
-&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;Data disparity is harmful&lt;/h4&gt;
-
-    Those without access to quality information can expect to make poorer decisions and lead less fulfilling, shorter, unhealthier, and poorer lives. This disparity also breaks down society, especially in trust relationships.
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;lets-talk-about-quality&#34;&gt;Let&amp;rsquo;s talk about quality&lt;/h2&gt;
-&lt;p&gt;Quality data is accurate, timely, and complete. We rely on data to inform our decisions. Having quality data allows us to make better decisions faster and with a better understanding of all the things that might go wrong. Quality information is the new currency for opportunity.&lt;/p&gt;
-&lt;p&gt;Anything that degrades the quality of the data might be considered harmful. Sometimes data corruption is unavoidable. A heart rate monitor may be worn incorrectly or have a power failure. The clocks used to record separate but related data might not be synchronized.&lt;/p&gt;
-&lt;p&gt;It may be difficult to even know a problem exists if we do not record certain types of information. In 2016, I read &lt;a href=&#34;https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/&#34;&gt;The Vanishing of Canada’s First Nations Women&lt;/a&gt;. This article highlighted the problem of lack of data, &lt;em&gt;&amp;ldquo;Pearce enrolled in a doctoral program in law to research missing and murdered women but soon found that “there was nothing available to the public in terms of data” because police had never published national statistics.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Then, from the &lt;a href=&#34;http://www.uihi.org/wp-content/uploads/2018/11/Missing-and-Murdered-Indigenous-Women-and-Girls-Report.pdf&#34;&gt;Urban Indian Health Initiative report from 2018&lt;/a&gt;, &lt;em&gt;&amp;ldquo;As demonstrated by the findings of this study, reasons for the lack of quality data include under reporting, racial misclassification, poor relationships between law enforcement and American Indian and Alaska Native communities, poor record-keeping protocols, institutional racism in the media, and a lack of substantive relationships between journalists and American Indian and Alaska Native communities&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
-
-
-
-
-
-
-
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 510px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/05/01/privacy-secrecy-and-data/mmiwg_hu83f9db29f3d474eb69a415f18a4ad97c_312798_500x0_resize_catmullrom_3.png&#34; width=&#34;500&#34; height=&#34;648&#34;&gt;
-	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
-		&lt;p class=&#34;card-text&#34;&gt;
-
-&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Urban Indian Health Institute&lt;/small&gt;&lt;/p&gt;
-	&lt;/div&gt;
-	
-&lt;/div&gt;
-&lt;p&gt;These articles highlight the need for quality data to determine if problems even exist. For data to have high quality, it must also be collected uniformly. Uneven data collection is a real problem especially when there are strong incentives to suppress correct reporting. Crime data is the obvious example of reporting discrepancies. Different jurisdictions report data differently and there are often incentives to under-report or reclassify certain types of crime. See &lt;em&gt;Measurement Problems in Criminal Justice Research&lt;/em&gt; and &lt;a href=&#34;http://archive.jsonline.com/watchdog/152102845.html&#34;&gt;A Journal Sentinel investigation found the Milwaukee Police Department has underreported thousands of violent assaults, rapes, robberies and burglaries and failed to correct the problem while presenting flawed statistics to the public.&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;These articles also highlight the intersection of data power and data disparity.&lt;/p&gt;
-
-
-&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;Quality matters&lt;/h4&gt;
-
-    Data is not enough, it must be accurate, timely, and complete to be truly useful. Poor quality data may be used as a lever of power.
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;intentionally-corrupt-data&#34;&gt;Intentionally corrupt data&lt;/h2&gt;
-&lt;p&gt;Certainly any type of intentional corruption of data should be unacceptable. Modifying data seriously harms the usefulness of the information derived. Futhermore, any decisions made based upon that data are likely to be wrong.&lt;/p&gt;
-&lt;p&gt;This might seem an unlikely problem but really it is everywhere. People regularly lie when filing out survey forms. In fact, many surveys have validation questions to correct and/or eliminate dishonest responses.&lt;/p&gt;
-&lt;p&gt;The Global Positioning System (GPS) was originally a Department of Defense project. When permitted for civilian use, the signal was intentionally degraded to prevent high accuracy. More recently, competition has forced the GPS signal to provide more accurate position.&lt;/p&gt;
-&lt;p&gt;Why would data be intentionally corrupted? There are many reasons but these include, to maintain an information advantage, to cause bad decision-making, and to maintain privacy.&lt;/p&gt;
-&lt;p&gt;Privacy often limits the amount of data collected, the timeliness of the data, and the accuracy of the data. Certainly, any types of anonymization techniques reduce the completeness of the data. Definitively, we can state that privacy reduces the quality of data and intentionally low quality data can cause harm.&lt;/p&gt;
-
-
-&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;Secrecy and privacy corrupt data and cause harm&lt;/h4&gt;
-
-    We intentionally corrupt data to protect privacy and allow for secrets. We should try to minimize these corruptions.
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;the-dark-side-of-secrecy&#34;&gt;The dark side of secrecy&lt;/h2&gt;
-&lt;h3 id=&#34;in-government&#34;&gt;In government&lt;/h3&gt;
-&lt;p&gt;The following from Schoenfeld very eloquently states my general thoughts on secrecy in government.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;A basic principle of our political order, enshrined in the First Amendment
-guarantee of freedom of speech and of the press, is that openness is an essential
-prerequisite of self-governance. Indeed, at the very core of our democratic
-experiment lies the question of transparency. Secrecy was one of the
-cornerstones of monarchy, a building block of an unaccountable political
-system constructed in no small part on what King James the First had called the
-“mysteries of state.” Secrecy was not merely functional, a requirement of an
-effective monarchy, but intrinsic to the mental scaffolding of autocratic rule.&lt;/p&gt;
-&lt;p&gt;Standing in diametrical opposition to that mental scaffolding was an
-elementary proposition of democratic theory: Legitimate power could rest only
-on the informed consent of the governed. Along with individuals at liberty to
-give or to withhold approval to their government, informed consent requires,
-above all else, information, freely available and freely exchanged. Official
-secrecy is anathema to this conception. No one has put this proposition more
-forcefully than James Madison, who tells us that “A popular government,
-without popular information, or the means of acquiring it, is but a Prologue to a
-Farce or a Tragedy, or, perhaps both. Knowledge will forever govern ignorance:
-And a people who mean to be their own Governors must arm themselves with
-the power which knowledge gives.” &amp;quot;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;There are situations when secrecy is needed, most notably in cases of national security. Secrecy should be the exception and not the rule. It should require a clear statement of why something should be secret and then it should be made public as soon as the requirement for secrecy has passed.&lt;/p&gt;
-&lt;p&gt;Secrecy hides the decision-making process and consolidates power to those holding the secrets. It keeps the people uninformed, limits participation, and allows for corruption to take root and grow unchecked. We must, in order to remain in a free and functioning democracy, vigilantly limit secrecy in government at all times.&lt;/p&gt;
-&lt;p&gt;Governments have a preference for secrecy and the ability to act without the people&amp;rsquo;s oversight. Thus secrecy is a slowly encroaching action of government and must be constantly guarded against. Yes, it is increasing now as Aftergood&amp;rsquo;s article from March 2020 states, &lt;em&gt;&amp;ldquo;The Department of Defense is quietly asking Congress to rescind the requirement to produce an unclassified version of the Future Years Defense Program (FYDP) database.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Limiting secrecy applies not only to the government but also the great influencers of government and to the tools used by governments. For influencers of government, I include things like: lobbyists, donations, political action committees, and those groups or individuals that gain influence using money or shared secrets. Finally, increasing citizen participation in local governance is an excellent way to both keep aware of encroaching secrecy and to also reduce it. See more at &lt;a href=&#34;https://www.newamerica.org/political-reform/reports/global-answers-local-problems-lessons-civically-engaged-cities/&#34;&gt;Global Answers for Local Problems, Lessons from Civically Engaged Cities&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;in-the-business-world&#34;&gt;In the business world&lt;/h3&gt;
-&lt;p&gt;Honestly, this section needs more thought and development but here goes. Some ideas may be rather controversial because they feed into other not-fully developed thoughts I have on taxation policies. Another article in the future might address that issue but that is not as much in my core competencies as data is.&lt;/p&gt;
-&lt;p&gt;There are different types of businesses ranging from sole proprietorships to publicly traded corporations and the rules applying to them often differ greatly. I will limit discussion here to publicly traded corporations. Generally, there is already a lot of transparency in these business due to the required reportings to shareholders and government but businesses can be complex which gives opportunity for secrecy. Even with that transparency, there still exist many areas for improvement. The areas for improvement mainly cover influencing actions toward government and collection and handling of individual&amp;rsquo;s data.&lt;/p&gt;
-&lt;p&gt;Lobbying should be fully disclosed. Sometimes, a business participates in lobbying to push forward legislation in an area where the business is an acknowledged expert. This is reasonable but their participation should be checked by participation for citizens or groups which might oppose the legislation. Lobbying that is of a political nature only should be prohibited. There are gray areas between purely expert and purely political and this is why their lobbying activities should be fully disclosed and scrutinized.&lt;/p&gt;
-&lt;p&gt;Charitable activities should be curtailed entirely as these are typically either marketing or lobbying activities in disguise. If executives of a business wish to be charitable, they should use their own funds to purchase the services of the business for donation and not impose their charitable preferences on their diverse shareholders.&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s now discuss the handling of individuals data. For some businesses, this is just a byproduct of interacting with customers but for others, this data is their lifeblood source of revenue. A company earning revenue based upon their database of individual users is not really paying for their access to raw material. They are also building barriers to entry to other companies based not upon their prowess or technical advantage but upon their access to the raw material.&lt;/p&gt;
-&lt;p&gt;The raw material is individual person&amp;rsquo;s data, often data a person would consider private. The business considers this data as their property with the rights to sell, use, or keep it secret within lawful limits.&lt;/p&gt;
-
-
-&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;Unchecked secrecy corrupts&lt;/h4&gt;
-
-    Clearly, the founders of the United States knew secrecy in government was dangerous. We now also see that secrecy in business allows for hidden influence and the co-opting of the people&amp;rsquo;s privacy and power.
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;privacys-offsetting-benefits&#34;&gt;Privacy&amp;rsquo;s offsetting benefits&lt;/h2&gt;
-&lt;p&gt;A lot has been written in support of privacy and the right to privacy. In fact, until recently driven by my interests in machine learning and my understanding of the harm caused by low quality data, I was a strong supporter of the right to privacy. I put both time and money into supporting privacy rights. So, let&amp;rsquo;s examine the reasons for privacy.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ll base this on Solove&amp;rsquo;s &lt;em&gt;Conceptualizing Privacy&lt;/em&gt; and on Magi&amp;rsquo;s &lt;em&gt;Fourteen Reasons Privacy Matters: A Multidisciplinary Review of Scholarly Literature&lt;/em&gt;, shown in the References section.&lt;/p&gt;
-&lt;p&gt;Solove identifies six general types of definitions of privacy:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;the right to be let alone,&lt;/li&gt;
-&lt;li&gt;the ability to limit access to the self by others,&lt;/li&gt;
-&lt;li&gt;secrecy or concealment of certain matters,&lt;/li&gt;
-&lt;li&gt;the ability to control information about oneself,&lt;/li&gt;
-&lt;li&gt;the protection of one’s personhood, individuality and dignity, and&lt;/li&gt;
-&lt;li&gt;control over one’s intimate relationships or aspects of life.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The problem of corrupted data is mainly about information generated by a person or information about a person and not imposing upon or controlling the person.&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s look at this a bit deeper. Magi lists fourteen reasons. I&amp;rsquo;ll list them here and discuss a few of them in more depth for better understanding. These fourteen reasons will be addressed further in a later section.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;Privacy protects from overreach of social interactions and provides opportunity
-for relaxation and concentration.&lt;/li&gt;
-&lt;li&gt;Privacy affirms self-ownership and the ability to be a moral agent.&lt;/li&gt;
-&lt;li&gt;Privacy prevents intrinsic loss of freedom of choice.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;These three reasons point to impositions on our private space to affect or direct our thoughts and ability to act.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Privacy allows freedom from self-censorship and anticipatory conformity and
-allows people to explore their “rough draft” ideas.&lt;/li&gt;
-&lt;li&gt;Privacy helps prevent sorting of people into categories that can lead to lost opportunities and deeper inequalities.&lt;/li&gt;
-&lt;li&gt;Privacy prevents being misjudged out of context.&lt;/li&gt;
-&lt;li&gt;Privacy provides a physical space in which an individual can control the artifacts
-that support the narrative of her/his life.&lt;/li&gt;
-&lt;li&gt;Privacy preserves the chance to make a fresh start.&lt;/li&gt;
-&lt;li&gt;Privacy allows individuals to be authentic and to play appropriate roles in various
-contexts.&lt;/li&gt;
-&lt;li&gt;Privacy supports intimacy and the building of relationships.&lt;/li&gt;
-&lt;li&gt;Privacy supports the common good.&lt;/li&gt;
-&lt;li&gt;Privacy protects from power imbalance between individuals and government/
-organizations.&lt;/li&gt;
-&lt;li&gt;Privacy supports democracy, political activity, and service.&lt;/li&gt;
-&lt;li&gt;Privacy provides space in society for disagreement.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-
-&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;Privacy enhances people and society&lt;/h4&gt;
-
-    The overall impression from this list is that privacy is both for the individual and for society. The benefits of privacy for the individual protects their physical, emotional, spiritual, and intellectual space. The benefits for society enhance innovation, equality, justice, involvement, and decrease conflict.
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;how-much-privacy-do-we-have&#34;&gt;How much privacy do we have?&lt;/h2&gt;
-&lt;p&gt;Over the past few years, many articles have lamented the erosion of personal privacy. Our every click may be monitored by our favorite website or social media company. With technological innovations, governments are able to track and monitor individuals at an unprecedented level. To prevent money flows to terrorist organizations, we have instituted rules and regulations to make financial transactions more traceable. The Health Insurance Portability and Accountability Act of 1996 (HIPAA) was enacted to protect the privacy of our health records. Cameras records our actions at intersections, walking down the street, and in both public and private spaces. Our current location is readily surrendered by the smartphone device we all carry. Every email, photo, and online interaction we engage in is recoded and saved for posterity.&lt;/p&gt;
-&lt;p&gt;So yes, your data, much of which you may consider private, is held by some faceless government, business, or organization. Do the faceless have your best interests in mind? I think not and that is why I fought against this intrusion for many years.&lt;/p&gt;
-&lt;p&gt;Its not really a matter of what information is out there but how consolidated and cohesive it is. The government has or can gain access to all of your data, and it may legally require that you never be informed. As this &lt;a href=&#34;https://www.eff.org/issues/patriot-act&#34;&gt;issues section from the Electronic Frontier Foundation&lt;/a&gt; points out, &amp;ldquo;The USA PATRIOT Act broadly expands law enforcement&amp;rsquo;s surveillance and investigative powers and represents one of the most significant threats to civil liberties, privacy, and democratic traditions in US history.&amp;rdquo;&lt;/p&gt;
-
-
-&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;Privacy is false anyway&lt;/h4&gt;
-
-    Our data is out there. The question has become: who is using it?
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;the-proposal&#34;&gt;The proposal&lt;/h2&gt;
-&lt;p&gt;But the algorithm has overcome all.&lt;/p&gt;
-&lt;p&gt;Some years ago when cameras were initially being installed in many public spaces and were being monitored by public officials, or more likely by algorithms, I saw a piece that suggested the only way to achieve detente was that viewing of the cameras should be equal access to all.&lt;/p&gt;
-&lt;p&gt;I propose the creation of a public data lake to hold this information. There could be different sub-module lakes that include financial or health data. Read access to the lake would be credentialed with some sort of credit/debit scheme. Changes and updates to the data would be though a pull request method. Initiation and oversight of this data lake would be done by some sort of government, citizen, and business consortium.&lt;/p&gt;
-&lt;p&gt;How is this possibly a good idea?&lt;/p&gt;
-&lt;p&gt;There is the problem of theft or use of information for nefarious purposes.&lt;/p&gt;
-&lt;p&gt;Share the database such that everyone has access to the data.&lt;/p&gt;
-&lt;p&gt;Problems with localism and fragility?&lt;/p&gt;
-&lt;p&gt;What to do here?&lt;/p&gt;
-&lt;h2 id=&#34;impacts-on-privacy&#34;&gt;Impacts on privacy&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s look at this a bit deeper. Magi lists fourteen reasons. So let&amp;rsquo;s address each in turn.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;Privacy protects from overreach of social interactions and provides opportunity
-for relaxation and concentration.&lt;/li&gt;
-&lt;li&gt;Privacy affirms self-ownership and the ability to be a moral agent.&lt;/li&gt;
-&lt;li&gt;Privacy prevents intrinsic loss of freedom of choice.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Quality data collection should not affect these three reasons. If we are speaking of the intrusion of unwanted people into social interactions, this may be a problem. Generally though, this is a problem that can be addressed by other legal means that might be supported by data. Stalking is an example of this. A stalker might try to inject themselves based on available information but their location might be legally used to prohibit and prosecute their actions.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Privacy allows freedom from self-censorship and anticipatory conformity and
-allows people to explore their “rough draft” ideas.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Without absolute privacy, people often engage in self-censorship and anticipatory conformity. Some self-censorship is beneficial but too much is harmful to society. Decreasing overall privacy will increase self-censorship, therefore; we will need mechanisms to correct this imbalance. This imbalance may be somewhat offset by clear and strong laws to protect against official or societal curtailing of thoughts and ideas. We might also engage in positive reinforcement of diversity. Finally, the creation of strong anonymous channels may allow for the appropriate expression of ideas without the oppression of anonymous gang-banging.&lt;/p&gt;
-&lt;p&gt;A question to consider is: are we able to measure how much is lost to self-censorship and conformity? If the loss is great and we are not able to mitigate that loss, that is a point upon which to reinstate strong data privacy.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Privacy helps prevent sorting of people into categories that can lead to lost opportunities and deeper inequalities.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;There may be some sorting of people into categories but at the same time opportunities will likely remain the same and inequalities should be lessened. In fact, the reduction of disparity and inequalities is one of the benefits of good data.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Privacy prevents being misjudged out of context.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Initially, a person&amp;rsquo;s data will be judged out of context. Having context to the data is generally an improvement such that the data will seek context. People with access to the data may not exercise the same discretion about including context with data. Perhaps this is an aspect that will take a little bit of time to find equilibrium.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;Privacy provides a physical space in which an individual can control the artifacts
-that support the narrative of her/his life.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;An individual will not be able to control the digital artifacts in their life. False narratives will be very difficult to support. At the same time, true narratives will be easier to support and recall as the data is readily available to the person. If we talk only about physical spaces, then; improved data should have little impact.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol start=&#34;8&#34;&gt;
-&lt;li&gt;Privacy preserves the chance to make a fresh start.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Higher quality data will likely make it more difficult to make a fresh start. We have already seen that just based on the longevity of static data. What was once forgotten is now stored. There may be some solutions for this which include legislation that rolls certain types of data in archival storage. Recently, some AI algorithms have taken steps to forget certain aged information in order to improve predictions.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol start=&#34;9&#34;&gt;
-&lt;li&gt;Privacy allows individuals to be authentic and to play appropriate roles in various
-contexts.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This basically states that how I behave and who I am depends on the context in which I am acting. There will be changes in this mutability since the context, often other people&amp;rsquo;s image of you, will be better informed of your overall role. Now when we enter a new context, we often assume other people have little to no knowledge of us and this allows us develop our relationships unimpeded. This may or may not be true.&lt;/p&gt;
-&lt;p&gt;I think that we currently enter new contexts with uncertainty of what others know about us. With more readily available information, we could enter a new context with less anxiety, presuming that they already know some things about us  but are willing to judge us based on our new context. In other words, I do not think expanding data access degrades this privacy.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol start=&#34;10&#34;&gt;
-&lt;li&gt;Privacy supports intimacy and the building of relationships.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;There may be a small effect upon this reason. It will be easier to find information about a person but the information is not imposed into the relationship.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol start=&#34;11&#34;&gt;
-&lt;li&gt;Privacy supports the common good.&lt;/li&gt;
-&lt;li&gt;Privacy protects from power imbalance between individuals and government/
-organizations.&lt;/li&gt;
-&lt;li&gt;Privacy supports democracy, political activity, and service.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Quality data collection should improve these social ends. In fact the expansion of quality data is intended to improve these social ends.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol start=&#34;14&#34;&gt;
-&lt;li&gt;Privacy provides space in society for disagreement.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This is closely related to point number 4 and I think may be treated similarly.&lt;/p&gt;
-
-
-&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;Privacy is mutable&lt;/h4&gt;
-
-    Making some changes in our perceived privacy will have benefits that outweigh the costs.
-
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;pageinfo pageinfo-warning&#34;&gt;
-&lt;p&gt;Work in progress.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;AI is the game changer&lt;/h4&gt;
-
-    With data we gain the power to effect change  and advantage in our world.
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Aftergood, Steven. “Pentagon Asks to Keep Future Spending Secret.” Federation Of American Scientists, Federation Of American Scientists, 30 Mar. 2020, ,https://fas.org/blogs/secrecy/2020/03/ndaa-fydp/.&amp;gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cogan, Marin. “The Vanishing of Canada&amp;rsquo;s First Nations Women.” Foreign Policy, 6 July 2016, &lt;a href=&#34;https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/&#34;&gt;https://foreignpolicy.com/2016/07/06/the-vanishing-of-canadas-first-nations-women-harper-trudeau-violence-highway-of-tears-indigenous/&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Gilman, Hollie, and Elena Souris. “Global Answers for Local Problems, Lessons from Civically Engaged Cities.” New America, 12 Feb. 2020, &lt;a href=&#34;http://www.newamerica.org/political-reform/reports/global-answers-local-problems-lessons-civically-engaged-cities/&#34;&gt;http://www.newamerica.org/political-reform/reports/global-answers-local-problems-lessons-civically-engaged-cities/&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Guariglia, Matthew, et al. “PATRIOT Act.” Electronic Frontier Foundation, &lt;a href=&#34;https://www.eff.org/issues/patriot-act&#34;&gt;www.eff.org/issues/patriot-act&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Magi, Trina J. “Fourteen Reasons Privacy Matters: A Multidisciplinary Review of Scholarly Literature.” The Library Quarterly: Information, Community, Policy, vol. 81, no. 2, 2011, pp. 187–209. JSTOR, &lt;a href=&#34;https://www.jstor.org/stable/10.1086/658870&#34;&gt;https://www.jstor.org/stable/10.1086/658870&lt;/a&gt;. Accessed 24 Apr. 2020.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Maltz, Michael D. “Bridging Gaps in Police Crime Data.” U.S. Department of Justice Bureau of Justice Statistics, Sept. 1999, &lt;a href=&#34;https://www.bjs.gov/content/pub/pdf/bgpcd.pdf&#34;&gt;https://www.bjs.gov/content/pub/pdf/bgpcd.pdf&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;National Research Council 2003. Measurement Problems in Criminal Justice Research: Workshop Summary. Washington, DC: The National Academies Press. &lt;a href=&#34;https://doi.org/10.17226/10581&#34;&gt;https://doi.org/10.17226/10581&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Schoenfeld, Gabriel. “Secrecy in Our Open Society (Written Testimony).” Received by Hearing of the House Committee on the Judiciary On the Espionage Act and the Legal and Constitutional Issues Raised by WikiLeaks , 16 Dec. 2010. &lt;a href=&#34;https://fas.org/irp/congress/2010_hr/121610schoenfeld.pdf&#34;&gt;https://fas.org/irp/congress/2010_hr/121610schoenfeld.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Solove, Daniel J. “Conceptualizing Privacy.” California Law Review, vol. 90, no. 4, 2002, pp. 1087–1155. JSTOR, &lt;a href=&#34;https://www.jstor.org/stable/3481326&#34;&gt;https://www.jstor.org/stable/3481326&lt;/a&gt;. Accessed 25 Apr. 2020.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Urban Indian Health Institute. “Missing and Murdered Indigenous Women and Girls.” Urban Indian Health Institute, 14 Nov. 2018, &lt;a href=&#34;http://www.uihi.org/wp-content/uploads/2018/11/Missing-and-Murdered-Indigenous-Women-and-Girls-Report.pdf&#34;&gt;http://www.uihi.org/wp-content/uploads/2018/11/Missing-and-Murdered-Indigenous-Women-and-Girls-Report.pdf&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;“&amp;lsquo;Wrong&amp;rsquo; Crime Data Highlights Inconsistent Statistics.” Cumberland News-Times, Elliott Davis Capital News Service, 30 Dec. 2019, &lt;a href=&#34;https://www.times-news.com/news/local_news/wrong-crime-data-highlights-inconsistent-statistics/article_afa732bb-afbb-56bb-b447-a3dfefbe5632.html&#34;&gt;https://www.times-news.com/news/local_news/wrong-crime-data-highlights-inconsistent-statistics/article_afa732bb-afbb-56bb-b447-a3dfefbe5632.html&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
+      <description>&lt;p&gt;In January of 2020, I made a post to Facebook. It did not get the level of feedback I had hoped for.&lt;/p&gt;&#xA;&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;&#xA;&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/05/01/privacy-secrecy-and-data/idea01_hu_4563413a6e14b02f.png&#34; width=&#34;400&#34; height=&#34;511&#34;&gt;&#xA;&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;&#xA;&lt;p class=&#34;card-text&#34;&gt;&#xA;&#xA;&#xD;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;I had hoped to get feedback on the idea to inform and clarify my thoughts. Without that, I have tried to expand the idea and try to cover not only the positives from the idea but also consider many of the negatives.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Starting my documentation site</title>
+      <title>Starting my documentation site</title>
       <link>/blog/2020/04/16/starting-my-documentation-site/</link>
       <pubDate>Thu, 16 Apr 2020 16:02:22 -0500</pubDate>
-      
       <guid>/blog/2020/04/16/starting-my-documentation-site/</guid>
-      <description>
-        
-        
-        &lt;p&gt;During this crazy time of corona virus quarantine, I figured it is time to get some things done. One of those is updating my documentation efforts. I was last using a system based upon asciidoc, pandoc, and git, with some work done in markdown and hugo. It worked fairly well but was cumbersome in many regards. I last reviewed methods in 2018, which was prior to my restarting school in Mathematics.&lt;/p&gt;
-&lt;p&gt;So this new site uses markdown instead of asciidoc. There are many similarities but markdown is more ubiquitous. Hugo, when joined with github and a static site service provider like render, makes updating a breeze. Just push!&lt;/p&gt;
-&lt;p&gt;So, I am not really a conversationalist. Here is the site, enjoy!&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;During this crazy time of corona virus quarantine, I figured it is time to get some things done. One of those is updating my documentation efforts. I was last using a system based upon asciidoc, pandoc, and git, with some work done in markdown and hugo. It worked fairly well but was cumbersome in many regards. I last reviewed methods in 2018, which was prior to my restarting school in Mathematics.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title></title>
+      <link>/docs/archive/markdown-slideshow/template_revealjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docs/archive/markdown-slideshow/template_revealjs/</guid>
+      <description>&lt;!doctype html&gt;&#xD;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xD;&#xA;&lt;head&gt;&#xD;&#xA;    &lt;meta charset=&#34;utf-8&#34;&gt;&#xD;&#xA;    &lt;title&gt;$title$&lt;/title&gt;&#xD;&#xA;    &lt;meta name=&#34;description&#34; content=&#34;$title$&#34;&gt;&#xD;&#xA;&#xD;&#xA;    $for(author)$&#xD;&#xA;      &lt;meta name=&#34;author&#34; content=&#34;$author$&#34; /&gt;&#xD;&#xA;    $endfor$&#xD;&#xA;&#xD;&#xA;    &lt;meta name=&#34;apple-mobile-web-app-capable&#34; content=&#34;yes&#34; /&gt;&#xD;&#xA;    &lt;meta name=&#34;apple-mobile-web-app-status-bar-style&#34; content=&#34;black-translucent&#34; /&gt;&#xD;&#xA;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&#34;&gt;&#xD;&#xA;&#xD;&#xA;    &lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/css/reveal.$if(reveal.minified)$min.$endif$css&#34;&gt;&#xD;&#xA;    $if(reveal.theme)$&#xD;&#xA;      &lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/css/theme/$reveal.theme$.$if(reveal.minified)$min.$endif$css&#34; id=&#34;theme&#34;&gt;&#xD;&#xA;    $else$&#xD;&#xA;      &lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/css/theme/black.$if(reveal.minified)$min.$endif$css&#34; id=&#34;theme&#34;&gt;&#xD;&#xA;    $endif$&#xD;&#xA;&#xD;&#xA;    &lt;!-- For syntax highlighting --&gt;&#xD;&#xA;    $if(highlight-style)$&#xD;&#xA;      &lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/lib/css/$highlight-style$.css&#34;&gt;&#xD;&#xA;    $else$&#xD;&#xA;      &lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/lib/css/zenburn.$if(reveal.minified)$min.$endif$css&#34;&gt;&#xD;&#xA;    $endif$&#xD;&#xA;&#xD;&#xA;    &lt;!-- If the query includes &#39;print-pdf&#39;, use the PDF print sheet --&gt;&#xD;&#xA;    &lt;script&gt;&#xD;&#xA;      document.write( &#39;&lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/css/print/&#39; +&#xD;&#xA;        ( window.location.search.match( /print-pdf/gi ) ? &#39;pdf&#39; : &#39;paper&#39; ) +&#xD;&#xA;        &#39;.css&#34; type=&#34;text/css&#34; media=&#34;print&#34;&gt;&#39; );&#xD;&#xA;    &lt;/script&gt;&#xD;&#xA;&#xD;&#xA;    &lt;!--[if lt IE 9]&gt;&#xD;&#xA;    &lt;script src=&#34;$reveal.path$/lib/js/html5shiv.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;    &lt;![endif]--&gt;&#xD;&#xA;    $for(header-includes)$&#xD;&#xA;      $header-includes$&#xD;&#xA;    $endfor$&#xD;&#xA;&lt;/head&gt;&#xD;&#xA;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;$for(include-before)$&#xD;&#xA;  $include-before$&#xD;&#xA;$endfor$&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;reveal&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;!-- Any section element inside of this container is displayed as a slide --&gt;&#xD;&#xA;&lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;section&gt;&#xD;&#xA;&lt;h1&gt;$title$&lt;/h1&gt;&#xD;&#xA;$if(subtitle)$&lt;h2&gt;$subtitle$&lt;/h2&gt;$endif$&#xD;&#xA;$for(author)$&lt;h3&gt;$author$&lt;/h3&gt;$endfor$&#xD;&#xA;&lt;p&gt;&#xD;&#xA;&lt;h4&gt;$date$&lt;/h4&gt;&#xD;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/index.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Search Results</title>
+      <link>/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/search/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -1,162 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Werk Space – Fragments</title>
+    <title>Fragments on Werk Space</title>
     <link>/blog/thoughts/fragments/</link>
     <description>Recent content in Fragments on Werk Space</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 19 Jun 2020 23:05:40 -0500</lastBuildDate>
-    
-	  <atom:link href="/blog/thoughts/fragments/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Jun 2022 22:52:00 -0500</lastBuildDate>
+    <atom:link href="/blog/thoughts/fragments/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog: Truth 03</title>
+      <title>Truth 03</title>
       <link>/blog/2022/05/31/truth-03/</link>
       <pubDate>Tue, 31 May 2022 10:56:04 -0500</pubDate>
-      
       <guid>/blog/2022/05/31/truth-03/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Most would argue that what&amp;rsquo;s true is true. That there does indeed exist an ultimate or quintessential underlying reality. But is this a valid understanding?&lt;/p&gt;
-&lt;p&gt;In my studies of mathematics, especially probability and statistics, we assume that there is a true parameter value. This is a fiction and is just a device for doing theory and developing methods. It allows us to theoretically show that some method to estimate it has some property which works better or worse. But overall the effect is to assume that something true exists that we then choose to model imperfectly.&lt;/p&gt;
-&lt;p&gt;I disagree with this assumption! Instead, I think that the universe is in constant flux and unevenly distributed. This implies that there is no ultimate truth and the truth that we observe today may in fact be materially different tomorrow. This is perhaps a difficult concept for many people accustomed to working with concrete objects and models in the real world. But not to worry, working with this concept of truth is not needed for 99% of the thinking we need to do.&lt;/p&gt;
-&lt;p&gt;So when might we want to assume a different model of truth? Advanced physics for one. Our understanding of the universe has been based upon the cosmological principle. Newton first asserted this notion that the spatial distribution of matter in the universe is homogeneous and isotropic when viewed on a large enough scale. The determination of a homogeneous and isotropic universe versus a inhomogeneous and anisotropic universe is an unsolved determination in physics.&lt;/p&gt;
-&lt;p&gt;This has more recently become topical in advanced physics and cosmology, especially with some results from dark matter, backreactions, and quanta. I will not discuss that here (I&amp;rsquo;m not a good physicist) but you may search the issue if interested.&lt;/p&gt;
-&lt;p&gt;We also need to concern ourselves with this model when we consider artificial intelligence models. If a model takes truth as giving an objective then it may discard highly relevant but discordant data. As the complexities of our ai systems increase, we will not understand the conclusions of our ai but instead must know that the methods upon which the ai rests are sound and comprehensive.&lt;/p&gt;
-&lt;p&gt;This is a field that does matter to me. In practice, for supervised methods, the expanse of data is more of an issue. For unsupervised methods, we are generally trying to get a sense of the data or highlight patterns which likely does not need our expanded notions. Last, we consider reinforcement learning which I suggest might be highly sensitive to unevenness in our underlying universe. You might consider this the effect of the long tail. I would say that the inhomogeneous-anisotropic worldview is more needed for reinforcement learning and in particular the probabilistic graphical models I am most interested in.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;Most would argue that what&amp;rsquo;s true is true. That there does indeed exist an ultimate or quintessential underlying reality. But is this a valid understanding?&lt;/p&gt;&#xA;&lt;p&gt;In my studies of mathematics, especially probability and statistics, we assume that there is a true parameter value. This is a fiction and is just a device for doing theory and developing methods. It allows us to theoretically show that some method to estimate it has some property which works better or worse. But overall the effect is to assume that something true exists that we then choose to model imperfectly.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Habits 01</title>
+      <title>Habits 01</title>
       <link>/blog/2020/06/28/habits-01/</link>
       <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/06/28/habits-01/</guid>
-      <description>
-        
-        
-        &lt;p&gt;It is important to practice good habits of the mind at all times. Why? When we are not actively practicing good habits, we may lazily fall into bad habits. Bad habits are formed of the aggregate of our lives mixed with the cement of our passions, heavily reinforced by repetition, and cured over long periods of time. Our bad habits are very hard to break, requiring the sturdy spike of iron will and regular strikes with the heavy hammer of our effort. They take time to form and time to break.&lt;/p&gt;
-&lt;p&gt;Knowing the ease in which bad habits take hold, we should be generous to ourselves and to others struggling with the load of their accumulated habits.&lt;/p&gt;
-&lt;p&gt;Good habits are also strong and will support us in the most difficult of endeavors.&lt;/p&gt;
-&lt;p&gt;(Composed while lawn mowing. Shouts out to CBU: Amr, Viral, and Brian)&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;It is important to practice good habits of the mind at all times. Why? When we are not actively practicing good habits, we may lazily fall into bad habits. Bad habits are formed of the aggregate of our lives mixed with the cement of our passions, heavily reinforced by repetition, and cured over long periods of time. Our bad habits are very hard to break, requiring the sturdy spike of iron will and regular strikes with the heavy hammer of our effort. They take time to form and time to break.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Grandmother Porth</title>
+      <title>Grandmother Porth</title>
       <link>/blog/2020/06/26/grandmother-porth/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/06/26/grandmother-porth/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Grandma Porth taught me cards and other games. While I don&amp;rsquo;t really play many games now, the lessons of probability I learned from her teaching have remained. She was a world traveler who loved new experiences and cultures. Her dedication to community service and the well-being of all those around her set an excellent example.&lt;/p&gt;
-&lt;p&gt;Sometimes, she seemed the iron lady but I spent many, many hours with her and the ironess was only displayed when needed. I am glad that she mostly missed my lost years but wish she could she who I have become because I think she played a significant role in my life.&lt;/p&gt;
-&lt;p&gt;(this is likely the hardest of these for me to write)&lt;/p&gt;
-
-
-
-
-
-
-
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/06/26/grandmother-porth/lucile-porth_hu765997cc9d57fffd0e7f73e8f09e9a6b_478126_400x0_resize_q75_catmullrom.jpg&#34; width=&#34;400&#34; height=&#34;671&#34;&gt;
-	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
-		&lt;p class=&#34;card-text&#34;&gt;
-Lucile Porth on a travel.
-&lt;/p&gt;
-	&lt;/div&gt;
-	
-&lt;/div&gt;
-
-      </description>
+      <description>&lt;p&gt;Grandma Porth taught me cards and other games. While I don&amp;rsquo;t really play many games now, the lessons of probability I learned from her teaching have remained. She was a world traveler who loved new experiences and cultures. Her dedication to community service and the well-being of all those around her set an excellent example.&lt;/p&gt;&#xA;&lt;p&gt;Sometimes, she seemed the iron lady but I spent many, many hours with her and the ironess was only displayed when needed. I am glad that she mostly missed my lost years but wish she could she who I have become because I think she played a significant role in my life.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Truth 01</title>
+      <title>Truth 01</title>
       <link>/blog/2020/06/23/truth-01/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/06/23/truth-01/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Truth is hard and I will likely give it many fragments. I consider the discernment of truth, one of the most difficult and important things to put the efforts of my mind toward. It is a goal of religions, sciences, and philosophies.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;Truth is hard and I will likely give it many fragments. I consider the discernment of truth, one of the most difficult and important things to put the efforts of my mind toward. It is a goal of religions, sciences, and philosophies.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Truth 02</title>
+      <title>Truth 02</title>
       <link>/blog/2020/06/23/truth-02/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/06/23/truth-02/</guid>
-      <description>
-        
-        
-        &lt;p&gt;The Absolute Truth can never be known, even if such a thing were to exist.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;The Absolute Truth can never be known, even if such a thing were to exist.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Gary Dalton Jr</title>
+      <title>Gary Dalton Jr</title>
       <link>/blog/2020/06/21/gary-dalton-jr/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/blog/2020/06/21/gary-dalton-jr/</guid>
-      <description>
-        
-        
-        &lt;p&gt;My Dad, Gary Dalton Jr. He struggled to find his identity and eventually paid the price for that struggle. From him, I learned the value of being open to the thoughts, ideas, opinions, and identities of others. He acknowledged to me that I do not have to think or believe others choices are correct but that I also do not have the right to use force to bring them to my idea of the correct. He demonstrated that good things may be accomplished by being oneself. He gave meticulous attention to detail and always was doing the best he could.&lt;/p&gt;
-&lt;p&gt;People enjoyed his company because he was interested in them, playful, and engaging without out being ponderously opinionated. He cared greatly about his health and athleticism and I consider him one of the original health food nuts. One particular habit I have gained from him, is doing stretches and exercises while in the living room with family and watching TV.&lt;/p&gt;
-
-
-
-
-
-
-
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;/blog/2020/06/21/gary-dalton-jr/garydaltonjr_hu1acdb48bd4dc9afa1f9c5e6ebe76219e_30628_400x0_resize_q75_catmullrom.jpg&#34; width=&#34;400&#34; height=&#34;516&#34;&gt;
-	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
-		&lt;p class=&#34;card-text&#34;&gt;
-Gary Dalton Jr
-&lt;/p&gt;
-	&lt;/div&gt;
-	
-&lt;/div&gt;
-
-      </description>
+      <description>&lt;p&gt;My Dad, Gary Dalton Jr. He struggled to find his identity and eventually paid the price for that struggle. From him, I learned the value of being open to the thoughts, ideas, opinions, and identities of others. He acknowledged to me that I do not have to think or believe others choices are correct but that I also do not have the right to use force to bring them to my idea of the correct. He demonstrated that good things may be accomplished by being oneself. He gave meticulous attention to detail and always was doing the best he could.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Blog: Grandfather Dalton</title>
+      <title>Grandfather Dalton</title>
       <link>/blog/2020/06/19/grandfather-dalton/</link>
       <pubDate>Fri, 19 Jun 2020 23:05:40 -0500</pubDate>
-      
       <guid>/blog/2020/06/19/grandfather-dalton/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Thank you to my Grandfather Dalton, the original Garold. I gained much from your enjoyment, thought, and discussion (not argument) given to politics and your great ability to care little for labels. I recall a discussion we had regarding some political subject and, in frustration, I stated that you sounded like a communist. You calmly replied that I could call it whatever I wished but your ideas would stand on their own. You also demonstrated how to live a fulfilling life of labor and that this was a noble path.&lt;/p&gt;
-
-      </description>
+      <description>&lt;p&gt;Thank you to my Grandfather Dalton, the original Garold. I gained much from your enjoyment, thought, and discussion (not argument) given to politics and your great ability to care little for labels. I recall a discussion we had regarding some political subject and, in frustration, I stated that you sounded like a communist. You calmly replied that I could call it whatever I wished but your ideas would stand on their own. You also demonstrated how to live a fulfilling life of labor and that this was a noble path.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

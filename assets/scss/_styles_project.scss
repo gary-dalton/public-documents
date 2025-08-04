@@ -1,3 +1,27 @@
 .td-page-meta--view { display: none !important; }
 .td-page-meta--edit { display: none !important; }
 .td-page-meta--child { display: none !important; }
+
+
+.td-cover-block {
+  h1 {
+    // You can set a specific size.
+    // Try different values to see what you like.
+    font-size: 2.5rem;
+
+    // Reducing line-height makes text more compact vertically.
+    line-height: 1.5;
+
+    // You can also change the font weight if you like.
+    // font-weight: 600; // 400 is normal, 700 is bold
+    font-weight: 700;
+  }
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-around; /* Distributes items evenly */
+  align-items: flex-start;       /* Aligns items to the top */
+  flex-wrap: wrap;               /* Allows items to wrap on smaller screens */
+  gap: 2rem;                     /* Adds space between the feature blocks */
+}

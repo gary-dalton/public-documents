@@ -3,7 +3,7 @@ title: "Pandoc and Reveal"
 linkTitle: "Pandoc"
 description: "Slideshows from Markdown"
 author: Gary Dalton
-date: 10 July 2015
+date: 2015-07-10
 weight: 10
 draft: true
 ---
