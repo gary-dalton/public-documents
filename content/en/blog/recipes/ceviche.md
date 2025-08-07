@@ -2,7 +2,7 @@
 title: "Ceviche"
 linkTitle: "Ceviche"
 description: "A chilled dish for summer days on the beach or patio"
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: ""
   title: ""

@@ -2,7 +2,7 @@
 title: "Gulf"
 linkTitle: "Gulf"
 description: ""
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: "terns.jpg"
   title: "Terns"

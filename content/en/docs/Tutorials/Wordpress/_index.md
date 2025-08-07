@@ -1,7 +1,7 @@
 ---
 title: "WordPress"
 description: "How to quickly spin a WordPress server on AWS Lightsail."
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: "create1.png"
   title: "Handsigns for 1, 2, and, 3"

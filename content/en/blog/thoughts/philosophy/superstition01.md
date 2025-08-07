@@ -2,7 +2,7 @@
 title: "Not a Slave to Superstition"
 linkTitle: "Superstition"
 description: "Not a Slave to Superstition: this is my viewpoint in regards to religion, spirtuality, and atheism."
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 date: 2022-08-08
 weight: 20
 draft: false

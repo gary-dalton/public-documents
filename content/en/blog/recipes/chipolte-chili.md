@@ -2,7 +2,7 @@
 title: "Chipotle, el Rey"
 linkTitle: "Chipotle Chili"
 description: "A tasty chipolte based version of chili. My very own interpretation of chili. Designed for a contest as both different than the typical American version of chili and also delicious. This chili, or a version of it, will be entered in next year's Chili Bowl contest."
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: ""
   title: ""

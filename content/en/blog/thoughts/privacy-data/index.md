@@ -3,7 +3,7 @@ date: 2020-05-01
 title: "Privacy, Secrecy, and Data"
 linkTitle: "Privacy, Secrecy, and Data"
 description: "With the growing importance of AI, we need to change our current restraints of privacy and secrecy to improve data quality and access."
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: "idea01.png"
   title: "Idea 01"

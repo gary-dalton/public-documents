@@ -1,7 +1,10 @@
 {{ if not .Params.notoc }}
 {{ with .TableOfContents }}
 {{ if ge (len .) 150 }}
-{{ . }}
+<div class="p-3 bg-light border rounded td-toc-box">
+        <h5 class="mb-3">Contents</h5>
+        {{ . }}
+      </div>
 {{ end }}
 {{ end }}
 {{ end }}

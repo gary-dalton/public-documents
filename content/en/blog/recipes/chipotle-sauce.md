@@ -1,7 +1,7 @@
 ---
 title: "Chipotle Sauce"
 linkTitle: "Chipotle Sauce"
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: ""
   title: ""

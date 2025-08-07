@@ -2,7 +2,7 @@
 title: "After Math"
 linkTitle: "After Math"
 description: "All done studying mathematics formally"
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: ""
   title: ""

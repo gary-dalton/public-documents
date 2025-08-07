@@ -1,7 +1,7 @@
 ---
 title: "Handmaids Tale"
 linkTitle: "Handmaids Tale"
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: ""
   title: ""

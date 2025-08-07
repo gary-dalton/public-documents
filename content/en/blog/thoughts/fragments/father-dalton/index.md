@@ -2,7 +2,7 @@
 title: "Gary Dalton Jr"
 linkTitle:  "Gary Dalton Jr"
 description: 
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: "garydaltonjr.jpg"
   title: "Gary Dalton Jr"

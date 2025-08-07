@@ -2,7 +2,7 @@
 title: "Core Workout"
 linkTitle: "Core Workout"
 description: "Basic core moves put togther for a 14 minute effective and efficient workout."
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: ""
   title: ""

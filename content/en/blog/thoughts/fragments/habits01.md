@@ -2,7 +2,7 @@
 title: "Habits 01"
 linkTitle:  "Habits 01"
 description: "Importance of good habits"
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 slug: ""
 image: ""
 keywords: "habits"

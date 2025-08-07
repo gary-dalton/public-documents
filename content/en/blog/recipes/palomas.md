@@ -2,7 +2,7 @@
 title: "Paloma: a summer drink"
 linkTitle: "Paloma"
 description: "A perfect citrus and tequila drink for those hot summer days."
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: ""
   title: ""

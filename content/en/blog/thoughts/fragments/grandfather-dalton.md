@@ -2,7 +2,7 @@
 title: "Grandfather Dalton"
 linkTitle:  "Grandfather Dalton"
 description: 
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 slug: ""
 image: ""
 keywords: ""

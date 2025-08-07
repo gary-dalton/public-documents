@@ -2,7 +2,7 @@
 title: "Truth 02"
 linkTitle:  "Truth 02"
 description: "Attempts to understand the importance and meaning of truth."
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 slug: ""
 image: ""
 keywords: "truth"

@@ -1,7 +1,7 @@
 ---
 title: "Books I'd Like to Read"
 linkTitle: "Future Books"
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: ""
   title: ""
@@ -19,10 +19,9 @@ show_comments: false
 draft: false
 ---
 
-# Books I'd like to read in the near future
 
 ## Highly likely
-* _SomePeople Need Killing_: https://www.nytimes.com/2023/10/18/books/review/some-people-need-killing-patricia-evangelista.html
+* _Some People Need Killing_: https://www.nytimes.com/2023/10/18/books/review/some-people-need-killing-patricia-evangelista.html
 * _Poverty by America_: https://www.nytimes.com/2023/03/13/books/review/poverty-by-america-matthew-desmond.html
 * _Monsters_: https://www.nytimes.com/2023/04/23/books/monsters-review-claire-dederer.html
 * _Y/N_: https://www.nytimes.com/2023/03/14/books/esther-yi-y-n.html

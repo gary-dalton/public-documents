@@ -2,7 +2,7 @@
 title: "Three Body Problem"
 linkTitle: "Three Body Problem"
 description: ""
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 resources:
 - src: ""
   title: ""

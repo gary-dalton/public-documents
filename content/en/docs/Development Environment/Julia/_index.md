@@ -2,7 +2,7 @@
 title: "The Julia Programming Language"
 linkTitle: "Julia"
 description: "My preferred language"
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 slug: ""
 image: ""
 keywords: "truth"
