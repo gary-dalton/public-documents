@@ -2,32 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Philosophy on Werk Space</title>
-    <link>//localhost:1313/blog/thoughts/philosophy/</link>
+    <link>/blog/thoughts/philosophy/</link>
     <description>Recent content in My Philosophy on Werk Space</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Aug 2025 18:48:28 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/blog/thoughts/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Oct 2025 11:23:14 -0500</lastBuildDate>
+    <atom:link href="/blog/thoughts/philosophy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Philosophy</title>
-      <link>//localhost:1313/blog/2020/04/27/basic-philosophy/</link>
+      <link>/blog/2020/04/27/basic-philosophy/</link>
       <pubDate>Mon, 27 Apr 2020 16:22:35 -0500</pubDate>
-      <guid>//localhost:1313/blog/2020/04/27/basic-philosophy/</guid>
+      <guid>/blog/2020/04/27/basic-philosophy/</guid>
       <description>&lt;p&gt;For a post like this, the question is where to start and how much to explain. I will try to write as little as possible and point to other thinkers whenever possible.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stoicism&#34;&gt;Stoicism&lt;/h2&gt;&#xA;&lt;p&gt;I am a Stoic, especially in the tradition of Epicetetus. I was a Stoic before I was introduced to these works and reviewing the thoughts of many of the Stoics has made this very clear to me. I use the words of the Stoics and naturally engage in many of the practices.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Not a Slave to Superstition</title>
-      <link>//localhost:1313/blog/2022/08/08/not-a-slave-to-superstition/</link>
+      <link>/blog/2022/08/08/not-a-slave-to-superstition/</link>
       <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/2022/08/08/not-a-slave-to-superstition/</guid>
+      <guid>/blog/2022/08/08/not-a-slave-to-superstition/</guid>
       <description>&lt;p&gt;The word atheist is defined in relation to gods. I prefer the phrase &amp;ldquo;not slave to superstitions&amp;rdquo; of which belief in gods is but one of many that must be suppressed. There are natural tendencies in humans to be superstition and so suppression must be an active process.&lt;/p&gt;&#xA;&lt;p&gt;Christians are slaves to superstition. Both conspiracy theories and gods fall under the umbrella of superstition.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;This is placeholder content.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;discernment-of-cause&#34;&gt;Discernment of cause&lt;/h2&gt;&#xA;&lt;p&gt;Are we good at discerning the truth of our reality? I would like to say, &amp;lsquo;yes, yes we are&amp;rsquo; but I fear that we really are not very good at discerning our reality. If you are asked, &amp;lsquo;What causes the wind?, the tides?, the sunrise?, or fire?&amp;rsquo; you might be able to give a reasonably accurate answer. None of those answers is directly obvious in itself. Your ability to correctly answer any of those questions depends upon a chain of knowledge that certainly was not available to our long-ago ancestors.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Government: meaning, methods, and maximizing</title>
-      <link>//localhost:1313/blog/2022/08/28/government-meaning-methods-and-maximizing/</link>
-      <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/2022/08/28/government-meaning-methods-and-maximizing/</guid>
-      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;This is a DRAFT&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;why-do-we-have-government&#34;&gt;Why do we have government?&lt;/h2&gt;&#xA;&lt;p&gt;Basically governments exist to organize. A basic family group has it own organization that is not formalized. As we move from a single family group to a tribe of families and then to a organization of many tribes; we see the need to formalize structure to reduce internal conflict and to meet objectives.&lt;/p&gt;&#xA;&lt;p&gt;What types of objectives would these groupings wish to achieve? I think it is best to start with basic survival. Generally, this will include: food extraction, food cultivation, resource extraction, resource distribution, self-defense, resource acquisition, and dispute mediation. Especially note that the last three items often include the use of force. In the modern world, some of these objectives are not performed by a government but instead by various legal structures from sole proprietor to multi-national corporation.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
