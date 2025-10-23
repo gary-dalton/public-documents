@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Universal Model on Werk Space</title>
-    <link>/blog/universal-model/</link>
+    <link>//localhost:1313/blog/universal-model/</link>
     <description>Recent content in Universal Model on Werk Space</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 07 Aug 2025 18:48:28 -0500</lastBuildDate>
-    <atom:link href="/blog/universal-model/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/blog/universal-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Universal Modeling</title>
-      <link>/blog/2025/08/07/universal-modeling/</link>
+      <link>//localhost:1313/blog/2025/08/07/universal-modeling/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/blog/2025/08/07/universal-modeling/</guid>
+      <guid>//localhost:1313/blog/2025/08/07/universal-modeling/</guid>
       <description>&lt;p&gt;I do not present a model of reality but instead a way of generating realities. Not a set of answers, but a set of parametric generators. The purpose is to predict and explain the behavior of real-world systems across time, scale, and domain.&lt;/p&gt;&#xA;&lt;p&gt;This model is not a philosophical metaphor but grounded in mathematics, physics, and information theory. It is built from first principles. And from those principles, it generates a reality as a dynamic computation—one that is stochastic, emergent, and perpetually rebuilding itself. This reality is not intended to be a fixed strucutre nor intended to represent any sort of underlying reality. It is just a model.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Object Memory</title>
-      <link>/blog/2025/08/07/object-memory/</link>
+      <link>//localhost:1313/blog/2025/08/07/object-memory/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/blog/2025/08/07/object-memory/</guid>
+      <guid>//localhost:1313/blog/2025/08/07/object-memory/</guid>
       <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;THIS IS A DRAFT! From an output of interaction with Gemini&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;conceptualizing-object-memory&#34;&gt;Conceptualizing Object Memory&lt;/h2&gt;&#xA;&lt;p&gt;Here we outline four distinct models to implementing memory within a dynamic system of interacting Objects. Each model provides a different mechanism for how the past influences the present, leading to unique emergent behaviors.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;1-the-event-ledger-model-memory-as-a-diary&#34;&gt;1. The Event Ledger Model (Memory as a Diary)&lt;/h3&gt;&#xA;&lt;p&gt;This model treats memory as a perfect, high-fidelity recording of an Object&amp;rsquo;s entire history.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Force Aggregation</title>
-      <link>/blog/2025/08/07/force-aggregation/</link>
+      <link>//localhost:1313/blog/2025/08/07/force-aggregation/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/blog/2025/08/07/force-aggregation/</guid>
+      <guid>//localhost:1313/blog/2025/08/07/force-aggregation/</guid>
       <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;THIS IS A DRAFT! From an output of interaction with Gemini&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;methods-of-force-aggregation&#34;&gt;Methods of Force Aggregation&lt;/h2&gt;&#xA;&lt;p&gt;The &amp;ldquo;Function&amp;rdquo; for aggregating forces can take many forms. The method chosen fundamentally defines the nature and behavior of the system. Here are four primary models.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;additive-aggregation-the-tug-of-war&#34;&gt;Additive Aggregation (The Tug-of-War)&lt;/h3&gt;&#xA;&lt;p&gt;This is the most straightforward method, where forces simply add up.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Concept:&lt;/strong&gt; The net force is the vector sum of all individual forces. Positive forces contribute, and negative forces subtract.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Analogy:&lt;/strong&gt; Newtonian physics. Several people pushing a car from different angles contribute to its final direction and speed.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;How it Works:&lt;/strong&gt; &lt;code&gt;Net Force = F₁ + F₂ + ... + Fₙ&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Models:&lt;/strong&gt; Systems based on simple accumulation, like economic transactions or physical momentum. It leads to relatively linear and predictable outcomes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;multiplicative-aggregation-the-veto-power&#34;&gt;Multiplicative Aggregation (The Veto Power)&lt;/h3&gt;&#xA;&lt;p&gt;Here, forces multiply, allowing one force to act as a gate or a bottleneck.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Conceptualizing Context</title>
-      <link>/blog/2025/08/07/conceptualizing-context/</link>
+      <link>//localhost:1313/blog/2025/08/07/conceptualizing-context/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/blog/2025/08/07/conceptualizing-context/</guid>
+      <guid>//localhost:1313/blog/2025/08/07/conceptualizing-context/</guid>
       <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;THIS IS A DRAFT! From an output of interaction with Gemini&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;mathematically-conceptualizing-context&#34;&gt;Mathematically Conceptualizing Context&lt;/h2&gt;&#xA;&lt;p&gt;Conceptualizing &lt;strong&gt;Context&lt;/strong&gt; mathematically is a critical step in making a model rigorous. Considering it as either a &lt;strong&gt;field&lt;/strong&gt; or as a &lt;strong&gt;super-object&lt;/strong&gt; are two excellent and mathematically robust approaches. They aren&amp;rsquo;t mutually exclusive and each captures a different essential aspect of what &amp;ldquo;context&amp;rdquo; means.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;context-as-a-field&#34;&gt;Context as a Field&lt;/h3&gt;&#xA;&lt;p&gt;This approach treats &lt;strong&gt;Context&lt;/strong&gt; as a continuous, pervasive landscape that every &lt;strong&gt;Object&lt;/strong&gt; exists within. It&amp;rsquo;s less of a &amp;ldquo;thing&amp;rdquo; and more of a property of the space itself.&lt;/p&gt;</description>
     </item>
   </channel>

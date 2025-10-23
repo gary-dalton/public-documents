@@ -1,7 +1,7 @@
 ---
 title: "Make dataset"
 description: "Step 01 is to create a dataset"
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: "handsigns.png"
   title: "Handsigns for 1, 2, and, 3"

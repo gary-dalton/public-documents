@@ -2,7 +2,7 @@
 title: "Interview Summary"
 linkTitle:  "Interview Summary"
 description: "Interview Summary from Jennifer Geiken for a class project"
-author: Gary Dalton
+author: "Gary Dalton"
 slug: ""
 image: ""
 keywords: ""

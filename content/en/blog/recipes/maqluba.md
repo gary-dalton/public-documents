@@ -2,7 +2,7 @@
 title: "Maqluba"
 linkTitle: "Maqluba"
 description: "Maqluba is a traditional Syrian, Iraqi, Palestinian, and Jordanian dish. The dish consists of meat, rice, and fried (or baked) vegetables placed in a pot. After cooking, this pot is flipped upside down and served, turning the contents over giving it a layered appearance."
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""

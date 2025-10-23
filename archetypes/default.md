@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 linkTitle: "{{ replace .TranslationBaseName "-" " " | title }}"
-author: Gary Dalton
+author: "Gary Dalton"
 description: ""
 resources:
 - src: ""

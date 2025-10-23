@@ -2,7 +2,7 @@
 title: "Force Aggregation"
 linkTitle: "Forces"
 weight: 30
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""

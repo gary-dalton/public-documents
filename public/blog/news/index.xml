@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Werk Space</title>
-    <link>/blog/news/</link>
+    <link>//localhost:1313/blog/news/</link>
     <description>Recent content in News on Werk Space</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="/blog/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/blog/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mission and Values</title>
-      <link>/blog/2024/01/17/mission-and-values/</link>
+      <link>//localhost:1313/blog/2024/01/17/mission-and-values/</link>
       <pubDate>Wed, 17 Jan 2024 11:42:24 -0500</pubDate>
-      <guid>/blog/2024/01/17/mission-and-values/</guid>
+      <guid>//localhost:1313/blog/2024/01/17/mission-and-values/</guid>
       <description>&lt;p&gt;I was going through old files the other day and came across some notes I had made. These covered my business mission and core values as I created and stated them when I started doing business in the mid 1990s.&lt;/p&gt;&#xA;&lt;h2 id=&#34;mission-statement&#34;&gt;Mission Statement&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Be happy and cause happiness&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;That is a very simple and direct statement and I hope that over the ensuing years, I was able to cause happiness for my customers and everyone I worked with. I also hope that I continue with this mission statement in my personal life as well.&lt;/p&gt;</description>
     </item>
     <item>
       <title>After Math</title>
-      <link>/blog/2022/05/22/after-math/</link>
+      <link>//localhost:1313/blog/2022/05/22/after-math/</link>
       <pubDate>Sun, 22 May 2022 11:42:24 -0500</pubDate>
-      <guid>/blog/2022/05/22/after-math/</guid>
+      <guid>//localhost:1313/blog/2022/05/22/after-math/</guid>
       <description>&lt;p&gt;I started my MS in Mathematics at UWM in Fall of 2020. The intent was to improve my skills to become better at machine learning and AI. My mother passed away in Jan 2021 from COVID and I needed to take some time off from studies to fulfill all of my duties to family, etc. This meant I took an incomplete in the second semesters of Algebra and in Analysis.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Starting my documentation site</title>
-      <link>/blog/2020/04/16/starting-my-documentation-site/</link>
+      <link>//localhost:1313/blog/2020/04/16/starting-my-documentation-site/</link>
       <pubDate>Thu, 16 Apr 2020 16:02:22 -0500</pubDate>
-      <guid>/blog/2020/04/16/starting-my-documentation-site/</guid>
+      <guid>//localhost:1313/blog/2020/04/16/starting-my-documentation-site/</guid>
       <description>&lt;p&gt;During this crazy time of corona virus quarantine, I figured it is time to get some things done. One of those is updating my documentation efforts. I was last using a system based upon asciidoc, pandoc, and git, with some work done in markdown and hugo. It worked fairly well but was cumbersome in many regards. I last reviewed methods in 2018, which was prior to my restarting school in Mathematics.&lt;/p&gt;</description>
     </item>
   </channel>

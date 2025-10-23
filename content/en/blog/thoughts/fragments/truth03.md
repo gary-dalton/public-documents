@@ -1,34 +1,15 @@
 ---
-<<<<<<< HEAD
-title: "Truth03"
-description: ""
-slug: ""
-image: ""
-keywords: ""
-=======
 title: "Truth 03"
 linkTitle: "Truth 03"
 description: "Is there an ultimate Truth? Does it matter?"
-author: Gary Dalton
+author: "Gary Dalton"
 slug: ""
 image: ""
 keywords: "truth"
->>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
 date: 2022-05-31T10:56:04-05:00
 aliases: ""
 expiryDate: ""
 layout: ""
-<<<<<<< HEAD
-include_toc: true
-show_comments: false
-draft: true
-weight: 100
----
-
-{{% pageinfo %}}
-This is a placeholder page.
-{{% /pageinfo %}}
-=======
 draft: false
 ---
 
@@ -45,4 +26,3 @@ This has more recently become topical in advanced physics and cosmology, especia
 We also need to concern ourselves with this model when we consider artificial intelligence models. If a model takes truth as giving an objective then it may discard highly relevant but discordant data. As the complexities of our ai systems increase, we will not understand the conclusions of our ai but instead must know that the methods upon which the ai rests are sound and comprehensive.
 
 This is a field that does matter to me. In practice, for supervised methods, the expanse of data is more of an issue. For unsupervised methods, we are generally trying to get a sense of the data or highlight patterns which likely does not need our expanded notions. Last, we consider reinforcement learning which I suggest might be highly sensitive to unevenness in our underlying universe. You might consider this the effect of the long tail. I would say that the inhomogeneous-anisotropic worldview is more needed for reinforcement learning and in particular the probabilistic graphical models I am most interested in.
->>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b

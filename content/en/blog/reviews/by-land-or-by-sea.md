@@ -1,7 +1,7 @@
 ---
 title: "By Land or by Sea"
 linkTitle: "By Land or by Sea"
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""

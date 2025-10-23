@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown slideshows on Werk Space</title>
-    <link>/docs/archive/markdown-slideshow/</link>
+    <link>//localhost:1313/docs/archive/markdown-slideshow/</link>
     <description>Recent content in Markdown slideshows on Werk Space</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2020 09:10:14 -0500</lastBuildDate>
-    <atom:link href="/docs/archive/markdown-slideshow/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Aug 2025 21:02:42 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/docs/archive/markdown-slideshow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pandoc and Reveal</title>
+      <link>//localhost:1313/docs/archive/markdown-slideshow/pandoc_reveal/</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/archive/markdown-slideshow/pandoc_reveal/</guid>
+      <description>&lt;!-- ---&#xD;&#xA;title: Pandoc and Reveal&#xD;&#xA;subtitle: Slideshows from Markdown&#xD;&#xA;author: &#34;Gary Dalton&#34;&#xD;&#xA;date: 10 July 2015&#xD;&#xA;license: Apache License, Version 2.0&#xD;&#xA;github:&#xD;&#xA;  user: gary-dalton&#xD;&#xA;  repo: gary-dalton.github.io&#xD;&#xA;  branch: &#34;master&#34;&#xD;&#xA;pandoc: pandoc -t html5 --standalone --section-divs --template=template_revealjs.html pandoc_reveal.md -o pandoc_reveal.html&#xD;&#xA;tags: pandoc, revealjs, markdown, howto&#xD;&#xA;draft: true&#xD;&#xA;--- --&gt;&#xD;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;This slideshow is written in Markdown, a plain text format.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/gary-dalton/public-documents/master/content/en/docs/archive/Markdown-slideshow/pandoc_reveal.md&#34;&gt;view the slideshow in markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Converted into an HTML5, revealjs document using Pandoc.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Yes, it really is that easy.&lt;/p&gt;</description>
+    </item>
     <item>
       <title></title>
-      <link>/docs/archive/markdown-slideshow/template_revealjs/</link>
+      <link>//localhost:1313/docs/archive/markdown-slideshow/template_revealjs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/docs/archive/markdown-slideshow/template_revealjs/</guid>
+      <guid>//localhost:1313/docs/archive/markdown-slideshow/template_revealjs/</guid>
       <description>&lt;!doctype html&gt;&#xD;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xD;&#xA;&lt;head&gt;&#xD;&#xA;    &lt;meta charset=&#34;utf-8&#34;&gt;&#xD;&#xA;    &lt;title&gt;$title$&lt;/title&gt;&#xD;&#xA;    &lt;meta name=&#34;description&#34; content=&#34;$title$&#34;&gt;&#xD;&#xA;&#xD;&#xA;    $for(author)$&#xD;&#xA;      &lt;meta name=&#34;author&#34; content=&#34;$author$&#34; /&gt;&#xD;&#xA;    $endfor$&#xD;&#xA;&#xD;&#xA;    &lt;meta name=&#34;apple-mobile-web-app-capable&#34; content=&#34;yes&#34; /&gt;&#xD;&#xA;    &lt;meta name=&#34;apple-mobile-web-app-status-bar-style&#34; content=&#34;black-translucent&#34; /&gt;&#xD;&#xA;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&#34;&gt;&#xD;&#xA;&#xD;&#xA;    &lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/css/reveal.$if(reveal.minified)$min.$endif$css&#34;&gt;&#xD;&#xA;    $if(reveal.theme)$&#xD;&#xA;      &lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/css/theme/$reveal.theme$.$if(reveal.minified)$min.$endif$css&#34; id=&#34;theme&#34;&gt;&#xD;&#xA;    $else$&#xD;&#xA;      &lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/css/theme/black.$if(reveal.minified)$min.$endif$css&#34; id=&#34;theme&#34;&gt;&#xD;&#xA;    $endif$&#xD;&#xA;&#xD;&#xA;    &lt;!-- For syntax highlighting --&gt;&#xD;&#xA;    $if(highlight-style)$&#xD;&#xA;      &lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/lib/css/$highlight-style$.css&#34;&gt;&#xD;&#xA;    $else$&#xD;&#xA;      &lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/lib/css/zenburn.$if(reveal.minified)$min.$endif$css&#34;&gt;&#xD;&#xA;    $endif$&#xD;&#xA;&#xD;&#xA;    &lt;!-- If the query includes &#39;print-pdf&#39;, use the PDF print sheet --&gt;&#xD;&#xA;    &lt;script&gt;&#xD;&#xA;      document.write( &#39;&lt;link rel=&#34;stylesheet&#34; href=&#34;$reveal.path$/css/print/&#39; +&#xD;&#xA;        ( window.location.search.match( /print-pdf/gi ) ? &#39;pdf&#39; : &#39;paper&#39; ) +&#xD;&#xA;        &#39;.css&#34; type=&#34;text/css&#34; media=&#34;print&#34;&gt;&#39; );&#xD;&#xA;    &lt;/script&gt;&#xD;&#xA;&#xD;&#xA;    &lt;!--[if lt IE 9]&gt;&#xD;&#xA;    &lt;script src=&#34;$reveal.path$/lib/js/html5shiv.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;    &lt;![endif]--&gt;&#xD;&#xA;    $for(header-includes)$&#xD;&#xA;      $header-includes$&#xD;&#xA;    $endfor$&#xD;&#xA;&lt;/head&gt;&#xD;&#xA;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;$for(include-before)$&#xD;&#xA;  $include-before$&#xD;&#xA;$endfor$&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;reveal&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;!-- Any section element inside of this container is displayed as a slide --&gt;&#xD;&#xA;&lt;div class=&#34;slides&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;section&gt;&#xD;&#xA;&lt;h1&gt;$title$&lt;/h1&gt;&#xD;&#xA;$if(subtitle)$&lt;h2&gt;$subtitle$&lt;/h2&gt;$endif$&#xD;&#xA;$for(author)$&lt;h3&gt;$author$&lt;/h3&gt;$endfor$&#xD;&#xA;&lt;p&gt;&#xD;&#xA;&lt;h4&gt;$date$&lt;/h4&gt;&#xD;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>

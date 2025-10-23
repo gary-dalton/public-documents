@@ -2,7 +2,7 @@
 title: "Starting my documentation site"
 linkTitle: "Announcing Gary's Docs"
 description: "Announcing the start of my documentation site."
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""

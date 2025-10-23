@@ -1,7 +1,7 @@
 ---
 title: "Chipotle Sauce"
 linkTitle: "Chipotle Sauce"
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""
