@@ -2,60 +2,214 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/docs/ai-education/basic-digital-literacy/introduction/</loc>
+    <lastmod>2023-10-03T16:21:57-05:00</lastmod>
+  </url><url>
     <loc>/docs/development-environment/linux/headless/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url><url>
     <loc>/docs/overview/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>/docs/document-system/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url><url>
     <loc>/docs/development-environment/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
+=======
+    <loc>/docs/ai-education/basic-digital-literacy/</loc>
+    <lastmod>2023-10-03T16:21:57-05:00</lastmod>
+  </url><url>
+    <loc>/docs/laravel-livewire-etc/lop/</loc>
+    <lastmod>2025-05-13T06:37:02-05:00</lastmod>
+  </url><url>
+    <loc>/docs/ai-education/</loc>
+    <lastmod>2023-10-03T16:21:57-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/07/universal-modeling/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/04/interview-summary/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/groups/lawn-bowls/</loc>
+    <lastmod>2025-08-03T21:02:42-05:00</lastmod>
+  </url><url>
+    <loc>/docs/tutorials/ml-classifier/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
   </url><url>
     <loc>/docs/archive/code7/</loc>
     <lastmod>2020-05-08T09:43:41-05:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>/docs/development-environment/linux/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
+=======
+    <loc>/blog/2020/04/27/basic-philosophy/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/docs/document-system/</loc>
+    <lastmod>2023-10-03T16:21:57-05:00</lastmod>
+  </url><url>
+    <loc>/docs/laravel-livewire-etc/</loc>
+    <lastmod>2025-04-26T11:37:32-05:00</lastmod>
+  </url><url>
+    <loc>/docs/ai-education/basic-digital-literacy/digital-devices/</loc>
+    <lastmod>2023-10-03T16:21:57-05:00</lastmod>
+  </url><url>
+    <loc>/docs/laravel-livewire-etc/toastr/</loc>
+    <lastmod>2025-04-27T17:37:35-05:00</lastmod>
+  </url><url>
+    <loc>/docs/laravel-livewire-etc/scroll/</loc>
+    <lastmod>2025-04-27T17:37:35-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/07/object-memory/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/groups/lawn-bowls/ladder-challenge/</loc>
+    <lastmod>2025-08-03T21:02:42-05:00</lastmod>
+  </url><url>
+    <loc>/blog/thoughts/fragments/mother-dalton/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/docs/tutorials/wordpress/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/08/08/not-a-slave-to-superstition/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/docs/development-environment/julia/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/docs/tutorials/ml-classifier/make-dataset/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
   </url><url>
     <loc>/docs/archive/markdown-slideshow/</loc>
     <lastmod>2020-05-08T09:43:41-05:00</lastmod>
   </url><url>
     <loc>/docs/development-environment/linux/data_science_platform/</loc>
+<<<<<<< HEAD
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url><url>
     <loc>/docs/development-environment/windows/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
+=======
+    <lastmod>2022-05-22T10:59:43-05:00</lastmod>
+  </url><url>
+    <loc>/docs/development-environment/</loc>
+    <lastmod>2023-10-03T16:21:57-05:00</lastmod>
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
   </url><url>
     <loc>/docs/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url><url>
     <loc>/blog/news/</loc>
+<<<<<<< HEAD
     <lastmod>2020-04-23T19:21:48-05:00</lastmod>
+=======
+    <lastmod>2022-05-22T12:24:26-05:00</lastmod>
+  </url><url>
+    <loc>/docs/ai-education/basic-digital-literacy/internet/</loc>
+    <lastmod>2023-10-04T11:25:47-05:00</lastmod>
+  </url><url>
+    <loc>/docs/ai-education/basic-digital-literacy/web-browsing/</loc>
+    <lastmod>2023-10-03T16:21:57-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/07/force-aggregation/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/docs/tutorials/</loc>
+    <lastmod>2023-10-03T16:21:57-05:00</lastmod>
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
   </url><url>
     <loc>/docs/archive/goat-vms/</loc>
     <lastmod>2020-05-08T09:43:41-05:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>/blog/thoughts/</loc>
     <lastmod>2020-04-23T19:21:48-05:00</lastmod>
   </url><url>
     <loc>/blog/thoughts/fragments/</loc>
     <lastmod>2020-06-19T23:05:40-05:00</lastmod>
+=======
+    <loc>/local/links/</loc>
+    <lastmod>2022-10-12T09:45:29-05:00</lastmod>
+  </url><url>
+    <loc>/docs/ai-education/basic-digital-literacy/operating-systems/</loc>
+    <lastmod>2023-10-04T11:25:47-05:00</lastmod>
+  </url><url>
+    <loc>/docs/ai-education/basic-digital-literacy/software-applications/</loc>
+    <lastmod>2023-10-04T11:25:47-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/07/conceptualizing-context/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/thoughts/fragments/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
   </url><url>
     <loc>/docs/raspberry/</loc>
     <lastmod>2020-05-08T08:52:09-05:00</lastmod>
   </url><url>
     <loc>/docs/archive/wiki/</loc>
+<<<<<<< HEAD
     <lastmod>2020-05-08T09:43:41-05:00</lastmod>
   </url><url>
     <loc>/docs/tips-and-tricks/</loc>
     <lastmod>2020-04-15T18:29:22-05:00</lastmod>
+=======
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/thoughts/</loc>
+    <lastmod>2022-05-22T12:24:26-05:00</lastmod>
+  </url><url>
+    <loc>/docs/development-environment/linux/</loc>
+    <lastmod>2022-06-02T22:52:00-05:00</lastmod>
+  </url><url>
+    <loc>/local/green/</loc>
+    <lastmod>2022-07-15T11:20:53-05:00</lastmod>
+  </url><url>
+    <loc>/blog/reviews/</loc>
+    <lastmod>2022-05-22T12:24:26-05:00</lastmod>
+  </url><url>
+    <loc>/docs/ai-education/basic-digital-literacy/computer-networks/</loc>
+    <lastmod>2023-10-04T11:25:47-05:00</lastmod>
+  </url><url>
+    <loc>/docs/ai-education/basic-digital-literacy/security/</loc>
+    <lastmod>2023-10-04T11:25:47-05:00</lastmod>
+  </url><url>
+    <loc>/blog/thoughts/fragments/old-work/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/universal-model/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/local/city/</loc>
+    <lastmod>2022-08-08T14:40:25-05:00</lastmod>
+  </url><url>
+    <loc>/docs/tips-and-tricks/</loc>
+    <lastmod>2022-06-02T22:52:00-05:00</lastmod>
+  </url><url>
+    <loc>/docs/development-environment/windows/</loc>
+    <lastmod>2022-06-02T22:52:00-05:00</lastmod>
+  </url><url>
+    <loc>/local/governance/</loc>
+    <lastmod>2022-08-08T14:40:25-05:00</lastmod>
+  </url><url>
+    <loc>/local/economy/</loc>
+    <lastmod>2022-07-15T11:49:58-05:00</lastmod>
+  </url><url>
+    <loc>/blog/recipes/</loc>
+    <lastmod>2022-05-22T12:24:26-05:00</lastmod>
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
   </url><url>
     <loc>/docs/archive/joomla-wordpress/</loc>
     <lastmod>2020-05-08T09:43:41-05:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>/docs/archive/</loc>
     <lastmod>2020-05-01T14:34:02-05:00</lastmod>
   </url><url>
@@ -85,11 +239,118 @@
   </url><url>
     <loc>/blog/2020/04/16/starting-my-documentation-site/</loc>
     <lastmod>2020-04-23T19:21:48-05:00</lastmod>
+=======
+    <loc>/local/help/</loc>
+    <lastmod>2022-07-15T11:49:58-05:00</lastmod>
+  </url><url>
+    <loc>/docs/music/</loc>
+    <lastmod>2023-07-31T14:18:36-05:00</lastmod>
+  </url><url>
+    <loc>/docs/archive/</loc>
+    <lastmod>2020-05-01T14:34:02-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/09/03/by-land-or-by-sea/</loc>
+    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/05/poetry-01-circa-1978-1980/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/05/poetry-02-circa-1978-1980/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/05/poetry-03-circa-1978-1980/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/05/poetry-04-circa-1978-1980/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/05/the-revolution-circa-1978/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2025/08/05/proper-training-circa-1978/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2024/02/27/exploitation-to-depletion-or-steady-state/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2024/01/30/books-id-like-to-read/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2024/01/17/mission-and-values/</loc>
+    <lastmod>2024-01-17T15:57:01-06:00</lastmod>
+  </url><url>
+    <loc>/blog/2023/07/22/ceviche/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2023/07/22/paloma-a-summer-drink/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/10/22/chipotle-el-rey/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/10/22/chipotle-sauce/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/06/21/core-workout/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/06/14/maqluba/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/05/31/truth-03/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/05/22/gulf/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/05/22/three-body-problem/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/05/22/handmaids-tale/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/05/22/lamb-cabbage-rolls/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2022/05/22/after-math/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/28/habits-01/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/26/grandmother-porth/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/23/truth-01/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/23/truth-02/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/21/gary-dalton-jr/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/06/19/grandfather-dalton/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/05/01/privacy-secrecy-and-data/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/thoughts/philosophy/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/blog/2020/04/16/starting-my-documentation-site/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/docs/archive/markdown-slideshow/template_revealjs/</loc>
+    <lastmod>2020-05-08T09:10:14-05:00</lastmod>
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
   </url><url>
     <loc>/index.json</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>
   </url><url>
     <loc>/about/</loc>
+<<<<<<< HEAD
     <lastmod>2020-04-17T10:30:58-05:00</lastmod>
   </url><url>
     <loc>/blog/</loc>
@@ -97,6 +358,21 @@
   </url><url>
     <loc>/</loc>
     <lastmod>2020-04-17T10:30:58-05:00</lastmod>
+=======
+    <lastmod>2025-08-03T21:02:42-05:00</lastmod>
+  </url><url>
+    <loc>/blog/</loc>
+    <lastmod>2025-08-07T18:48:28-05:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-08-03T21:02:42-05:00</lastmod>
+  </url><url>
+    <loc>/groups/</loc>
+    <lastmod>2025-08-03T21:02:42-05:00</lastmod>
+  </url><url>
+    <loc>/local/</loc>
+    <lastmod>2025-08-03T21:02:42-05:00</lastmod>
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
   </url><url>
     <loc>/search/</loc>
     <lastmod>2020-04-15T16:10:06-05:00</lastmod>

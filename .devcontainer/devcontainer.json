@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "Hugo Dev Container (Dockerfile)",
     "build": {
         "dockerfile": "Dockerfile"
@@ -12,4 +13,22 @@
             ]
         }
     }
+=======
+  "name": "Hugo Dev Container (Dockerfile)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "root",
+  "forwardPorts": [1313],
+  "postCreateCommand": "hugo server -D --bind 0.0.0.0 --poll 700ms",
+  // "postCreateCommand": "hugo server -D --bind 0.0.0.0",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "budparr.language-hugo-extended"
+      ]
+    }
+  }
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
 }

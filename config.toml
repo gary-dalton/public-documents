@@ -1,10 +1,16 @@
 baseURL = "/"
-title = "Gary's Docs"
+title = "Werk Space"
 
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["docsy"]
+theme = ["github.com/google/docsy", "github.com/google/docsy/dependencies"]
+
+#[module]
+#  [[module.imports]]
+#    path = "github.com/google/docsy"
+#  [[module.imports]]
+#    path = "github.com/google/docsy/dependencies"
 
 # Will give values to .Lastmod etc.
 enableGitInfo = true
@@ -16,7 +22,7 @@ defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "taxonomy"]
 
 # Highlighting config
 pygmentsCodeFences = true
@@ -47,14 +53,14 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+# id = "UA-00000000-0"
 
 # Language configuration
 
 [languages]
 [languages.en]
-title = "Garys Docs"
-description = "The gathering place for all of Gary's Documentations."
+title = "Werk Space"
+description = "The gathering place for all of daltons.ai, Intellamech and Gary's Documentations."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -63,7 +69,7 @@ weight = 1
 # description = "Docsy er operativsystem for skyen"
 # languageName ="Norsk"
 # contentDir = "content/no"
-# time_format_default = "02.01.2006"
+# time_format_default = "02-01-2006"
 # time_format_blog = "02.01.2006"
 
 [markup]
@@ -78,7 +84,7 @@ copyright = "Gary Dalton"
 privacy_policy = ""
 
 # First one is picked as the Twitter card image if not set on page.
-images = ["https://twitter.com/gfdalton/photo"]
+images = ["logo_white_words.png"]
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
@@ -92,25 +98,24 @@ archived_version = false
 # The version number for the version of the docs represented in this doc set.
 # Used in the "version-banner" partial to display a version number for the 
 # current doc set.
-version = "0.0"
+version = "1.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
 url_latest_version = "https://werkspc.com/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-#github_repo = "https://github.com/google/docsy-example"
+github_repo = "https://github.com/gary-dalton/public-documents"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/google/docsy"
 
 # Specify a value here if your content directory is not in your repo's root directory
-# github_subdir = ""
+# github_subdir = "content"
+
+github_branch = "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "015536944097765241217:sciqu7tvprn"
-
-# Enable Algolia DocSearch
-algolia_docsearch = false
+# gcs_engine_id = "015536944097765241217:sciqu7tvprn"
 
 # Enable Lunr.js offline search
 offlineSearch = false
@@ -118,7 +123,7 @@ offlineSearch = false
 # User interface configuration
 [params.ui]
 # Enable to show the side bar menu in its compact state.
-sidebar_menu_compact = false
+sidebar_menu_compact = true
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 #  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
@@ -126,14 +131,14 @@ sidebar_search_disable = false
 #  Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
 navbar_logo = true
 # Set to true to disable the About link in the site footer
-footer_about_disable = false
+footer_about_enable = false
 
 # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
 # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
 [params.ui.feedback]
-enable = true
+enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it! Please <a href="https://github.com/gary-dalton/public-documents/issues/new">tell us how we can improve</a>.'
 no = 'Sorry to hear that. Please <a href="https://github.com/gary-dalton/public-documents/issues/new">tell us how we can improve</a>.'
@@ -145,11 +150,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/gary-dalton/public-
 # 	url = "https://example.org/mail"
 # 	icon = "fa fa-envelope"
 #         desc = "Discussion and help from your fellow users"
-[[params.links.user]]
-	name ="Twitter"
-	url = "https://twitter.com/gfdalton"
-	icon = "fab fa-twitter"
-        desc = "Follow me on Twitter to get the latest news!"
+#[[params.links.user]]
+#	name ="Twitter"
+#	url = "https://twitter.com/gfdalton"
+#	icon = "fab fa-twitter"
+#        desc = "Follow me on Twitter to get the latest news!"
 # [[params.links.user]]
 # 	name = "Stack Overflow"
 # 	url = "https://example.org/stack"
@@ -172,3 +177,5 @@ no = 'Sorry to hear that. Please <a href="https://github.com/gary-dalton/public-
 # 	icon = "fa fa-envelope"
 #         desc = "Discuss development issues around the project"
 
+[params.search]
+  algolia = {}

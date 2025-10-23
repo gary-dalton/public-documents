@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Garys Docs – Linux</title>
+    <title>Linux on Werk Space</title>
     <link>/docs/development-environment/linux/</link>
+<<<<<<< HEAD
     <description>Recent content in Linux on Garys Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 08 Apr 2020 09:59:15 -0500</lastBuildDate>
@@ -438,5 +440,12 @@ Reboot the computer to verify that changes are permanent.&lt;/li&gt;
       </description>
     </item>
     
+=======
+    <description>Recent content in Linux on Werk Space</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="/docs/development-environment/linux/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
   </channel>
 </rss>

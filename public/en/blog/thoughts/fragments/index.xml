@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fragments on Werk Space</title>
+    <link>//localhost:1313/en/blog/thoughts/fragments/</link>
+    <description>Recent content in Fragments on Werk Space</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 May 2022 10:56:04 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/en/blog/thoughts/fragments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Truth 03</title>
+      <link>//localhost:1313/en/blog/thoughts/fragments/truth03/</link>
+      <pubDate>Tue, 31 May 2022 10:56:04 -0500</pubDate>
+      <guid>//localhost:1313/en/blog/thoughts/fragments/truth03/</guid>
+      <description>&lt;p&gt;Most would argue that what&amp;rsquo;s true is true. That there does indeed exist an ultimate or quintessential underlying reality. But is this a valid understanding?&lt;/p&gt;&#xA;&lt;p&gt;In my studies of mathematics, especially probability and statistics, we assume that there is a true parameter value. This is a fiction and is just a device for doing theory and developing methods. It allows us to theoretically show that some method to estimate it has some property which works better or worse. But overall the effect is to assume that something true exists that we then choose to model imperfectly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Habits 01</title>
+      <link>//localhost:1313/en/blog/thoughts/fragments/habits01/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/blog/thoughts/fragments/habits01/</guid>
+      <description>&lt;p&gt;It is important to practice good habits of the mind at all times. Why? When we are not actively practicing good habits, we may lazily fall into bad habits. Bad habits are formed of the aggregate of our lives mixed with the cement of our passions, heavily reinforced by repetition, and cured over long periods of time. Our bad habits are very hard to break, requiring the sturdy spike of iron will and regular strikes with the heavy hammer of our effort. They take time to form and time to break.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grandmother Porth</title>
+      <link>//localhost:1313/en/blog/thoughts/fragments/grandma-porth/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/blog/thoughts/fragments/grandma-porth/</guid>
+      <description>&lt;p&gt;Grandma Porth taught me cards and other games. While I don&amp;rsquo;t really play many games now, the lessons of probability I learned from her teaching have remained. She was a world traveler who loved new experiences and cultures. Her dedication to community service and the well-being of all those around her set an excellent example.&lt;/p&gt;&#xA;&lt;p&gt;Sometimes, she seemed the iron lady but I spent many, many hours with her and the ironess was only displayed when needed. I am glad that she mostly missed my lost years but wish she could she who I have become because I think she played a significant role in my life.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Truth 01</title>
+      <link>//localhost:1313/en/blog/thoughts/fragments/truth01/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/blog/thoughts/fragments/truth01/</guid>
+      <description>&lt;p&gt;Truth is hard and I will likely give it many fragments. I consider the discernment of truth, one of the most difficult and important things to put the efforts of my mind toward. It is a goal of religions, sciences, and philosophies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Truth 02</title>
+      <link>//localhost:1313/en/blog/thoughts/fragments/truth02/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/blog/thoughts/fragments/truth02/</guid>
+      <description>&lt;p&gt;The Absolute Truth can never be known, even if such a thing were to exist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gary Dalton Jr</title>
+      <link>//localhost:1313/en/blog/thoughts/fragments/father-dalton/</link>
+      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/blog/thoughts/fragments/father-dalton/</guid>
+      <description>&lt;p&gt;My Dad, Gary Dalton Jr. He struggled to find his identity and eventually paid the price for that struggle. From him, I learned the value of being open to the thoughts, ideas, opinions, and identities of others. He acknowledged to me that I do not have to think or believe others choices are correct but that I also do not have the right to use force to bring them to my idea of the correct. He demonstrated that good things may be accomplished by being oneself. He gave meticulous attention to detail and always was doing the best he could.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grandfather Dalton</title>
+      <link>//localhost:1313/en/blog/thoughts/fragments/grandfather-dalton/</link>
+      <pubDate>Fri, 19 Jun 2020 23:05:40 -0500</pubDate>
+      <guid>//localhost:1313/en/blog/thoughts/fragments/grandfather-dalton/</guid>
+      <description>&lt;p&gt;Thank you to my Grandfather Dalton, the original Garold. I gained much from your enjoyment, thought, and discussion (not argument) given to politics and your great ability to care little for labels. I recall a discussion we had regarding some political subject and, in frustration, I stated that you sounded like a communist. You calmly replied that I could call it whatever I wished but your ideas would stand on their own. You also demonstrated how to live a fulfilling life of labor and that this was a noble path.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

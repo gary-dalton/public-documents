@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Garys Docs – Gary&#39;s Blog</title>
+    <title>Gary&#39;s Blog on Werk Space</title>
     <link>/blog/</link>
+<<<<<<< HEAD
     <description>Recent content in Gary&#39;s Blog on Garys Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     
@@ -562,5 +564,11 @@ With data we gain the power to effect change  and advantage in our world.
       </description>
     </item>
     
+=======
+    <description>Recent content in Gary&#39;s Blog on Werk Space</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 0379eb4b007a5b84bf2be4d42b39bf71e6da026b
   </channel>
 </rss>

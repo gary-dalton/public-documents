@@ -1,7 +1,7 @@
 ---
 title: "GGIS support"
 description: "Welcome to the archives of the Gruff Goat Wiki. The intent of this site was to provide online documentation for users of Gruff Goat applications and services."
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: Gary Dalton
 slug: ""
 image: ""
 keywords: ""
