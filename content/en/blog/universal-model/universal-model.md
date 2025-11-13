@@ -22,9 +22,9 @@ draft: false
 
 I do not present a model of reality but instead a way of generating realities. Not a set of answers, but a set of parametric generators. The purpose is to predict and explain the behavior of real-world systems across time, scale, and domain.
 
-This model is not a philosophical metaphor but grounded in mathematics, physics, and information theory. It is built from first principles. And from those principles, it generates a reality as a dynamic computation—one that is stochastic, emergent, and perpetually rebuilding itself. This reality is not intended to be a fixed strucutre nor intended to represent any sort of underlying reality. It is just a model.
+Grounded in mathematics, physics, and information theory, the model is not a philosophical metaphor. Built from first principles and from those principles, it generates realities as a dynamic computation. The generated reality is stochastic, emergent, information rich and perpetually gnerating itself. No reality is a fixed strucutre nor intended to represent any sort of underlying reality. It is just a model of reality with the sole purpose of making workable predictions.
 
-My hope is that this forms the baseline for a wide range of future analyses. I will use it to explore power, agency, complexity, economics, psychology, culture, and systems of belief. But we start with the core framework.
+My hope is that this forms the baseline for a wide range of future analyses. I will use it to explore power, agency, complexity, economics, psychology, culture, systems of belief, and intelligence both organic and artificial. Let us start with the core framework.
 
 {{% pageinfo %}}
 THIS IS A DRAFT!
@@ -36,7 +36,7 @@ THIS IS A DRAFT!
 
 We start by stating that things exists. In order for things to exist, we state that the first-person object, or self, exists. Then we move on to acknowledging that other objects exists, these would be third-person objects. The first person object is never separate from the model and is always acted upon and acts upon other parts of the model.
 
-An object may be any distinct thing or grouping. In our model, we may treat these as objects: a person, corporation, social group, country, river, mountain, planet, galaxy, chair, clock, shool of fish, eco-system, algorithm, and a model. Generally, if you are able to conceptualize it as distinct, it can be an object.
+An object may be any distinct thing or grouping. In our model, we may treat these as objects: a person, corporation, social group, country, river, mountain, planet, galaxy, chair, clock, school of fish, eco-system, algorithm, and a model. Generally, if you are able to conceptualize it as distinct, it can be an object.
 
 #### Properties and Attributes
 
@@ -68,7 +68,7 @@ Some illustrative examples:
 
 I've already indicated that there is a first-person object and many third person objects. These objects do not go about there existence in isolation. Every object is in a relationship with other objects. In fact there develops complex webs of relationships. How do we understand that a relationship exists between two objects? We witness the result of one object influencing the actions of another object. In other words, via forces. No object influences another object without a relationship path.
 
-Relationships between two objects may be simple; singular, wth linear and uni-directional force between them. They may also, more commonly, be complex; with multiple relationships and non-linear or stochastic asymmetrical relationships.
+Relationships between two objects may be simple; singular, with linear and uni-directional forces between them. They may also, more commonly, be complex; with multiple relationships and non-linear or stochastic asymmetrical relationships.
 
 Types of forces include:
 
@@ -91,7 +91,7 @@ Context is a means of capturing the overall influence of the system on an object
 
 We base the effects on objects via their relationships on principles of local interaction. Both the forces exerted upon and by an object are primarily mediated through its nearest neighbors. Nearest is not strictly defined in a spatial sense but includes other relationship aspects such as time, affiliation, memory, and other object properties. Instead it is most clearly defined as having an adjacent or k-step relationship between two objects, where k is a small integer.
 
-This significantly reduces the complex web of relationships we need to maintain to predict model behavior. Instead, we only need to consider the current state and active agency of a limited group of objects.
+This significantly reduces the complex web of relationships we need to maintain in order to predict model behavior. Instead, we only need to consider the current state and active agency of a limited group of objects.
 
 Examples:
 - A person’s beliefs are shaped not by the global population, but by the few peers, platforms, and authorities they interact with.
@@ -135,7 +135,7 @@ While the current model treats stochasticity in classical probabilistic terms, t
 
 Force aggregation is the crucial process that determines how multiple, simultaneous forces acting on an object combine to produce a single, net outcome. It's the specific function that translates complex inputs into a singular vector force. By changing our aggregation function, we aquire the ability to model a wide variety of complex systems. Force aggregation drives emergence.
 
-1. From simple local rules, force aggregation applied via nearest neighbors creates complex, unpredicatble behavior.
+1. From simple local rules, force aggregation applied via nearest neighbors creates complex, unpredictable behavior.
 2. The aggreation function may determine the type of system interaction that will occur. Using the proper function provides us with the means to build cooperative, competitive, and other system types.
 3. The overall pattern of the system combined with the localization of force aggregation provide us with our emergent complex systems, and their unique abstract object rules.
 
@@ -209,34 +209,63 @@ Examples:
 - **Market Crash:** A slow build-up of speculative overvaluation (the "stable" phase) suddenly gives way to a rapid, self-perpetuating sell-off and panic (the "crashed" phase) when investor confidence crosses a critical threshold.
 - **Traffic Jams:** On a highway, traffic can flow smoothly. But if the density of cars crosses a critical threshold, the system's state can abruptly flip into a "jam," where cars move in a collective stop-and-go pattern. The behavior of the whole system has fundamentally changed.
 
+Since this is an important concept, more examples seem useful.
+
+<div style="margin-left: 2em;">
+  
+  A classic example is the contrast between the **French Ancien Régime** and the **Revolution** that followed.
+
+  **Slow Time (Centuries of Stasis):** For hundreds of years, the political and social structure of France was locked in a feudal-style monarchy. The rhythm of change was extraordinarily slow. The core structures of power, class, and daily life remained largely the same from one generation to the next. From the perspective of systemic change, "event time" was nearly frozen.
+
+  **Fast Time (A Decade of Revolution):** Beginning in 1789, the pace of time lurched violently forward. In a single decade, the entire system was dismantled and rebuilt. France experienced the storming of the Bastille, the abolition of the monarchy, the Reign of Terror, and the rise of Napoleon. The density of transformative events was so high that more systemic history was written in those ten years than in the preceding two hundred. The system's internal clock sped up to a dizzying rate.
+
+</div>
+
+and
+<div style="margin-left: 2em;">
+
+  The theory of **punctuated equilibrium** in evolution is a direct biological model for uneven time.
+
+  **Slow Time (Long Periods of Stasis):** The fossil record shows that many species often remain remarkably stable for millions of years. They exist in a state of equilibrium with their environment, and evolutionary change is minimal and slow. From an evolutionary standpoint, "event time" is drawn out and languid.
+
+  **Fast Time (Short Bursts of Speciation):** These long periods of stasis are "punctuated" by short, geographically isolated periods of rapid change. Often triggered by a major environmental shift (like a volcanic eruption or climate change), a small part of a population can undergo rapid evolution, quickly leading to the formation of new species. The Cambrian Explosion, where most modern animal phyla appeared in a geological "instant" of about 20 million years, is the ultimate example of biological time accelerating at a massive scale.
+</div>
+
 ## Information and Thermodynamics
 
-Ours is a model for the universe that is computational it relies on the strong connection between information and the physical. This connection is unlocked using entrophy.
+This model is for a universe that is computational, it relies on the strong connection between information and the physical. This connection is unlocked using entropy.
 
-1. **Thermodynamic Entropy**: This is a measure of physical disorder in a system. The Second Law of Thermodynamics states that this disorder always tends to increase, providing the physical basis for the "Arrow of Time."
-2. **Information Entropy (Shannon Entropy)**: From Information Theory, this is a measure of uncertainty or "surprise" in a system.
-  - A predictable system with only one possible outcome has zero information entropy.
-  - A chaotic system with many possible outcomes, each equally likely, has maximum information entropy.
+1. **Thermodynamic Entropy** is a measure of physical disorder in a system. The Second Law of Thermodynamics states that this disorder always tends to increase, providing the physical basis for the "Arrow of Time."
+
+2. **Information Entropy (Shannon Entropy)** is a measure of uncertainty or "surprise" in a system.
+    - A predictable system with only one possible outcome has zero information entropy.
+    - A chaotic system with many possible outcomes, each equally likely, has maximum information entropy.
 
 ### Information is Physical
 
 These two entropies are deeply, physically intertwined.
 
 - **Landauer's Principle:** states that any logically irreversible operation, such as erasing one bit of information in a computer, must dissipate a minimum amount of energy as heat, thereby increasing the thermodynamic entropy of the universe.
-- **Maxwell's Demon:** A famous thought experiment with a "demon" that could lower the thermodynamic entropy of a system by sorting fast and slow molecules, violating the Second Law of Thermodynamics. Instead, the demon MUST store and later erase information to perform this sorting. Thus by Landauer's Principle energy is used and no paradox exists.
+- **Maxwell's Demon:** is a famous thought experiment with a "demon" that could lower the thermodynamic entropy of a system by sorting fast and slow molecules, violating the Second Law of Thermodynamics. Instead, the demon MUST store and later erase information to perform this sorting. Thus by Landauer's Principle energy is used and no paradox exists.
 
-### Applying Information Theory to the Model
-Information Theory provides a powerful new descriptive language:
+### How the model benefits
+Information Theory adds another powerful descriptive language:
 
 1. An **Emergent Context** can be described by its information entropy.
-  - A stable, ordered, and predictable Context is a low-entropy state.
-  - A volatile, chaotic, and rugged Context—as you've described it—is a high-entropy state. The system is generating a high degree of uncertainty about its future state.
+    - A stable, ordered, and predictable Context is a low-entropy state.
+    - A volatile, chaotic, and rugged Context is a high-entropy state. The system is generating a high degree of uncertainty about its future state.
+    <br />
+    <br />
 
 2. Forces are **Information Transfer**
-  - The Forces between Objects are the transfer of information. An object acts upon its neighbor by providing it with new information, which causes the neighbor to update its state. The Nearest Neighbor Principle means that information coherence is highest among adjacent objects and attenuates over distance.
+    - The Forces between Objects are the transfer of information. An object acts upon its neighbor by providing it with new information, which causes the neighbor to update its state. The Nearest Neighbor Principle means that information coherence is highest among adjacent objects and attenuates over distance.
+    <br />
+    <br />
 
 3. **Time Revisited**
-In addition to the previously defined Arrow of Time points in  the direction of increasing thermodynamic entropy. We now add that the "Arrow of Time" is also the direction of evolving information states. The past is a set of fixed, low-entropy records ("memories"), while the future is a high-entropy landscape of possibilities and uncertainties. The universe is constantly processing information from the present to generate the uncertainty of the future.
+    - In addition to the previously defined Arrow of Time pointing in the direction of increasing thermodynamic entropy. We now add that the "Arrow of Time" is also the direction of evolving information states. The past is a set of fixed, low-entropy records ("memories"), while the future is a high-entropy landscape of possibilities and uncertainties. The universe is constantly processing information from the present to generate the uncertainty of the future.
+    <br />
+    <br />
 
 4. **No Ultimate Truth** as an Information Principle
-An "ultimate truth" would be a final, permanent state of zero information entropy. A state of perfect order and absolute certainty, forever. Instead, the model declares that the system is an information-generating engine. It never reaches a final state of zero entropy because its own operations perpetually create new possibilities and new uncertainties.
+    - An "ultimate truth" would be a final, permanent state of zero information entropy. A state of perfect order and absolute certainty, forever. Instead, this model declares that the system is an information-generating engine. It never reaches a final state of zero entropy because its own operations perpetually create new possibilities and new uncertainties.

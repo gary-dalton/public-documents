@@ -8,7 +8,4 @@ cascade:
 draft: false
 ---
 
-
-{{% pageinfo color="primary" %}}
-This is placeholder content.
-{{% /pageinfo %}}
+A thriving economy is an extremely important driver of every successful society. Here we will highlight some thoughts on this issue.

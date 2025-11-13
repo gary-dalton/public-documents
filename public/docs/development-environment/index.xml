@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development environment on Werk Space</title>
-    <link>/docs/development-environment/</link>
+    <link>//localhost:1313/docs/development-environment/</link>
     <description>Recent content in Development environment on Werk Space</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="/docs/development-environment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/docs/development-environment/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

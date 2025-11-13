@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Milwaukee Lawn Bowls on Werk Space</title>
-    <link>/groups/lawn-bowls/</link>
+    <link>//localhost:1313/groups/lawn-bowls/</link>
     <description>Recent content in Milwaukee Lawn Bowls on Werk Space</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/groups/lawn-bowls/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Aug 2025 21:02:42 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/groups/lawn-bowls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ladder Challenge</title>
-      <link>/groups/lawn-bowls/ladder-challenge/</link>
+      <link>//localhost:1313/groups/lawn-bowls/ladder-challenge/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/groups/lawn-bowls/ladder-challenge/</guid>
+      <guid>//localhost:1313/groups/lawn-bowls/ladder-challenge/</guid>
       <description>&lt;h2 id=&#34;what-is-the-ladder-challenge&#34;&gt;What is the Ladder Challenge?&lt;/h2&gt;&#xA;&lt;p&gt;The goal is simple: challenge your way to the top and defend your rank or rung on the singles ladder. Challenge an opponent already on the ladder and play a Singles match to 15 points and report your score to climb the ladder.&lt;/p&gt;&#xA;&lt;h2 id=&#34;viewing-the-ladder&#34;&gt;Viewing the Ladder&lt;/h2&gt;&#xA;&lt;p&gt;There are multiple paths to view the ladder:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;From the Dashboard:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the global info shows, just click the Ladder Challenge link&lt;/li&gt;&#xA;&lt;li&gt;Otherwise scroll to and click Tournaments.&#xA;&lt;br /&gt;&#xA;&lt;br /&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA; &lt;img src=&#34;../imgs/dash2tournament.png&#34; width=&#34;250&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Then click View Challenges from the tournament information.&#xA;&lt;br /&gt;&#xA;&lt;br /&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA; &lt;img src=&#34;../imgs/ladder_tourn.png&#34; width=&#34;250&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;From here you should see all of your activities. This is your Ladder Dashboard.&lt;/li&gt;&#xA;&lt;li&gt;You have options to Challenge, Cancel, Accept, Enter scores, or Dispute a score. These only show if they are available to you.&#xA;&lt;br /&gt;&#xA;&lt;br /&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA; &lt;img src=&#34;../imgs/MyLadder.png&#34; width=&#34;250&#34;&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Via Notifications&lt;/p&gt;</description>
     </item>
   </channel>

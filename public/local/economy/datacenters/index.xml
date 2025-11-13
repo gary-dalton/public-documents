@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Centers on Werk Space</title>
+    <link>//localhost:1313/local/economy/datacenters/</link>
+    <description>Recent content in Data Centers on Werk Space</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/local/economy/datacenters/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Wisconsin AI Governance</title>
+      <link>//localhost:1313/local/economy/datacenters/wi-ai-governance/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/local/economy/datacenters/wi-ai-governance/</guid>
+      <description>&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;&#xA;&lt;h4 class=&#34;alert-heading&#34;&gt;Framing Note&lt;/h4&gt;&#xA;&#xA;    &lt;p&gt;This analysis is guided by the companion document “The Benefits of a Forward-Thinking Technology Stance for Wisconsin,” which outlines the statewide advantages of embracing a partnership-oriented approach to data center development.&lt;/p&gt;&#xA;&lt;p&gt;That document articulates the long-term community, workforce, governance, and digital-resilience benefits that inform the recommendations and evaluation criteria used throughout this report.&lt;/p&gt;&#xA;&lt;p&gt;The present report should be read in conjunction with that guiding benefits overview, which establishes the strategic rationale for Wisconsin’s approach to hyperscale and AI-era infrastructure.&#xA;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/forward-thinking/&#34;&gt;Go to The Benefits of a Forward-Thinking Technology Stance for Wisconsin&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Evaluating Proposals</title>
+      <link>//localhost:1313/local/economy/datacenters/evaluating-proposals/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/local/economy/datacenters/evaluating-proposals/</guid>
+      <description>&lt;h1 id=&#34;wisconsin-data-center-landscape-strategic-analysis--policy-briefing&#34;&gt;&lt;strong&gt;Wisconsin Data Center Landscape: Strategic Analysis &amp;amp; Policy Briefing&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Comprehensive Evaluation of Major Hyperscale Projects in Southeast Wisconsin&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;table-of-contents&#34;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#executive-summary&#34;&gt;Executive Summary&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#statewide-context&#34;&gt;Statewide Context&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#risk-scoring-matrix&#34;&gt;Risk Scoring Matrix&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#project-analyses&#34;&gt;Project Analyses&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#1-microsoft--mount-pleasant&#34;&gt;Microsoft — Mount Pleasant&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#2-microsoft--racinecaledonia-future-site&#34;&gt;Microsoft — Racine/Caledonia Future Site&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#3-vantage--openai--oracle--port-washington-stargate&#34;&gt;Vantage + OpenAI + Oracle — Port Washington (“Stargate”)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#4-meta--beaver-dam&#34;&gt;Meta — Beaver Dam&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#cross-project-findings&#34;&gt;Cross-Project Findings&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#recommendations-for-wisconsin&#34;&gt;Recommendations for Wisconsin&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#appendix-a--policy-questions&#34;&gt;Appendix A — Policy Questions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#appendix-b--glossary&#34;&gt;Appendix B — Glossary&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/evaluating-proposals/#ref-table&#34;&gt;Reference Table - Wisconsin Data Center Landscape&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;executive-summary&#34;&gt;&lt;strong&gt;Executive Summary&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Wisconsin is entering a pivotal moment in its economic and technological development. With major hyperscale data centers proposed or underway—including investments from Microsoft (Mount Pleasant and Racine/Caledonia), Meta (Beaver Dam), and Vantage/OpenAI/Oracle (Port Washington)—the state faces an opportunity unprecedented in its modern history.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Benefits of a Forward-Thinking Technology Stance for Wisconsin</title>
+      <link>//localhost:1313/local/economy/datacenters/forward-thinking/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/local/economy/datacenters/forward-thinking/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;How Strategic Partnerships Around Data Centers Can Transform the State’s Future&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Wisconsin stands at a turning point. The arrival of major data center proposals—Microsoft, Meta, Vantage/OpenAI/Oracle—offers more than economic development. If approached strategically, these projects can help Wisconsin build long-term strength in digital skill, public-sector modernization, community resilience, and technological leadership.&lt;/p&gt;&#xA;&lt;p&gt;This document outlines the &lt;strong&gt;core benefits&lt;/strong&gt; Wisconsin gains by taking a thoughtful, partnership-based stance toward data center development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Community Technology Partnership Opportunities for Wisconsin</title>
+      <link>//localhost:1313/local/economy/datacenters/benefits-brief/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/local/economy/datacenters/benefits-brief/</guid>
+      <description>&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;&#xA;&lt;h4 class=&#34;alert-heading&#34;&gt;Framing Note&lt;/h4&gt;&#xA;&#xA;    &lt;p&gt;This analysis is guided by the companion document “The Benefits of a Forward-Thinking Technology Stance for Wisconsin,” which outlines the statewide advantages of embracing a partnership-oriented approach to data center development.&lt;/p&gt;&#xA;&lt;p&gt;That document articulates the long-term community, workforce, governance, and digital-resilience benefits that inform the recommendations and evaluation criteria used throughout this report.&lt;/p&gt;&#xA;&lt;p&gt;The present report should be read in conjunction with that guiding benefits overview, which establishes the strategic rationale for Wisconsin’s approach to hyperscale and AI-era infrastructure.&#xA;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/forward-thinking/&#34;&gt;Go to The Benefits of a Forward-Thinking Technology Stance for Wisconsin&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Policy Questions - Wisconsin Data Center Projects</title>
+      <link>//localhost:1313/local/economy/datacenters/policy-questions/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/local/economy/datacenters/policy-questions/</guid>
+      <description>&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;&#xA;&lt;h4 class=&#34;alert-heading&#34;&gt;Framing Note&lt;/h4&gt;&#xA;&#xA;    &lt;p&gt;This analysis is guided by the companion document “The Benefits of a Forward-Thinking Technology Stance for Wisconsin,” which outlines the statewide advantages of embracing a partnership-oriented approach to data center development.&lt;/p&gt;&#xA;&lt;p&gt;That document articulates the long-term community, workforce, governance, and digital-resilience benefits that inform the recommendations and evaluation criteria used throughout this report.&lt;/p&gt;&#xA;&lt;p&gt;The present report should be read in conjunction with that guiding benefits overview, which establishes the strategic rationale for Wisconsin’s approach to hyperscale and AI-era infrastructure.&#xA;&lt;a href=&#34;//localhost:1313/local/economy/datacenters/forward-thinking/&#34;&gt;Go to The Benefits of a Forward-Thinking Technology Stance for Wisconsin&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
