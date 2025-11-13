@@ -2,7 +2,7 @@
 title: "Helen Porth Dalton"
 linkTitle:  "Helen Dalton"
 description: 
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: "helendalton.jpg"
   title: "Helen Dalton"

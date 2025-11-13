@@ -3,7 +3,7 @@ title: "Government: meaning, methods, and maximizing"
 linkTitle: "Government"
 description: "Why do we have government? What are some basic types? Are some types better? 
 How do we determine which types are better?"
-author: Gary Dalton
+author: "Gary Dalton"
 date: 2022-08-28
 weight: 30
 draft: true

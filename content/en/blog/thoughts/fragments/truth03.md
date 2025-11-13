@@ -2,7 +2,7 @@
 title: "Truth 03"
 linkTitle: "Truth 03"
 description: "Is there an ultimate Truth? Does it matter?"
-author: Gary Dalton
+author: "Gary Dalton"
 slug: ""
 image: ""
 keywords: "truth"

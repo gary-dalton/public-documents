@@ -2,7 +2,7 @@
 title: "Mission and Values"
 linkTitle: "Mission"
 description: "My mission and core values statement."
-author: Gary Dalton ([@gfdalton](https://twitter.com/gfdalton))
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""

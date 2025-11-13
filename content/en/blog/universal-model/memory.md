@@ -2,7 +2,7 @@
 title: "Object Memory"
 linkTitle: "Memory"
 weight: 20
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""

@@ -1,7 +1,7 @@
 ---
 title: "Books I'd Like to Read"
 linkTitle: "Future Books"
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""

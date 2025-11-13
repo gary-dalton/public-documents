@@ -2,7 +2,7 @@
 title: "The Revolution circa 1978"
 linkTitle:  "Revolution"
 description: "Stupid teenage ideas on how the world should be and what changes to start with"
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: "the-revolution.jpg"
   title: "Handwritten notes"

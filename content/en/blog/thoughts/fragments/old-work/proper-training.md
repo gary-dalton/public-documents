@@ -2,7 +2,7 @@
 title: "Proper Training circa 1978"
 linkTitle:  "Training"
 description: "Stupid teenage ideas on how the world should be and what changes to start with"
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: "proper-training.jpg"
   title: "Handwritten notes"

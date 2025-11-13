@@ -2,7 +2,7 @@
 title: "Pandoc and Reveal"
 linkTitle: "Pandoc"
 description: "Slideshows from Markdown"
-author: Gary Dalton
+author: "Gary Dalton"
 date: 2015-07-10
 weight: 10
 draft: true
@@ -11,7 +11,7 @@ draft: true
 <!-- ---
 title: Pandoc and Reveal
 subtitle: Slideshows from Markdown
-author: Gary Dalton
+author: "Gary Dalton"
 date: 10 July 2015
 license: Apache License, Version 2.0
 github:

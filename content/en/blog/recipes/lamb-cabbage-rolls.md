@@ -1,7 +1,7 @@
 ---
 title: "Lamb Cabbage Rolls"
 linkTitle: "Lamb Cabbage Rolls"
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""

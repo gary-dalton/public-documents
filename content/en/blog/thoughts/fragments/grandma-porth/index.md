@@ -2,7 +2,7 @@
 title: "Grandmother Porth"
 linkTitle:  "Lucile Porth"
 description: 
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: "lucile-porth.jpg"
   title: "Lucile Porth"

@@ -2,7 +2,7 @@
 title: "Universal Modeling"
 linkTitle: "Universal Model"
 weight: 10
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""

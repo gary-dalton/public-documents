@@ -2,7 +2,7 @@
 title: "Gary Dalton Jr"
 linkTitle:  "Gary Dalton Jr"
 description: 
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: "garydaltonjr.jpg"
   title: "Gary Dalton Jr"

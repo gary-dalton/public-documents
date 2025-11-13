@@ -1,7 +1,7 @@
 ---
 title: "Handmaids Tale"
 linkTitle: "Handmaids Tale"
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""

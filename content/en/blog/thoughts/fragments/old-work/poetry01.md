@@ -2,7 +2,7 @@
 title: "Poetry? 01 circa 1978-1980"
 linkTitle:  "Poetry? 01"
 description: "An attempt to be lyrical. I suppose"
-author: Gary Dalton
+author: "Gary Dalton"
 slug: ""
 image: ""
 keywords: ""

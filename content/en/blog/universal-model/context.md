@@ -2,7 +2,7 @@
 title: "Conceptualizing Context"
 linkTitle: "Context"
 weight: 40
-author: Gary Dalton
+author: "Gary Dalton"
 resources:
 - src: ""
   title: ""
