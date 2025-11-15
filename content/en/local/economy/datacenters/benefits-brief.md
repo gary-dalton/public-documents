@@ -1,7 +1,7 @@
 ---
 title: "Community Technology Partnership Opportunities for Wisconsin"
 linkTitle: "Opportunities"
-description: "Community Technology Partnership Opportunities for Wisconsin outlines voluntary, partnership-based technology initiatives that data center operators can support to strengthen Wisconsin communities. It provides practical, community-focused opportunities—such as digital literacy programs, cloud-compute access, workforce training, and public-sector modernization—that complement large data center investments and ensure long-term public value."
+description: "Community Technology Partnership Opportunities for Wisconsin outlines voluntary, partnership-based technology initiatives that data center operators could support to strengthen Wisconsin communities. It provides practical, community-focused opportunities—such as digital literacy programs, cloud-compute access, workforce training, and public-sector modernization—that complement large data center investments and ensure long-term public value. These do not currently exist."
 author: Gary Dalton
 resources:
 - src: ""
@@ -29,9 +29,13 @@ The present report should be read in conjunction with that guiding benefits over
 [Go to The Benefits of a Forward-Thinking Technology Stance for Wisconsin]({{< ref "/local/economy/datacenters/forward-thinking.md" >}})
 {{< /alert >}}
 
-## **Recommended Community Tech Benefits**
+## Overview
 
-### **1. AI Literacy & Digital Skills Centers**
+The recommendations in this document are not currently outlined in most of the proposals. I recommend that these be requested and added to the negotiations. The intent is to bring Wisconsin to the forefront of this technology with skills development, compute access, visibility, and AI governance.
+
+## Recommended Community Tech Benefits
+
+### 1. AI Literacy & Digital Skills Centers
 
 Local libraries, technical colleges, and community centers could receive:
 
@@ -43,7 +47,7 @@ Local libraries, technical colleges, and community centers could receive:
 
 ---
 
-### **2. Civic Compute Credits**
+### 2. Civic Compute Credits
 
 Data center operators or cloud providers can allocate:
 
@@ -63,7 +67,7 @@ For use by:
 
 ---
 
-### **3. Support for a Wisconsin AI Governance & Safety Institute**
+### 3. Support for a Wisconsin AI Governance & Safety Institute
 
 Partnerships with UW campuses could:
 
@@ -72,11 +76,13 @@ Partnerships with UW campuses could:
 * Train future tech leaders
 * Provide technical expertise to state agencies
 
+Create an [Wisconsin AI Governance & Safety Institute]({{< ref "/local/economy/datacenters/wi-ai-governance.md" >}}) as outlined.
+
 **Precedent:** Meta, Microsoft, and OpenAI fund similar initiatives worldwide.
 
 ---
 
-### **4. Workforce & Apprenticeship Pipelines**
+### 4. Workforce & Apprenticeship Pipelines
 
 Focus areas:
 
@@ -90,14 +96,8 @@ Focus areas:
 
 ---
 
-### **5. Wisconsin AI Governance & Safety Institute**
 
-Create an [Wisconsin AI Governance & Safety Institute]({{< ref "/local/economy/datacenters/wi-ai-governance.md" >}}) as outlined.
-
-
----
-
-## **Why Companies Support This**
+## Why Companies Might Support This
 
 These companies already commit to:
 
@@ -110,7 +110,7 @@ Partnerships in Wisconsin help them fulfill public commitments.
 
 ---
 
-## **Outcome**
+## Outcome
 
 Wisconsin becomes:
 
