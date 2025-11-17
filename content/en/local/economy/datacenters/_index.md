@@ -8,7 +8,7 @@ cascade:
 draft: false
 ---
 
-A thriving economy is an extremely important driver of every successful society. Here we will highlight some thoughts on this issue.
+A thriving economy is an extremely important driver of every successful society. Perhaps, data centers are a part of that. Here we will highlight some thoughts on this issue.
 
 The recommended read order is:
 1. [_The Benefits of a Forward-Thinking Technology Stance for Wisconsin_]({{< ref "/local/economy/datacenters/forward-thinking.md" >}})
