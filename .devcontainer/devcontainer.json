@@ -6,7 +6,7 @@
   },
   "remoteUser": "root",
   "forwardPorts": [1313],
-  "postCreateCommand": "hugo server -D --bind 0.0.0.0 --poll 700ms",
+  // "postCreateCommand": "hugo server -D --bind 0.0.0.0 --poll 700ms",
   // "postCreateCommand": "hugo server -D --bind 0.0.0.0",
   "customizations": {
     "vscode": {
