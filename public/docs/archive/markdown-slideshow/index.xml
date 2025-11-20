@@ -6,15 +6,8 @@
     <description>Recent content in Markdown slideshows on Werk Space</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Oct 2025 11:23:14 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2020 09:10:14 -0500</lastBuildDate>
     <atom:link href="//localhost:1313/docs/archive/markdown-slideshow/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Pandoc and Reveal</title>
-      <link>//localhost:1313/docs/archive/markdown-slideshow/pandoc_reveal/</link>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/archive/markdown-slideshow/pandoc_reveal/</guid>
-      <description>&lt;!-- ---&#xD;&#xA;title: Pandoc and Reveal&#xD;&#xA;subtitle: Slideshows from Markdown&#xD;&#xA;author: &#34;Gary Dalton&#34;&#xD;&#xA;date: 10 July 2015&#xD;&#xA;license: Apache License, Version 2.0&#xD;&#xA;github:&#xD;&#xA;  user: gary-dalton&#xD;&#xA;  repo: gary-dalton.github.io&#xD;&#xA;  branch: &#34;master&#34;&#xD;&#xA;pandoc: pandoc -t html5 --standalone --section-divs --template=template_revealjs.html pandoc_reveal.md -o pandoc_reveal.html&#xD;&#xA;tags: pandoc, revealjs, markdown, howto&#xD;&#xA;draft: true&#xD;&#xA;--- --&gt;&#xD;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;This slideshow is written in Markdown, a plain text format.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/gary-dalton/public-documents/master/content/en/docs/archive/Markdown-slideshow/pandoc_reveal.md&#34;&gt;view the slideshow in markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Converted into an HTML5, revealjs document using Pandoc.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Yes, it really is that easy.&lt;/p&gt;</description>
-    </item>
     <item>
       <title></title>
       <link>//localhost:1313/docs/archive/markdown-slideshow/template_revealjs/</link>

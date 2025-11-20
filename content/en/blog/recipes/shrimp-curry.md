@@ -1,157 +1,145 @@
 ---
 title: "Goan Shrimp Curry"
 linkTitle: "Shrimp Curry"
-description: "Full flavored and easy to prepare"
+description: "A deeply flavored Goan-style curry with optional EAT–Lancet and longevity upgrades."
 author: "Gary Dalton"
-resources:
-- src: ""
-  title: ""
-  params:
-    byline: "Photo: Gary Dalton / CC-BY-CA"
-slug: ""
-image: ""
-keywords: ""
+keywords: ["shrimp", "curry", "EAT–Lancet", "anti-inflammatory", "longevity", "sustainable"]
 date: 2025-10-23T00:00:00-00:00
-aliases: ""
-expiryDate: ""
-layout: ""
+draft: false
 include_toc: true
 show_comments: false
-draft: false
 ---
+
+# Goan Shrimp Curry (Classic + EAT–Lancet Options)
 
 ## About
 
-A basic coconut milk curry dish whose base may be used for a variety of dishes. In this case shrimp
-
-## Servings
-
-About 4-6
-
-## Ingredients
-
-* 2 Tbs olive oil
-* 2 medium shallots, chopped
-* 1 tsp sweet paprika
-* 1 tsp smoky paprika
-* 1/2 tsp tumeric
-* 1/2 tsp ground black pepper
-* 1/4 tsp ground cayenne
-* 1 1/4 cup coconut milk (13 oz can)
-* OR 3/4 cup coconut milk and 1/2 cup almond milk
-* 1 1/2 lb peeled and deveined shrimp
-* 2 cups chopped vegetables (peppers, tomotoes, spinach, kale)
-* salt to taste
-* 2 tsp lemon juice
-
-## Preparation
-
-1. Heat oil in skillet on medium-high heat
-2. Lightly brown shallots in pan (about 2 minutes)
-3. Remove pan from heat. Stir in paprika, tumeric, pepper, and cayenne to make a paste.
-4. Return to medium-high heat and add well-shaken coconut milk. Stirring well
-5. Bring to simmer.
-6. Add shrimp, salt and lemon. Stir to coat. Turn heat to low.
-7. Cook until shrimp are pink and opaque. (3-5 minutes)
-
-## Serve
-
-Serve immediately with **½ cup cooked brown rice or quinoa per person**.  
-Garnish with fresh cilantro and a sprinkle of turmeric and black pepper.
-
----
-
-<br />
-<br />
-<br />
-<br />
-
----
-
-
-# EAT–Lancet Optimized
-
-## About EAT–Lancet Version
-
-A Goan-style coconut milk curry, adapted to meet **EAT–Lancet Planetary Health Diet** principles.  
-This version reduces saturated fat, increases vegetable content, and retains the full flavor and texture of the traditional dish.
+A Goan-style coconut milk curry that can be prepared in its original form **or** enhanced with **EAT–Lancet Planetary Health Diet** and **longevity upgrades**.  
+Use the version that fits your goals: Classic, EAT–Lancet–Optimized, or Fully Longevity-Enhanced.
 
 ---
 
 ## Servings
 
-About 4–6 servings
+4–6 servings
 
 ---
 
 ## Ingredients
 
-| Ingredient | Classic | EAT–Lancet–Optimized |
-|-------------|----------|----------------------|
-| Olive oil | 2 Tbsp | 2 Tbsp |
-| Shallots, chopped | 2 medium | 2 medium |
-| Sweet paprika | 1 tsp | 1 tsp |
-| Smoky paprika | 1 tsp | 1 tsp |
-| Turmeric | ½ tsp | ½ tsp |
-| Ground black pepper | ½ tsp | ½ tsp |
-| Ground cayenne | ¼ tsp | ¼ tsp |
-| Coconut milk | 1¼ cup (13 oz can) | ¾ cup coconut milk + ½ cup unsweetened oat or almond milk |
-| Shrimp, peeled and deveined | 1½ lb | 1½ lb (preferably sustainably sourced) |
-| Salt | To taste | ½–¾ tsp (reduce sodium) |
-| Lemon juice | 2 tsp | 2 tsp |
-| **Additions for optimized version** | — | 2 cups chopped vegetables (tomatoes, bell peppers, spinach) |
-| **Optional garnish** | — | Fresh cilantro, turmeric, and black pepper |
+### Base Curry (same for all versions)
+
+- 2 Tbsp olive oil  
+- 2 medium shallots, chopped  
+- 1 tsp sweet paprika  
+- 1 tsp smoky paprika  
+- ½ tsp turmeric  
+- ½ tsp ground black pepper  
+- ¼ tsp ground cayenne  
+- **Coconut milk:**  
+  - Classic: **1¼ cup (13 oz can)**  
+  - EAT–Lancet Option: **¾ cup coconut milk + ½ cup unsweetened oat or almond milk**  
+- 1½ lb shrimp, peeled & deveined (preferably sustainably sourced)  
+- Salt (Classic: to taste • EAT–Lancet: **½–¾ tsp**)  
+- 2 tsp lemon juice  
+
+### Optional Add-ins for EAT–Lancet Version
+
+- 2 cups chopped vegetables (e.g., tomatoes, red bell pepper, spinach)
+
+### Grain to Serve With
+
+- Classic: **Brown rice or quinoa (½ cup cooked per serving)**  
+- EAT–Lancet Option: **Protein Grain Medley** (*½ cup cooked per serving*)  
+  - *Instant Pot:*  
+    `1 cup lentils + 1 cup quinoa + 3 cups water · High Pressure 9 min · NR 10 min`
+
+### Longevity Enhancements
+
+- Stir **¼ tsp turmeric** into the cooked Medley (activates with curry heat)  
+- Add **fresh cilantro + fresh lemon** at serving  
+- Add **spinach directly to the hot Medley** so it wilts instantly (boosts folate & lutein)
 
 ---
 
 ## Preparation
 
 1. Heat olive oil in a skillet over medium-high heat.  
-2. Lightly brown shallots for about 2 minutes.  
-3. Remove pan from heat and stir in paprika, turmeric, black pepper, and cayenne to make a spice paste.  
-4. Return to medium-high heat and add coconut milk (and plant milk, if using). Stir well.  
+2. Add shallots and cook until lightly browned, about 2 minutes.  
+3. Remove pan from heat and stir in paprika, turmeric, black pepper, and cayenne to form a spice paste.  
+4. Return to heat and add coconut milk (or coconut + plant milk). Stir thoroughly.  
 5. Bring to a gentle simmer.  
-6. Add shrimp, salt, and lemon juice. Stir to coat evenly.  
-7. Add vegetables (EAT–Lancet version). Reduce heat to low.  
-8. Cook until shrimp are pink and opaque, 3–5 minutes.  
+6. Add shrimp, salt, and lemon juice. Stir to coat.  
+7. (Optional EAT–Lancet step) Add chopped vegetables.  
+8. Lower heat and cook until shrimp are pink and opaque, 3–5 minutes.  
 9. Taste and adjust seasoning.
 
 ---
 
 ## Serve
 
-Serve immediately with **½ cup cooked Protein Grain Medley** per person  
-(*Instant Pot: 1 cup green lentils + 1 cup quinoa + 3 cups water · High Pressure 9 min · Natural Release 10 min*).  
+Serve immediately over **your choice of grain**:
 
-The Protein Grain Medley provides superior **protein, fiber, minerals, and sustainable plant-based nutrition** compared to rice, while pairing perfectly with the curry’s texture and flavor.
+- Classic: **½ cup cooked brown rice or quinoa**  
+- EAT–Lancet: **½ cup cooked Protein Grain Medley** (lentils + quinoa)
 
-**Optional enhancements:**
+**Longevity Enhancements**
 
-- Stir **¼ tsp turmeric** into the cooked Medley (activates with the heat of the curry).  
-- Add **fresh cilantro and a squeeze of lemon** just before serving.  
-- Add **a handful of spinach directly to the hot Medley** — it wilts instantly and boosts lutein, folate, and prebiotic fiber.
-
----
-
-## Nutrition & Sustainability Notes
-
-- **Per serving (EAT–Lancet version):**
-  - ≈ 350–400 kcal  
-  - 25 g protein  
-  - 18 g fat (mostly unsaturated)  
-  - 6–8 g fiber  
-  - Excellent sources of selenium, iodine, and omega-3s  
-
-- **Environmental impact:**  
-  - Low–moderate, depending on shrimp source.  
-  - Replacing half the coconut milk with oat or almond milk reduces total saturated fat by ~45%.  
-  - Using the Protein Grain Medley significantly improves **plant-to-animal ratio**, aligning with EAT–Lancet.
+- Add turmeric to grains  
+- Add fresh cilantro and lemon  
+- Add spinach to the hot grains to wilt  
 
 ---
 
-## Variations
+## Nutrition Comparison (per serving, estimated)
 
-- Replace shrimp with firm tofu, chickpeas, or white fish for diversity.  
-- Add fresh spinach or kale during simmering for additional micronutrients.  
+### **Classic Version**
+- **Calories:** 430–480  
+- **Protein:** 25 g  
+- **Fat:** 28–32 g  
+  - *Saturated fat:* high (from full coconut milk)  
+- **Carbohydrates:** 22–28 g  
+- **Fiber:** 2–3 g  
+- **Sodium:** variable  
+- **Environmental footprint:** moderate (higher coconut milk + no added vegetables)
 
+### **EAT–Lancet–Optimized Version**
+- **Calories:** 350–400  
+- **Protein:** 25 g  
+- **Fat:** 18–22 g  
+  - *Saturated fat:* ~45% lower  
+- **Carbohydrates:** 28–32 g  
+- **Fiber:** 6–8 g  
+- **Sodium:** ½–¾ tsp salt  
+- **Environmental footprint:** lower  
+  - reduced coconut milk  
+  - higher plant-based content  
+  - better grain choice (Protein Grain Medley)
+
+### **Longevity-Enhanced Version**
+(EAT–Lancet version + anti-aging add-ins)
+- **Calories:** 360–410  
+- **Protein:** 26–30 g  
+- **Fat:** 18–22 g  
+- **Carbohydrates:** 30–35 g  
+- **Fiber:** 7–10 g  
+- **Micronutrient boosts:**
+  - ↑ Lutein, folate (spinach)  
+  - ↑ Curcumin absorption (turmeric + pepper)  
+  - ↑ Vitamin C & polyphenols (lemon/cilantro)  
+- **Best choice for cognitive support, inflammation reduction, and metabolic health**
+
+---
+
+## Summary
+
+This unified recipe lets you choose between:
+
+| Version | When to Use | Benefits |
+|---------|--------------|----------|
+| **Classic** | Comfort cooking, familiar texture | Rich flavor, simplest prep |
+| **EAT–Lancet** | Sustainable, heart-healthy, longevity-focused | Lower saturated fat, more vegetables, better grain base |
+| **Longevity-Enhanced** | Maximum anti-aging, metabolic control, cognition | Curcumin activation, leafy greens, citrus polyphenols |
+
+**All versions preserve the core Goan flavor profile**, so you can upgrade nutrition without sacrificing pleasure.
 
