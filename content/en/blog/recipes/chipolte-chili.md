@@ -27,7 +27,7 @@ draft: false
 
 ## Ingredients
 
-* 1-2 cups [Chipolte sauce]({{< ref "chipotle-sauce.md" >}}) (use less for a milder spice)
+* 1-2 cups [Chipolte sauce](chipotle-sauce.md) (use less for a milder spice)
 <br /><br />
 
 * 1.5 pounds Ground beef

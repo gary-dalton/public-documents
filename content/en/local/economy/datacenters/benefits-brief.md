@@ -26,7 +26,7 @@ This analysis is guided by the companion document “The Benefits of a Forward-T
 That document articulates the long-term community, workforce, governance, and digital-resilience benefits that inform the recommendations and evaluation criteria used throughout this report.
 
 The present report should be read in conjunction with that guiding benefits overview, which establishes the strategic rationale for Wisconsin’s approach to hyperscale and AI-era infrastructure.
-[Go to The Benefits of a Forward-Thinking Technology Stance for Wisconsin]({{< ref "/local/economy/datacenters/forward-thinking.md" >}})
+[Go to The Benefits of a Forward-Thinking Technology Stance for Wisconsin](/local/economy/datacenters/forward-thinking.md)
 {{< /alert >}}
 
 ## Overview
@@ -76,7 +76,7 @@ Partnerships with UW campuses could:
 * Train future tech leaders
 * Provide technical expertise to state agencies
 
-Create an [Wisconsin AI Governance & Safety Institute]({{< ref "/local/economy/datacenters/wi-ai-governance.md" >}}) as outlined.
+Create an [Wisconsin AI Governance & Safety Institute](/local/economy/datacenters/wi-ai-governance.md) as outlined.
 
 **Precedent:** Meta, Microsoft, and OpenAI fund similar initiatives worldwide.
 

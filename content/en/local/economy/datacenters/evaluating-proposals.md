@@ -110,7 +110,7 @@ This analysis is guided by the companion document “The Benefits of a Forward-T
 That document articulates the long-term community, workforce, governance, and digital-resilience benefits that inform the recommendations and evaluation criteria used throughout this report.
 
 The present report should be read in conjunction with that guiding benefits overview, which establishes the strategic rationale for Wisconsin’s approach to hyperscale and AI-era infrastructure.
-[Go to The Benefits of a Forward-Thinking Technology Stance for Wisconsin]({{< ref "/local/economy/datacenters/forward-thinking.md" >}})
+[Go to The Benefits of a Forward-Thinking Technology Stance for Wisconsin](/local/economy/datacenters/forward-thinking.md)
 {{< /alert >}}
 
 
@@ -314,7 +314,7 @@ If managed well, these projects position Wisconsin as a cold-climate tech-infras
 
 Wisconsin is receiving an unprecedented wave of hyperscale data-center proposals. These projects can be catalysts for economic renewal — *if* the state pairs them with forward-looking, community-oriented initiatives that strengthen resilience, governance, education, and digital capacity.
 
-See the addittional documents, [Community Technology Partnership Opportunities for Wisconsin]({{< ref "/local/economy/datacenters/benefits-brief.md" >}}) and [Wisconsin AI Governance]({{< ref "/local/economy/datacenters/wi-ai-governance.md" >}}).
+See the addittional documents, [Community Technology Partnership Opportunities for Wisconsin](/local/economy/datacenters/benefits-brief.md) and [Wisconsin AI Governance](/local/economy/datacenters/wi-ai-governance.md).
 
 ---
 
@@ -514,7 +514,7 @@ This prevents local distrust and improves project predictability.
 
 A consolidated list of the **targeted questions**, grouped by category has been moved to a separate document.
 
-**[Policy Questions - Wisconsin Data Center Projects]({{< ref "/local/economy/datacenters/policy-questions.md" >}})**
+**[Policy Questions - Wisconsin Data Center Projects](/local/economy/datacenters/policy-questions.md)**
 
 ---
 
