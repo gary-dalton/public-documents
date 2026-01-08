@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Complex Adaptive System on Werk Space</title>
+    <link>//localhost:1313/blog/universal-model/cas/</link>
+    <description>Recent content in Complex Adaptive System on Werk Space</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/blog/universal-model/cas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>//localhost:1313/blog/2026/01/07/introduction/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/2026/01/07/introduction/</guid>
+      <description>&lt;h1 id=&#34;part-i-introduction&#34;&gt;Part I: Introduction&lt;/h1&gt;&#xA;&lt;h2 id=&#34;civilization-as-a-complex-adaptive-system&#34;&gt;Civilization as a Complex Adaptive System&lt;/h2&gt;&#xA;&lt;p&gt;Traditional political science and economics often evaluate the success of human systems through the lens of morality, ideology, or static financial metrics like GDP. While these measures provide a snapshot of current output, they fail to explain the underlying &lt;strong&gt;mechanics of systemic survival&lt;/strong&gt;. They treat a nation as a ledger rather than a &lt;strong&gt;Complex Adaptive System (CAS)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This article proposes a departure from normative critique, moving instead toward a &lt;strong&gt;Social Physics&lt;/strong&gt; approach. We posit that a society is a physical entity—a dissipative structure that maintains order by processing energy and information. To understand why some systems thrive while others stagnate or collapse, we must look at the physical phase states they occupy.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
