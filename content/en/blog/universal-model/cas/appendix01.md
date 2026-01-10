@@ -14,451 +14,244 @@ draft: false
 weight: 50
 ---
 
-# Appendix 1:
-## The Criticality Sensor Array<br /> (*O* and *E*)
+# Appendix 1: The Criticality Sensor Array<br /> (*O* and *E*)
 
-Below are the detailed tables for the elements that drive our  calculation. As established, **100/100** represents the optimal state of that specific attribute.
+This appendix defines the measurement criteria for the Ordering and Excitatory parameters. Scores are normalized on a 0–100 scale, where **100** represents the optimal phase state for systemic survival.
 
-### 1. The Ordering Force ()
+### 1. The Ordering Force (*O*)
 
-These elements provide the "Damping" and "Lattice Strength" of the system.
+These elements provide the damping and lattice strength required to contain systemic energy.
 
 #### Safety & Security (The Damping Force)
+*Total Weight in Parameter O: 20%*
 
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #999;">
   <thead>
     <tr>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Element
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Functional Meaning in Model
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        2026 Data Sources
-      </th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Element</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Measurement Description</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Optimal State (100/100)</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Weighting</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">2026 Data Sources</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>War &amp; Civil Conflict</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Broadband Noise:</strong> Measures high-intensity, unstructured disruption to the lattice.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        UCDP/PRIO, UNHCR, International Crisis Group
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>War & Civil Conflict</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Battle-related deaths per capita, number of internally displaced persons (IDPs), and refugee outflows.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Complete absence of armed conflict and displacement.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">5%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">UCDP/PRIO, UNHCR</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Terrorism</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Spike Noise:</strong> Measures localized, unpredictable energy injections.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        Global Terrorism Database (GTD), IE&amp;P
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Terrorism</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Frequency of incidents, fatalities, and injuries resulting from non-state terror actors.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Zero terror incidents or related property damage.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">5%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">GTD, IE&P</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Politically Related Terror &amp; Violence</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Systemic Lattice Decay:</strong> Measures state-level failure to maintain a stable environment.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        Amnesty Intl, US State Dept (Human Rights Reports)
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Politically Related Terror</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">State-sanctioned killings, disappearances, torture, and political imprisonment.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Absolute physical integrity for all citizens from state actors.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">5%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Amnesty Intl, US State Dept</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Violent &amp; Property Crime</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Base Entropy:</strong> Measures the &quot;social friction&quot; and localized disorder.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        UNODC, Gallup World Poll
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Violent & Property Crime</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Homicide rates, prevalence of robbery/theft, and survey-based "felt safety" levels.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Zero crime-related entropy; total public safety.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">5%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">UNODC, Gallup</td>
     </tr>
   </tbody>
 </table>
-
-
----
 
 #### Governance (The Lattice Architecture)
+*Total Weight in Parameter O: 70%*
 
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #999;">
   <thead>
     <tr>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Element
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Functional Meaning in Model
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        2026 Data Sources
-      </th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Element</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Measurement Description</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Optimal State (100/100)</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Weighting</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">2026 Data Sources</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Executive Constraints</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Nodal Shackle:</strong> Prevents a singular node from over-powering the entire network.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        V-Dem (Varieties of Democracy), Polity5
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Executive Constraints</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Institutionalized checks on the executive by the legislature, judiciary, and independent agencies.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Absolute prevention of singular-node (autocratic) control.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>40%</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">V-Dem, Polity5</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Political Accountability</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Error Correction:</strong> The feedback mechanism for systemic re-wiring.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        V-Dem, Freedom House
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Rule of Law</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Judicial independence, civil/criminal justice efficiency, and consistency in legal application.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">100% predictable and impartial legal lattice.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">15%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">World Bank, WJP</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Rule of Law</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Lattice Conductance:</strong> The predictability and consistency of the medium.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        World Bank (WGI), World Justice Project (WJP)
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Gov. Integrity</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Prevalence of bribery, corruption, and transparency of government operations.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Zero energy loss to corruption; total transparency.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">15%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Transparency Intl</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Gov. Integrity</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Lattice Purity:</strong> Lack of &quot;Impurities&quot; (Corruption) that dissipate energy.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        Transparency Intl (CPI), Global Integrity
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Gov. Effectiveness</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Systemic Wattage:</strong> The state's ability to execute &quot;Social Work.&quot;
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        World Bank (WGI)
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Regulatory Quality</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Institutional Viscosity:</strong> The friction within the formal rules of the lattice.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        World Bank (WGI)
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Political Accountability</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Electoral quality, degree of political participation, and freedom of the opposition.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Perfect error-correction through democratic feedback.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Weight: Included in 40% primary</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">V-Dem, Freedom House</td>
     </tr>
   </tbody>
 </table>
-
----
 
 #### Social Capital (The Connective Tissue)
+*Total Weight in Parameter O: 10%*
 
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #999;">
   <thead>
     <tr>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Element
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Functional Meaning in Model
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        2026 Data Sources
-      </th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Element</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Measurement Description</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Optimal State (100/100)</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Weighting</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">2026 Data Sources</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Personal &amp; Family Relationships</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Micro-Bonding:</strong> Strength of immediate node-to-node support.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        Gallup World Poll
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Interpersonal Trust</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Survey-based trust levels toward strangers and people of different backgrounds.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Maximal social cohesion; zero-friction interaction.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">4%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">WVS, Gallup</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Social Networks</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Bridge-Bonding:</strong> Connectivity across disparate clusters in the network.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        Gallup World Poll
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Institutional Trust</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Public confidence in the military, police, judiciary, and financial systems.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Total confidence in systemic operating protocols.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">4%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Gallup, Edelman</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Interpersonal Trust</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Lattice Adhesion:</strong> The baseline &quot;stickiness&quot; of the social medium.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        World Values Survey (WVS)
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Institutional Trust</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>OS Integrity:</strong> Confidence in the system's &quot;Operating System.&quot;
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        Gallup World Poll, Edelman Trust Barometer
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Civic &amp; Social Participation</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Lattice Maintenance:</strong> Active engagement in the upkeep of the system.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        Gallup World Poll
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Civic Participation</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Volunteering rates, donation levels, and engagement in civic organizations.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Hyper-active lattice maintenance.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">2%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Gallup, WVS</td>
     </tr>
   </tbody>
 </table>
 
 ---
 
+### 2. The Excitatory Force (*E*)
 
-
----
-
-### 2. The Excitatory Force ()
-
-These elements provide the "Thermal Energy" and "Agency" for novelty and change.
+These elements provide the thermal energy and potential for innovation.
 
 #### Personal Freedom (Degrees of Freedom)
+*Total Weight in Parameter E: 50%*
 
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #999;">
   <thead>
     <tr>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Element
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Functional Meaning in Model
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        2026 Data Sources
-      </th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Element</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Measurement Description</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Optimal State (100/100)</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Weighting</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">2026 Data Sources</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Agency</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Potential Variance:</strong> The basic capacity for a node to act independently.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        Freedom House, V-Dem, ILO
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Agency</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Rights to self-determination, freedom of movement, and absence of forced labor.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Total node autonomy; maximal variance potential.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>40%</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Freedom House, V-Dem</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Assembly &amp; Association</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Clustering Logic:</strong> Ability of nodes to form new, temporary structures.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        Freedom House, V-Dem
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Speech & Belief</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Freedom of the press, religious expression, and academic freedom.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Unlimited signal bandwidth for novelty transmission.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">5%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">RSF, V-Dem</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Speech &amp; Belief</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Signal Variance:</strong> The range of frequencies (ideas) the system can carry.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        V-Dem, Reporters Without Borders (RSF)
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Absence of Discrimination</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Effective Mass:</strong> Ensuring the total population contributes to the flux.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        V-Dem, World Bank
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Assembly</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Right to form unions, political parties, and non-governmental associations.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Zero friction for emergent structural clustering.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">5%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Freedom House, V-Dem</td>
     </tr>
   </tbody>
 </table>
-
----
 
 #### Enterprise Conditions (Systemic Plasticity)
+*Total Weight in Parameter E: 30%*
 
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #999;">
   <thead>
     <tr>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Element
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Functional Meaning in Model
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        2026 Data Sources
-      </th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Element</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Measurement Description</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Optimal State (100/100)</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Weighting</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">2026 Data Sources</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Domestic Market Contestability</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Recrystallization:</strong> Ability of new nodes to displace the old.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        WEF (Global Competitiveness), World Bank
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Market Contestability</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Ease of challenging incumbent firms and the absence of domestic monopolies.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Total systemic plasticity; infinite re-wiring.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">15%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">WEF, World Bank</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Environment for Business Creation</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Nucleation Rate:</strong> Ease of forming new energetic clusters (firms).
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        World Bank, WEF
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Burden of Regulation</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Flux Resistance:</strong> The regulatory friction on economic action.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        World Bank, WEF
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Labour Market Flexibility</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Medium Fluidity:</strong> The ease with which &quot;Human Mass&quot; flows to where it's needed.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        WEF, ILO
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Burden of Regulation</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Time and cost required for administrative compliance and tax bureaucracy.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Zero administrative friction on economic work.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">15%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">World Bank, WEF</td>
     </tr>
   </tbody>
 </table>
-
-
----
 
 #### Investment Environment (Kinetic Potential)
+*Total Weight in Parameter E: 20%*
 
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #999;">
   <thead>
     <tr>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Element
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        Functional Meaning in Model
-      </th>
-      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top;">
-        2026 Data Sources
-      </th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Element</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Measurement Description</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Optimal State (100/100)</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">Weighting</th>
+      <th style="border: 1px solid #999; padding: 10px 12px; text-align: left; vertical-align: top; background-color: #f2f2f2;">2026 Data Sources</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Property Rights</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Potential Energy Storage:</strong> Security of stored &quot;Social Work&quot; (Capital).
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        Heritage Foundation, Frazer Institute
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Property Rights</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Protection of intellectual and physical property from illegal seizure or theft.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Total potential energy security.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">10%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Heritage, Frazer Inst.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Investor Protection</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Transfer Integrity:</strong> Security of energy movement between nodes.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        World Bank, WEF
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Contract Enforcement</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Temporal Consistency:</strong> The reliability of a &quot;future-state&quot; agreement.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        World Bank
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Financing Ecosystem</strong>
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        <strong>Energy Availability:</strong> The volume of energy (liquidity) available for new work.
-      </td>
-      <td style="border: 1px solid #999; padding: 12px; vertical-align: top; line-height: 1.35;">
-        WEF, IMF
-      </td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;"><strong>Financing Ecosystem</strong></td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Access to bank credit, venture capital, and diversity of funding sources.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">Unlimited flux available for innovative work.</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">10%</td>
+      <td style="border: 1px solid #999; padding: 12px; vertical-align: top;">IMF, WEF</td>
     </tr>
   </tbody>
 </table>
-
-
----
