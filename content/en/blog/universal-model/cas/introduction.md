@@ -20,7 +20,7 @@ weight: 100
 
 Traditional political science and economics often evaluate the success of human systems through the lens of morality, ideology, or static financial metrics like GDP. While these measures provide a snapshot of current output, they fail to explain the underlying **mechanics of systemic survival**. They treat a nation as a ledger rather than a **Complex Adaptive System (CAS)**.
 
-This article proposes a departure from normative critique, moving instead toward a **Social Physics** approach. We posit that a society is a physical entity—a dissipative structure that maintains order by processing energy and information. To understand why some systems thrive while others stagnate or collapse, we must look at the physical phase states they occupy.
+This article proposes a departure from normative critique, moving instead toward a Complex Adaptive Systems approach. We posit that a society is a physical entity—a dissipative structure that maintains order by processing energy and information. To understand why some systems thrive while others stagnate or collapse, we must look at the physical phase states they occupy.
 
 ### The Physical Foundation: Phase Transitions
 In the physical sciences, matter exists in different Phase States—Solid, Liquid, or Gas—depending on the tension between internal structure and external energy. When a system is pushed toward the boundary between these states, it reaches a Critical Point. At this point, the system is neither rigid nor chaotic; it is "Critical." It gains unique properties: it can process information at all scales, it becomes hyper-sensitive to its environment, and it experiences "avalanches" of energy release.
