@@ -91,7 +91,6 @@ This separation avoids attaching multiple editors to the same runtime container 
 This pattern keeps costs predictable and context manageable.
 
 ---
----
 
 ## Context Persistence
 
@@ -99,6 +98,8 @@ This pattern keeps costs predictable and context manageable.
 - VS Code remains stateless with respect to model context.
 - Long design reasoning lives in Cursor.
 - Execution and testing remain in VS Code.
+
+**Note on Copilot Chat Persistence:** VS Code stores Copilot chat history per workspace, and you can export/import sessions via VS Code commands. This is not stored in your GitHub account web history.
 
 ---
 
