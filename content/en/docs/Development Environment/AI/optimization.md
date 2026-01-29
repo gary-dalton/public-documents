@@ -166,6 +166,155 @@ This spreads consumption across included plan allowances.
 
 ---
 
+## Prompting Guidance Per Engine
+
+### Copilot (GPT-4.1)
+
+Best with narrow, context-bound prompts:
+
+    Context: Phase 0 QoG data preprocessing.
+
+    Modify only the code in this file.
+    Do not change other files.
+    Do not modify raw data inputs.
+    Use Julia idioms.
+    Return code ready for Apply.
+
+For discussion only:
+
+    Context: Phase 0 QoG preprocessing.
+
+    Explain the design or logic.
+    Do not write code yet.
+    Do not advance to later phases.
+
+
+### ChatGPT (GPT-5.x)
+
+Best with structured, multi-phase reasoning instructions:
+
+    You are assisting with Phase 0 preprocessing.
+    Do not advance to later phases.
+    First propose loader architecture.
+    Then wait.
+
+
+### Gemini (Gemini 2.5 Pro)
+
+Best with explicit procedural instructions:
+
+    Write Julia code to:
+    1. Load QoG CSV into DataFrame.
+    2. Print schema and missingness summary.
+    3. Validate country-year key uniqueness.
+    4. Write Arrow partitioned by year.
+    No other tasks.
+
+
+### Claude (Sonnet / Opus)
+
+Best for conceptual and architectural critique:
+
+    Explain the architectural implications of this pipeline.
+    Do not write code yet.
+    Identify conceptual risks.
+
+
+### MASTER PROMPT
+
+#### SOC Instruction Set
+
+(The instructions here may be modified for your specific task. These were for a task I was working on.)
+
+Paste once at the start of a ChatGPT or Claude session.
+
+    # Task Instruction Set
+
+    ## Role
+    You are a technical research collaborator operating as an Engineer–Mathematician peer.
+    Your task is to construct, test, and publish models of TASK using:
+
+    - Self-Organized Criticality
+    - Graph Theory
+    - Information Theory
+    - Physics-based analogs (mass, density, entropy)
+
+    ## Active Phase
+    CURRENT PHASE: Phase 0 — Data preprocessing and metadata management.
+
+    You must not advance to later phases unless explicitly instructed.
+
+    ## Phase Objectives
+
+    Phase 0:
+    - Design loaders for QoG CSV and Arrow data.
+    - Preserve raw data immutability.
+    - Define metadata and schema validation steps.
+
+    Phase 1:
+    - Define model topology and governing equations.
+
+    Phase 2:
+    - Map model concepts to data variable slugs.
+
+    Phase 3:
+    - Execute analysis strictly using mapped variables.
+
+    Phase 4:
+    - Produce publication-grade synthesis.
+
+    ## Constraints
+
+    - No phase skipping.
+    - Use precise mathematical and graph-theoretic terminology.
+    - Julia for modeling and numerics.
+    - Python permitted only for IO and scaffolding.
+    - Challenge assumptions that violate mathematical or physical consistency.
+    - Do not modify raw source data.
+
+    ## Style
+
+    - Engineer-to-Engineer.
+    - Dense, structured Markdown.
+    - No speculative filler.
+
+### GEMINI SHORT FORM
+
+Paste once per Gemini session.
+
+    You are assisting Phase 0 data preprocessing for a QoG-based modeling project.
+
+    Rules:
+    - Do not advance beyond Phase 0.
+    - Preserve raw data immutability.
+    - Use Julia for data loaders and validation.
+    - Provide stepwise procedures.
+    - Use precise technical language.
+    - No speculative discussion.
+
+
+### COPILOT LOCAL CONSTRAINT TEMPLATE
+
+Use per Copilot request:
+
+    Context: Phase 0 QoG data preprocessing.
+
+    Modify only the code in this file.
+    Do not change other files.
+    Do not modify raw data inputs.
+    Use Julia idioms.
+    Return code ready for Apply.
+
+
+### OPTIONAL QUICK-TASK TEMPLATE
+
+    Task: <one sentence>
+    Scope: Only <file/function/module>.
+    Output: <code / explanation / diff>.
+    Constraints: Do not modify anything else.
+
+---
+
 ## Runtime Integrity Rule
 
 Never attach Cursor and VS Code simultaneously to the same live container or remote shell.

@@ -27,14 +27,14 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
     <meta property="article:published_time" content="2026-01-28T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-01-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-28T16:41:12-06:00">
     <meta property="og:image" content="//localhost:1313/logo_white_words.png">
 
   <meta itemprop="name" content="AI Multi-Engine Workflow in VS Code">
   <meta itemprop="description" content="Operational guide and prompt templates for GPT, Gemini, Claude, and GitHub Copilot integration in VS Code workflow.">
   <meta itemprop="datePublished" content="2026-01-28T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2026-01-28T00:00:00+00:00">
-  <meta itemprop="wordCount" content="866">
+  <meta itemprop="dateModified" content="2026-01-28T16:41:12-06:00">
+  <meta itemprop="wordCount" content="425">
   <meta itemprop="image" content="//localhost:1313/logo_white_words.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//localhost:1313/logo_white_words.png">
@@ -146,14 +146,14 @@
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docsdevelopment-environmentai-li">
   <a href="/docs/development-environment/ai/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentai"><span class="">AI</span></a>
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-docsdevelopment-environmentaiworkflow-in-vscode-li">
-  <a href="/docs/development-environment/ai/workflow-in-vscode/" title="AI Multi-Engine Workflow in VS Code" class="align-left ps-0 active td-sidebar-link td-sidebar-link__page" id="m-docsdevelopment-environmentaiworkflow-in-vscode"><span class="td-sidebar-nav-active-item">VScode</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentaicursor_vscode-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentaicursor_vscode-li">
   <a href="/docs/development-environment/ai/cursor_vscode/" title="Using Cursor and VS Code as Hybrid" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsdevelopment-environmentaicursor_vscode"><span class="">Cursor Hybrid</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-docsdevelopment-environmentaiworkflow-in-vscode-li">
+  <a href="/docs/development-environment/ai/workflow-in-vscode/" title="AI Multi-Engine Workflow in VS Code" class="align-left ps-0 active td-sidebar-link td-sidebar-link__page" id="m-docsdevelopment-environmentaiworkflow-in-vscode"><span class="td-sidebar-nav-active-item">VScode</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentaioptimization-li">
+  <a href="/docs/development-environment/ai/optimization/" title="Optimizing Cursor and VS Code Hybrid Usage" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsdevelopment-environmentaioptimization"><span class="">Optimize</span></a>
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentpython-li">
-  <a href="/docs/development-environment/python/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentpython"><span class="">Python WSL2</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentjulia-li">
   <a href="/docs/development-environment/julia/" title="The Julia Programming Language" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentjulia"><span class="">Julia</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docsdevelopment-environmentlinux-li">
@@ -165,6 +165,8 @@
   <a href="/docs/development-environment/linux/data_science_platform/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentlinuxdata_science_platform"><span class="">Data science platform</span></a>
 </li>
   </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentpython-li">
+  <a href="/docs/development-environment/python/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentpython"><span class="">Python WSL2</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentwindows-li">
   <a href="/docs/development-environment/windows/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentwindows"><span class="">Windows</span></a>
 </li>
@@ -236,24 +238,7 @@
     <li><a href="#ai-multi-engine-workflow-introduction">AI Multi-Engine Workflow Introduction</a></li>
     <li><a href="#engine-roles">Engine Roles</a></li>
     <li><a href="#operational-principle">Operational Principle</a></li>
-    <li><a href="#prompting-guidance-per-engine">Prompting Guidance Per Engine</a>
-      <ul>
-        <li><a href="#copilot-gpt-41">Copilot (GPT-4.1)</a></li>
-        <li><a href="#chatgpt-gpt-5x">ChatGPT (GPT-5.x)</a></li>
-        <li><a href="#gemini-gemini-25-pro">Gemini (Gemini 2.5 Pro)</a></li>
-        <li><a href="#claude-sonnet--opus">Claude (Sonnet / Opus)</a></li>
-      </ul>
-    </li>
-    <li><a href="#master-prompt">MASTER PROMPT</a>
-      <ul>
-        <li><a href="#soc-instruction-set">SOC Instruction Set</a></li>
-      </ul>
-    </li>
-    <li><a href="#gemini-short-form">GEMINI SHORT FORM</a></li>
-    <li><a href="#copilot-local-constraint-template">COPILOT LOCAL CONSTRAINT TEMPLATE</a></li>
-    <li><a href="#optional-quick-task-template">OPTIONAL QUICK-TASK TEMPLATE</a></li>
-    <li><a href="#key-operating-rule">Key Operating Rule</a></li>
-    <li><a href="#chat-session-persistance-matrix">Chat Session Persistance Matrix</a></li>
+    <li><a href="#chat-session-persistence-matrix">Chat Session Persistence Matrix</a></li>
     <li><a href="#summary-statement">Summary Statement</a></li>
   </ul>
 </nav>
@@ -353,142 +338,7 @@ design.</li>
 <p><strong>Rule:</strong> Only Copilot performs direct code application. Other engines
 produce plans or diffs for manual application.</p>
 <hr>
-<h2 id="prompting-guidance-per-engine">Prompting Guidance Per Engine</h2>
-<h3 id="copilot-gpt-41">Copilot (GPT-4.1)</h3>
-<p>Best with narrow, context-bound prompts:</p>
-<pre><code>Context: Phase 0 QoG data preprocessing.
-
-Modify only the code in this file.
-Do not change other files.
-Do not modify raw data inputs.
-Use Julia idioms.
-Return code ready for Apply.
-</code></pre>
-<p>For discussion only:</p>
-<pre><code>Context: Phase 0 QoG preprocessing.
-
-Explain the design or logic.
-Do not write code yet.
-Do not advance to later phases.
-</code></pre>
-<hr>
-<h3 id="chatgpt-gpt-5x">ChatGPT (GPT-5.x)</h3>
-<p>Best with structured, multi-phase reasoning instructions:</p>
-<pre><code>You are assisting with Phase 0 preprocessing.
-Do not advance to later phases.
-First propose loader architecture.
-Then wait.
-</code></pre>
-<hr>
-<h3 id="gemini-gemini-25-pro">Gemini (Gemini 2.5 Pro)</h3>
-<p>Best with explicit procedural instructions:</p>
-<pre><code>Write Julia code to:
-1. Load QoG CSV into DataFrame.
-2. Print schema and missingness summary.
-3. Validate country-year key uniqueness.
-4. Write Arrow partitioned by year.
-No other tasks.
-</code></pre>
-<hr>
-<h3 id="claude-sonnet--opus">Claude (Sonnet / Opus)</h3>
-<p>Best for conceptual and architectural critique:</p>
-<pre><code>Explain the architectural implications of this pipeline.
-Do not write code yet.
-Identify conceptual risks.
-</code></pre>
-<hr>
-<h2 id="master-prompt">MASTER PROMPT</h2>
-<h3 id="soc-instruction-set">SOC Instruction Set</h3>
-<p>(The instructions here may be modified for your specific task. These were for a task I was working on.)</p>
-<p>Paste once at the start of a ChatGPT or Claude session.</p>
-<pre><code># Task Instruction Set
-
-## Role
-You are a technical research collaborator operating as an Engineer–Mathematician peer.
-Your task is to construct, test, and publish models of TASK using:
-
-- Self-Organized Criticality
-- Graph Theory
-- Information Theory
-- Physics-based analogs (mass, density, entropy)
-
-## Active Phase
-CURRENT PHASE: Phase 0 — Data preprocessing and metadata management.
-
-You must not advance to later phases unless explicitly instructed.
-
-## Phase Objectives
-
-Phase 0:
-- Design loaders for QoG CSV and Arrow data.
-- Preserve raw data immutability.
-- Define metadata and schema validation steps.
-
-Phase 1:
-- Define model topology and governing equations.
-
-Phase 2:
-- Map model concepts to data variable slugs.
-
-Phase 3:
-- Execute analysis strictly using mapped variables.
-
-Phase 4:
-- Produce publication-grade synthesis.
-
-## Constraints
-
-- No phase skipping.
-- Use precise mathematical and graph-theoretic terminology.
-- Julia for modeling and numerics.
-- Python permitted only for IO and scaffolding.
-- Challenge assumptions that violate mathematical or physical consistency.
-- Do not modify raw source data.
-
-## Style
-
-- Engineer-to-Engineer.
-- Dense, structured Markdown.
-- No speculative filler.
-</code></pre>
-<hr>
-<h2 id="gemini-short-form">GEMINI SHORT FORM</h2>
-<p>Paste once per Gemini session.</p>
-<pre><code>You are assisting Phase 0 data preprocessing for a QoG-based modeling project.
-
-Rules:
-- Do not advance beyond Phase 0.
-- Preserve raw data immutability.
-- Use Julia for data loaders and validation.
-- Provide stepwise procedures.
-- Use precise technical language.
-- No speculative discussion.
-</code></pre>
-<hr>
-<h2 id="copilot-local-constraint-template">COPILOT LOCAL CONSTRAINT TEMPLATE</h2>
-<p>Use per Copilot request:</p>
-<pre><code>Context: Phase 0 QoG data preprocessing.
-
-Modify only the code in this file.
-Do not change other files.
-Do not modify raw data inputs.
-Use Julia idioms.
-Return code ready for Apply.
-</code></pre>
-<hr>
-<h2 id="optional-quick-task-template">OPTIONAL QUICK-TASK TEMPLATE</h2>
-<pre><code>Task: &lt;one sentence&gt;
-Scope: Only &lt;file/function/module&gt;.
-Output: &lt;code / explanation / diff&gt;.
-Constraints: Do not modify anything else.
-</code></pre>
-<hr>
-<h2 id="key-operating-rule">Key Operating Rule</h2>
-<p><strong>Only one engine receives the full SOC manifesto at a time.</strong> Copilot
-always receives short, local constraints. This prevents patch
-instability and context dilution.</p>
-<hr>
-<h2 id="chat-session-persistance-matrix">Chat Session Persistance Matrix</h2>
+<h2 id="chat-session-persistence-matrix">Chat Session Persistence Matrix</h2>
 <div style="overflow-x:auto;">
 <table>
   <thead>
@@ -504,67 +354,59 @@ instability and context dilution.</p>
   </thead>
   <tbody>
     <tr>
-      <td><strong>ChatGPT (GPT-5.x subscription)</strong></td>
-      <td>OpenAI account (Web, Desktop, VS Code extension)</td>
-      <td><strong>Permanent until deleted</strong></td>
-      <td>Chat history sidebar in ChatGPT</td>
-      <td>Copy / manual export / API logging</td>
-      <td>Can connect to GitHub repos or uploaded files</td>
-      <td>Best long-form research record</td>
+      <td><strong>GitHub Copilot Chat (VS Code)</strong></td>
+      <td>Local to VS Code (workspace session history)</td>
+      <td><strong>Persistent per workspace</strong></td>
+      <td>VS Code chat session history</td>
+      <td>Export / Import chat sessions (VS Code commands)</td>
+      <td>High (repo + workspace context)</td>
+      <td>
+        Not stored as “web history” in your GitHub account. Stored locally with VS Code’s workspace/session data.
+      </td>
     </tr>
     <tr>
-      <td><strong>Claude (Subscription)</strong></td>
-      <td>Anthropic account (Web, VS Code extension)</td>
-      <td><strong>Permanent until deleted</strong></td>
-      <td>Claude conversation list</td>
+      <td><strong>Claude Code (VS Code)</strong></td>
+      <td>Local session store (Claude Code project/session files)</td>
+      <td><strong>Persistent, but UI can be fragile</strong></td>
+      <td>Resume / session history (when the extension UI cooperates)</td>
+      <td>Manual copy; local file-based session history is recoverable</td>
+      <td>High (project context + file reads)</td>
+      <td>
+        Claude Code stores sessions locally; several releases have had “history not showing” bugs even when the files still exist.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Gemini Code Assist (VS Code)</strong></td>
+      <td>Gemini Code Assist session history</td>
+      <td><strong>Persists across IDE sessions (until deleted)</strong></td>
+      <td>Gemini Code Assist history / Resume Previous Chat</td>
+      <td>Manual copy (and whatever the extension provides)</td>
+      <td>Moderate–High (open files / workspace context)</td>
+      <td>
+        Threads persist across IDE sessions unless you clear them.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>ChatGPT (Web / Desktop)</strong></td>
+      <td>OpenAI account chat history</td>
+      <td><strong>Saved until deleted (or archived)</strong></td>
+      <td>Chat history sidebar</td>
       <td>Copy / manual export</td>
-      <td>Can connect GitHub repos or uploaded files</td>
-      <td>Excellent for architecture discussions</td>
+      <td>File awareness only via uploads/connectors</td>
+      <td>
+        Best place to keep “reasoning logs” that I want to persist independent of an editor session.
+      </td>
     </tr>
     <tr>
-      <td><strong>Gemini Pro</strong></td>
-      <td>Google account (Web, VS Code extension)</td>
-      <td><strong>Permanent until deleted</strong></td>
-      <td>Gemini chat history panel</td>
-      <td>Copy / manual export</td>
-      <td>Can link GitHub repos or uploaded files</td>
-      <td>Strong data-pipeline sessions</td>
-    </tr>
-    <tr>
-      <td><strong>GitHub Copilot Chat</strong></td>
-      <td>VS Code session memory only</td>
-      <td><strong>Ephemeral per VS Code window</strong></td>
-      <td>Visible only while window remains open</td>
-      <td>Manual copy only</td>
-      <td>Full continuous repo awareness</td>
-      <td>Designed for transient coding assistance</td>
-    </tr>
-    <tr>
-      <td><strong>ChatGPT VS Code Extension</strong></td>
-      <td>OpenAI account</td>
-      <td><strong>Permanent</strong></td>
-      <td>Same ChatGPT history as web</td>
-      <td>Copy / export</td>
-      <td>Reads open files</td>
-      <td>Persistent reasoning sessions</td>
-    </tr>
-    <tr>
-      <td><strong>Claude VS Code Extension</strong></td>
-      <td>Anthropic account</td>
-      <td><strong>Permanent</strong></td>
-      <td>Claude web history</td>
-      <td>Copy / export</td>
-      <td>Reads open files</td>
-      <td>Persistent design log</td>
-    </tr>
-    <tr>
-      <td><strong>Gemini VS Code Extension</strong></td>
-      <td>Google account</td>
-      <td><strong>Permanent</strong></td>
-      <td>Gemini history</td>
-      <td>Copy / export</td>
-      <td>Reads open files</td>
-      <td>Persistent pipeline log</td>
+      <td><strong>OpenAI Codex (VS Code extension)</strong></td>
+      <td>Depends on mode (cloud history + local session behavior varies)</td>
+      <td><strong>Not reliable enough to assume persistence</strong></td>
+      <td>Cloud history when available; local history may disappear on restart (varies by version)</td>
+      <td>Manual copy; some users recover archived/local sessions from disk</td>
+      <td>High (workspace + file context)</td>
+      <td>
+        Treat as an execution tool, not the canonical long-term log, unless you verify your version’s persistence behavior.
+      </td>
     </tr>
   </tbody>
 </table>
@@ -577,7 +419,10 @@ Gemini engineers data pipelines.<br>
 Claude critiques architecture.<br>
 The SOC prompt governs them all.</p></blockquote>
 
-	
+	<div class="td-page-meta__lastmod">
+  Last modified January 28, 2026: <a data-proofer-ignore href="https://github.com/gary-dalton/public-documents/commit/19ffd06763dab05bf108702f5fd0da5cbf64636d">Add AI section to Development Environment of Documentations. Will begin integrating cursor. (19ffd06)</a>
+</div>
+
 </div>
 
 

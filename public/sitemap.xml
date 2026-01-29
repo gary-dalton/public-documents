@@ -18,7 +18,7 @@
     <lastmod>2025-05-13T06:37:02-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/development-environment/ai/</loc>
-    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-28T16:41:12-06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/ai-education/</loc>
     <lastmod>2023-10-03T16:21:57-05:00</lastmod>
@@ -62,8 +62,8 @@
     <loc>//localhost:1313/docs/laravel-livewire-etc/scroll/</loc>
     <lastmod>2025-04-27T17:37:35-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/docs/development-environment/ai/vscode/</loc>
-    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/docs/development-environment/ai/workflow-in-vscode/</loc>
+    <lastmod>2026-01-28T16:41:12-06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/2025/08/07/object-memory/</loc>
     <lastmod>2025-10-23T11:23:14-05:00</lastmod>
@@ -124,6 +124,9 @@
   </url><url>
     <loc>//localhost:1313/docs/ai-education/basic-digital-literacy/software-applications/</loc>
     <lastmod>2023-10-04T11:25:47-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/development-environment/ai/cursor_vscode/</loc>
+    <lastmod>2026-01-28T16:41:12-06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/2025/08/07/conceptualizing-context/</loc>
     <lastmod>2025-10-23T11:23:14-05:00</lastmod>

@@ -31,8 +31,8 @@
   <meta itemprop="name" content="AI">
   <meta itemprop="description" content="AI is a part of every modern developer environment. Here are some ways in which I use it.">
   <meta itemprop="datePublished" content="2026-01-28T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2026-01-28T00:00:00+00:00">
-  <meta itemprop="wordCount" content="593">
+  <meta itemprop="dateModified" content="2026-01-28T16:41:12-06:00">
+  <meta itemprop="wordCount" content="596">
   <meta itemprop="image" content="//localhost:1313/logo_white_words.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//localhost:1313/logo_white_words.png">
@@ -144,14 +144,14 @@
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docsdevelopment-environmentai-li">
   <a href="/docs/development-environment/ai/" class="align-left ps-0 active td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentai"><span class="td-sidebar-nav-active-item">AI</span></a>
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentaiworkflow-in-vscode-li">
-  <a href="/docs/development-environment/ai/workflow-in-vscode/" title="AI Multi-Engine Workflow in VS Code" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsdevelopment-environmentaiworkflow-in-vscode"><span class="">VScode</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentaicursor_vscode-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentaicursor_vscode-li">
   <a href="/docs/development-environment/ai/cursor_vscode/" title="Using Cursor and VS Code as Hybrid" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsdevelopment-environmentaicursor_vscode"><span class="">Cursor Hybrid</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentaiworkflow-in-vscode-li">
+  <a href="/docs/development-environment/ai/workflow-in-vscode/" title="AI Multi-Engine Workflow in VS Code" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsdevelopment-environmentaiworkflow-in-vscode"><span class="">VScode</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentaioptimization-li">
+  <a href="/docs/development-environment/ai/optimization/" title="Optimizing Cursor and VS Code Hybrid Usage" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsdevelopment-environmentaioptimization"><span class="">Optimize</span></a>
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentpython-li">
-  <a href="/docs/development-environment/python/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentpython"><span class="">Python WSL2</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentjulia-li">
   <a href="/docs/development-environment/julia/" title="The Julia Programming Language" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentjulia"><span class="">Julia</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docsdevelopment-environmentlinux-li">
@@ -163,6 +163,8 @@
   <a href="/docs/development-environment/linux/data_science_platform/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentlinuxdata_science_platform"><span class="">Data science platform</span></a>
 </li>
   </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentpython-li">
+  <a href="/docs/development-environment/python/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentpython"><span class="">Python WSL2</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentwindows-li">
   <a href="/docs/development-environment/windows/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentwindows"><span class="">Windows</span></a>
 </li>
@@ -232,18 +234,25 @@
         <nav id="TableOfContents">
   <ul>
     <li><a href="#overview">Overview</a></li>
-    <li><a href="#connecting-to-a-remote-server">Connecting to a remote server</a>
+    <li><a href="#model-access-and-billing">Model Access and Billing</a>
       <ul>
-        <li><a href="#putty-for-remote-connection">PuTTY for remote connection</a></li>
-        <li><a href="#tigervnc-for-remote-desktop">TigerVNC for remote desktop</a></li>
-        <li><a href="#connecting-to-jupyterhub">Connecting to JupyterHub</a></li>
+        <li><a href="#web-subscriptions"><strong>Web subscriptions</strong></a></li>
+        <li><a href="#cursor"><strong>Cursor</strong></a></li>
+        <li><a href="#github-copilot"><strong>GitHub Copilot</strong></a></li>
       </ul>
     </li>
-    <li><a href="#windows-development-environment">Windows development environment</a>
+    <li><a href="#why-the-hybrid-workflow">Why the Hybrid Workflow</a></li>
+    <li><a href="#how-these-work-together">How These Work Together</a></li>
+    <li><a href="#context-persistence">Context Persistence</a></li>
+    <li><a href="#prompting-practices">Prompting Practices</a></li>
+    <li><a href="#guides-in-this-section">Guides in This Section</a>
       <ul>
-        <li><a href="#my-windows-tools">My Windows tools</a></li>
+        <li><a href="#cursor--vs-code-hybrid-workflow">Cursor + VS Code Hybrid Workflow</a></li>
+        <li><a href="#ai-multi-engine-workflow-in-vs-code">AI Multi-Engine Workflow in VS Code</a></li>
+        <li><a href="#optimizing-ai-usage-and-cost-control">Optimizing AI Usage and Cost Control</a></li>
       </ul>
     </li>
+    <li><a href="#guiding-principle">Guiding Principle</a></li>
   </ul>
 </nav>
       </div>
@@ -274,94 +283,126 @@
 		
 </header>
 	<h2 id="overview">Overview</h2>
-<p>This computer has been up and running for some time. I intend on documenting new applications that I add for development but also to back-document features and applications I use regularly.</p>
-<h2 id="connecting-to-a-remote-server">Connecting to a remote server</h2>
-<h3 id="putty-for-remote-connection">PuTTY for remote connection</h3>
-<p><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTy</a> has been around for a long time and still works wonderfully and is regularly maintained. PuTTY is used by Windows machines to connect to OpenSSH servers.</p>
-<p>Here, I will only document actions needed to connect to a new Linux development server.</p>
-<h4 id="generate-a-key-pair">Generate a key pair</h4>
-<p>Generating a key pair and securely connecting to a remote Linux machine.</p>
+<p>This section is where I document how I use AI tools in my development workflow.
+The objective is to effectively use <strong>AI assistance</strong> inside the editor while keeping <strong>execution authority, cost, and context</strong> under control.</p>
+<p>The currently used approach is the <strong>Cursor and VS Code hybrid workflow</strong>.</p>
+<p>Cursor is used where deep multi-file reasoning and persistent AI context are required.<br>
+VS Code remains the authoritative execution environment connected to containers, remote servers, and runtime shells.</p>
+<hr>
+<h2 id="model-access-and-billing">Model Access and Billing</h2>
+<p><strong>Web AI subscriptions ≠ API model access ≠ IDE-integrated access</strong></p>
+<p>These are three different ways to think about AI access:</p>
+<h3 id="web-subscriptions"><strong>Web subscriptions</strong></h3>
+<p>Services like ChatGPT Plus, Claude Pro, and Gemini Advanced give you access to models in the browser.</p>
+<h3 id="cursor"><strong>Cursor</strong></h3>
+<p>Cursor gives you access to multiple models <em>inside an IDE-like interface</em>. It keeps context tied to the project and remembers chats across sessions.<br>
+Cursor plans meter usage internally based on tokens, but you don’t manually supply API keys. (it is possible but not convenient)</p>
+<h3 id="github-copilot"><strong>GitHub Copilot</strong></h3>
+<p>Copilot (used in vscode) uses a <strong>Premium Request</strong> system:</p>
+<ul>
+<li>Copilot Pro gives <strong>300 premium requests per month</strong>.</li>
+<li>Standard models count as <strong>0 requests</strong> (unlimited).</li>
+<li>More advanced models count against your 300 bucket.</li>
+<li>Heavy/experimental models can use higher multipliers.</li>
+</ul>
+<p>GitHub lets you set <strong>budgets</strong>, monitor usage, and watch trends in the billing UI.</p>
+<p>Internally models still operate on token context windows, but <strong>billing is abstracted as requests</strong>, not per-token charges.</p>
+<hr>
+<h2 id="why-the-hybrid-workflow">Why the Hybrid Workflow</h2>
+<p>This is the balance I need:</p>
+<ul>
+<li><strong>Cursor</strong>: Keeps reasoning context and history.</li>
+<li><strong>VS Code</strong>: Runs code, edits files, connects to containers/remote shells.</li>
+</ul>
+<p>Cursor is <em>my reasoning workspace</em>.<br>
+VS Code is <em>my execution workspace</em>.</p>
+<p>I keep these separate so:</p>
+<ul>
+<li>I don’t attach two editors to the same container session.</li>
+<li>I don’t lose Cursor’s persistent context when VS Code restarts.</li>
+<li>I avoid confusion about where edits originate.</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>Function</th>
+          <th>Tool</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Persistent AI reasoning and multi-file refactors</td>
+          <td>Cursor</td>
+      </tr>
+      <tr>
+          <td>Code execution, containers, remote shells</td>
+          <td>VS Code</td>
+      </tr>
+      <tr>
+          <td>Runtime validation and deployment</td>
+          <td>VS Code</td>
+      </tr>
+      <tr>
+          <td>Long-running design context</td>
+          <td>Cursor</td>
+      </tr>
+  </tbody>
+</table>
+<p>This separation avoids attaching multiple editors to the same runtime container while maintaining continuous AI context.</p>
+<hr>
+<h2 id="how-these-work-together">How These Work Together</h2>
 <ol>
-<li>Start <strong>PuTTYgen</strong></li>
-<li>Change the <em>Number of bits in a generated key</em> to 2048.</li>
-<li>Click <strong>Generate</strong> to generate a new key pair.</li>
-<li>Add a password to the <em>Key passphrase</em> and <em>Confirm passphrase</em>. If you choose to not have a password, then do not enter these here.</li>
-<li>Save your public and private keys. The private key should not be shared but the public key may be freely shared.</li>
-<li>On the target Linux computer,
-<ul>
-<li><code>mkdir ~/.ssh</code></li>
-<li><code>nano ~/.ssh/authorized_keys</code>.</li>
-</ul>
-</li>
-<li>Copy the public key from the Windows PuTTYgen box and paste it into the authorized_keys file on your target. Save the file.</li>
-<li>Close PuTTYgen.</li>
-<li>Open PuTTY.</li>
-<li>Save a new session named <em>target</em> and put <em>ip_address</em> in the Host Name box.</li>
-<li>From the configuration Category pane, select <strong>Connection &gt; SSH &gt; Auth</strong>.</li>
-<li>Browse to select the private key you created earlier for authentication.</li>
-<li>Save the session.</li>
-<li>Test by clicking Open.</li>
-<li>You should be required to enter in the username to log in with and also the password used to protect the key.</li>
+<li>I work in Cursor when I’m planning, generating, or refactoring.</li>
+<li>Cursor is my go to for AI assisted multi-file, multi-function refactoring or editting/</li>
+<li>When I’m ready to run, test, or validate, I switch to VS Code.</li>
+<li>If I need design context back in VS Code, I bring summaries over.</li>
 </ol>
-
-
-<div class="alert alert-warning" role="alert">
-
-
-    <strong>Do not lose your private keys. Once the next configuration steps are complete, your private key and password are required to login remotely.</strong> You will still be able to login from the console or with a keyboard and monitor.
-
-</div>
-
-<h3 id="tigervnc-for-remote-desktop">TigerVNC for remote desktop</h3>
-<p>TigerVNC is used to connect to a desktop on a remote Linux server.</p>
-<h4 id="install-tigervnc-and-connect">Install TigerVNC and connect</h4>
-<p>Download a <a href="https://github.com/TigerVNC/tigervnc/releases">vncviewer binary for Windows</a>. The name of the file is likely <em>vncviewer-ver.exe</em>. Download the file to a location of your choice (I use C:\bin). Create a shortcut on the desktop and click to start the viewer.</p>
-<figure><img src="tigervnc.png"
-    alt="TigerVNC viewer on Windows"><figcaption>
-      <p>TigerVNC viewer on Windows</p>
-    </figcaption>
-</figure>
-
-<p>See the above figure. In the <em>VNC server</em> box enter the ip address of the server to connect to follwed by <em>:1</em>, where 1 is the number of the desktop you started on the server. Click <strong>Connect</strong> and enter your password when requested.</p>
-<h4 id="cannot-connect">Cannot connect?</h4>
-<p>If you are having trouble connecting, check the following:</p>
+<p>This pattern keeps costs predictable and context manageable.</p>
+<hr>
+<hr>
+<h2 id="context-persistence">Context Persistence</h2>
 <ul>
-<li>Make certain that Xtigervnc is listening on the 0.0.0.0:590x interface.</li>
-<li>Verify that you entered the correct ip address and port number into the vncviewer.</li>
-<li>Check your firewalls.
+<li>Cursor maintains persistent conversational and project context.</li>
+<li>VS Code remains stateless with respect to model context.</li>
+<li>Long design reasoning lives in Cursor.</li>
+<li>Execution and testing remain in VS Code.</li>
+</ul>
+<hr>
+<h2 id="prompting-practices">Prompting Practices</h2>
+<p>The prompting conventions in the sub-articles remain authoritative:</p>
 <ul>
-<li>On Windows, temporarily turn off the firewall and try to connect again.</li>
-<li>On Linux, <code>sudo ufw status</code> shows if the fire wall is active. If it is, temporarily disable it using <code>sudo ufw disable</code> and try to connect again.</li>
-<li>If the problem is a firewall, correct the issue and move on. Firewalls are not yet part of this documentation.</li>
+<li>Provide explicit file paths.</li>
+<li>State architectural constraints early.</li>
+<li>Request stepwise changes, not bulk rewrites.</li>
+<li>Require diff-style or file-scoped outputs.</li>
+<li>Confirm assumptions before irreversible edits.</li>
 </ul>
-</li>
-</ul>
-<h3 id="connecting-to-jupyterhub">Connecting to JupyterHub</h3>
-<p>Simply point your browser to the ip address of your server and append the port being served. The default port for JupyterHub is 8000, my <a href="http://192.168.1.67:8000">JupyterHub</a>.</p>
-<h2 id="windows-development-environment">Windows development environment</h2>
-<p>Most of these tools are already installed and working. Also, they are mostly simple and direct Windows installations. I will not be giving details on installation unless there is something unusual about the install.</p>
-<h3 id="my-windows-tools">My Windows tools</h3>
-<ul>
-<li>Anaconda 3</li>
-<li>Python</li>
-<li>RStudio</li>
-<li>Julia</li>
-<li>Atom</li>
-<li>Juno</li>
-<li>VS Code</li>
-<li>Android Studio</li>
-<li>IntelliJ</li>
-<li>Octave</li>
-<li>MatLab</li>
-<li>Git</li>
-<li>VirtualBox</li>
-<li>TexMaker</li>
-</ul>
+<hr>
+<h2 id="guides-in-this-section">Guides in This Section</h2>
+<h3 id="cursor--vs-code-hybrid-workflow">Cursor + VS Code Hybrid Workflow</h3>
+<p>How I work with both editor operationally, including summary and context handoff.</p>
+<p>→ <strong><a href="/docs/development-environment/ai/cursor_vscode/">Using Cursor and VS Code as a Hybrid Environment</a></strong></p>
+<h3 id="ai-multi-engine-workflow-in-vs-code">AI Multi-Engine Workflow in VS Code</h3>
+<p>While I am using the Cursor / Code hybrid approach, the information in this is still relevant as it talks about the different agents and their data peristance.</p>
+<p>→ <strong><a href="/docs/development-environment/ai/workflow-in-vscode/">AI Multi-Engine Workflow in VS Code</a></strong></p>
+<h3 id="optimizing-ai-usage-and-cost-control">Optimizing AI Usage and Cost Control</h3>
+<p>Managing context windows, request budgets, and token efficiency in the hybrid workflow.</p>
+<p>→ <strong><a href="/docs/development-environment/ai/optimization/">Optimizing Hybrid AI Usage</a></strong></p>
+<hr>
+<h2 id="guiding-principle">Guiding Principle</h2>
+<p><strong>AI is treated as an interactive reasoning instrument — not an autonomous code generator.</strong><br>
+Execution authority always remains with the human operator and the runtime environment.</p>
 
 	<div class="section-index">
     
     
     <hr class="panel-line">
+        <div class="entry">
+                <h5>
+                    <a href="/docs/development-environment/ai/cursor_vscode/">Using Cursor and VS Code as Hybrid</a>
+                </h5>
+                <p>Sustainable hybrid development workflow combining VS Code, GitHub Copilot, Cursor, and external LLM engines for long-term stability and high-performance AI-assisted engineering.</p>
+            </div>
         <div class="entry">
                 <h5>
                     <a href="/docs/development-environment/ai/workflow-in-vscode/">AI Multi-Engine Workflow in VS Code</a>
@@ -370,11 +411,14 @@
             </div>
         <div class="entry">
                 <h5>
-                    <a href="/docs/development-environment/ai/cursor_vscode/">Using Cursor and VS Code as Hybrid</a>
+                    <a href="/docs/development-environment/ai/optimization/">Optimizing Cursor and VS Code Hybrid Usage</a>
                 </h5>
-                <p>Sustainable hybrid development workflow combining VS Code, GitHub Copilot, Cursor, and external LLM engines for long-term stability and high-performance AI-assisted engineering.</p>
+                <p>How do we get the best return for our limited token and request resources, using all available options for access to our AI systems</p>
             </div>
         </div>
+<div class="td-page-meta__lastmod">
+  Last modified January 28, 2026: <a data-proofer-ignore href="https://github.com/gary-dalton/public-documents/commit/19ffd06763dab05bf108702f5fd0da5cbf64636d">Add AI section to Development Environment of Documentations. Will begin integrating cursor. (19ffd06)</a>
+</div>
 </div>
 
           </main>

@@ -12,8 +12,15 @@ layout: ""
 include_toc: true
 show_comments: false
 draft: false
-weight: 40
+weight: 10
 ---
+
+## Introduction
+
+This workflow is the one I use most of the time.  
+Cursor is where I do reasoning, planning, and high-level refactoring.  
+VS Code is where I edit, build, test, and run code.
+
 
 ## Hybrid AI-Enhanced Development Workflow
 
