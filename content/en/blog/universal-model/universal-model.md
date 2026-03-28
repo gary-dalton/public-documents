@@ -22,7 +22,7 @@ draft: false
 
 I do not present a model of reality but instead a way of generating realities. Not a set of answers, but a set of parametric generators. The purpose is to predict and explain the behavior of real-world systems across time, scale, and domain.
 
-Grounded in mathematics, physics, and information theory, the model is not a philosophical metaphor. Built from first principles and from those principles, it generates realities as a dynamic computation. The generated reality is stochastic, emergent, information rich and perpetually gnerating itself. No reality is a fixed strucutre nor intended to represent any sort of underlying reality. It is just a model of reality with the sole purpose of making workable predictions.
+Grounded in mathematics, physics, and information theory, the model is not a philosophical metaphor. Built from first principles and from those principles, it generates realities as a dynamic computation. The generated reality is stochastic, emergent, information rich and perpetually generating itself. No reality is a fixed strucutre nor intended to represent any sort of underlying reality. It is just a model of reality with the sole purpose of making workable predictions.
 
 My hope is that this forms the baseline for a wide range of future analyses. I will use it to explore power, agency, complexity, economics, psychology, culture, systems of belief, and intelligence both organic and artificial. Let us start with the core framework.
 
@@ -43,6 +43,8 @@ An object may be any distinct thing or grouping. In our model, we may treat thes
 Every object has a set of properties or attributes that give it a more defined form. These properties may be transient or they may remain static for long periods of time. The important things to note about these properties is the effect they have on the actions of the object within the model, and that they are descriptive and often inherent to the object.
 
 An important property an object may have is memory. I intend to use a few variations of object memory, including: an event ledger, state-based deformation of the object, statistical memory using a Bayesian inference, and relational deformation and inference memory.
+
+Objects may also reproduce — generating one or more descendant objects that inherit a subset of the parent's properties. Reproduction is not limited to biological cell division; it includes any process by which existing objects generate new ones: a corporation spinning off a subsidiary, an open-source project being forked, a cultural tradition being transmitted to the next generation. The inheritance channel — the relationship path through which properties flow from parent to descendant — is a specialized force, an information transfer whose fidelity is imperfect by nature.
 
 #### Agency
 
@@ -124,6 +126,8 @@ Some examples include:
 
 Stochasticity is a core feature of complex and adaptive systems. Without that randomness the system quickly becomes brittle.
 
+When stochasticity acts on the inheritance channel — the path through which objects transmit properties to their descendants — it produces mutation: variation in the inherited pattern that is not a copy of the parent. Mutation is the system's source of novelty, the raw material upon which selection operates. Combined with context-dependent differential survival, this drives the evolutionary dynamics of object populations over time.
+
 This stochasticity:
 - Exists at quantum scales: radioactive decay, quantum jumps.
 - Exists at macro scales: weather, mutation, market fluctuation.
@@ -153,6 +157,17 @@ Examples:
 - An ant colony that farms, wars, and navigates. No ant understands these activities.
 - A flock of birds that moves as one. No bird controls the pattern.
 - A human brain produces consciousness. A single neuron is a basic biological cell. It can fire an electrical signal or stay silent. It has no awareness, thought, or feeling.
+
+### Evolutionary Dynamics
+
+Objects may generate descendant objects with imperfect inheritance within a dynamic context causing networks of nodes to change through selection over time. This emerges from components already defined:
+* Stochasticity acting on the inheritance channel produces mutation, the source of variation.
+* Context serves as the fitness landscape: a property is adaptive or maladaptive only relative to the current context, and a phase change can invert fitness overnight.
+* Force aggregation determines which variations affect outcomes — variations whose forces fall below the aggregation threshold persist as neutral drift; mutations that propagate through multiple properties simultaneously create the tradeoffs of pleiotropy.
+* The Nearest Neighbor Principle governs both vertical inheritance (parent to descendant) and horizontal transfer (lateral acquisition from unrelated neighbors).
+* Lifetime deformations — the state-based memory of an object shaped by forces — can be partially transmitted to descendants as epigenetic inheritance, creating a feedback loop between context and lineage.
+
+The evolutionary process is itself emergent. No individual object directs evolution. It arises from the computation of local interactions across node networks over time.
 
 ## Emergent Context and Time
 
