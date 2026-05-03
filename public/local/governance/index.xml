@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Governance on Werk Space</title>
-    <link>//localhost:1313/local/governance/</link>
+    <link>/local/governance/</link>
     <description>Recent content in Governance on Werk Space</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="//localhost:1313/local/governance/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/local/governance/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
