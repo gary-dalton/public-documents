@@ -1,0 +1,8 @@
+{{ with .Page.Params.lastmod }}
+  {{ $t := time . }}
+  <p><strong>Last updated:</strong> {{ $t.Format "2006-01-02" }}</p>
+{{ else }}
+  {{ with .Page.Lastmod }}
+    <p><strong>Last updated:</strong> {{ .Format "2006-01-02" }}</p>
+  {{ end }}
+{{ end }}

@@ -19,6 +19,9 @@
         {{ if .Date }}
           <time datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time>
         {{ end }}
+        {{ if and .Lastmod (ne .Lastmod .Date) }}
+          — <small>Updated: <time datetime="{{ .Lastmod }}">{{ .Lastmod.Format "Jan 2, 2006" }}</time></small>
+        {{ end }}
       </p>
 
       <hr class="mb-4"></hr>
