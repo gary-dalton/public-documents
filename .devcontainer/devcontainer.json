@@ -14,5 +14,11 @@
         "budparr.language-hugo-extended"
       ]
     }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "latest",
+      "globalModules": ["postcss", "postcss-cli", "autoprefixer"]
+    }
   }
 }

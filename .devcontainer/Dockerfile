@@ -11,5 +11,5 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
 # Copy package.json and install Node.js dependencies
-COPY package.json .
+COPY package.json ./
 RUN npm install

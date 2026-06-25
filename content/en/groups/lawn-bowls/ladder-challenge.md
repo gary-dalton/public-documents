@@ -1,20 +1,8 @@
 ---
-title: "Ladder Challenge"
-linkTitle: "Ladder"
-description: "Help using the Ladder Challenge"
-slug: ""
-image: ""
-keywords: ""
-date: 2026-05-09
-aliases: ""
-expiryDate: ""
-layout: ""
-cascade:
-- type: "docs"
-include_toc: true
-show_comments: false
-draft: false
-weight: 20
+title: "Ladder Challenge — 2026 Handout"
+description: "Member-facing guide to the Singles Ladder Challenge (2026)."
+created: 2026-05-09
+updated: 2026-06-25
 ---
 
 ## What is the Ladder Challenge?
@@ -37,13 +25,15 @@ Two ways in:
 
     <img src="../imgs/ladder_tourn.png" width="250">
 
-    From here you'll see all your activity (challenges, bouts, results) and the live ladder. Buttons to **Challenge**, **Cancel**, **Accept**, enter scores, or **Dispute** appear only when they're available to you.
+    From here you'll see all your activity (challenges, bouts, results) and the live ladder. Buttons to **Challenge**, **Cancel**, **Accept**, **Report Results**, or **Dispute** appear only when they're available to you.
 
     <img src="../imgs/MyLadder.png" width="250">
 
-2. **Via Notifications** → the system emails you and posts in-app messages when something needs your attention (someone challenged you, your match was scheduled, a result is reported, your inactivity is approaching). To view them, scroll to **Message Center** on the dashboard, or click the notifications icon at the top.
+2. **Via Notifications** → the system emails you and posts in-app messages when something needs your attention (someone challenged you, your match was scheduled, a result is reported, your inactivity is approaching). To view them, scroll to **Message Center** on the dashboard, or click the notifications icon at the top upper right.
 
     <img src="../imgs/dashboard.png" width="250">
+
+    <img src="../imgs/notify_icon.png" width="250">
 
     Select the **My Notifications** tab.
 
@@ -65,12 +55,16 @@ If you're not in the ladder, you're **unranked** — see *Joining the Ladder* be
 2. **Pick an opponent and contact them** (phone / text / in person) to agree on a date and time. Doing this outside the app first avoids declined or expired challenges.
 3. **Click Challenge** on that player in the app. They get an email and in-app notification. They have **3 days** to accept or decline.
 
-Once an in-range opponent has been challenged and accepted, you can **play the match and report the result in any order** — no need to come back to the app at a specific point. Once accepted you have **7 days** to play and to report. Either player can enter the score from **My Status**; results are auto-confirmed. The opponent has **7 days** to dispute the result for admin review.
+Once an in-range opponent has been challenged and accepted, you can **play the match and then report the result**. Once accepted you have **7 days** to play and to report. Either player can enter the score from **My Status** (click the Report Result button); results are auto-confirmed. The opponent has **7 days** to dispute the result for admin review.
+
+Please report timely results. These often affect what challenges are available to other players.
 
 **Limits:**
 - You can have at most **2 active outgoing challenges** at a time
 - A player can have at most **3 pending incoming challenges**
 - Challenging an **inactive** player is "free" — it doesn't count against your outgoing limit (their incoming limit still applies normally)
+- While you have a **match in progress** (a challenge accepted but the result not yet recorded), you can't issue *or* receive new challenges until you report it
+- If you **challenge up and lose**, you must play **one other bout** before you can re-challenge that same opponent (a defender who loses is free to challenge back right away)
 
 ### As an unranked player (you can join any time)
 
@@ -85,7 +79,7 @@ Either way, you're now ranked and can challenge upward like everyone else.
 
 Going out of town? Use **My Status** on your dashboard to mark yourself on vacation. While on hold:
 - You won't be demoted for inactivity
-- Other players can challenge **through** you (so the ladder keeps moving)
+- Other players can challenge **through** you (within the standard challenge range)
 - You can't issue or receive new challenges
 
 You get **1 free vacation hold per season**. Subsequent holds incur a 1-rung demotion when you return.
@@ -120,10 +114,12 @@ If a challenged player doesn't accept within **3 days**, or an accepted challeng
 | Scheduling/play window after accept | 7 days |
 | Active outgoing challenges (max) | 2 |
 | Pending incoming challenges (max) | 3 |
+| Re-challenge same opponent after an up-challenge loss | after 1 other bout |
+| New challenges while a match is in progress | not allowed until you report |
 | Free vacation holds per season | 1 |
 | Demotion per extra vacation hold | 1 rung |
 | Dispute window after result | 7 days |
 
 ## Questions?
 
-Ask the Tournament Director, or post in the club chat
+Ask the Tournament Director, or post in the WhatsApp Singles Ladder chat.

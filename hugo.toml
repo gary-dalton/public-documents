@@ -1,0 +1,92 @@
+baseURL = "/"
+title = "Werk Space"
+enableRobotsTXT = true
+
+# Theme composition
+theme = ["github.com/google/docsy", "github.com/google/docsy/dependencies"]
+enableGitInfo = true
+
+# Language settings
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableMissingTranslationPlaceholders = true
+disableKinds = ["taxonomy", "taxonomy"]
+
+# Highlighting config
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsUseClassic = false
+pygmentsStyle = "tango"
+
+[permalinks]
+  blog = "/:section/:year/:month/:day/:slug/"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+  angledQuotes = false
+  latexDashes = true
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 75
+  anchor = "smart"
+
+[languages]
+  [languages.en]
+    title = "Werk Space"
+    description = "The gathering place for all of daltons.ai, Intellamech and Gary's Documentations."
+    label = "English"   # Fixed: Changed from languageName to squash deprecation warning
+    weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  copyright = "Gary Dalton"
+  privacy_policy = ""
+  showMetadata = true
+  showLastUpdated = true
+  images = ["logo_white_words.png"]
+  version_menu = "Releases"
+  archived_version = false
+  version = "1.0"
+  url_latest_version = "https://werkspc.com/"
+  github_repo = "https://github.com/gary-dalton/public-documents"
+  github_branch = "main"
+  offlineSearch = false
+
+  [params.ui]
+    sidebar_menu_compact = true
+    breadcrumb_disable = false
+    sidebar_search_disable = false
+    navbar_logo = true
+    footer_about_enable = false
+
+  [params.ui.feedback]
+    enable = false
+    yes = 'Glad to hear it! Please <a href="https://github.com/gary-dalton/public-documents/issues/new">tell us how we can improve</a>.'
+    no = 'Sorry to hear that. Please <a href="https://github.com/gary-dalton/public-documents/issues/new">tell us how we can improve</a>.'
+
+  [[params.links.developer]]
+    name = "GitHub"
+    url = "https://github.com/gary-dalton"
+    icon = "fab fa-github"
+    desc = "Development takes place here!"
+
+  [params.search]
+    algolia = {}
+
+# CRITICAL: Security must live directly in the root file to take effect
+[security]
+  [security.exec]
+    allow = ['^postcss$', '^go$', '^node$', '^git$']
+    osEnv = ['(?i)^(development|win|linux|darwin|path|home|pathext|systemroot|userprofile|windir|node_env)$']
+  [security.funcs]
+    getenv = ['^HUGO_', '^NODE_']
+  [security.http]
+    methods = ['GET', 'POST']
+    urls = ['.*']

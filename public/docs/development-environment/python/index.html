@@ -1,10 +1,10 @@
 <!doctype html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="alternate" type="application/rss&#43;xml" href="//localhost:1313/docs/development-environment/python/index.xml">
-<meta name="robots" content="noindex, nofollow">
+<link rel="alternate" type="application/rss&#43;xml" href="/docs/development-environment/python/index.xml">
+<meta name="robots" content="index, follow">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -20,25 +20,26 @@
 
 <title>Python WSL2 | Werk Space</title>
 <meta name="description" content="This guide outlines the complete setup and workflow for running Python development on Windows using the Windows Subsystem for Linux (WSL). This approach allows for a robust, Linux-based development environment with full GUI support (WSLg) while keeping the Windows host clean">
-<meta property="og:url" content="//localhost:1313/docs/development-environment/python/">
+<meta property="og:url" content="/docs/development-environment/python/">
   <meta property="og:site_name" content="Werk Space">
   <meta property="og:title" content="Python WSL2">
   <meta property="og:description" content="This guide outlines the complete setup and workflow for running Python development on Windows using the Windows Subsystem for Linux (WSL). This approach allows for a robust, Linux-based development environment with full GUI support (WSLg) while keeping the Windows host clean">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
-    <meta property="og:image" content="//localhost:1313/logo_white_words.png">
+    <meta property="og:image" content="/logo_white_words.png">
 
   <meta itemprop="name" content="Python WSL2">
   <meta itemprop="description" content="This guide outlines the complete setup and workflow for running Python development on Windows using the Windows Subsystem for Linux (WSL). This approach allows for a robust, Linux-based development environment with full GUI support (WSLg) while keeping the Windows host clean">
   <meta itemprop="datePublished" content="2026-01-07T00:00:00+00:00">
   <meta itemprop="dateModified" content="2026-01-29T13:04:37-06:00">
   <meta itemprop="wordCount" content="499">
-  <meta itemprop="image" content="//localhost:1313/logo_white_words.png">
+  <meta itemprop="image" content="/logo_white_words.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="//localhost:1313/logo_white_words.png">
+  <meta name="twitter:image" content="/logo_white_words.png">
   <meta name="twitter:title" content="Python WSL2">
   <meta name="twitter:description" content="This guide outlines the complete setup and workflow for running Python development on Windows using the Windows Subsystem for Linux (WSL). This approach allows for a robust, Linux-based development environment with full GUI support (WSLg) while keeping the Windows host clean">
-<link href="/scss/main.css" rel="stylesheet">
+<link rel="preload" href="/scss/main.min.9ca6ef53556a69d39fd398895e75ca09992b059e38f44d40c3672ed702c6e702.css" as="style" integrity="sha256-nKbvU1VqadOf05iJXnXKCZkrBZ449E1Aw2cu1wLG5wI=" crossorigin="anonymous">
+<link href="/scss/main.min.9ca6ef53556a69d39fd398895e75ca09992b059e38f44d40c3672ed702c6e702.css" rel="stylesheet" integrity="sha256-nKbvU1VqadOf05iJXnXKCZkrBZ449E1Aw2cu1wLG5wI=" crossorigin="anonymous">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -161,16 +162,12 @@
   <a href="/docs/development-environment/linux/headless/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentlinuxheadless"><span class="">Headless operation</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsdevelopment-environmentlinuxdata_science_platform-li">
   <a href="/docs/development-environment/linux/data_science_platform/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentlinuxdata_science_platform"><span class="">Data science platform</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsdevelopment-environmentlinuxanaconda-li">
-  <a href="/docs/development-environment/linux/anaconda/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsdevelopment-environmentlinuxanaconda"><span class="">Anaconda</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-docsdevelopment-environmentpython-li">
   <a href="/docs/development-environment/python/" class="align-left ps-0 active td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentpython"><span class="td-sidebar-nav-active-item">Python WSL2</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentwindows-li">
   <a href="/docs/development-environment/windows/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentwindows"><span class="">Windows</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsdevelopment-environmentgit-li">
-  <a href="/docs/development-environment/git/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsdevelopment-environmentgit"><span class="">Git</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docstutorials-li">
@@ -201,9 +198,7 @@
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child collapse" id="m-docsarchivemarkdown-slideshow-li">
   <a href="/docs/archive/markdown-slideshow/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsarchivemarkdown-slideshow"><span class="">Markdown slideshows</span></a>
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsarchivemarkdown-slideshowpandoc_reveal-li">
-  <a href="/docs/archive/markdown-slideshow/pandoc_reveal/" title="Pandoc and Reveal" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsarchivemarkdown-slideshowpandoc_reveal"><span class="">Pandoc</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsarchivemarkdown-slideshowtemplate_revealjs-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsarchivemarkdown-slideshowtemplate_revealjs-li">
   <a href="/docs/archive/markdown-slideshow/template_revealjs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsarchivemarkdown-slideshowtemplate_revealjs"><span class=""></span></a>
 </li>
   </ul>
@@ -269,13 +264,7 @@
 
 
 
-            <div class="taxonomy taxonomy-terms-cloud taxo-categories">
-      <h5 class="taxonomy-title">Categories</h5>
-      <ul class="taxonomy-terms">
-        <li><a class="taxonomy-term" href="//localhost:1313/categories/anaconda/" data-taxonomy-term="anaconda"><span class="taxonomy-label">Anaconda</span><span class="taxonomy-count">1</span></a></li>
-        </ul>
-    </div>
-  
+            
 
           </aside>
           <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
@@ -304,7 +293,7 @@
 <h2 id="part-1-initial-setup-one-time-only">Part 1: Initial Setup (One-Time Only)</h2>
 <h3 id="1-install-wsl-and-ubuntu">1. Install WSL and Ubuntu</h3>
 <p>If you have not installed WSL yet, open <strong>Command Prompt</strong> or <strong>PowerShell</strong> as Administrator and run:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#000">wsl</span> <span style="color:#000;font-weight:bold">-</span><span style="color:#000">-install</span> <span style="color:#000">-d</span> <span style="color:#000">Ubuntu</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#000">wsl</span> <span style="color:#000;font-weight:bold">-</span><span style="color:#000">-install</span> <span style="color:#000">-d</span> <span style="color:#000">Ubuntu</span>
 </span></span></code></pre></div><ul>
 <li><strong>Restart:</strong> You may need to restart your computer.</li>
 <li><strong>User Setup:</strong> After restart, a terminal window will open asking you to create a Unix username and password. These are specific to this Ubuntu instance.</li>
@@ -312,7 +301,7 @@
 <h3 id="2-configure-ubuntu-environment">2. Configure Ubuntu Environment</h3>
 <p>Open your <strong>Windows Terminal</strong> and select <strong>Ubuntu</strong> from the dropdown. Run the following commands to update the system and install necessary tools for Python and GUI support.</p>
 <p><strong>Update Package Lists:</strong></p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
 </span></span></code></pre></div><p><strong>Install Essential Tools:</strong></p>
 <ul>
 <li><code>x11-apps</code>: Required for testing GUI (includes <code>xeyes</code>).</li>
@@ -320,10 +309,10 @@
 <li><code>python3-pip</code>: The package installer for Python.</li>
 <li><code>python3-venv</code>: Tool to create isolated virtual environments (crucial for modern Linux).</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install x11-apps python3-tk python3-pip python3-venv -y
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install x11-apps python3-tk python3-pip python3-venv -y
 </span></span></code></pre></div><h3 id="3-verify-gui-support">3. Verify GUI Support</h3>
 <p>Test that Windows can display Linux apps:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>xeyes
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>xeyes
 </span></span></code></pre></div><ul>
 <li><em>Success:</em> A pair of eyes appears on your desktop. Close the window to stop the terminal process (or press <code>Ctrl+C</code>).</li>
 <li><em>Failure:</em> If you get an error, ensure you are on a recent version of Windows 10/11 with WSLg support.</li>
@@ -332,35 +321,35 @@
 <h2 id="part-2-project-setup">Part 2: Project Setup</h2>
 <p>Establish a specific directory for your coursework to keep it organized and isolated.</p>
 <h3 id="1-create-project-directory">1. Create Project Directory</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir ~/projects
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir ~/projects
 </span></span><span style="display:flex;"><span><span style="color:#204a87">cd</span> ~/projects
 </span></span></code></pre></div><h3 id="2-create-virtual-environment">2. Create Virtual Environment</h3>
 <p>Modern Ubuntu (PEP 668) prevents global <code>pip</code> installs to protect system stability. You <strong>must</strong> use a virtual environment.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 -m venv venv
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 -m venv venv
 </span></span></code></pre></div><hr>
 <h2 id="part-3-day-to-day-workflow">Part 3: Day-to-Day Workflow</h2>
 <p>Follow this routine every time you start a coding session.</p>
 <h3 id="1-open-terminal--navigate">1. Open Terminal &amp; Navigate</h3>
 <p>Open <strong>Ubuntu</strong> terminal and go to your folder:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#204a87">cd</span> ~/projects
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#204a87">cd</span> ~/projects
 </span></span></code></pre></div><h3 id="2-activate-the-sandbox-critical">2. Activate the Sandbox (CRITICAL)</h3>
 <p>Activate the virtual environment. You will see <code>(venv)</code> appear in your prompt.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#204a87">source</span> venv/bin/activate
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#204a87">source</span> venv/bin/activate
 </span></span></code></pre></div><h3 id="3-launch-vs-code">3. Launch VS Code</h3>
 <p>Open VS Code connected to this specific folder in the Linux file system.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>code .
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>code .
 </span></span></code></pre></div><ul>
 <li><em>Note:</em> Ensure the &ldquo;WSL&rdquo; extension is installed in VS Code.</li>
 </ul>
 <h3 id="4-install-libraries-if-needed">4. Install Libraries (If needed)</h3>
 <p>With <code>(venv)</code> active, you can install course requirements safely:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install numpy matplotlib pandas
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install numpy matplotlib pandas
 </span></span></code></pre></div><h3 id="5-run-code">5. Run Code</h3>
 <p>Execute your Python scripts. GUI windows will popup automatically on Windows.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 filename.py
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 filename.py
 </span></span></code></pre></div><h3 id="6-ending-the-session">6. Ending the Session</h3>
 <p>To exit the virtual environment (optional, closing the window also works):</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>deactivate
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>deactivate
 </span></span></code></pre></div><hr>
 <h2 id="part-4-vs-code-configuration-pro-tip">Part 4: VS Code Configuration (Pro-Tip)</h2>
 <p>Configure VS Code to recognize your virtual environment automatically.</p>
@@ -410,8 +399,8 @@
 </footer>
 
     </div>
-    <script src="/js/main.js"></script>
-<script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+    <script src="/js/main.min.b953d3b9ad10abbdb4b7e640819c02d8a1ebc4876dc56f3f655b64485dd773f1.js" integrity="sha256-uVPTua0Qq720t&#43;ZAgZwC2KHrxIdtxW8/ZVtkSF3Xc/E=" crossorigin="anonymous"></script>
+<script defer src="/js/click-to-copy.min.73478a7d4807698aed7e355eb23f9890ca18fea3158604c8471746d046702bad.js" integrity="sha256-c0eKfUgHaYrtfjVesj&#43;YkMoY/qMVhgTIRxdG0EZwK60=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.8.2"
   integrity="sha512-lsD+XVzdBI6ZquXc8gqbw0/bgrfIsMJwY/8xvmvbN+U3gZSeG7BXQoCq4zv/yCmntR2GLHtgB+bD4ESPsKIbIA=="
   crossorigin="anonymous" ></script>
