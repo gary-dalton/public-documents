@@ -16,8 +16,7 @@ hugo server --watch --poll 700ms --bind 0.0.0.0 --liveReloadPort=1313
 HUGO_ENV="production" hugo --gc
 ```
 
-- `public/` is **committed generated output** — never hand-edit it; rebuild with Hugo.
-- `deploy.sh` is a leftover from the upstream Docsy example (deploys to someone else's S3 bucket) — do not run it.
+- `public/` is **committed generated output** — never hand-edit it; rebuild with Hugo. The live site (werkspc.com, served by Render behind Cloudflare) is built from it, so a production build must never include drafts (`-D`).
 - Git workflow: commit only when asked; **never push** — Gary always pushes.
 
 ## Theme architecture (Docsy via Hugo Modules)
