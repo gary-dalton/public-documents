@@ -25,3 +25,11 @@
   flex-wrap: wrap;               /* Allows items to wrap on smaller screens */
   gap: 2rem;                     /* Adds space between the feature blocks */
 }
+
+// The navbar logo SVG is hard-coded white (fill:#ffffff), which is invisible
+// against the theme-aware navbar background (light in light mode) introduced
+// in Docsy 0.14. Make it follow the navbar text color in both color modes.
+.td-navbar .navbar-logo svg,
+.td-navbar .navbar-logo svg * {
+  fill: currentColor !important;
+}
