@@ -5,7 +5,7 @@ description: "Slideshows from Markdown"
 author: "Gary Dalton"
 date: 2015-07-10
 weight: 10
-draft: true
+draft: false
 ---
 
 <!-- ---

@@ -6,7 +6,7 @@ How do we determine which types are better?"
 author: "Gary Dalton"
 date: 2022-08-28
 weight: 30
-draft: true
+draft: false
 ---
 
 {{% pageinfo color="primary" %}}
