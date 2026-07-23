@@ -20,25 +20,25 @@ Two ways in:
 
 1. **From the Dashboard** → click the **Ladder Challenge** banner if it's showing, or scroll to **Tournaments**.
 
-    <img src="../imgs/dash2tournament.png" width="250">
+    <img src="./imgs/dash2tournament.png" width="250">
 
     Then click **View Challenges** from the tournament information.
 
-    <img src="../imgs/ladder_tourn.png" width="250">
+    <img src="./imgs/ladder_tourn.png" width="250">
 
     From here you'll see all your activity (challenges, bouts, results) and the live ladder. Buttons to **Challenge**, **Cancel**, **Accept**, **Report Results**, or **Dispute** appear only when they're available to you.
 
-    <img src="../imgs/MyLadder.png" width="250">
+    <img src="./imgs/MyLadder.png" width="250">
 
 2. **Via Notifications** → the system emails you and posts in-app messages when something needs your attention (someone challenged you, your match was scheduled, a result is reported, your inactivity is approaching). To view them, scroll to **Message Center** on the dashboard, or click the notifications icon at the top upper right.
 
-    <img src="../imgs/dashboard.png" width="250">
+    <img src="./imgs/dashboard.png" width="250">
 
-    <img src="../imgs/notify_icon.png" width="250">
+    <img src="./imgs/notify_icon.png" width="250">
 
     Select the **My Notifications** tab.
 
-    <img src="../imgs/MyNotifications.png" width="250">
+    <img src="./imgs/MyNotifications.png" width="250">
 
     Click any notification to jump to the related action.
 
