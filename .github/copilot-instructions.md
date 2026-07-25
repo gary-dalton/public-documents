@@ -13,18 +13,16 @@ Short, actionable guidance for AI coding assistants working on this repo. Focus 
 
   hugo server -D
 
-- Build production site (same as `deploy.sh` uses locally):
-
-  HUGO_ENV="production" hugo --gc
+- Production builds happen on Render via `render-build.sh` (push to master to deploy). `public/` is gitignored — do not commit generated output.
 
 ## Where to look (key files & directories)
 
-- `config.toml` — primary site configuration (contentDir, permalink rules, UI params). Note: `contentDir` is `content/en`.
+- `hugo.toml` — primary site configuration (contentDir, permalink rules, UI params). Note: `contentDir` is `content/en`.
 - `content/en/` — all site content. Blog posts live under `content/en/blog/` and follow the `permalinks.blog` pattern (year/month/day/slug).
-- `themes/docsy/` — Docsy theme (module). See `themes/docsy/userguide/README.md` for theme-specific behavior.
+- `_vendor/` — vendored Docsy theme (committed); `themes/docsy/` is an empty leftover, ignore it.
 - `assets/` and `scss/` — SCSS and image assets processed by Hugo pipeline/PostCSS.
-- `public/` — generated site output (do not edit).
-- `deploy.sh` — example deploy flow (builds the site then runs `s3deploy` with hard-coded bucket/region). Inspect before reuse.
+- `public/` — generated output, gitignored (local preview only).
+- `render-build.sh` — Render build script (pins Hugo, unshallows clone for gitinfo dates).
 - `go.mod` — Hugo modules (Docsy) are managed here; use `hugo mod` commands to update.
 - `package.json` — contains PostCSS/autoprefixer deps (no npm scripts provided).
 
@@ -32,8 +30,8 @@ Short, actionable guidance for AI coding assistants working on this repo. Focus 
 
 - Content language is nested under `content/en` and `defaultContentLanguage` is `en`. When adding translated content, follow the same folder structure.
 - Permalinks for blog posts: `blog = "/:section/:year/:month/:day/:slug/"` — ensure filenames and front-matter dates match the desired URL.
-- `enableGitInfo = true` in `config.toml`: local builds should be run inside a git repo to populate `.Lastmod`/`git`-based metadata used by templates.
-- `github_branch = "main"` is set in `config.toml` — verify this before creating “Edit on GitHub” links if your remote uses `master` or another branch.
+- `enableGitInfo = true` in `hugo.toml`: local builds should be run inside a git repo to populate `.Lastmod`/`git`-based metadata used by templates.
+- `github_branch = "main"` is set in `hugo.toml` — verify this before creating “Edit on GitHub” links if your remote uses `master` or another branch.
 - Theme uses Hugo modules (`themes` points to `github.com/google/docsy`). Prefer `hugo mod get` / `hugo mod tidy` to update theme modules rather than manually editing `themes/`.
 
 ## Build & CSS pipeline notes
@@ -45,11 +43,11 @@ Short, actionable guidance for AI coding assistants working on this repo. Focus 
 
 ## Deploy notes
 
-- `deploy.sh` runs `HUGO_ENV="production" hugo --gc` and then `s3deploy` with specific bucket and distribution values. Treat this script as example: review and update bucket/region/IDs before use.
+- Deploys: push to `master`; Render runs `bash render-build.sh` and publishes `public`. No manual deploy step.
 
 ## Editing content & front matter examples
 
-- Add blog posts under `content/en/blog/`. Use YAML or TOML front matter containing at least `title`, `date`, and `draft: false` for production visibility. The site uses Goldmark (Markdown) with `unsafe = true` in `config.toml`.
+- Add blog posts under `content/en/blog/`. Use YAML or TOML front matter containing at least `title`, `date`, and `draft: false` for production visibility. The site uses Goldmark (Markdown) with `unsafe = true` in `hugo.toml`.
 
 ## Useful commands summary
 
@@ -64,7 +62,7 @@ Short, actionable guidance for AI coding assistants working on this repo. Focus 
 
 ## When in doubt — references
 
-- Theme docs: `themes/docsy/userguide/README.md` and https://docsy.dev/
+- Theme docs: https://docsy.dev/
 - Hugo docs: https://gohugo.io/
 
 ---

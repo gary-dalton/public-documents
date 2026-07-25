@@ -6,3 +6,4 @@ tech-doc-hugo
 /.hugo_build.lock
 
 .vs/
+public/
