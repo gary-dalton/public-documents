@@ -36,9 +36,10 @@ pygmentsStyle = "tango"
 [languages]
   [languages.en]
     title = "Werk Space"
-    description = "The gathering place for all of daltons.ai, Intellamech and Gary's Documentations."
-    label = "English"   # Fixed: Changed from languageName to squash deprecation warning
+    label = "English"
     weight = 1
+    [languages.en.params]
+      description = "The gathering place for all of daltons.ai, Intellamech and Gary's Documentations."
 
 [markup]
   [markup.goldmark]
