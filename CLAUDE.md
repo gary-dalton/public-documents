@@ -17,6 +17,8 @@ HUGO_ENV="production" hugo --gc
 ```
 
 - `public/` is **committed generated output** — never hand-edit it; rebuild with Hugo. The live site (werkspc.com, served by Render behind Cloudflare) is built from it, so a production build must never include drafts (`-D`).
+- **The running `hugo server` writes dev builds into `public/`** (livereload script, `noindex` robots meta). Never commit `public/` while it's dirty from the server — always `rm -rf public && HUGO_ENV=production hugo --gc` immediately before committing, and `git restore public/` to discard dev pollution.
+- Render retains files from old deploys: pages deleted from `public/` may keep serving until a manual "Clear build cache & Deploy" is run in the Render dashboard.
 - Git workflow: commit only when asked; **never push** — Gary always pushes.
 
 ## Theme architecture (Docsy via Hugo Modules)
