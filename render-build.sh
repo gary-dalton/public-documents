@@ -3,13 +3,14 @@
 # site's build command ("bash render-build.sh").
 set -euo pipefail
 
-# Full git history so enableGitInfo produces real last-modified dates
-# (Render clones shallow by default). Verbose diagnostics on purpose:
-# a silent failure here makes every page's date collapse to deploy day.
+# Full git history so enableGitInfo produces real last-modified dates.
+# Render clones shallow (1 commit) and configures NO git remote, so the
+# repo URL must be given explicitly. A failure here makes every page's
+# date collapse to deploy day — keep it loud.
 git config --global --add safe.directory "$(pwd)" || true
-echo "git diag: shallow=$([ -f .git/shallow ] && echo yes || echo no) commits=$(git rev-list --count HEAD 2>&1) remote=$(git remote get-url origin 2>&1)"
-git fetch --unshallow origin || echo "unshallow failed (exit $?)"
-echo "git diag after fetch: shallow=$([ -f .git/shallow ] && echo yes || echo no) commits=$(git rev-list --count HEAD 2>&1)"
+git fetch --unshallow https://github.com/gary-dalton/public-documents.git master \
+  || echo "WARNING: unshallow failed (exit $?) — page dates will be wrong"
+echo "git diag: shallow=$([ -f .git/shallow ] && echo yes || echo no) commits=$(git rev-list --count HEAD 2>&1)"
 
 # Pin the exact Hugo (extended) version; HUGO_VERSION env var overrides.
 VERSION="${HUGO_VERSION:-0.161.1}"
