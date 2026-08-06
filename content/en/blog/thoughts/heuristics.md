@@ -17,6 +17,8 @@ layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["essays", "decision-making"]
+categories: ["thoughts"]
 ---
 
 {{% pageinfo %}}

@@ -6,15 +6,14 @@ description: "This is a series of educational modules for the general public for
 slug: ""
 image: ""
 keywords: ""
-categories: 
-    - ""
-    - ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["ai", "education"]
+categories: ["documentation"]
 ---
 
 ## Overview

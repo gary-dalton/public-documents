@@ -13,6 +13,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 20
+tags: ["ai", "vscode", "workflow"]
+categories: ["documentation"]
 ---
 
 ## AI Multi-Engine Workflow Introduction

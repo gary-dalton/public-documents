@@ -6,15 +6,14 @@ description: "Covers a variety of code snippets, how-tos, hints, and other misce
 slug: ""
 image: ""
 keywords: ""
-categories: 
-    - ""
-    - ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["laravel", "livewire", "php"]
+categories: ["documentation"]
 ---
 
 ## Overview

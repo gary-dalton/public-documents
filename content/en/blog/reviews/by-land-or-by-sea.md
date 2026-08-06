@@ -17,6 +17,8 @@ layout: ""
 include_toc: false
 show_comments: false
 draft: false
+tags: ["books", "history"]
+categories: ["reviews"]
 ---
 
 

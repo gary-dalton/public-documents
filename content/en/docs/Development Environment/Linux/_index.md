@@ -4,9 +4,6 @@ description: "The Ubuntu Linux system for machine learning and other development
 slug: ""
 image: ""
 keywords: ""
-categories: 
-    - ""
-    - ""
 date: 2020-04-08T09:59:15-05:00
 aliases: ""
 expiryDate: ""
@@ -15,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 40
+tags: ["linux"]
+categories: ["documentation"]
 ---
 
 ## Overview

@@ -12,6 +12,8 @@ expiryDate: ""
 layout: ""
 draft: false
 weight: 50
+tags: ["old-work", "poetry"]
+categories: ["thoughts"]
 ---
 
 ## Old Work

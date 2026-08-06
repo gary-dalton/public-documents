@@ -12,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 50
+tags: ["universal-model", "complex-systems"]
+categories: ["thoughts"]
 ---
 
 # Appendix 1: The Criticality Sensor Array<br /> (*O* and *E*)

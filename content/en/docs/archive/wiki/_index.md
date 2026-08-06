@@ -13,6 +13,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 40
+tags: ["archive"]
+categories: ["documentation"]
 ---
 
 {{< alert color="warning" title="GGIS is no more" >}}Gruff Goat Information Services (GGIS) ceased operations as of December 2017. At this time, only a few former clients are still receiving pro-bono support and these are slowly migrating to other services.{{< /alert >}}

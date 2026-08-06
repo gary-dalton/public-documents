@@ -12,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 1
+tags: ["linux"]
+categories: ["documentation"]
 ---
 
 ## SSH server

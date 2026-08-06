@@ -8,6 +8,8 @@ date: 2026-01-13
 draft: false
 include_toc: true
 show_comments: false
+tags: ["stew", "lentils"]
+categories: ["recipes"]
 ---
 
 ## Lentil Coconut Stew (Malaay Style)

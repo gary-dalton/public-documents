@@ -2,10 +2,9 @@
 title: "Governance"
 linkTitle: "Governance"
 description: "Making room for the positive to happen"
-weight: 60
-cascade:
-- type: "docs"
-draft: false
+tags: ["governance"]
+categories: ["policy"]
+draft: true
 ---
 
 

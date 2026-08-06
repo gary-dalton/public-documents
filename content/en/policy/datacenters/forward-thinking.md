@@ -11,8 +11,10 @@ resources:
 slug: ""
 image: ""
 keywords: ""
+tags: ["wisconsin", "data-centers", "technology-policy"]
+categories: ["policy"]
 date: 2025-11-13
-aliases: ""
+aliases: ["/local/economy/datacenters/forward-thinking/"]
 expiryDate: ""
 layout: ""
 include_toc: false

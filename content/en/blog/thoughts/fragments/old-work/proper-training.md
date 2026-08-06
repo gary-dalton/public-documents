@@ -16,6 +16,8 @@ aliases: ""
 expiryDate: ""
 layout: ""
 draft: false
+tags: ["old-work", "writing"]
+categories: ["thoughts"]
 ---
 
 ## Introduction

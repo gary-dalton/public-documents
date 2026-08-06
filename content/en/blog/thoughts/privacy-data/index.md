@@ -14,6 +14,8 @@ resources:
   params:
     byline: "Urban Indian Health Institute"
 draft: false
+tags: ["essays", "privacy", "data"]
+categories: ["thoughts"]
 ---
 
 

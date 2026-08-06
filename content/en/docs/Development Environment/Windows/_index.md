@@ -12,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 60
+tags: ["windows"]
+categories: ["documentation"]
 ---
 
 ## Overview

@@ -6,15 +6,14 @@ description: "Scroll provides a way of scrolling to a specific location on the p
 slug: ""
 image: ""
 keywords: ""
-categories: 
-    - ""
-    - ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["laravel", "livewire", "javascript"]
+categories: ["documentation"]
 ---
 
 # Scroll to Element

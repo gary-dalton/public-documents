@@ -12,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 10
+tags: ["archive"]
+categories: ["documentation"]
 ---
 
 These were created with middle school students in mind. They were then used in an after school STEM program I ran for two years. [View on Intellamech](http://www.intellamech.com/code7/).

@@ -6,15 +6,14 @@ description: "Toastr is a javascript method of popping up an alert notification 
 slug: ""
 image: ""
 keywords: ""
-categories: 
-    - ""
-    - ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["laravel", "livewire", "javascript"]
+categories: ["documentation"]
 ---
 
 # Toastr Notifications and Redirects

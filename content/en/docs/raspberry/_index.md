@@ -12,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 40
+tags: ["raspberry-pi"]
+categories: ["documentation"]
 ---
 
 Currently these are located on another website. They will be moved here as time allows. View the [Raspberry Pi Projects](http://www.intellamech.com/RaspberryPi-projects/).

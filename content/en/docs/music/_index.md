@@ -12,6 +12,8 @@ include_toc: false
 show_comments: false
 draft: false
 weight: 110
+tags: ["music"]
+categories: ["documentation"]
 ---
 
 ## The Sylvee

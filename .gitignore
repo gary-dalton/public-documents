@@ -1,5 +1,6 @@
 
-resources/
+/resources/
+/research/
 node_modules/
 tech-doc-hugo
 

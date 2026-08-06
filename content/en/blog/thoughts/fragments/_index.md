@@ -12,5 +12,7 @@ expiryDate: ""
 layout: ""
 draft: false
 weight: 40
+tags: ["fragments"]
+categories: ["thoughts"]
 ---
 

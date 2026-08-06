@@ -6,15 +6,14 @@ description: "Lesson 3.2: Software Applications, looks into the world of softwar
 linkTitle: "3.2 Software"
 image: ""
 keywords: ""
-categories: 
-- ""
-- ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["education", "digital-literacy"]
+categories: ["documentation"]
 ---
 
 ## Lesson 3.2: Software Applications

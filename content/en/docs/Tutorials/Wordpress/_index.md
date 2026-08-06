@@ -22,6 +22,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 20
+tags: ["wordpress", "tutorials"]
+categories: ["documentation"]
 ---
 
 ## Background

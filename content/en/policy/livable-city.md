@@ -2,10 +2,9 @@
 title: "Livable City"
 linkTitle: "City"
 description: "Making our city livable and sustainable"
-weight: 50
-cascade:
-- type: "docs"
-draft: false
+tags: ["cities", "housing"]
+categories: ["policy"]
+draft: true
 ---
 
 

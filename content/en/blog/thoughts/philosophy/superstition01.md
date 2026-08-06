@@ -6,6 +6,8 @@ author: "Gary Dalton"
 date: 2022-08-08
 weight: 20
 draft: false
+tags: ["philosophy"]
+categories: ["thoughts"]
 ---
 
 The word atheist is defined in relation to gods. I prefer the phrase "not slave to superstitions" of which belief in gods is but one of many that must be suppressed. There are natural tendencies in humans to be superstition and so suppression must be an active process.

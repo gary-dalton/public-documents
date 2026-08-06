@@ -6,15 +6,14 @@ description: "Before delving into AGI specifics, a foundational understanding of
 slug: ""
 image: ""
 keywords: ""
-categories: 
-    - ""
-    - ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["education", "digital-literacy"]
+categories: ["documentation"]
 ---
 
 ## Module 1: Introduction to Digital Literacy

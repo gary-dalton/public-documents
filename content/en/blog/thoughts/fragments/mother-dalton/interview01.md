@@ -12,6 +12,8 @@ expiryDate: ""
 layout: ""
 draft: false
 weight: 10
+tags: ["family-history"]
+categories: ["thoughts"]
 ---
 
 # Manual Communication Skills I  

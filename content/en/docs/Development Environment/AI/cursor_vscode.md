@@ -13,6 +13,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 10
+tags: ["ai", "vscode"]
+categories: ["documentation"]
 ---
 
 ## Introduction

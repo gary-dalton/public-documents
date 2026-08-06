@@ -6,15 +6,14 @@ description: "Browsing the Web explores the basics of navigating the World Wide 
 linkTitle: "2.2 Browsing"
 image: ""
 keywords: ""
-categories: 
-- ""
-- ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["education", "digital-literacy"]
+categories: ["documentation"]
 ---
 
 ## Lesson 2.2: Browsing the Web

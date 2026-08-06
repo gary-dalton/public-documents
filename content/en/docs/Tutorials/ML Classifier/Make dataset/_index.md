@@ -18,6 +18,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 20
+tags: ["machine-learning", "python"]
+categories: ["documentation"]
 ---
 
 Making the image dataset is tedious but important. High quality datasets are essential for building a highly performant models. For this tutorial we will use 500 hand sign image files. One hundred for each of rank 1, 2, 3, 4, and 5. Additionally, you will need 100 or more images that are not ranked.

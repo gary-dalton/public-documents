@@ -12,4 +12,6 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 20
+tags: ["development", "tools"]
+categories: ["documentation"]
 ---

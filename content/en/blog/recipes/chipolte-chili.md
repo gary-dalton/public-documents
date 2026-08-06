@@ -18,6 +18,8 @@ layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["peppers", "chili"]
+categories: ["recipes"]
 ---
 
 <img src="/images/chili.png" alt="hot pepper" width="30" height="30"><img src="/images/chili.png" alt="hot pepper" width="30" height="30">

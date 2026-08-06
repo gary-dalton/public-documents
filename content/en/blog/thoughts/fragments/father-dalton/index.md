@@ -16,6 +16,8 @@ aliases: ""
 expiryDate: ""
 layout: ""
 draft: false
+tags: ["family-history"]
+categories: ["thoughts"]
 ---
 
 My Dad, Gary Dalton Jr. He struggled to find his identity and eventually paid the price for that struggle. From him, I learned the value of being open to the thoughts, ideas, opinions, and identities of others. He acknowledged to me that I do not have to think or believe others choices are correct but that I also do not have the right to use force to bring them to my idea of the correct. He demonstrated that good things may be accomplished by being oneself. He gave meticulous attention to detail and always was doing the best he could.

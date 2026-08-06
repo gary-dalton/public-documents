@@ -23,7 +23,7 @@ hugo server -D --watch --poll 700ms --bind 0.0.0.0 --liveReloadPort=1313
 
 Docsy is a Hugo Module pinned in `go.mod` and **vendored into `_vendor/`** (committed), so builds need no Go toolchain or network. `themes/docsy/` is an empty leftover directory — ignore it.
 
-- Upgrade flow: `hugo mod get github.com/google/docsy@<version> && hugo mod vendor`, then **delete `_vendor/**/package.json`** (Dependabot otherwise raises false alerts for Bootstrap's/Docsy's own dev dependencies), test locally, commit.
+- Upgrade flow: `hugo mod get github.com/google/docsy@<version> && hugo mod vendor`, then **delete `_vendor/**/package.json`** (Dependabot otherwise raises false alerts for Bootstrap's/Docsy's own dev dependencies), **re-diff every shadowing override in `layouts/` against its new upstream counterpart** (they copy theme markup — `layouts/partials/taxonomy_terms_cloud.html` shadows `_vendor/.../\_partials/taxonomy_terms_cloud.html` to filter low-count tags and silently misses upstream structure changes), test locally, commit.
 - Known: Docsy ≤0.15.0 emits a harmless `.Language.LanguageDirection` deprecation warning at build — upstream issue, no local action.
 - Customize by **shadowing**, never by editing `_vendor/`:
   - `layouts/` overrides theme templates — currently `blog/list.html`, `blog/single.html`, `partials/toc.html`, `404.html`, plus custom shortcodes (`last-updated`, `feature-row`, `lastmod-debug`).

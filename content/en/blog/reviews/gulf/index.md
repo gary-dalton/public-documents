@@ -18,6 +18,8 @@ layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["books", "history"]
+categories: ["reviews"]
 ---
 
 # The Gulf: The Making of an American Sea

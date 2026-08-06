@@ -6,15 +6,14 @@ description: "Let's delve into the fundamental understanding of digital devices,
 slug: ""
 image: ""
 keywords: ""
-categories: 
-    - ""
-    - ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["education", "digital-literacy"]
+categories: ["documentation"]
 ---
 
 ## Lesson 1.2: Basics of Digital Devices

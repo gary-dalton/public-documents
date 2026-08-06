@@ -6,6 +6,8 @@ author: "Gary Dalton"
 date: 2015-07-10
 weight: 10
 draft: false
+tags: ["pandoc", "revealjs", "markdown", "slideshows"]
+categories: ["documentation"]
 ---
 
 <!-- ---

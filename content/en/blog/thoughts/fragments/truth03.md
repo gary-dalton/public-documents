@@ -11,6 +11,8 @@ aliases: ""
 expiryDate: ""
 layout: ""
 draft: false
+tags: ["fragments"]
+categories: ["thoughts"]
 ---
 
 Most would argue that what's true is true. That there does indeed exist an ultimate or quintessential underlying reality. But is this a valid understanding?

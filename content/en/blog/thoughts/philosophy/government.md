@@ -7,6 +7,8 @@ author: "Gary Dalton"
 date: 2022-08-28
 weight: 30
 draft: false
+tags: ["philosophy", "governance"]
+categories: ["thoughts"]
 ---
 
 {{% pageinfo color="primary" %}}

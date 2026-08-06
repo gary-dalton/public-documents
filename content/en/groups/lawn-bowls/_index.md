@@ -15,6 +15,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 10
+tags: ["lawn-bowls", "milwaukee"]
+categories: ["groups"]
 ---
 
 

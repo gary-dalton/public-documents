@@ -6,15 +6,14 @@ description: "Lesson 4.2: Digital Security explores the importance of online sec
 linkTitle: "4.2 Security"
 image: ""
 keywords: ""
-categories: 
-- ""
-- ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["education", "digital-literacy", "security"]
+categories: ["documentation"]
 ---
 
 ## Lesson 4.2: Digital Security

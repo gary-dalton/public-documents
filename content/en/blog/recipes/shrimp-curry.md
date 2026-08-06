@@ -8,6 +8,8 @@ date: 2025-10-23T00:00:00-00:00
 draft: false
 include_toc: true
 show_comments: false
+tags: ["seafood", "curry"]
+categories: ["recipes"]
 ---
 
 # Goan Shrimp Curry (Classic + EAT–Lancet Options)

@@ -11,6 +11,8 @@ aliases: ""
 expiryDate: ""
 layout: ""
 draft: false
+tags: ["family-history"]
+categories: ["thoughts"]
 ---
 
 Thank you to my Grandfather Dalton, the original Garold. I gained much from your enjoyment, thought, and discussion (not argument) given to politics and your great ability to care little for labels. I recall a discussion we had regarding some political subject and, in frustration, I stated that you sounded like a communist. You calmly replied that I could call it whatever I wished but your ideas would stand on their own. You also demonstrated how to live a fulfilling life of labor and that this was a noble path.

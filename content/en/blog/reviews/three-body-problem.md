@@ -18,6 +18,8 @@ layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["books", "science-fiction"]
+categories: ["reviews"]
 ---
 
 # The Three Body Problem

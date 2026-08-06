@@ -18,6 +18,8 @@ layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["universal-model", "systems"]
+categories: ["thoughts"]
 ---
 
 I do not present a model of reality but instead a way of generating realities. Not a set of answers, but a set of parametric generators. The purpose is to predict and explain the behavior of real-world systems across time, scale, and domain.

@@ -5,6 +5,8 @@ description: "Some musings on my outlook and philosophy toward things. It may in
 author: "Gary Dalton"
 date: 2020-04-27T16:22:35-05:00
 draft: false
+tags: ["philosophy"]
+categories: ["thoughts"]
 ---
 
 

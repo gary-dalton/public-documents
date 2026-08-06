@@ -7,15 +7,14 @@ linkTitle: "4.1: Networks"
 slug: ""
 image: ""
 keywords: ""
-categories: 
-    - ""
-    - ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["education", "digital-literacy", "networks"]
+categories: ["documentation"]
 ---
 
 ## Lesson 4.1: Introduction to Computer Networks

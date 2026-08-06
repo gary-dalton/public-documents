@@ -12,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 20
+tags: ["linux", "data-science"]
+categories: ["documentation"]
 ---
 
 ## Anaconda

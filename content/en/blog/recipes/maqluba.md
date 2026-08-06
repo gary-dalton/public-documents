@@ -18,6 +18,8 @@ layout: ""
 include_toc: false
 show_comments: false
 draft: false
+tags: ["rice"]
+categories: ["recipes"]
 ---
 
 This version uses chicken and cauliflower but it can be easily adjusted to use lamb and eggplant.

@@ -12,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: true
 weight: 100
+tags: ["git"]
+categories: ["documentation"]
 ---
 
 {{% pageinfo %}}

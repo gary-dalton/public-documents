@@ -8,6 +8,8 @@ date: 2025-10-23T00:00:00-00:00
 draft: false
 include_toc: true
 show_comments: false
+tags: ["soup", "lentils"]
+categories: ["recipes"]
 ---
 
 # Red Lentil–Pumpkin Soup

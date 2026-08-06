@@ -6,15 +6,14 @@ description: "This is my enhanced version of MVC to better leverage livewire. It
 slug: ""
 image: ""
 keywords: "laravel, livewire, architecture, design pattern, mvc, full-page components"
-categories: 
-    - ""
-    - ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["laravel", "livewire"]
+categories: ["documentation"]
 ---
 
 # Livewire Orchestration Pattern (LOP)

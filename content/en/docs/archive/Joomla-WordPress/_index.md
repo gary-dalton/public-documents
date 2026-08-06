@@ -12,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 100
+tags: ["archive", "wordpress", "joomla"]
+categories: ["documentation"]
 ---
 
 ## Deprecated, assume vulnerable

@@ -11,6 +11,8 @@ aliases: ""
 expiryDate: ""
 layout: ""
 draft: false
+tags: ["fragments"]
+categories: ["thoughts"]
 ---
 
 

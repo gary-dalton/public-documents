@@ -11,13 +11,15 @@ contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 enableMissingTranslationPlaceholders = true
-disableKinds = ["taxonomy", "taxonomy"]
-
 # Highlighting config
 pygmentsCodeFences = true
 pygmentsUseClasses = false
 pygmentsUseClassic = false
 pygmentsStyle = "tango"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
 
 [permalinks]
   blog = "/:section/:year/:month/:day/:slug/"
@@ -59,6 +61,12 @@ pygmentsStyle = "tango"
   github_repo = "https://github.com/gary-dalton/public-documents"
   github_branch = "main"
   offlineSearch = false
+
+  [params.taxonomy]
+    taxonomyCloud = ["tags", "categories"]
+    tagCloudMinCount = 3
+    taxonomyCloudTitle = ["Tag Cloud", "Categories"]
+    taxonomyPageHeader = ["tags", "categories"]
 
   [params.ui]
     sidebar_menu_compact = true

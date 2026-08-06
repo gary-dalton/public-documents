@@ -17,6 +17,8 @@ expiryDate: ""
 layout: ""
 show_comments: false
 draft: false
+tags: ["site", "hugo"]
+categories: ["news"]
 ---
 
 During this crazy time of corona virus quarantine, I figured it is time to get some things done. One of those is updating my documentation efforts. I was last using a system based upon asciidoc, pandoc, and git, with some work done in markdown and hugo. It worked fairly well but was cumbersome in many regards. I last reviewed methods in 2018, which was prior to my restarting school in Mathematics.

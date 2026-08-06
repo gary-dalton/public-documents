@@ -18,6 +18,8 @@ layout: ""
 type: "blog"
 draft: false
 weight: 20
+tags: ["family-history"]
+categories: ["thoughts"]
 ---
 
 My Mom was Helen Dalton. She was a social butterfly and loved being around and with people. One of her phrases was "Its a small world", meaning people interconnected. I think that she and I are very different people, with drastically different world views. She put up and loved me when I was my absolute worst. That is what I have learned from Helen, --unconditional love. She did not practice it with everyone but it would be important for me to at least express a base of unconditional love and respect for others.

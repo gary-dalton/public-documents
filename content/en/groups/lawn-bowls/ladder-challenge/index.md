@@ -4,6 +4,8 @@ description: "Member-facing guide to the Singles Ladder Challenge (2026)."
 created: 2026-05-09
 updated: 2026-06-25
 marp: true
+tags: ["lawn-bowls", "milwaukee"]
+categories: ["groups"]
 ---
 
 ## What is the Ladder Challenge?

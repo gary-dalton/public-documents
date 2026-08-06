@@ -6,6 +6,8 @@ author: "Gary Dalton"
 date: 2020-04-27T16:22:35-05:00
 weight: 10
 draft: false
+tags: ["philosophy"]
+categories: ["thoughts"]
 ---
 
 For a post like this, the question is where to start and how much to explain. I will try to write as little as possible and point to other thinkers whenever possible.

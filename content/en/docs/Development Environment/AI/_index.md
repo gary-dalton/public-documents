@@ -12,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 10
+tags: ["ai", "tools"]
+categories: ["documentation"]
 ---
 
 ## Overview

@@ -12,6 +12,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 50
+tags: ["universal-model", "systems"]
+categories: ["thoughts"]
 ---
 
 ## Introduction

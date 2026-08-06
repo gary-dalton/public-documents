@@ -12,6 +12,8 @@ expiryDate: ""
 layout: ""
 draft: false
 weight: 20
+tags: ["julia"]
+categories: ["documentation"]
 ---
 
 Use Julia for the great majority of programming work. I am conversant in other languages, especially Python but Julia takes the prize for speed and ease of use. Get it from [Julia](https://julialang.org/).

@@ -7,15 +7,14 @@ linkTitle: "3.1: OSes"
 slug: ""
 image: ""
 keywords: ""
-categories: 
-    - ""
-    - ""
 aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: true
 show_comments: false
 draft: false
+tags: ["education", "digital-literacy"]
+categories: ["documentation"]
 ---
 
 ## Lesson 3.1: Operating Systems

@@ -16,6 +16,8 @@ aliases: ""
 expiryDate: ""
 layout: ""
 draft: false
+tags: ["family-history"]
+categories: ["thoughts"]
 ---
 
 Grandma Porth taught me cards and other games. While I don't really play many games now, the lessons of probability I learned from her teaching have remained. She was a world traveler who loved new experiences and cultures. Her dedication to community service and the well-being of all those around her set an excellent example.

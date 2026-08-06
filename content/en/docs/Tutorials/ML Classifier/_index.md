@@ -18,6 +18,8 @@ include_toc: true
 show_comments: false
 draft: false
 weight: 10
+tags: ["machine-learning", "python", "tutorials"]
+categories: ["documentation"]
 ---
 
 This simple classifier is an example of a supervised learning model. This means that it learns from a set of labeled images in order to make predictions on new unlabeled images.
