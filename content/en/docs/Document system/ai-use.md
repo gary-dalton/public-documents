@@ -30,8 +30,11 @@ I use AI as a drafting and management assistant inside the workflow. The ideas, 
 | Editing | Works through a document with me, often line by line or paragraph by paragraph. Cleans rough passages I throw out, and makes spelling and punctuation corrections on my rewrites. | Supply the rough material, correct the cleaned version, and settle the final wording. |
 | Reorganization | Restructures a document when I find it needs it: moves material within and between articles, and checks that a line in one article is not contradicted elsewhere. | Decide that a reorganization is needed, and review the moved result. |
 | Site engineering | Restructures sections, builds redirects, edits configuration, and drafts documentation pages like this one, working directly in the repository. | Review every change before commit. |
+| Code documentation | Reads code and documents what it does: template overrides, build scripts, and the procedures around them, in whatever language they are written. The [Theme Overrides](/docs/document-system/theme-overrides/) page is an example. | Ask the questions, and check the answers against the running site. |
 | Supporting artifacts | Builds curated datasets, maps, and figures. These carry draft markings. | Verify every element before the draft marking comes off. |
 | Publication | Nothing. | Decide what publishes, where, and when. |
+
+The reader might notice a pattern in that table. Every entry in the AI column is assembly: reading, collecting, drafting, moving. Every entry in mine is judgment against ground truth: the primary sources, my positions, my voice, the running site.
 
 The voice guide is kept in the research repository. It describes my register for each content type, the constructions I cut, and how endings work; it was derived from my published essays and from live editing sessions, and it is updated as my editing reveals patterns it does not yet capture. Drafting follows the guide; editing improves it.
 

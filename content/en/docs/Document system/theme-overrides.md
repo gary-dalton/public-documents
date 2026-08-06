@@ -25,6 +25,55 @@ The cost of a shadow is that it copies theme markup at a point in time. When the
 
 An override starts as a copy of the upstream file plus one deliberate change. On the day it is created, diffing it against upstream shows exactly that change and nothing else. That expected diff is the override's signature.
 
+The tag cloud override's signature, as it stands today:
+
+```bash
+diff -u _vendor/github.com/google/docsy/layouts/_partials/taxonomy_terms_cloud.html \
+  layouts/partials/taxonomy_terms_cloud.html
+```
+
+```diff
+@@ -1,16 +1,31 @@
++{{/* Shadows Docsy's taxonomy_terms_cloud.html to hide low-count tags.
++     For the "tags" taxonomy, terms with fewer pages than
++     params.taxonomy.tagCloudMinCount (default 1 = show all) are omitted
++     from the cloud. Term pages still exist; this only trims the display.
++     Other taxonomies (categories) are never filtered. */ -}}
+ {{ $context := .context -}}
+ {{ $taxo := .taxo -}}
+ {{ $title := .title -}}
++{{ $min := 1 -}}
++{{ if eq (lower $taxo) "tags" -}}
++  {{ $min = $context.Site.Params.taxonomy.tagCloudMinCount | default 1 -}}
++{{ end -}}
+ {{ if isset $context.Site.Taxonomies (lower $taxo) -}}
+   {{ $taxonomy := index $context.Site.Taxonomies (lower $taxo) -}}
+-  {{ if (gt (len $taxonomy) 0) -}}
++  {{ $terms := slice -}}
++  {{ range $taxonomy -}}
++    {{ if ge .Count $min -}}
++      {{ $terms = $terms | append (dict "page" .Page "count" .Count) -}}
++    {{ end -}}
++  {{ end -}}
++  {{ if (gt (len $terms) 0) -}}
+     <div class="taxonomy taxonomy-terms-cloud taxo-{{ urlize $taxo }}">
+       {{ with $title -}}
+         <h5 class="taxonomy-title">{{ . }}</h5>
+       {{ end -}}
+       <ul class="taxonomy-terms">
+-        {{ range $taxonomy -}}
+-          <li><a class="taxonomy-term" href="{{ .Page.Permalink }}" data-taxonomy-term="{{ urlize .Page.Title }}"><span class="taxonomy-label">{{ .Page.Title }}</span><span class="taxonomy-count">{{ .Count }}</span></a></li>
++        {{ range $terms -}}
++          <li><a class="taxonomy-term" href="{{ .page.Permalink }}" data-taxonomy-term="{{ urlize .page.Title }}"><span class="taxonomy-label">{{ .page.Title }}</span><span class="taxonomy-count">{{ .count }}</span></a></li>
+         {{ end -}}
+       </ul>
+     </div>
+```
+
+Every `+` and `-` line above is the customization: the explanatory comment, the minimum-count logic, the filtered term collection, and the render loop reading from it. If a future diff shows anything beyond these lines, that remainder is an upstream change to port.
+
+The example above is itself a copy. When the override changes, regenerate it with the same command.
+
 After a theme upgrade, diff the pair again and subtract the signature from what you see:
 
 1. Nothing left over: upstream did not touch the file. Done.
