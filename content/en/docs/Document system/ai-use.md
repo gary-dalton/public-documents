@@ -4,15 +4,13 @@ linkTitle: "AI Use"
 author: "Gary Dalton"
 description: "Where AI sits in this document system: what it drafts, what it never decides, and the rules that keep authorship and accuracy with the author."
 slug: ""
-image: ""
 keywords: "ai, claude, drafting, workflow, authorship"
 tags: ["ai", "workflow", "drafting"]
 categories: ["documentation"]
 date: 2026-08-06
 expiryDate: ""
 layout: ""
-include_toc: true
-show_comments: false
+notoc: false
 draft: true
 weight: 40
 ---
@@ -26,7 +24,7 @@ This page documents how that division of labor works, because a document system 
 ## What AI does
 
 - **Research assembly.** Collecting sources, summarizing dockets and reports, and organizing reference material in the private research repository (see the [publishing workflow](/docs/document-system/publishing-workflow/)).
-- **First drafts.** Articles are drafted against a voice guide kept in the research repository. The guide describes my register per content type, the constructions I cut, and how endings work. A draft is raw material; I expect to rewrite a third of it or more, and for some pieces nearly all of it.
+- **First drafts.** Articles are drafted against a voice guide kept in the research repository. The guide describes my register per content type, the constructions I cut, and how endings work; it was derived from my published essays and from live editing sessions. A draft is raw material; I expect to rewrite a third of it or more, and for some pieces nearly all of it.
 - **Site engineering.** Section restructuring, redirects, configuration, and documentation pages like this one are done with AI tooling working directly in the repository, with changes reviewed before commit.
 - **Supporting artifacts.** Curated datasets, generated maps and figures. These carry draft markings until verified.
 
@@ -50,7 +48,7 @@ AI tooling works directly in the repository's working tree, so the [git workflow
 
 1. AI-drafted prose is never published as delivered. It is edited into my voice or rewritten.
 2. AI-supplied facts are treated as unverified claims, no matter how confident the draft sounds.
-3. Working drafts stay in the private research repository until publication, per the publishing workflow.
+3. Routine drafts live on this site as `draft: true`. Work that should not be readable before publication stays in the private research repository, per the publishing workflow.
 4. Generated artifacts carry a draft-and-verify marking until every element has been checked.
 5. The voice guide is the contract between me and any drafting agent, and I am the only one who ratifies changes to it.
 

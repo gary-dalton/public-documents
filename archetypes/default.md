@@ -9,7 +9,6 @@ resources:
   params:
     byline: "Photo: Gary Dalton / CC-BY-CA"
 slug: ""
-image: ""
 keywords: ""
 tags: []
 categories: []
@@ -17,8 +16,7 @@ date: {{ .Date }}
 aliases: ""
 expiryDate: ""
 layout: ""
-include_toc: true
-show_comments: false
+notoc: false
 draft: true
 weight: 100
 ---

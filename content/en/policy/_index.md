@@ -1,7 +1,7 @@
 ---
 title: "Policy"
 linkTitle: "Policy"
-description: "Structural policy analysis — policy, not politics."
+description: "Structural policy analysis. Policy, not politics."
 tags: ["policy"]
 categories: ["policy"]
 menu:

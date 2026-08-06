@@ -2,67 +2,51 @@
 title: "Research and Publishing Workflow"
 linkTitle: "Publishing Workflow"
 author: "Gary Dalton"
-description: "How articles move from a private research repository into this public site: drafting privately, publishing by copy, and why pull requests cannot cross the repo boundary."
+description: "How articles get written and published: most are drafted directly on this site, and complex or in-depth work goes through a private research repository first."
 slug: ""
-image: ""
 keywords: "workflow, publishing, hugo, git, drafts"
 tags: ["publishing", "workflow", "git"]
 categories: ["documentation"]
 date: 2026-08-06
 expiryDate: ""
 layout: ""
-include_toc: true
-show_comments: false
+notoc: false
 draft: true
 weight: 30
 ---
 
-## The problem this solves
+## Two paths to publication
 
-This site's source repository is public, and the site depends on it staying public. The Groups section invites community groups to contribute by pull request, each page carries "Edit this page" and "Create issue" links pointing at GitHub, and the homepage welcomes contributions from all users. None of that works against a private repository without inviting every participant as a collaborator.
+Most articles are written directly on this site. A page starts as `draft: true` in the content tree, gets written and revised in place, and publishes when the flag flips. A second path exists for complex or in-depth work: a private research repository holds the piece until it is ready, and it arrives here only at publication. Which path a piece takes depends on one question: does it matter if someone reads the work before it is finished?
 
-A public repository has one sharp edge for a writer: `draft: true` hides a page from the built site, but not from GitHub. Anyone can read a draft article sitting in the content tree. For work that should not circulate before publication, such as an article timed to a news event or analysis with unverified claims still flagged, the draft cannot live in this repository at all.
+## Draft on site, the common path
 
-The answer is a two-repository model. Articles are drafted in a private repository and arrive here only when they are ready to be public.
+1. Create the page in `content/en/` with the archetype's front matter and `draft: true`.
+2. Write and revise. Preview locally with `hugo server -D --watch --poll 700ms --bind 0.0.0.0 --liveReloadPort=1313`; the production build ignores drafts, so nothing shows on the live site.
+3. When the piece is ready, set `draft: false`, commit, and push. Render builds and deploys it.
 
-## The two repositories
+This repository is public, so a draft here is hidden from the *site* but readable by anyone who looks at *GitHub*. For most writing, that costs nothing. A half-finished recipe or a basic essay draft sitting in the content tree harms no one.
 
-**The private research repository** holds everything before publication: article drafts through every revision, source-verification flags, reference notes, datasets, and generated figures. It has full git history, so nothing is lost between sessions, and none of that history is visible to anyone else.
+## Offsite drafting, for complex or in-depth work
 
-**This public repository** holds the site: published content, theme configuration, and layouts. An article enters it as one clean commit containing the finished piece. The drafting history stays private by construction.
+Some work should not be publicly available before publication. I have some deep research articles that may be published when completed, unconfirmed claims in working articles, preliminary data and data analyses, various in-process analyses, pieces with months of sources and revisions behind them, and articles whose value depends on landing finished. These works are drafted in private repositories instead. The `criticality-index` repository works this way, with expected publish dates measured in years, authoring documents whose publication target is this site. Any private repository can play the role.
 
-The `criticality-index` repository already works this way, authoring documents whose publication target is this site. Any private repository can play the research role as long as its documents carry Docsy-compatible front matter.
+A private repository holds everything before publication: drafts through every revision, source-verification flags, reference notes, datasets, and generated figures, with full git history that nobody else can read. This public repository then receives the finished piece as one clean commit.
 
-## Why not pull requests between the repos
+In the private repository:
 
-Pull requests only operate between branches of a single repository, or between a fork and its upstream. A private research repository is neither, so it cannot open a pull request against this one. The transfer between repositories is always a copy.
+- Keep the front matter Docsy-ready from the start, using the same fields as this repo's `archetypes/default.md`: `title`, `linkTitle`, `author`, `description`, `keywords`, `tags`, `categories`, `date`, `draft`. A draft that already carries correct front matter publishes without rework.
+- Mark unverified claims inline (for example with a `[verify]` flag next to the reference) and clear every flag before the piece leaves.
+- Draft against the voice guide, described on the [Use of AI](/docs/document-system/ai-use/) page.
 
-## The workflow
-
-### 1. Draft privately
-
-Write and revise in the research repository. Keep the front matter Docsy-ready from the start, using the same fields as this repo's `archetypes/default.md`: `title`, `linkTitle`, `author`, `description`, `keywords`, `date`, `include_toc`, `draft`. A draft that already carries correct front matter publishes without rework.
-
-Mark unverified claims inline (for example with a `[verify]` flag next to the reference) and clear every flag before the piece leaves the research repository.
-
-Articles are drafted against the voice guide kept in the research repository. The guide is a living document: it was derived from published essays and editing sessions, and it gets updated as editing reveals patterns it does not yet capture. Drafting follows the guide; editing improves it.
-
-### 2. Publish by copying
-
-When an article is ready:
+To publish:
 
 1. Copy the markdown file into the appropriate place in `content/en/`.
 2. Set `draft: false` and confirm the `date`.
 3. Fix anything repo-relative: image references become page-bundle resources (`<name>/index.md` with an `imgs/` directory), and internal links use this site's paths.
-4. Preview locally with `hugo server -D`.
+4. Preview locally with `hugo server -D --watch --poll 700ms --bind 0.0.0.0 --liveReloadPort=1313`.
 5. Commit and push. Render builds and deploys from `master`.
 
-### 3. Optional: a review stage inside this repo
+The transfer is always a copy. Pull requests only operate between branches of a single repository, or between a fork and its upstream; a private research repository is neither.
 
-For an article that should land on a specific date, copy it onto a branch here and open a pull request from that branch to `master`. GitHub renders the diff for a final read, and the merge can wait until the intended publication morning. This pull request is within the public repository, branch to `master`, which is why it works when a cross-repo pull request does not. For routine pieces, committing directly to `master` is fine.
-
-## Rules that keep the model honest
-
-- Nothing unpublished is committed to this repository. Working material stays in the research repository until the moment it is published.
-- A local scratch folder (`research/` in this repo's working tree) is acceptable for in-progress session work, but it must be gitignored and treated as disposable. Anything worth keeping moves to the private repository, which has backup and history.
-- If a published page later moves, the old URL gets a Hugo `aliases:` entry on the page and, for previously circulated URLs, a matching 301 rule in Render.
+One exception to the offsite rule is a local scratch folder, `research/` in this repo's working tree. The folder is used for in-progress drafts. It is gitignored and treated as disposable. Anything worth keeping moves to the private repository, which has backup and history.
