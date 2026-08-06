@@ -59,7 +59,7 @@ pygmentsStyle = "tango"
   version = "1.0"
   url_latest_version = "https://werkspc.com/"
   github_repo = "https://github.com/gary-dalton/public-documents"
-  github_branch = "main"
+  github_branch = "master"
   offlineSearch = false
 
   [params.taxonomy]

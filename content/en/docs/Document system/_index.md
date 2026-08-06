@@ -53,7 +53,7 @@ There is a small learning curve to using Hugo, although much of that is conceptu
 
 ### Install Hugo extended
 
-Since 2026, I work in a dev container that provides Hugo extended and the Node/PostCSS toolchain, so the manual installation below is reference for setting up outside the container.
+Since 2026, I work in a [dev container](https://github.com/gary-dalton/public-documents/tree/master/.devcontainer) that provides Hugo extended and the Node/PostCSS toolchain, so the manual installation below is reference for setting up outside the container. The container definition in the repository is the authoritative record of the environment.
 
 The theme we choose to use, *Docsy*, requires the extended version of Hugo.
 
