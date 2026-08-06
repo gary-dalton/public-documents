@@ -9,7 +9,6 @@ menu:
     weight: 40
 cascade:
 - type: "docs"
-aliases: ["/local/"]
 draft: false
 ---
 

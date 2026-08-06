@@ -6,7 +6,6 @@ description: "Links that are useful for local community planning and involvement
 weight: 10
 tags: ["community", "planning", "links"]
 categories: ["resources"]
-aliases: ["/local/links/"]
 draft: false
 ---
 

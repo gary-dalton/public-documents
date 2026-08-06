@@ -6,7 +6,6 @@ weight: 10
 cascade:
 - type: "docs"
 draft: false
-aliases: ["/local/economy/datacenters/"]
 ---
 
 A thriving economy is an extremely important driver of every successful society. Perhaps, data centers are a part of that. Here we will highlight some thoughts on this issue.

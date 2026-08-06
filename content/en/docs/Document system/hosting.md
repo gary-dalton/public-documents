@@ -62,10 +62,12 @@ The local check at bump time matters in both directions: a production Hugo newer
 
 ## Redirects
 
-When a published page moves, two layers keep the old URL working:
+When a published page moves, two mechanisms can keep the old URL working, and each URL should use exactly one of them:
 
-- A Hugo `aliases:` entry in the page's front matter generates a redirect stub at the old path. This ships with the site automatically.
-- For URLs that circulated externally, a matching 301 rule in Render's dashboard (Redirects/Rewrites) provides a true HTTP redirect. Rules support wildcards, for example `/local/economy/datacenters/*` → `/policy/datacenters/*`.
+- A Hugo `aliases:` entry in the page's front matter generates a redirect stub page at the old path. It ships with the site automatically and needs no dashboard work, which makes it the right tool for casual moves.
+- A 301 rule in Render's dashboard (Redirects and Rewrites) provides a true HTTP redirect, the right tool for URLs that circulated externally. Rules support wildcards, for example `/local/economy/datacenters/*` to `/policy/datacenters/*`, and rules are evaluated top-down with the first match winning.
+
+The two do not stack. Render serves an existing static file before it consults the redirect rules, so an alias stub at a path shadows a 301 rule for the same path, and the rule never fires. When a dashboard rule is added for a URL, remove the page's alias in the same change. This was measured, not assumed: with both in place, the stubbed URLs answered 200 while only the stub-free URLs answered 301.
 
 ## Things to know
 

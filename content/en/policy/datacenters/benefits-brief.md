@@ -14,7 +14,7 @@ keywords: ""
 tags: ["wisconsin", "data-centers", "partnerships"]
 categories: ["policy"]
 date: 2025-11-13
-aliases: ["/local/economy/datacenters/benefits-brief/"]
+aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: false

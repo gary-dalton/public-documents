@@ -14,7 +14,7 @@ keywords: ""
 tags: ["wisconsin", "data-centers", "technology-policy"]
 categories: ["policy"]
 date: 2025-11-13
-aliases: ["/local/economy/datacenters/evaluating-proposals/"]
+aliases: ""
 expiryDate: ""
 layout: ""
 include_toc: false
