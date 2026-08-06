@@ -4,6 +4,8 @@ date: 2020-04-08T09:46:25-05:00
 weight: 10
 description: >
   My documentation system
+tags: ["hugo", "docsy", "documentation"]
+categories: ["documentation"]
 draft: false
 ---
 
@@ -23,7 +25,7 @@ The first step in starting a document system is to evaluate and determine which 
  * Use your favorite editor to create plain text markdown documents.
  * Use Hugo with the Docsy theme to convert the markdown documents to a website.
  * Use git for versioning and transfer of files.
- * Host the website on Github.
+ * Host the `master` branch on GitHub. Render builds and serves the website from it.
 
 {{% alert title="Note" %}}It is always a good idea to follow a [documentation style guide](https://developers.google.com/style){{% /alert %}}
 
@@ -50,6 +52,8 @@ Hugo is a static site generator. Basically, it takes file structure, markdown do
 There is a small learning curve to using Hugo, although much of that is conceptual. After all, a document system that matches the requirements is not a simple thing. In practice, Hugo is relatively easy to use.
 
 ### Install Hugo extended
+
+Since 2026, I work in a dev container that provides Hugo extended and the Node/PostCSS toolchain, so the manual installation below is reference for setting up outside the container.
 
 The theme we choose to use, *Docsy*, requires the extended version of Hugo.
 
@@ -89,6 +93,8 @@ I chose to start my documentation system based on the [Docsy Example Project](ht
 
 Now preview the site using `hugo server`.
 
+Since then, the theme setup has changed in one important way: the Docsy module is vendored. `hugo mod vendor` copies the theme into a committed `_vendor/` directory, so builds need no network access and no Go toolchain, and the theme version cannot drift. Upgrades are deliberate: `hugo mod get github.com/google/docsy@<version>`, then `hugo mod vendor`, then two checks before committing. Delete every `_vendor/**/package.json` so Dependabot does not raise false alerts on the theme's own dev dependencies. Then re-diff any template override in `layouts/` against its new upstream counterpart, because an override copies theme markup and silently misses upstream changes. Test locally last.
+
 ## Start using your system
 
 Read the documentation from both [Hugo](https://gohugo.io/documentation/) and [Docsy](https://www.docsy.dev/docs/) to get an understanding of how to organize and create new pages. Sometimes, it is useful to review the [Docsy example](https://example.docsy.dev/).
@@ -98,10 +104,19 @@ Archetype files are those which control the content of newly added pages. Create
 ```go
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
+linkTitle: "{{ replace .TranslationBaseName "-" " " | title }}"
+author: "Gary Dalton"
 description: ""
+resources:
+- src: ""
+  title: ""
+  params:
+    byline: "Photo: Gary Dalton / CC-BY-CA"
 slug: ""
 image: ""
 keywords: ""
+tags: []
+categories: []
 date: {{ .Date }}
 aliases: ""
 expiryDate: ""
@@ -117,7 +132,7 @@ This is a placeholder page.
 {{%/* /pageinfo */%}}
 ```
 
-Note the metatags *draft* and *weight*. Draft controls whether or not the page is included in your website. Once you have added content to the page, make sure to change draft to false. Weight controls where in the hierarchial navigation system the page appears.
+Note the metatags *draft* and *weight*. Draft controls whether or not the page is included in your website. Once you have added content to the page, make sure to change draft to false. Weight controls where in the hierarchial navigation system the page appears. I assign weights in decades (10, 20, 30) so that a later page can slot between two existing ones with a 15 or a 25, without renumbering anything.
 
 ### Add a new page
 
@@ -136,11 +151,18 @@ All actions with Hugo or git must be performed from the correct directory.
 
 ### Module refresh
 
-If the template suddenly does not seem to be working, the module may need to be refreshed. This can be done with the following commands
+If the template suddenly does not seem to be working, the module cache may need to be refreshed:
 
 * `hugo mod clean`
-* `hugo mod get -u github.com/google/docsy`
+* `hugo mod vendor`
 
-## Git and hosting
+Do not run `hugo mod get -u` casually. Because the theme is vendored and pinned, that command is an upgrade, and upgrades should happen deliberately with local testing first.
 
-Not yet performed.
+## Git, hosting, and publishing
+
+These parts of the system grew enough to earn their own pages:
+
+* [Git Workflow](/docs/document-system/git-workflow/) covers the repository, the edit-preview-commit-push cycle, and what never gets committed.
+* [Hosting](/docs/document-system/hosting/) covers the Render static site and the build script that pins Hugo and repairs the shallow checkout.
+* [Research and Publishing Workflow](/docs/document-system/publishing-workflow/) covers how articles move from a private research repository into this public one.
+* [Use of AI](/docs/document-system/ai-use/) covers where AI sits in drafting and in git, and the rules that keep authorship and accuracy with the author.

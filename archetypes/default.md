@@ -11,6 +11,8 @@ resources:
 slug: ""
 image: ""
 keywords: ""
+tags: []
+categories: []
 date: {{ .Date }}
 aliases: ""
 expiryDate: ""
