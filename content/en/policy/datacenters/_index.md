@@ -12,7 +12,8 @@ A thriving economy is an extremely important driver of every successful society.
 
 The recommended read order is:
 1. [_The Benefits of a Forward-Thinking Technology Stance for Wisconsin_](/policy/datacenters/forward-thinking.md)
-2. [_Community Technology Partnership Opportunities for Wisconsin_](/policy/datacenters/benefits-brief.md)
-3. [_Policy Questions - Wisconsin Data Center Projects_](/policy/datacenters/policy-questions.md)
-4. [_Evaluating Proposals_](/policy/datacenters/evaluating-proposals.md)
-5. [_Wisconsin AI Governance_](/policy/datacenters/wi-ai-governance.md)
+2. [_Where Data Centers Actually Build_](/policy/datacenters/where-datacenters-build.md)
+3. [_Community Technology Partnership Opportunities for Wisconsin_](/policy/datacenters/benefits-brief.md)
+4. [_Policy Questions - Wisconsin Data Center Projects_](/policy/datacenters/policy-questions.md)
+5. [_Evaluating Proposals_](/policy/datacenters/evaluating-proposals.md)
+6. [_Wisconsin AI Governance_](/policy/datacenters/wi-ai-governance.md)
