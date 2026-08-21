@@ -184,10 +184,12 @@ This is the binding one. It sets what you pay and it decides how much of the cos
 very large customers carry.
 
 Two details about 5-UR-112 that catch people out. The applicants are Wisconsin Electric Power Company and
-Wisconsin Gas LLC [5], so it covers electric, natural gas, and steam rates together. And **there is no
-public hearing to attend.** Comments in this docket are being accepted in lieu of testimony at a public
-hearing, under the Notice of Hearing the Commission issued [5], and only the first comment a person
-submits in lieu of testifying can be accepted into the record [5]. Writing is the only route in.
+Wisconsin Gas LLC [5], so it covers electric, natural gas, and steam rates together. And there are **two
+public hearings**, September 1 at 1:00 p.m. and again at 6:00 p.m. [10]. Comments in this docket are being
+accepted in lieu of testimony at those hearings, under the Notice of Hearing the Commission issued [5],
+and **only the first comment a person submits in lieu of testifying can be accepted into the record** [5].
+The Commission's requirements describe the written comment as submitted in lieu of testifying and do not
+say a person may do both, so if you intend to speak, ask the Case Coordinator before you file.
 
 The Case Coordinator for 5-UR-112 is Kain Coronado [5].
 
@@ -232,3 +234,7 @@ The Case Coordinator for 5-ES-113 is Eric Stein [3].
    May 21, 2026, PSC REF# 591873: https://apps.psc.wi.gov/ERF/ERFview/viewdoc.aspx?docid=591873.
 9. Public Service Commission of Wisconsin, Docket 5-ES-113, **Notice of Hearing**, PSC REF# 596316, served
    June 30, 2026.
+10. Public Service Commission of Wisconsin, **Commission Calendar**, "Additional Calendar Items, Meetings
+    and Hearings": https://psc.wi.gov/Pages/CommissionActions/CommissionCalendar.aspx. Read August 19,
+    2026. Source of the two 5-UR-112 public hearing sessions on September 1, 2026 at 1:00 p.m. and 6:00
+    p.m., the September 15 party session, and the August 20 hearing in 5-ES-113.
