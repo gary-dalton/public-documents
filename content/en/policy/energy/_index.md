@@ -15,6 +15,11 @@ Wisconsin's energy capability: generation, delivery, rates, and the decisions th
 - My column, "[Data Centers Should Pay Their Way, and Wisconsin Should Set the Pace](https://www.wispolitics.com/2026/gary-dalton-data-centers-should-pay-their-way-and-wisconsin-should-set-the-pace/)," ran at WisOpinion on August 31, 2026.
 - My public comment in the We Energies rate case, docket 5-UR-112, is [on the record](https://apps.psc.wi.gov/ERF/ERFview/viewdoc.aspx?docid=606632), filed August 19, 2026.
 
+## Background
+
+- "[A Concise Guide to Utility Finance, Regulation, and Tariff]({{< relref "/policy/energy/utility-finance-guide" >}})," how an investor-owned utility raises money, what regulation allows it to earn, and how those decisions become the rate on your bill.
+
+
 ## Related analysis
 
 - "[Where Data Centers Actually Build]({{< relref "/policy/datacenters/where-datacenters-build" >}})," my siting analysis in the Data Centers section.
