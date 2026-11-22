@@ -6,12 +6,15 @@
   },
   "remoteUser": "root",
   "forwardPorts": [1313],
+  // Trust the repo for git (needed by enableGitInfo) and install PostCSS deps.
+  "postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder} && npm ci",
   // "postCreateCommand": "hugo server -D --bind 0.0.0.0 --poll 700ms",
   // "postCreateCommand": "hugo server -D --bind 0.0.0.0",
   "customizations": {
     "vscode": {
       "extensions": [
-        "budparr.language-hugo-extended"
+        "budparr.language-hugo-extended",
+        "anthropic.claude-code"
       ]
     }
   },
@@ -19,6 +22,7 @@
     "ghcr.io/devcontainers/features/node:1": {
       "version": "latest",
       "globalModules": ["postcss", "postcss-cli", "autoprefixer"]
-    }
+    },
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
   }
 }
