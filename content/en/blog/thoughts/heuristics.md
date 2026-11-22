@@ -2,14 +2,15 @@
 title: "Heuristics"
 linkTitle: "Heuristics"
 author: "Gary Dalton"
+description: "Lenses for why people and societies behave as they do: exploitation to depletion, status, fear and regret, forgetting, and small-world instincts in a large world."
 resources:
 - src: ""
   title: ""
   params:
     byline: ""
-slug: ""
+slug: "heuristics"
 image: ""
-keywords: ""
+keywords: "heuristics, exploitation, status, small world, large world, Elinor Ostrom, commons, fear, regret, forgetting"
 date: 2026-05-03
 aliases: ""
 expiryDate: ""
@@ -37,6 +38,8 @@ A large part of why we run resources to depletion is how we value rarity. As the
 
 Rarity also feeds directly into status (see below). A scarce resource is not just more expensive, it is more prestigious to own, to consume, or to control. The last bluefin tuna, the last big-game trophy, the last seat at the table — these carry a status premium precisely because they are nearly gone. So the rarity bonus is doubled: once in price, once in standing. Together they give us a powerful incentive to take the very last unit, which is exactly the unit we should leave alone.
 
+Status does not always push toward depletion, though. When standing comes from the group that bears the cost of depletion, status restrains: the hunter or fisher is respected for what they leave. When standing comes from an audience that does not bear the cost, status drives depletion, and the last unit becomes the trophy.
+
 We typically under-account for the cost of depletion, or in fact for the collateral damage that occurs from exploitation of a resource at all. I consider this a hard problem. We have both a genuine need to utilize — to exploit — a resource and a parallel obligation to amortize the damage and depletion costs over the life of that use. In practice, those doing the exploiting are most often able to avoid that amortized cost, helped along by uncertainty, confusion, and non-transparency. The harms are diffuse, delayed, and borne by people who are not in the room when the decision is made, while the gains are concentrated, immediate, and sit with the decider.
 
 What makes it a hard problem and not just a fairness problem is that even a well-intentioned actor cannot easily price in costs that are unknown, contested, or far in the future. In practice we usually cannot delay the activity until the accounting is perfect — economic and political pressure will not allow it. The honest move is then to start the cost accounting immediately, in parallel with the activity, and to update it openly as the real damages reveal themselves.
@@ -49,15 +52,17 @@ See [exploitation](../exploitation/) for a fuller treatment I started and intend
 
 ## Status
 
-Status is one of the largest hidden drivers of human behavior, often larger than money, comfort, or even stated values. Much of what looks like an argument about facts, policy, or taste is actually a contest over relative standing. Once you start watching for it, status competition explains a lot; consumer choices, disputes, lifestyles, online behavior, and family dynamics.
+Status is one of the largest hidden drivers of human behavior, often larger than money, comfort, or even stated values. Much of what looks like an argument about facts, policy, or taste is actually a contest over relative standing. Once you start watching for it, status competition explains a lot: consumer choices, disputes, lifestyles, online behavior, and family dynamics.
 
 The key property is that status is relative, not absolute. In a small world — a village or a tight community — almost no one is very far from the top of some ladder. There are only so many rungs, the rungs are visible, and a person can be the best baker, the strongest hunter, the wisest elder, or simply known. Most people land somewhere such that they can see themselves as worth something to those around them.
 
-A large world breaks this. When the comparison group expands to a city, a nation, or a global society, the ladder is effectively infinite and almost everyone is far from the top of it. The same logic that gave the villager a shot at status now compares them against athletes, billionaires, celebrities, and strangers. Most people lose, all the time, on a scale they were never built for. This drives a great deal of  unhappiness, envy, and political resentment. Not because people have less than they used to, but because the comparison set is now impossibly large.
+A large world breaks this. When the comparison group expands to a city, a nation, or a global society, the ladder is effectively infinite and almost everyone is far from the top of it. The same logic that gave the villager a shot at status now compares them against athletes, billionaires, celebrities, and strangers. Most people lose, all the time, on a scale they were never built for. This drives a great deal of unhappiness and envy, and probably some political resentment. Not because people have less than they used to, but because the comparison set is now impossibly large.
+
+Two qualifications hold: absolute income still matters, and most people still compare themselves mainly with those near them.
 
 Today, we don't have the option to choose a smaller world. Our frame of reference will continue to be a large world. This creates a real tension and dangerous dynamic in our societies. We will need to watch how this unfolds very carefully.
 
-Two things follow. First, when someone's behavior seems irrational on a material reading, ask what status move it makes sense as; the answer is usually clarifying. Second, be honest about your own status motives, and be deliberate about the size of the world you compare yourself to. Choosing a smaller, real reference group is one of the few moves that actually works.
+Two things follow. First, when someone's behavior seems irrational on a material reading, ask what status move it makes sense as; the answer is usually clarifying. Second, be honest about your own status motives, and be deliberate about the size of the world you compare yourself to. We cannot shrink the world, but we can shrink the reference group: choosing a smaller, real one is one of the few moves that actually works.
 
 ## Fear and Regret
 
@@ -67,7 +72,7 @@ You cannot reason your way out of fear while regret still informs you from the p
 
 ## Forgetting
 
-The ability to forget is wildly undervalued. We treat memory as an unqualified good and forgetting as a deficit, but a mind that cannot let go is a mind locked in the past. Forgetting allows us to walk through the open doors to our future. It permits us to walk past regret, grudges, embarrassment, and on the thousand small things that might otherwise cause paralysis. This is the first part of living into the future.
+The ability to forget is wildly undervalued. We treat memory as an unqualified good and forgetting as a deficit, but a mind that cannot let go is a mind locked in the past. Forgetting allows us to walk through the open doors to our future. It permits us to walk past regret, grudges, embarrassment, and the thousand small things that might otherwise cause paralysis. This is the first part of living into the future.
 
 Remembering the past may certainly be useful but with caution. Mine old actions for the lessons they contain — what worked, what failed, what you would do differently. Once the lesson is taken, additional time spent on the past costs real attention and emotional energy that could be spent on now. The cost is not just the time; rumination shapes mood, and mood shapes the quality of every choice that follows.
 
@@ -75,14 +80,20 @@ A practical version of the heuristic: when a memory surfaces, ask whether there 
 
 ## Small world / Large world
 
-A frame that runs through several of the heuristics. Humans evolved and spent almost all of our history in small worlds — bands, villages, tight communities of a few dozen to a few hundred people, with repeated interactions, visible reputations, and bounded resources. Most of our social and economic instincts are for that scale. We now live in a large world: cities of millions, global markets, planetary commons, and a social media that compares us with billions of strangers. A great deal of modern dysfunction may be small-world wiring misapplied to large-world conditions.
+A frame that runs through several of the heuristics. Humans evolved, culturally developed, and spent almost all of our history in small worlds — bands, villages, tight communities of a few dozen to a few hundred people, with repeated interactions, visible reputations, and bounded resources. Most of our social and economic instincts are for that scale. We now live in a large world: cities of millions, global markets, planetary commons, and a social media that compares us with billions of strangers. A great deal of modern dysfunction may be small-world wiring misapplied to large-world conditions.
 
-This pattern shows up regularly. Status competition was bearable when the reference group was the village; in a global feed nearly everyone loses. Exploitation was self-limiting when a band could see the deer thinning on its own range; in global markets the depletion signal arrives only as a price spike, far from the people who could have stopped it.
+The most direct case is dealings with strangers. With a stranger there is no record of past dealings, so we act on intuition, just as people did prehistorically when meeting someone from outside the band. This does not mean we treat strangers worse as scale grows, it means only that these dealings run on intuition. The claim covers the frequent, lower-stakes dealings between people. High stakes bring more deliberation, though deliberation tpically supplements intuition rather than replacing it. Where decisions are institutional or algorithmic, intuition drops out, and it returns wherever a person can override the algorithm. Ratings, contracts, and credit records are meant to replace the missing history, but between individuals they too are processed intuitively. Faces and group cues still sway decisions, and the halo effect operates both as spillover from one trait to another and inside the ratings themselves. Our intuitions toward strangers are also often culturally or experientially learned, so the capacity for intuition is evolved, but much of its content is not.
 
-The most interesting work I know on this is Elinor Ostrom's. She documented various communities that successfully managed shared resources — fisheries in Maine and Turkey, alpine pastures in Switzerland, irrigation systems in Spain and the Philippines, forests in Japan — without either privatizing them or handing them to a central state. What she found was that the standard "tragedy of the commons" assumption is often false. Local users, given the right conditions, organize their own rules and enforce them.
+The pattern shows up elsewhere too. Status competition was bearable when the reference group was the village; in a global world nearly everyone loses. Exploitation is less tidy. A group that could see the deer thinning on its own range did not reliably stop; local signals rarely overwhelm market signals, profit, or advantage. Mostly the group moved on to where game was still abundant. Mobile fishing fleets run the same strategy globally, and it fails only when nowhere abundant is left. Distance changes the accountability: the people doing the depleting no longer live among the people who bear the cost.
+
+All of this applies to open-access resources, where anyone can take and no one can be kept out. When someone holds clear, enforceable rights to a resource, the incentive flips: what they leave today is still theirs tomorrow, so conserving pays and depletion becomes the exception rather than the rule.
+
+The most interesting work I know on governing shared resources is Elinor Ostrom's. She documented various communities that successfully managed shared resources — fisheries in Maine and Turkey, alpine pastures in Switzerland, irrigation systems in Spain and the Philippines, forests in Japan — without either privatizing them or handing them to a central state. What she found was that the standard "tragedy of the commons" assumption is often false. Local users, given the right conditions, organize their own rules and enforce them.
 
 Ostrom extracted a set of design principles from these cases: clearly defined boundaries on who is in the user group; rules matched to local conditions; users participating in setting and modifying those rules; effective monitoring, usually by the users themselves or by people accountable to them; graduated sanctions for violators; cheap conflict-resolution mechanisms; recognition of the group's right to organize by outside authorities; and, for larger systems, nested layers of governance. For this body of work she was awarded the 2009 Nobel Prize in Economics and it remains the strongest empirical case that humans can govern commons without either market or state.
 
 The catch is that Ostrom's mechanisms are small-world mechanisms. They depend on a bounded user group, repeated interaction, mutual visibility, and the ability to exclude outsiders. They scale up with great difficulty, and they tend to break when the resource gets pulled into a global market or contested by a state with different priorities. They don't govern the atmosphere, the oceans, the biosphere, or any commons whose users are billions of anonymous strangers.
 
-So, we are left with a problem still seeking a solution. We know people are able to self-govern well under small world conditions but have not yet shown this inate ability for our large world. Yet, we now live in a large world. Does this require a reliance on state regulation, global treaties, market mechanisms? We have seen that these mechanisms may be captured by privileged interests. I don't think there is a clean resolution to this.
+That is true in practice, but size is only a proxy. What actually matters is the number of key actors, the cost of monitoring, the ability to exclude, and how unevenly the costs and benefits fall. The ozone treaty succeeded at global scale because it did well on those terms: few key producers, monitoring that was cheap, and benefits that outweighed the costs for the actors who mattered. Climate fails on nearly all of them.
+
+So, we are left with a problem still seeking a solution. We know people are able to self-govern well under small-world conditions but have not yet shown that ability for our large world, which is the world we now live in. The usual menu for large commons is state regulation, global treaties, or market mechanisms, and we see that each may be captured by privileged interests. Ostrom rejected that menu as incomplete. Her own answer was nested, polycentric governance: many overlapping centers of decision at local, regional, national, and global levels, each handling what it can monitor and enforce, with the small-world mechanisms kept intact at the base. Whether polycentric governance can carry the hardest large-world commons, climate above all, is the real open question. I don't think there is a clean resolution to this yet.
